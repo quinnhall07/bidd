@@ -1,17 +1,26 @@
 # Bidd
 
-**The closet for SEC Greek life.** Resell your rush wardrobe, shop your chapter's drops, and every sale counts for your chapter.
+**The closet for college Greek life, on every campus.** Resell your rush wardrobe, shop your chapter's drops, and every sale counts for your chapter.
+The demo uses SEC schools as example campuses; adding any college is data, not code.
+
+**Live:** https://bidd.day · API: https://bidd-api.vercel.app/api/health · HackBama 2026
 
 Bidd is a campus-locked clothing marketplace. Students sign in with their school email, list clothes with photos,
-buy from classmates, meet on campus to swap (a one-time QR code confirms the handoff), and every completed sale
+bid on classmates' pieces, meet on campus to swap (a one-time QR code confirms the handoff), and every completed sale
 scores points for their chapter in the **Closet Cup**.
 
 > **Pilot status:** no payments are collected. Checkout reserves the item and the buyer pays the seller in person.
 
 | Folder | What | Owner |
 |---|---|---|
-| `backend/` | Next.js API, Supabase schema + security rules, auth, orders | Rouan |
-| `frontend/` | Product UI | Quinn |
+| `storefront/` | Product UI (Next.js 16), deployed to https://bidd.day. Runs live against the API, falls back to mock data | Quinn |
+| `backend/` | Next.js API, Supabase schema + security rules, auth, orders, bids | Rouan |
+| `brand/`, `mock/` | Brand kit and demo data (synced into the storefront at build) | Rowan / Quinn |
+| `tools/demo-video/` | Records the 1080p demo walkthrough from the live site | |
+
+**Built with Gemma 4** (`gemma-4-26b-a4b-it`, Gemini API free tier):
+- **Photo auto-fill:** snap a piece on `/sell` and Gemma 4 writes the title, brand, category, size, condition, price and Moment tags (`storefront/app/api/ai-listing`).
+- **Smart search:** type "something sparkly for a date party under 50" and Gemma 4 turns it into campus feed filters (`storefront/lib/smart-search.ts`).
 
 - Progress + task list: [`progress.md`](progress.md)
 - API for the frontend: [`backend/docs/API.md`](backend/docs/API.md)
@@ -30,7 +39,7 @@ scores points for their chapter in the **Closet Cup**.
 | **Listings** | Draft → up to 6 photos → publish. Photos are re-encoded server-side with all GPS/EXIF data stripped. |
 | **Campus feed** | Your campus only, newest first, filter by Rush / Bid Day / Gameday / Formal, size and price. |
 | **Checkout (pilot)** | Reserves the item, no money moves. Buyer shows a one-time QR at the meetup, seller scans it, sale complete. |
-| **Closet Cup** | 10 points per completed handoff to the seller's approved chapter. Campus leaderboard + SEC campus totals. |
+| **Closet Cup** | 10 points per completed handoff to the seller's approved chapter. Campus leaderboard + cross-campus totals. |
 | **Safety** | Report listings (3 reports auto-hide), block sellers, chapter officers approve members, campus admins remove listings. |
 
 Adding a school is data, not code: one row in `campuses`, its email domains and its chapters.
@@ -52,7 +61,8 @@ Database: run these in order in the Supabase SQL editor (each once), then the se
 2. `backend/supabase/migrations/20261017143000_listings_and_media.sql`
 3. `backend/supabase/migrations/20261017153000_orders_and_handoffs.sql`
 4. `backend/supabase/migrations/20261017160000_cup_and_moderation.sql`
-5. `backend/supabase/seed.sql` (Alabama + Ole Miss, domains, chapters; safe to re-run)
+5. `backend/supabase/migrations/20261017170000_listing_bids.sql`
+6. `backend/supabase/seed.sql` (Alabama + Ole Miss, domains, chapters; safe to re-run)
 
 Then open **http://localhost:3000/dev**, a bare click-through of every feature (hidden on production).
 
@@ -70,7 +80,7 @@ The security suite creates throwaway users through the admin API (no emails are 
 ## Architecture
 
 ```
-frontend (Quinn) ──HTTPS + Bearer token──► backend/ (Next.js API)
+storefront (Quinn) ─HTTPS + Bearer token──► backend/ (Next.js API)
                                             ├─► Supabase Auth (email codes, sessions)
                                             ├─► Supabase Postgres (data + row-level security)
                                             ├─► Supabase Storage (private listing photos)
