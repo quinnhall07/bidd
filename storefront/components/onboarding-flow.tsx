@@ -12,11 +12,43 @@ import { Alert, Arrow, Check } from "./icons";
 
 type ChapterOption = { id: string; slug: string; name: string; sub: string; letters: boolean };
 
-const SIZES = {
-  Tops: ["XS", "S", "M", "L", "XL"],
-  Dresses: ["0", "2", "4", "6", "8", "10"],
-  Shoes: ["6", "7", "8", "9", "10", "11"],
+// Sizes by department. Keys are "<dept>:<group>:<size>" so women's and men's shoes never collide.
+type Dept = "womens" | "mens";
+const halves = (from: number, to: number) => Array.from({ length: (to - from) * 2 + 1 }, (_, i) => String(from + i / 2));
+const SIZES: Record<Dept, { label: string; groups: { name: string; note?: string; sizes: string[] }[] }> = {
+  womens: {
+    label: "Women's",
+    groups: [
+      { name: "Tops", sizes: ["XXS", "XS", "S", "M", "L", "XL", "XXL"] },
+      { name: "Dresses", sizes: ["00", "0", "2", "4", "6", "8", "10", "12", "14"] },
+      { name: "Jeans & bottoms", note: "Waist", sizes: ["24", "25", "26", "27", "28", "29", "30", "31", "32"] },
+      { name: "Shoes", note: "US women's", sizes: halves(5, 11) },
+    ],
+  },
+  mens: {
+    label: "Men's",
+    groups: [
+      { name: "Tops", sizes: ["XS", "S", "M", "L", "XL", "XXL"] },
+      { name: "Suits & blazers", sizes: ["36R", "38R", "40R", "42R", "44R", "46R", "40L", "42L", "44L", "46L"] },
+      { name: "Pants", note: "Waist", sizes: ["28", "30", "31", "32", "33", "34", "36", "38"] },
+      { name: "Inseam", sizes: ["30", "32", "34"] },
+      { name: "Shoes", note: "US men's", sizes: halves(7, 13) },
+    ],
+  },
 };
+const FITS = ["Oversized", "True to size", "Fitted"] as const;
+const SIZES_KEY = "bidd.sizes";
+
+/** "Women's tops S, M · Women's shoes 7.5" from the picked keys. */
+function sizeSummary(keys: string[]) {
+  const by = new Map<string, string[]>();
+  for (const k of keys) {
+    const [dept, group, size] = k.split(":");
+    const label = `${SIZES[dept as Dept]?.label ?? ""} ${group.toLowerCase()}`;
+    by.set(label, [...(by.get(label) ?? []), size]);
+  }
+  return [...by].map(([label, list]) => `${label} ${list.join(", ")}`).join(" · ");
+}
 
 const KIND: Record<string, string> = { sorority: "Sorority", fraternity: "Fraternity", brand: "Brand", other: "Organization" };
 
@@ -25,6 +57,8 @@ export function OnboardingFlow({ campus: mockCampus, chapters: mockChapters, fee
   const [chapter, setChapter] = useState<string | null>(null);
   const [code, setCode] = useState("");
   const [sizes, setSizes] = useState<string[]>([]);
+  const [depts, setDepts] = useState<Dept[]>([]);
+  const [fit, setFit] = useState<(typeof FITS)[number] | null>(null);
   // Live mode: on only once the API answered for a signed-in student.
   const [live, setLive] = useState<{ campus: string; slug: string; chapters: ChapterOption[]; badge: string } | null>(null);
   const [displayName, setDisplayName] = useState("");
@@ -96,6 +130,19 @@ export function OnboardingFlow({ campus: mockCampus, chapters: mockChapters, fee
     }
   };
   const toggle = (s: string) => setSizes((xs) => (xs.includes(s) ? xs.filter((x) => x !== s) : [...xs, s]));
+  const pickDepts = (next: Dept[]) => {
+    setDepts(next);
+    // Drop sizes from a department the student just turned off.
+    setSizes((xs) => xs.filter((k) => next.includes(k.split(":")[0] as Dept)));
+  };
+  const saveSizes = () => {
+    try {
+      window.localStorage.setItem(SIZES_KEY, JSON.stringify({ depts, sizes, fit }));
+    } catch {
+      /* private window: sizes just aren't remembered on this device */
+    }
+    setStep(3);
+  };
 
   return (
     <div className="column pt-10 pb-24 md:pt-14">
@@ -188,26 +235,81 @@ export function OnboardingFlow({ campus: mockCampus, chapters: mockChapters, fee
       {step === 2 && (
         <>
           <h1 className="display mt-3 text-[clamp(3rem,6vw,5rem)]">Your sizes.</h1>
-          <p className="muted mt-4 max-w-[56ch] text-[17px] leading-relaxed">We use these for &quot;My sizes&quot; in search, so the feed shows what fits first.</p>
-          <div className="mt-8 grid gap-6">
-            {Object.entries(SIZES).map(([group, list]) => (
-              <fieldset key={group}>
-                <legend className="mb-3 text-[15px] font-semibold">{group}</legend>
-                <div className="flex flex-wrap gap-2">
-                  {list.map((s) => {
-                    const key = `${group}:${s}`;
-                    return (
-                      <button key={key} type="button" aria-pressed={sizes.includes(key)} onClick={() => toggle(key)} className="chip min-w-14 justify-center">
-                        {s}
-                      </button>
-                    );
-                  })}
-                </div>
-              </fieldset>
-            ))}
-          </div>
+          <p className="muted mt-4 max-w-[56ch] text-[17px] leading-relaxed">
+            Pick everything you wear. Bidd saves them so it can show you what fits first.
+          </p>
+
+          <fieldset className="mt-8">
+            <legend className="mb-3 text-[15px] font-semibold">What do you shop?</legend>
+            <div className="flex flex-wrap gap-2">
+              {(
+                [
+                  { id: "womens", label: "Women's", value: ["womens"] },
+                  { id: "mens", label: "Men's", value: ["mens"] },
+                  { id: "both", label: "Both", value: ["womens", "mens"] },
+                ] as { id: string; label: string; value: Dept[] }[]
+              ).map((o) => (
+                <button
+                  key={o.id}
+                  type="button"
+                  aria-pressed={depts.length === o.value.length && o.value.every((d) => depts.includes(d))}
+                  onClick={() => pickDepts(o.value)}
+                  className="chip min-w-24 justify-center text-[15px]"
+                >
+                  {o.label}
+                </button>
+              ))}
+            </div>
+          </fieldset>
+
+          {depts.map((dept) => (
+            <section key={dept} className="mt-10 border-t-2 border-ink pt-6" aria-label={`${SIZES[dept].label} sizes`}>
+              <div className="flex items-baseline justify-between gap-4">
+                <h2 className="display text-[clamp(1.75rem,3vw,2.5rem)]">{SIZES[dept].label}</h2>
+                <p className="muted num text-[14px] font-semibold">{sizes.filter((k) => k.startsWith(`${dept}:`)).length || "None"} picked</p>
+              </div>
+              <div className="mt-5 grid gap-6">
+                {SIZES[dept].groups.map((g) => (
+                  <fieldset key={g.name}>
+                    <legend className="mb-3 text-[15px] font-semibold">
+                      {g.name}
+                      {g.note && <span className="muted font-normal"> · {g.note}</span>}
+                    </legend>
+                    <div className="flex flex-wrap gap-2">
+                      {g.sizes.map((s) => {
+                        const key = `${dept}:${g.name}:${s}`;
+                        return (
+                          <button key={key} type="button" aria-pressed={sizes.includes(key)} onClick={() => toggle(key)} className="chip num min-w-14 justify-center">
+                            {s}
+                          </button>
+                        );
+                      })}
+                    </div>
+                  </fieldset>
+                ))}
+              </div>
+            </section>
+          ))}
+
+          {depts.length > 0 && (
+            <div className="mt-10 border-t-2 border-ink pt-6">
+            <fieldset>
+              <legend className="mb-3 text-[15px] font-semibold">
+                How do you like the fit? <span className="muted font-normal">· optional</span>
+              </legend>
+              <div className="flex flex-wrap gap-2">
+                {FITS.map((f) => (
+                  <button key={f} type="button" aria-pressed={fit === f} onClick={() => setFit(fit === f ? null : f)} className="chip">
+                    {f}
+                  </button>
+                ))}
+              </div>
+            </fieldset>
+            </div>
+          )}
+
           <div className="mt-10 flex flex-wrap gap-3">
-            <button type="button" className="pill pill-ink" onClick={() => setStep(3)}>
+            <button type="button" className="pill pill-ink" onClick={saveSizes}>
               {sizes.length ? "Save my sizes" : "Skip for now"} <Arrow width={18} height={18} />
             </button>
             <button type="button" className="pill pill-line" onClick={() => setStep(1)}>
@@ -228,9 +330,9 @@ export function OnboardingFlow({ campus: mockCampus, chapters: mockChapters, fee
               <Check width={20} height={20} strokeWidth={2.5} className="text-[var(--campus-line)]" />
               {picked ? `${picked.name}${live ? (pending ? ", waiting on an officer" : "") : code ? ", closet unlocked" : ""}` : "No chapter for now"}
             </li>
-            <li className="flex items-center gap-3">
-              <Check width={20} height={20} strokeWidth={2.5} className="text-[var(--campus-line)]" />
-              {sizes.length ? `Sizes: ${sizes.map((s) => s.split(":")[1]).join(", ")}` : "Sizes: add them any time"}
+            <li className="flex items-start gap-3">
+              <Check width={20} height={20} strokeWidth={2.5} className="mt-1 shrink-0 text-[var(--campus-line)]" />
+              {sizes.length ? `Sizes: ${sizeSummary(sizes)}${fit ? ` · ${fit.toLowerCase()} fit` : ""}` : "Sizes: add them any time"}
             </li>
           </ul>
           <div className="mt-10 flex flex-wrap gap-3">
