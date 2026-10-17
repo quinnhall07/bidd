@@ -193,22 +193,21 @@
     "id": "ua-l09",
     "closet_id": "closet-ua-u10",
     "campus_id": "ua",
-    "title": "White piqué polo, barely worn",
-    "description": "White piqué polo, barely worn. Meet at the Exchange Spot or ship to your MSC.",
+    "title": "White cotton button-down, rush week ready",
+    "description": "Textured cotton with tortoise buttons and a chest pocket. Made it through rush week and still looks crisp.",
     "category": "top",
-    "brand": "Brooks Brothers",
-    "size": "M",
-    "condition": "like new",
-    "price_cents": 1600,
+    "brand": "Southern Tide",
+    "size": "L",
+    "condition": "good",
+    "price_cents": 2300,
     "tags": [
-      "Casual",
-      "Gameday",
-      "Philanthropy"
+      "Rush",
+      "Casual"
     ],
     "photo_urls": [
-      "/photos/unsplash-F5i3PZXYkvY.jpg"
+      "/photos/pexels-28576622.jpg"
     ],
-    "dominant_color": "#b09670",
+    "dominant_color": "#b0bbc1",
     "status": "sold",
     "drop_id": null,
     "stock": 1,
@@ -218,21 +217,21 @@
     "id": "ua-l10",
     "closet_id": "closet-ua-u9",
     "campus_id": "ua",
-    "title": "Crimson stripe button-down, oversized fit",
-    "description": "Crimson stripe button-down, oversized fit. Smoke-free closet.",
+    "title": "White tiered tie-waist sundress",
+    "description": "Perfect for bid day, or gameday with boots. Tie waist and a tiered skirt; boots and hat not included.",
     "category": "dress",
-    "brand": "Other",
-    "size": "M",
+    "brand": "Altar'd State",
+    "size": "XS",
     "condition": "good",
-    "price_cents": 2000,
+    "price_cents": 3600,
     "tags": [
-      "Gameday",
-      "Casual"
+      "Bid Day",
+      "Rush"
     ],
     "photo_urls": [
-      "/photos/pexels-12955555.jpg"
+      "/photos/pexels-18194381.jpg"
     ],
-    "dominant_color": "#c3b1ae",
+    "dominant_color": "#515347",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -242,20 +241,20 @@
     "id": "ua-l11",
     "closet_id": "closet-ua-me",
     "campus_id": "ua",
-    "title": "Mid-wash straight jeans, bundle of 3",
-    "description": "Mid-wash straight jeans, bundle of 3. Steamed and ready.",
-    "category": "top",
-    "brand": "Abercrombie",
-    "size": "26",
-    "condition": "fair",
-    "price_cents": 4600,
+    "title": "Clear vinyl tote with cognac trim + pouch",
+    "description": "Clear tote with a zip pouch inside for your phone and keys. Check your stadium's bag rules before you buy.",
+    "category": "accessory",
+    "brand": "Other",
+    "size": "One size",
+    "condition": "like new",
+    "price_cents": 2900,
     "tags": [
-      "Casual"
+      "Gameday"
     ],
     "photo_urls": [
-      "/photos/pexels-4109797.jpg"
+      "/photos/pexels-9958646.jpg"
     ],
-    "dominant_color": "#2a333c",
+    "dominant_color": "#6d6b5c",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -265,21 +264,21 @@
     "id": "ua-l12",
     "closet_id": "closet-ua-u1",
     "campus_id": "ua",
-    "title": "Navy satin slip dress, never worn",
-    "description": "Navy satin slip dress, never worn. Meet at the Exchange Spot or ship to your MSC.",
-    "category": "dress",
-    "brand": "Altar'd State",
-    "size": "S",
-    "condition": "good",
-    "price_cents": 3200,
+    "title": "Blush croc-embossed platform wedge sandals",
+    "description": "Only worn once to a sunset rush event. Gold buckle ankle strap, and the white sole is still clean.",
+    "category": "shoes",
+    "brand": "Other",
+    "size": "US 7.5",
+    "condition": "like new",
+    "price_cents": 3600,
     "tags": [
-      "Gameday",
-      "Formal"
+      "Rush",
+      "Casual"
     ],
     "photo_urls": [
-      "/photos/pexels-28735475.jpg"
+      "/photos/pexels-26925245.jpg"
     ],
-    "dominant_color": "#1b2028",
+    "dominant_color": "#f2e7e5",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -313,22 +312,21 @@
     "id": "ua-l14",
     "closet_id": "closet-ua-u10",
     "campus_id": "ua",
-    "title": "Light blue oxford button-down",
-    "description": "Light blue oxford button-down. Smoke-free closet.",
+    "title": "Vintage Notre Dame crewneck, white",
+    "description": "Found it at a flea market and the arch print and seal are still bright. Roomy fit, light pilling.",
     "category": "top",
-    "brand": "Vineyard Vines",
-    "size": "M",
+    "brand": "Other",
+    "size": "XL",
     "condition": "good",
-    "price_cents": 1800,
+    "price_cents": 5000,
     "tags": [
       "Gameday",
-      "Rush",
       "Casual"
     ],
     "photo_urls": [
-      "/photos/pexels-9558723.jpg"
+      "/photos/pexels-16247612.jpg"
     ],
-    "dominant_color": "#cbd1d6",
+    "dominant_color": "#8d8476",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -340,8 +338,8 @@
     "campus_id": "ua",
     "title": "Broken-in brown cowboy boots",
     "description": "Broken-in brown cowboy boots. Happy to bundle.",
-    "category": "dress",
-    "brand": "Altar'd State",
+    "category": "shoes",
+    "brand": "Other",
     "size": "US 8",
     "condition": "new",
     "price_cents": 7400,
@@ -361,20 +359,21 @@
     "id": "ua-l16",
     "closet_id": "closet-ua-u5",
     "campus_id": "ua",
-    "title": "Chunky striped crewneck sweater",
-    "description": "Chunky striped crewneck sweater. Steamed and ready.",
-    "category": "top",
-    "brand": "Levi's",
-    "size": "M",
-    "condition": "fair",
-    "price_cents": 2600,
+    "title": "Statement earring bundle + pearl scrunchie",
+    "description": "Cleaning out my jewelry box: crystal hoops, gold knots, drop earrings, a ring and a pearl scrunchie. Happy to split if you only want a few.",
+    "category": "accessory",
+    "brand": "BaubleBar",
+    "size": "One size",
+    "condition": "good",
+    "price_cents": 2800,
     "tags": [
-      "Casual"
+      "Rush",
+      "Formal"
     ],
     "photo_urls": [
-      "/photos/pexels-12944791.jpg"
+      "/photos/pexels-34501351.jpg"
     ],
-    "dominant_color": "#6e2637",
+    "dominant_color": "#959083",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -456,22 +455,20 @@
     "id": "ua-l20",
     "closet_id": "closet-ua-u9",
     "campus_id": "ua",
-    "title": "Gold chunky huggie earrings",
-    "description": "Gold chunky huggie earrings. Happy to bundle.",
-    "category": "accessory",
-    "brand": "BaubleBar",
-    "size": "One size",
-    "condition": "new",
-    "price_cents": 1800,
+    "title": "Embroidered Chicago crewneck, heather gray",
+    "description": "Maroon stitched lettering, not printed. Picked it up on a trip and only wore it twice.",
+    "category": "top",
+    "brand": "Other",
+    "size": "L",
+    "condition": "like new",
+    "price_cents": 2800,
     "tags": [
-      "Rush",
-      "Formal",
-      "Gameday"
+      "Casual"
     ],
     "photo_urls": [
-      "/photos/pexels-12168883.jpg"
+      "/photos/unsplash-CDpHeDpkKek.jpg"
     ],
-    "dominant_color": "#c0ac91",
+    "dominant_color": "#c4b7bd",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -552,21 +549,21 @@
     "id": "ua-l24",
     "closet_id": "closet-ua-u3",
     "campus_id": "ua",
-    "title": "Navy stripe tee + dark wash jeans",
-    "description": "Navy stripe tee + dark wash jeans. Steamed and ready.",
+    "title": "Red + cream varsity jacket, chenille P patch",
+    "description": "Oversized wool varsity with a chenille P. Bought it for gamedays and wore it twice, way too warm for September.",
     "category": "top",
-    "brand": "Levi's",
-    "size": "S / 27",
-    "condition": "good",
-    "price_cents": 2600,
+    "brand": "Other",
+    "size": "M",
+    "condition": "like new",
+    "price_cents": 7100,
     "tags": [
-      "Casual",
-      "Philanthropy"
+      "Gameday",
+      "Casual"
     ],
     "photo_urls": [
-      "/photos/pexels-934063.jpg"
+      "/photos/pexels-32782661.jpg"
     ],
-    "dominant_color": "#4e5767",
+    "dominant_color": "#735c65",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -576,20 +573,21 @@
     "id": "ua-l25",
     "closet_id": "closet-ua-me",
     "campus_id": "ua",
-    "title": "Silver sequin mini, worn once",
-    "description": "Silver sequin mini, worn once. Smoke-free closet.",
-    "category": "dress",
-    "brand": "Lulus",
-    "size": "XS",
+    "title": "Big letter tees, set of 4 (spells T-E-A-M)",
+    "description": "Made these for a philanthropy relay and we're done with them. Red and navy, sizes S through XL, selling all four together.",
+    "category": "top",
+    "brand": "Other",
+    "size": "S-XL",
     "condition": "good",
-    "price_cents": 4200,
+    "price_cents": 4800,
     "tags": [
-      "Formal"
+      "Philanthropy",
+      "Casual"
     ],
     "photo_urls": [
-      "/photos/pexels-5713296.jpg"
+      "/photos/pexels-7551442.jpg"
     ],
-    "dominant_color": "#eaedec",
+    "dominant_color": "#74595d",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -649,7 +647,7 @@
     "campus_id": "ua",
     "title": "Teal leather top-handle bag",
     "description": "Teal leather top-handle bag. Steamed and ready.",
-    "category": "shoes",
+    "category": "accessory",
     "brand": "Dolce Vita",
     "size": "One size",
     "condition": "good",
@@ -671,22 +669,20 @@
     "id": "ua-l29",
     "closet_id": "closet-ua-u8",
     "campus_id": "ua",
-    "title": "Freshwater pearl + white bead necklace set",
-    "description": "Freshwater pearl + white bead necklace set. Steamed and ready.",
-    "category": "accessory",
+    "title": "Red embroidered western boots",
+    "description": "Red with white stitching, pointed toe and a block heel. Worn to a handful of games, soles in good shape.",
+    "category": "shoes",
     "brand": "Other",
-    "size": "One size",
-    "condition": "like new",
-    "price_cents": 2400,
+    "size": "US 9",
+    "condition": "good",
+    "price_cents": 7200,
     "tags": [
-      "Rush",
-      "Bid Day",
-      "Formal"
+      "Gameday"
     ],
     "photo_urls": [
-      "/photos/pexels-10877350.jpg"
+      "/photos/unsplash--EEpGsUR6_s.jpg"
     ],
-    "dominant_color": "#cbcecf",
+    "dominant_color": "#aa896c",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -1003,7 +999,7 @@
     "campus_id": "ua",
     "title": "Philanthropy canvas tote, natural",
     "description": "Philanthropy canvas tote, natural",
-    "category": "top",
+    "category": "accessory",
     "brand": "Phi Mu",
     "size": "One size",
     "condition": "new",
@@ -1048,20 +1044,21 @@
     "id": "uark-l02",
     "closet_id": "closet-uark-u1",
     "campus_id": "uark",
-    "title": "Mid-wash straight jeans, bundle of 3",
-    "description": "Mid-wash straight jeans, bundle of 3. Steamed and ready.",
+    "title": "Navy tailored blazer, women's fit",
+    "description": "Got it for recruitment interviews and wore it twice. Fitted through the waist and fully lined.",
     "category": "top",
     "brand": "J.Crew",
-    "size": "26",
-    "condition": "new",
-    "price_cents": 4800,
+    "size": "6",
+    "condition": "like new",
+    "price_cents": 6100,
     "tags": [
-      "Casual"
+      "Rush",
+      "Formal"
     ],
     "photo_urls": [
-      "/photos/pexels-4109797.jpg"
+      "/photos/pexels-19109151.jpg"
     ],
-    "dominant_color": "#2a333c",
+    "dominant_color": "#8e887e",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -1071,22 +1068,21 @@
     "id": "uark-l03",
     "closet_id": "closet-uark-u11",
     "campus_id": "uark",
-    "title": "Light blue oxford button-down",
-    "description": "Light blue oxford button-down. Happy to bundle.",
+    "title": "Vintage Oklahoma State hoodie, black",
+    "description": "Thrift find with stitched tackle-twill letters. Heavyweight and warm, no fading.",
     "category": "top",
-    "brand": "Brooks Brothers",
-    "size": "M",
+    "brand": "Other",
+    "size": "L",
     "condition": "good",
-    "price_cents": 2200,
+    "price_cents": 3400,
     "tags": [
       "Gameday",
-      "Rush",
       "Casual"
     ],
     "photo_urls": [
-      "/photos/pexels-9558723.jpg"
+      "/photos/pexels-30494343.jpg"
     ],
-    "dominant_color": "#cbd1d6",
+    "dominant_color": "#684e42",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -1120,21 +1116,20 @@
     "id": "uark-l05",
     "closet_id": "closet-uark-u4",
     "campus_id": "uark",
-    "title": "Navy satin slip dress, never worn",
-    "description": "Navy satin slip dress, never worn. Happy to bundle.",
-    "category": "dress",
-    "brand": "Altar'd State",
-    "size": "S",
+    "title": "Red embroidered western boots",
+    "description": "Red with white stitching, pointed toe and a block heel. Worn to a handful of games, soles in good shape.",
+    "category": "shoes",
+    "brand": "Other",
+    "size": "US 7.5",
     "condition": "good",
-    "price_cents": 3200,
+    "price_cents": 5900,
     "tags": [
-      "Gameday",
-      "Formal"
+      "Gameday"
     ],
     "photo_urls": [
-      "/photos/pexels-28735475.jpg"
+      "/photos/unsplash--EEpGsUR6_s.jpg"
     ],
-    "dominant_color": "#1b2028",
+    "dominant_color": "#aa896c",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -1144,20 +1139,21 @@
     "id": "uark-l06",
     "closet_id": "closet-uark-u5",
     "campus_id": "uark",
-    "title": "Silver sequin mini, worn once",
-    "description": "Silver sequin mini, worn once. Steamed and ready.",
-    "category": "dress",
-    "brand": "House of CB",
-    "size": "XS",
-    "condition": "like new",
-    "price_cents": 4200,
+    "title": "Big letter tees, set of 4 (spells T-E-A-M)",
+    "description": "Made these for a philanthropy relay and we're done with them. Red and navy, sizes S through XL, selling all four together.",
+    "category": "top",
+    "brand": "Other",
+    "size": "S-XL",
+    "condition": "good",
+    "price_cents": 4600,
     "tags": [
-      "Formal"
+      "Philanthropy",
+      "Casual"
     ],
     "photo_urls": [
-      "/photos/pexels-5713296.jpg"
+      "/photos/pexels-7551442.jpg"
     ],
-    "dominant_color": "#eaedec",
+    "dominant_color": "#74595d",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -1216,20 +1212,21 @@
     "id": "uark-l09",
     "closet_id": "closet-uark-u8",
     "campus_id": "uark",
-    "title": "Chunky striped crewneck sweater",
-    "description": "Chunky striped crewneck sweater. Meet at the Exchange Spot or ship to your MSC.",
-    "category": "top",
-    "brand": "Abercrombie",
-    "size": "M",
+    "title": "Black + taupe jacquard halter mini, worn once",
+    "description": "Wore it once to a date party and it's been hanging in my closet since. Halter straps and a sheer banded waist, no snags.",
+    "category": "dress",
+    "brand": "Other",
+    "size": "S",
     "condition": "like new",
-    "price_cents": 2800,
+    "price_cents": 3800,
     "tags": [
-      "Casual"
+      "Formal",
+      "Rush"
     ],
     "photo_urls": [
-      "/photos/pexels-12944791.jpg"
+      "/photos/pexels-14513896.jpg"
     ],
-    "dominant_color": "#6e2637",
+    "dominant_color": "#565772",
     "status": "sold",
     "drop_id": null,
     "stock": 1,
@@ -1239,21 +1236,20 @@
     "id": "uark-l10",
     "closet_id": "closet-uark-u9",
     "campus_id": "uark",
-    "title": "Navy stripe tee + dark wash jeans",
-    "description": "Navy stripe tee + dark wash jeans. Meet at the Exchange Spot or ship to your MSC.",
-    "category": "top",
-    "brand": "Levi's",
-    "size": "S / 27",
-    "condition": "fair",
-    "price_cents": 2800,
+    "title": "Rose gold sequin bodycon mini, worn once",
+    "description": "Bought it for semi-formal and only wore it that night. Stretchy, no missing sequins.",
+    "category": "dress",
+    "brand": "Princess Polly",
+    "size": "XS",
+    "condition": "like new",
+    "price_cents": 5000,
     "tags": [
-      "Casual",
-      "Philanthropy"
+      "Formal"
     ],
     "photo_urls": [
-      "/photos/pexels-934063.jpg"
+      "/photos/pexels-11046456.jpg"
     ],
-    "dominant_color": "#4e5767",
+    "dominant_color": "#d4ccc9",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -1334,22 +1330,21 @@
     "id": "uark-l14",
     "closet_id": "closet-uark-u3",
     "campus_id": "uark",
-    "title": "Gold chunky huggie earrings",
-    "description": "Gold chunky huggie earrings. Meet at the Exchange Spot or ship to your MSC.",
-    "category": "accessory",
+    "title": "Oversized heavyweight tee, dusty rose",
+    "description": "Blank heavyweight tee in that washed rose color, great for bid day or painting your own letters on. Worn once.",
+    "category": "top",
     "brand": "Other",
-    "size": "One size",
-    "condition": "good",
+    "size": "M",
+    "condition": "like new",
     "price_cents": 1600,
     "tags": [
-      "Rush",
-      "Formal",
-      "Gameday"
+      "Casual",
+      "Bid Day"
     ],
     "photo_urls": [
-      "/photos/pexels-12168883.jpg"
+      "/photos/pexels-9558761.jpg"
     ],
-    "dominant_color": "#c0ac91",
+    "dominant_color": "#c5a9ae",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -1359,22 +1354,21 @@
     "id": "uark-l15",
     "closet_id": "closet-uark-u11",
     "campus_id": "uark",
-    "title": "White piqué polo, barely worn",
-    "description": "White piqué polo, barely worn. Happy to bundle.",
+    "title": "White cotton button-down, rush week ready",
+    "description": "Textured cotton with tortoise buttons and a chest pocket. Made it through rush week and still looks crisp.",
     "category": "top",
-    "brand": "Vineyard Vines",
-    "size": "M",
+    "brand": "Southern Tide",
+    "size": "S",
     "condition": "good",
-    "price_cents": 1800,
+    "price_cents": 2600,
     "tags": [
-      "Casual",
-      "Gameday",
-      "Philanthropy"
+      "Rush",
+      "Casual"
     ],
     "photo_urls": [
-      "/photos/unsplash-F5i3PZXYkvY.jpg"
+      "/photos/pexels-28576622.jpg"
     ],
-    "dominant_color": "#b09670",
+    "dominant_color": "#b0bbc1",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -1481,8 +1475,8 @@
     "campus_id": "uark",
     "title": "Broken-in brown cowboy boots",
     "description": "Broken-in brown cowboy boots. Smoke-free closet.",
-    "category": "dress",
-    "brand": "Altar'd State",
+    "category": "shoes",
+    "brand": "Other",
     "size": "US 8",
     "condition": "like new",
     "price_cents": 7400,
@@ -1573,21 +1567,21 @@
     "id": "uark-l24",
     "closet_id": "closet-uark-u3",
     "campus_id": "uark",
-    "title": "Crimson stripe button-down, oversized fit",
-    "description": "Crimson stripe button-down, oversized fit. Steamed and ready.",
-    "category": "dress",
-    "brand": "Judith March",
-    "size": "M",
-    "condition": "like new",
-    "price_cents": 2600,
+    "title": "Vintage Arizona Wildcats crewneck, red",
+    "description": "Thrifted this over break. Navy arch lettering and block A, soft inside and still bright.",
+    "category": "top",
+    "brand": "Other",
+    "size": "L",
+    "condition": "good",
+    "price_cents": 3300,
     "tags": [
       "Gameday",
       "Casual"
     ],
     "photo_urls": [
-      "/photos/pexels-12955555.jpg"
+      "/photos/unsplash-tWRJDkIfuQE.jpg"
     ],
-    "dominant_color": "#c3b1ae",
+    "dominant_color": "#7b433c",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -1739,22 +1733,20 @@
     "id": "uark-l31",
     "closet_id": "closet-uark-u0",
     "campus_id": "uark",
-    "title": "Freshwater pearl + white bead necklace set",
-    "description": "Freshwater pearl + white bead necklace set. Smoke-free closet.",
+    "title": "Clear vinyl tote with cognac trim + pouch",
+    "description": "Clear tote with a zip pouch inside for your phone and keys. Check your stadium's bag rules before you buy.",
     "category": "accessory",
-    "brand": "BaubleBar",
+    "brand": "Other",
     "size": "One size",
-    "condition": "good",
-    "price_cents": 2800,
+    "condition": "like new",
+    "price_cents": 2700,
     "tags": [
-      "Rush",
-      "Bid Day",
-      "Formal"
+      "Gameday"
     ],
     "photo_urls": [
-      "/photos/pexels-10877350.jpg"
+      "/photos/pexels-9958646.jpg"
     ],
-    "dominant_color": "#cbcecf",
+    "dominant_color": "#6d6b5c",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -1790,7 +1782,7 @@
     "campus_id": "uark",
     "title": "Teal leather top-handle bag",
     "description": "Teal leather top-handle bag. Smoke-free closet.",
-    "category": "shoes",
+    "category": "accessory",
     "brand": "Sam Edelman",
     "size": "One size",
     "condition": "new",
@@ -2024,7 +2016,7 @@
     "campus_id": "uark",
     "title": "Philanthropy canvas tote, natural",
     "description": "Philanthropy canvas tote, natural",
-    "category": "top",
+    "category": "accessory",
     "brand": "Phi Mu",
     "size": "One size",
     "condition": "new",
@@ -2094,22 +2086,21 @@
     "id": "auburn-l03",
     "closet_id": "closet-auburn-u10",
     "campus_id": "auburn",
-    "title": "White piqué polo, barely worn",
-    "description": "White piqué polo, barely worn. Happy to bundle.",
+    "title": "Vintage Cal Berkeley crewneck, navy + gold",
+    "description": "Thrifted, and it looks great over a collared shirt. Gold arch print and seal, no cracking.",
     "category": "top",
-    "brand": "J.Crew",
+    "brand": "Other",
     "size": "M",
     "condition": "good",
-    "price_cents": 1800,
+    "price_cents": 3600,
     "tags": [
-      "Casual",
       "Gameday",
-      "Philanthropy"
+      "Rush"
     ],
     "photo_urls": [
-      "/photos/unsplash-F5i3PZXYkvY.jpg"
+      "/photos/unsplash-la_ylOzgxiA.jpg"
     ],
-    "dominant_color": "#b09670",
+    "dominant_color": "#494c4a",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -2119,22 +2110,21 @@
     "id": "auburn-l04",
     "closet_id": "closet-auburn-me",
     "campus_id": "auburn",
-    "title": "Freshwater pearl + white bead necklace set",
-    "description": "Freshwater pearl + white bead necklace set. Happy to bundle.",
-    "category": "accessory",
-    "brand": "Other",
-    "size": "One size",
-    "condition": "fair",
-    "price_cents": 2200,
+    "title": "White embroidered cowboy boots",
+    "description": "Tan embroidery and a stacked wood heel. Broken in from a season of gamedays, plenty of life left.",
+    "category": "shoes",
+    "brand": "Boot Barn",
+    "size": "US 8",
+    "condition": "good",
+    "price_cents": 5700,
     "tags": [
-      "Rush",
       "Bid Day",
-      "Formal"
+      "Gameday"
     ],
     "photo_urls": [
-      "/photos/pexels-10877350.jpg"
+      "/photos/pexels-28991312.jpg"
     ],
-    "dominant_color": "#cbcecf",
+    "dominant_color": "#776755",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -2146,8 +2136,8 @@
     "campus_id": "auburn",
     "title": "Broken-in brown cowboy boots",
     "description": "Broken-in brown cowboy boots. Happy to bundle.",
-    "category": "dress",
-    "brand": "Judith March",
+    "category": "shoes",
+    "brand": "Other",
     "size": "US 8",
     "condition": "like new",
     "price_cents": 8600,
@@ -2287,22 +2277,21 @@
     "id": "auburn-l11",
     "closet_id": "closet-auburn-u11",
     "campus_id": "auburn",
-    "title": "Light blue oxford button-down",
-    "description": "Light blue oxford button-down. Smoke-free closet.",
+    "title": "Vintage navy + white varsity jacket, lion patch",
+    "description": "Thrifted varsity jacket with a lion patch on the sleeve and a stitched crest on the chest. Snap front, striped cuffs, barely worn.",
     "category": "top",
-    "brand": "Southern Tide",
-    "size": "M",
-    "condition": "new",
-    "price_cents": 2400,
+    "brand": "Other",
+    "size": "L",
+    "condition": "like new",
+    "price_cents": 6100,
     "tags": [
       "Gameday",
-      "Rush",
       "Casual"
     ],
     "photo_urls": [
-      "/photos/pexels-9558723.jpg"
+      "/photos/pexels-32483237.jpg"
     ],
-    "dominant_color": "#cbd1d6",
+    "dominant_color": "#4f6993",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -2359,21 +2348,21 @@
     "id": "auburn-l14",
     "closet_id": "closet-auburn-u3",
     "campus_id": "auburn",
-    "title": "Navy satin slip dress, never worn",
-    "description": "Navy satin slip dress, never worn. Smoke-free closet.",
+    "title": "White tiered tie-waist sundress",
+    "description": "Perfect for bid day, or gameday with boots. Tie waist and a tiered skirt; boots and hat not included.",
     "category": "dress",
-    "brand": "Lulus",
+    "brand": "Altar'd State",
     "size": "S",
-    "condition": "like new",
-    "price_cents": 4000,
+    "condition": "good",
+    "price_cents": 3800,
     "tags": [
-      "Gameday",
-      "Formal"
+      "Bid Day",
+      "Rush"
     ],
     "photo_urls": [
-      "/photos/pexels-28735475.jpg"
+      "/photos/pexels-18194381.jpg"
     ],
-    "dominant_color": "#1b2028",
+    "dominant_color": "#515347",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -2407,20 +2396,20 @@
     "id": "auburn-l16",
     "closet_id": "closet-auburn-u5",
     "campus_id": "auburn",
-    "title": "Mid-wash straight jeans, bundle of 3",
-    "description": "Mid-wash straight jeans, bundle of 3. Happy to bundle.",
+    "title": "Philanthropy VOLUNTEER tees, royal blue (set of 2)",
+    "description": "Two tees left over from our service day. Washed once, priced for both.",
     "category": "top",
-    "brand": "Levi's",
-    "size": "26",
+    "brand": "Other",
+    "size": "M / L",
     "condition": "like new",
-    "price_cents": 4800,
+    "price_cents": 1400,
     "tags": [
-      "Casual"
+      "Philanthropy"
     ],
     "photo_urls": [
-      "/photos/pexels-4109797.jpg"
+      "/photos/pexels-8543399.jpg"
     ],
-    "dominant_color": "#2a333c",
+    "dominant_color": "#3a81a9",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -2432,7 +2421,7 @@
     "campus_id": "auburn",
     "title": "Teal leather top-handle bag",
     "description": "Teal leather top-handle bag. Smoke-free closet.",
-    "category": "shoes",
+    "category": "accessory",
     "brand": "Other",
     "size": "One size",
     "condition": "fair",
@@ -2502,22 +2491,21 @@
     "id": "auburn-l20",
     "closet_id": "closet-auburn-u9",
     "campus_id": "auburn",
-    "title": "Gold chunky huggie earrings",
-    "description": "Gold chunky huggie earrings. Smoke-free closet.",
+    "title": "Burnt orange mini top-handle bag",
+    "description": "Fits your phone, ID and a lip gloss, which is all you need on gameday. Gold hardware, no scuffs.",
     "category": "accessory",
-    "brand": "BaubleBar",
+    "brand": "Other",
     "size": "One size",
     "condition": "like new",
-    "price_cents": 1800,
+    "price_cents": 3200,
     "tags": [
-      "Rush",
-      "Formal",
-      "Gameday"
+      "Gameday",
+      "Formal"
     ],
     "photo_urls": [
-      "/photos/pexels-12168883.jpg"
+      "/photos/pexels-8801091.jpg"
     ],
-    "dominant_color": "#c0ac91",
+    "dominant_color": "#867468",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -2550,21 +2538,21 @@
     "id": "auburn-l22",
     "closet_id": "closet-auburn-u1",
     "campus_id": "auburn",
-    "title": "Navy stripe tee + dark wash jeans",
-    "description": "Navy stripe tee + dark wash jeans. Smoke-free closet.",
+    "title": "Burnt orange crewneck + frayed denim cutoffs",
+    "description": "Blank oversized crewneck in burnt orange plus gray frayed cutoffs. Selling as a set but can split.",
     "category": "top",
-    "brand": "Aerie",
-    "size": "S / 27",
-    "condition": "fair",
-    "price_cents": 3000,
+    "brand": "Other",
+    "size": "M / 26",
+    "condition": "like new",
+    "price_cents": 3200,
     "tags": [
-      "Casual",
-      "Philanthropy"
+      "Gameday",
+      "Casual"
     ],
     "photo_urls": [
-      "/photos/pexels-934063.jpg"
+      "/photos/pexels-4871890.jpg"
     ],
-    "dominant_color": "#4e5767",
+    "dominant_color": "#91683f",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -2645,20 +2633,21 @@
     "id": "auburn-l26",
     "closet_id": "closet-auburn-u5",
     "campus_id": "auburn",
-    "title": "Silver sequin mini, worn once",
-    "description": "Silver sequin mini, worn once. Happy to bundle.",
-    "category": "dress",
-    "brand": "Revolve",
-    "size": "XS",
-    "condition": "good",
-    "price_cents": 5000,
+    "title": "Blush croc-embossed platform wedge sandals",
+    "description": "Only worn once to a sunset rush event. Gold buckle ankle strap, and the white sole is still clean.",
+    "category": "shoes",
+    "brand": "Other",
+    "size": "US 8",
+    "condition": "like new",
+    "price_cents": 4200,
     "tags": [
-      "Formal"
+      "Rush",
+      "Casual"
     ],
     "photo_urls": [
-      "/photos/pexels-5713296.jpg"
+      "/photos/pexels-26925245.jpg"
     ],
-    "dominant_color": "#eaedec",
+    "dominant_color": "#f2e7e5",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -2739,20 +2728,21 @@
     "id": "auburn-l30",
     "closet_id": "closet-auburn-u9",
     "campus_id": "auburn",
-    "title": "Chunky striped crewneck sweater",
-    "description": "Chunky striped crewneck sweater. Steamed and ready.",
+    "title": "Vintage West Virginia University hoodie, gold",
+    "description": "Thrifted on a road trip and it's the softest hoodie I own. Navy collegiate print, no cracking, fits oversized.",
     "category": "top",
-    "brand": "Abercrombie",
-    "size": "M",
-    "condition": "fair",
-    "price_cents": 2800,
+    "brand": "Other",
+    "size": "XL",
+    "condition": "good",
+    "price_cents": 3200,
     "tags": [
+      "Gameday",
       "Casual"
     ],
     "photo_urls": [
-      "/photos/pexels-12944791.jpg"
+      "/photos/pexels-6443595.jpg"
     ],
-    "dominant_color": "#6e2637",
+    "dominant_color": "#b35521",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -2786,21 +2776,21 @@
     "id": "auburn-l32",
     "closet_id": "closet-auburn-me",
     "campus_id": "auburn",
-    "title": "Crimson stripe button-down, oversized fit",
-    "description": "Crimson stripe button-down, oversized fit. Meet at the Exchange Spot or ship to your MSC.",
-    "category": "dress",
-    "brand": "Judith March",
-    "size": "M",
-    "condition": "good",
-    "price_cents": 2000,
+    "title": "Navy tailored blazer, women's fit",
+    "description": "Got it for recruitment interviews and wore it twice. Fitted through the waist and fully lined.",
+    "category": "top",
+    "brand": "J.Crew",
+    "size": "2",
+    "condition": "like new",
+    "price_cents": 5000,
     "tags": [
-      "Gameday",
-      "Casual"
+      "Rush",
+      "Formal"
     ],
     "photo_urls": [
-      "/photos/pexels-12955555.jpg"
+      "/photos/pexels-19109151.jpg"
     ],
-    "dominant_color": "#c3b1ae",
+    "dominant_color": "#8e887e",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -3045,7 +3035,7 @@
     "campus_id": "auburn",
     "title": "Philanthropy canvas tote, natural",
     "description": "Philanthropy canvas tote, natural",
-    "category": "top",
+    "category": "accessory",
     "brand": "Phi Mu",
     "size": "One size",
     "condition": "new",
@@ -3137,21 +3127,20 @@
     "id": "uf-l04",
     "closet_id": "closet-uf-me",
     "campus_id": "uf",
-    "title": "Crimson stripe button-down, oversized fit",
-    "description": "Crimson stripe button-down, oversized fit. Happy to bundle.",
-    "category": "dress",
-    "brand": "Lulus",
-    "size": "M",
-    "condition": "new",
-    "price_cents": 1800,
+    "title": "Royal blue + white pom-pom pair",
+    "description": "Metallic blue and white vinyl poms from one season in the student section. Still full, no bent streamers.",
+    "category": "accessory",
+    "brand": "Other",
+    "size": "One size",
+    "condition": "good",
+    "price_cents": 1500,
     "tags": [
-      "Gameday",
-      "Casual"
+      "Gameday"
     ],
     "photo_urls": [
-      "/photos/pexels-12955555.jpg"
+      "/photos/pexels-7321048.jpg"
     ],
-    "dominant_color": "#c3b1ae",
+    "dominant_color": "#687285",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -3161,22 +3150,21 @@
     "id": "uf-l05",
     "closet_id": "closet-uf-u11",
     "campus_id": "uf",
-    "title": "Light blue oxford button-down",
-    "description": "Light blue oxford button-down. Smoke-free closet.",
+    "title": "Vintage Cal Berkeley crewneck, navy + gold",
+    "description": "Thrifted, and it looks great over a collared shirt. Gold arch print and seal, no cracking.",
     "category": "top",
-    "brand": "Brooks Brothers",
+    "brand": "Other",
     "size": "M",
-    "condition": "like new",
-    "price_cents": 2000,
+    "condition": "good",
+    "price_cents": 3100,
     "tags": [
       "Gameday",
-      "Rush",
-      "Casual"
+      "Rush"
     ],
     "photo_urls": [
-      "/photos/pexels-9558723.jpg"
+      "/photos/unsplash-la_ylOzgxiA.jpg"
     ],
-    "dominant_color": "#cbd1d6",
+    "dominant_color": "#494c4a",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -3210,20 +3198,21 @@
     "id": "uf-l07",
     "closet_id": "closet-uf-u6",
     "campus_id": "uf",
-    "title": "Silver sequin mini, worn once",
-    "description": "Silver sequin mini, worn once. Steamed and ready.",
-    "category": "dress",
-    "brand": "Windsor",
-    "size": "XS",
-    "condition": "new",
-    "price_cents": 5200,
+    "title": "Navy tailored blazer, women's fit",
+    "description": "Got it for recruitment interviews and wore it twice. Fitted through the waist and fully lined.",
+    "category": "top",
+    "brand": "J.Crew",
+    "size": "4",
+    "condition": "like new",
+    "price_cents": 5800,
     "tags": [
+      "Rush",
       "Formal"
     ],
     "photo_urls": [
-      "/photos/pexels-5713296.jpg"
+      "/photos/pexels-19109151.jpg"
     ],
-    "dominant_color": "#eaedec",
+    "dominant_color": "#8e887e",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -3233,20 +3222,20 @@
     "id": "uf-l08",
     "closet_id": "closet-uf-u7",
     "campus_id": "uf",
-    "title": "Chunky striped crewneck sweater",
-    "description": "Chunky striped crewneck sweater. Smoke-free closet.",
-    "category": "top",
-    "brand": "Abercrombie",
-    "size": "M",
+    "title": "Florida Gators felt pennant",
+    "description": "Took it to one game and it's been on my wall since. No creases or fading.",
+    "category": "accessory",
+    "brand": "Other",
+    "size": "One size",
     "condition": "like new",
-    "price_cents": 3000,
+    "price_cents": 1700,
     "tags": [
-      "Casual"
+      "Gameday"
     ],
     "photo_urls": [
-      "/photos/pexels-12944791.jpg"
+      "/photos/pexels-16557797.jpg"
     ],
-    "dominant_color": "#6e2637",
+    "dominant_color": "#668785",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -3328,22 +3317,21 @@
     "id": "uf-l12",
     "closet_id": "closet-uf-u10",
     "campus_id": "uf",
-    "title": "White piqué polo, barely worn",
-    "description": "White piqué polo, barely worn. Steamed and ready.",
+    "title": "Navy pinstripe double-breasted suit",
+    "description": "Jacket and pants, tailored once. Wore it to two formals; tie and shoes not included.",
     "category": "top",
-    "brand": "J.Crew",
-    "size": "M",
+    "brand": "Brooks Brothers",
+    "size": "40R / 32W",
     "condition": "like new",
-    "price_cents": 1600,
+    "price_cents": 10800,
     "tags": [
-      "Casual",
-      "Gameday",
-      "Philanthropy"
+      "Formal",
+      "Rush"
     ],
     "photo_urls": [
-      "/photos/unsplash-F5i3PZXYkvY.jpg"
+      "/photos/pexels-39715168.jpg"
     ],
-    "dominant_color": "#b09670",
+    "dominant_color": "#6b5245",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -3377,21 +3365,20 @@
     "id": "uf-l14",
     "closet_id": "closet-uf-u3",
     "campus_id": "uf",
-    "title": "Navy satin slip dress, never worn",
-    "description": "Navy satin slip dress, never worn. Smoke-free closet.",
+    "title": "Rose gold sequin bodycon mini, worn once",
+    "description": "Bought it for semi-formal and only wore it that night. Stretchy, no missing sequins.",
     "category": "dress",
-    "brand": "Boot Barn",
+    "brand": "Princess Polly",
     "size": "S",
-    "condition": "good",
-    "price_cents": 3400,
+    "condition": "like new",
+    "price_cents": 4800,
     "tags": [
-      "Gameday",
       "Formal"
     ],
     "photo_urls": [
-      "/photos/pexels-28735475.jpg"
+      "/photos/pexels-11046456.jpg"
     ],
-    "dominant_color": "#1b2028",
+    "dominant_color": "#d4ccc9",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -3449,22 +3436,21 @@
     "id": "uf-l17",
     "closet_id": "closet-uf-u6",
     "campus_id": "uf",
-    "title": "Freshwater pearl + white bead necklace set",
-    "description": "Freshwater pearl + white bead necklace set. Steamed and ready.",
+    "title": "Statement earring bundle + pearl scrunchie",
+    "description": "Cleaning out my jewelry box: crystal hoops, gold knots, drop earrings, a ring and a pearl scrunchie. Happy to split if you only want a few.",
     "category": "accessory",
-    "brand": "Other",
+    "brand": "BaubleBar",
     "size": "One size",
-    "condition": "like new",
-    "price_cents": 2200,
+    "condition": "good",
+    "price_cents": 2800,
     "tags": [
       "Rush",
-      "Bid Day",
       "Formal"
     ],
     "photo_urls": [
-      "/photos/pexels-10877350.jpg"
+      "/photos/pexels-34501351.jpg"
     ],
-    "dominant_color": "#cbcecf",
+    "dominant_color": "#959083",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -3569,22 +3555,21 @@
     "id": "uf-l22",
     "closet_id": "closet-uf-u1",
     "campus_id": "uf",
-    "title": "Gold chunky huggie earrings",
-    "description": "Gold chunky huggie earrings. Steamed and ready.",
-    "category": "accessory",
-    "brand": "Lele Sadoughi",
-    "size": "One size",
+    "title": "White tall western boots, stacked heel",
+    "description": "Side zip so they're easy on and off. Worn once for bid day pictures.",
+    "category": "shoes",
+    "brand": "Other",
+    "size": "US 7",
     "condition": "like new",
-    "price_cents": 1800,
+    "price_cents": 5200,
     "tags": [
-      "Rush",
-      "Formal",
-      "Gameday"
+      "Gameday",
+      "Bid Day"
     ],
     "photo_urls": [
-      "/photos/pexels-12168883.jpg"
+      "/photos/pexels-34584012.jpg"
     ],
-    "dominant_color": "#c0ac91",
+    "dominant_color": "#88827c",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -3618,21 +3603,21 @@
     "id": "uf-l24",
     "closet_id": "closet-uf-u3",
     "campus_id": "uf",
-    "title": "Navy stripe tee + dark wash jeans",
-    "description": "Navy stripe tee + dark wash jeans. Happy to bundle.",
+    "title": "Hand-stitched red 'A' tee, heather gray",
+    "description": "Stitched the letter myself for big/little reveal and ended up with an extra. Never worn.",
     "category": "top",
-    "brand": "Aerie",
-    "size": "S / 27",
+    "brand": "Other",
+    "size": "M",
     "condition": "new",
-    "price_cents": 2600,
+    "price_cents": 2700,
     "tags": [
-      "Casual",
-      "Philanthropy"
+      "Bid Day",
+      "Casual"
     ],
     "photo_urls": [
-      "/photos/pexels-934063.jpg"
+      "/photos/pexels-10566058.jpg"
     ],
-    "dominant_color": "#4e5767",
+    "dominant_color": "#a2928b",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -3691,7 +3676,7 @@
     "campus_id": "uf",
     "title": "Broken-in brown cowboy boots",
     "description": "Broken-in brown cowboy boots. Smoke-free closet.",
-    "category": "dress",
+    "category": "shoes",
     "brand": "Boot Barn",
     "size": "US 8",
     "condition": "good",
@@ -3738,7 +3723,7 @@
     "campus_id": "uf",
     "title": "Teal leather top-handle bag",
     "description": "Teal leather top-handle bag. Smoke-free closet.",
-    "category": "shoes",
+    "category": "accessory",
     "brand": "Dolce Vita",
     "size": "One size",
     "condition": "new",
@@ -3783,20 +3768,21 @@
     "id": "uf-l31",
     "closet_id": "closet-uf-u0",
     "campus_id": "uf",
-    "title": "Mid-wash straight jeans, bundle of 3",
-    "description": "Mid-wash straight jeans, bundle of 3. Steamed and ready.",
+    "title": "Burnt orange crewneck + frayed denim cutoffs",
+    "description": "Blank oversized crewneck in burnt orange plus gray frayed cutoffs. Selling as a set but can split.",
     "category": "top",
-    "brand": "Levi's",
-    "size": "26",
-    "condition": "new",
-    "price_cents": 4400,
+    "brand": "Other",
+    "size": "L / 28",
+    "condition": "like new",
+    "price_cents": 3500,
     "tags": [
+      "Gameday",
       "Casual"
     ],
     "photo_urls": [
-      "/photos/pexels-4109797.jpg"
+      "/photos/pexels-4871890.jpg"
     ],
-    "dominant_color": "#2a333c",
+    "dominant_color": "#91683f",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -4066,7 +4052,7 @@
     "campus_id": "uf",
     "title": "Philanthropy canvas tote, natural",
     "description": "Philanthropy canvas tote, natural",
-    "category": "top",
+    "category": "accessory",
     "brand": "Phi Mu",
     "size": "One size",
     "condition": "new",
@@ -4087,20 +4073,21 @@
     "id": "uga-l01",
     "closet_id": "closet-uga-u0",
     "campus_id": "uga",
-    "title": "Chunky striped crewneck sweater",
-    "description": "Chunky striped crewneck sweater. Steamed and ready.",
+    "title": "White puff-sleeve tie-front top + light-wash denim shorts",
+    "description": "My go-to tailgate set, selling the top and shorts together. Boots not included.",
     "category": "top",
-    "brand": "Madewell",
-    "size": "M",
-    "condition": "new",
-    "price_cents": 2800,
+    "brand": "Other",
+    "size": "S / 25",
+    "condition": "like new",
+    "price_cents": 2700,
     "tags": [
+      "Gameday",
       "Casual"
     ],
     "photo_urls": [
-      "/photos/pexels-12944791.jpg"
+      "/photos/pexels-34235836.jpg"
     ],
-    "dominant_color": "#6e2637",
+    "dominant_color": "#b2a08e",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -4157,21 +4144,20 @@
     "id": "uga-l04",
     "closet_id": "closet-uga-me",
     "campus_id": "uga",
-    "title": "Navy stripe tee + dark wash jeans",
-    "description": "Navy stripe tee + dark wash jeans. Happy to bundle.",
-    "category": "top",
-    "brand": "Levi's",
-    "size": "S / 27",
-    "condition": "fair",
-    "price_cents": 3000,
+    "title": "Red embroidered western boots",
+    "description": "Red with white stitching, pointed toe and a block heel. Worn to a handful of games, soles in good shape.",
+    "category": "shoes",
+    "brand": "Other",
+    "size": "US 7.5",
+    "condition": "good",
+    "price_cents": 6500,
     "tags": [
-      "Casual",
-      "Philanthropy"
+      "Gameday"
     ],
     "photo_urls": [
-      "/photos/pexels-934063.jpg"
+      "/photos/unsplash--EEpGsUR6_s.jpg"
     ],
-    "dominant_color": "#4e5767",
+    "dominant_color": "#aa896c",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -4278,20 +4264,21 @@
     "id": "uga-l09",
     "closet_id": "closet-uga-u8",
     "campus_id": "uga",
-    "title": "Mid-wash straight jeans, bundle of 3",
-    "description": "Mid-wash straight jeans, bundle of 3. Meet at the Exchange Spot or ship to your MSC.",
-    "category": "top",
-    "brand": "J.Crew",
-    "size": "26",
-    "condition": "like new",
-    "price_cents": 4000,
+    "title": "Suede espadrille platform wedges, black + cognac (2 pairs)",
+    "description": "Selling both pairs together. Comfy enough for a full day of rush, a little wear on the jute.",
+    "category": "shoes",
+    "brand": "Other",
+    "size": "US 7.5",
+    "condition": "good",
+    "price_cents": 4700,
     "tags": [
+      "Rush",
       "Casual"
     ],
     "photo_urls": [
-      "/photos/pexels-4109797.jpg"
+      "/photos/pexels-31450993.jpg"
     ],
-    "dominant_color": "#2a333c",
+    "dominant_color": "#a97b67",
     "status": "sold",
     "drop_id": null,
     "stock": 1,
@@ -4325,21 +4312,21 @@
     "id": "uga-l11",
     "closet_id": "closet-uga-me",
     "campus_id": "uga",
-    "title": "Crimson stripe button-down, oversized fit",
-    "description": "Crimson stripe button-down, oversized fit. Happy to bundle.",
-    "category": "dress",
-    "brand": "Boot Barn",
-    "size": "M",
-    "condition": "good",
-    "price_cents": 2400,
+    "title": "Red + cream varsity jacket, chenille P patch",
+    "description": "Oversized wool varsity with a chenille P. Bought it for gamedays and wore it twice, way too warm for September.",
+    "category": "top",
+    "brand": "Other",
+    "size": "L",
+    "condition": "like new",
+    "price_cents": 7500,
     "tags": [
       "Gameday",
       "Casual"
     ],
     "photo_urls": [
-      "/photos/pexels-12955555.jpg"
+      "/photos/pexels-32782661.jpg"
     ],
-    "dominant_color": "#c3b1ae",
+    "dominant_color": "#735c65",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -4349,22 +4336,21 @@
     "id": "uga-l12",
     "closet_id": "closet-uga-u1",
     "campus_id": "uga",
-    "title": "Freshwater pearl + white bead necklace set",
-    "description": "Freshwater pearl + white bead necklace set. Meet at the Exchange Spot or ship to your MSC.",
-    "category": "accessory",
-    "brand": "BaubleBar",
-    "size": "One size",
-    "condition": "new",
-    "price_cents": 2600,
+    "title": "Big letter tees, set of 4 (spells T-E-A-M)",
+    "description": "Made these for a philanthropy relay and we're done with them. Red and navy, sizes S through XL, selling all four together.",
+    "category": "top",
+    "brand": "Other",
+    "size": "S-XL",
+    "condition": "good",
+    "price_cents": 5000,
     "tags": [
-      "Rush",
-      "Bid Day",
-      "Formal"
+      "Philanthropy",
+      "Casual"
     ],
     "photo_urls": [
-      "/photos/pexels-10877350.jpg"
+      "/photos/pexels-7551442.jpg"
     ],
-    "dominant_color": "#cbcecf",
+    "dominant_color": "#74595d",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -4445,21 +4431,21 @@
     "id": "uga-l16",
     "closet_id": "closet-uga-u5",
     "campus_id": "uga",
-    "title": "Navy satin slip dress, never worn",
-    "description": "Navy satin slip dress, never worn. Happy to bundle.",
-    "category": "dress",
-    "brand": "Lulus",
-    "size": "S",
-    "condition": "new",
-    "price_cents": 3800,
+    "title": "Vintage Arizona Wildcats crewneck, red",
+    "description": "Thrifted this over break. Navy arch lettering and block A, soft inside and still bright.",
+    "category": "top",
+    "brand": "Other",
+    "size": "L",
+    "condition": "good",
+    "price_cents": 3000,
     "tags": [
       "Gameday",
-      "Formal"
+      "Casual"
     ],
     "photo_urls": [
-      "/photos/pexels-28735475.jpg"
+      "/photos/unsplash-tWRJDkIfuQE.jpg"
     ],
-    "dominant_color": "#1b2028",
+    "dominant_color": "#7b433c",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -4494,7 +4480,7 @@
     "campus_id": "uga",
     "title": "Teal leather top-handle bag",
     "description": "Teal leather top-handle bag. Happy to bundle.",
-    "category": "shoes",
+    "category": "accessory",
     "brand": "Ariat",
     "size": "One size",
     "condition": "new",
@@ -4516,20 +4502,21 @@
     "id": "uga-l19",
     "closet_id": "closet-uga-u8",
     "campus_id": "uga",
-    "title": "Silver sequin mini, worn once",
-    "description": "Silver sequin mini, worn once. Happy to bundle.",
-    "category": "dress",
-    "brand": "Windsor",
-    "size": "XS",
-    "condition": "fair",
-    "price_cents": 5200,
+    "title": "Black velvet hair bow with pearl ring",
+    "description": "Clip-back velvet bow with a pearl ring in the middle. Wore it to one formal.",
+    "category": "accessory",
+    "brand": "Lele Sadoughi",
+    "size": "One size",
+    "condition": "like new",
+    "price_cents": 1400,
     "tags": [
-      "Formal"
+      "Formal",
+      "Rush"
     ],
     "photo_urls": [
-      "/photos/pexels-5713296.jpg"
+      "/photos/unsplash-d_iVNyGeeHo.jpg"
     ],
-    "dominant_color": "#eaedec",
+    "dominant_color": "#a5a8a8",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -4541,7 +4528,7 @@
     "campus_id": "uga",
     "title": "Broken-in brown cowboy boots",
     "description": "Broken-in brown cowboy boots. Smoke-free closet.",
-    "category": "dress",
+    "category": "shoes",
     "brand": "Other",
     "size": "US 8",
     "condition": "good",
@@ -4586,22 +4573,21 @@
     "id": "uga-l22",
     "closet_id": "closet-uga-u12",
     "campus_id": "uga",
-    "title": "Light blue oxford button-down",
-    "description": "Light blue oxford button-down. Smoke-free closet.",
+    "title": "Navy pinstripe double-breasted suit",
+    "description": "Jacket and pants, tailored once. Wore it to two formals; tie and shoes not included.",
     "category": "top",
     "brand": "Brooks Brothers",
-    "size": "M",
+    "size": "42R / 34W",
     "condition": "like new",
-    "price_cents": 2000,
+    "price_cents": 11400,
     "tags": [
-      "Gameday",
-      "Rush",
-      "Casual"
+      "Formal",
+      "Rush"
     ],
     "photo_urls": [
-      "/photos/pexels-9558723.jpg"
+      "/photos/pexels-39715168.jpg"
     ],
-    "dominant_color": "#cbd1d6",
+    "dominant_color": "#6b5245",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -4683,22 +4669,21 @@
     "id": "uga-l26",
     "closet_id": "closet-uga-u12",
     "campus_id": "uga",
-    "title": "White piqué polo, barely worn",
-    "description": "White piqué polo, barely worn. Smoke-free closet.",
+    "title": "Vintage Notre Dame crewneck, white",
+    "description": "Found it at a flea market and the arch print and seal are still bright. Roomy fit, light pilling.",
     "category": "top",
-    "brand": "Southern Tide",
-    "size": "M",
-    "condition": "fair",
-    "price_cents": 1600,
+    "brand": "Other",
+    "size": "XL",
+    "condition": "good",
+    "price_cents": 5000,
     "tags": [
-      "Casual",
       "Gameday",
-      "Philanthropy"
+      "Casual"
     ],
     "photo_urls": [
-      "/photos/unsplash-F5i3PZXYkvY.jpg"
+      "/photos/pexels-16247612.jpg"
     ],
-    "dominant_color": "#b09670",
+    "dominant_color": "#8d8476",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -4802,22 +4787,21 @@
     "id": "uga-l31",
     "closet_id": "closet-uga-u0",
     "campus_id": "uga",
-    "title": "Gold chunky huggie earrings",
-    "description": "Gold chunky huggie earrings. Smoke-free closet.",
-    "category": "accessory",
-    "brand": "Lele Sadoughi",
-    "size": "One size",
+    "title": "Blush floral satin wrap midi with side ties",
+    "description": "Lulus wrap midi, the side ties let you cinch the waist however you want. Worn to one rush round and a wedding.",
+    "category": "dress",
+    "brand": "Lulus",
+    "size": "L",
     "condition": "good",
-    "price_cents": 1800,
+    "price_cents": 3800,
     "tags": [
       "Rush",
-      "Formal",
-      "Gameday"
+      "Formal"
     ],
     "photo_urls": [
-      "/photos/pexels-12168883.jpg"
+      "/photos/pexels-36213224.jpg"
     ],
-    "dominant_color": "#c0ac91",
+    "dominant_color": "#cbb8b5",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -5087,7 +5071,7 @@
     "campus_id": "uga",
     "title": "Philanthropy canvas tote, natural",
     "description": "Philanthropy canvas tote, natural",
-    "category": "top",
+    "category": "accessory",
     "brand": "Phi Mu",
     "size": "One size",
     "condition": "new",
@@ -5108,21 +5092,20 @@
     "id": "uky-l01",
     "closet_id": "closet-uky-u0",
     "campus_id": "uky",
-    "title": "Navy satin slip dress, never worn",
-    "description": "Navy satin slip dress, never worn. Smoke-free closet.",
-    "category": "dress",
-    "brand": "Lulus",
-    "size": "S",
-    "condition": "good",
-    "price_cents": 3800,
+    "title": "Philanthropy VOLUNTEER tees, royal blue (set of 2)",
+    "description": "Two tees left over from our service day. Washed once, priced for both.",
+    "category": "top",
+    "brand": "Other",
+    "size": "M / L",
+    "condition": "like new",
+    "price_cents": 1400,
     "tags": [
-      "Gameday",
-      "Formal"
+      "Philanthropy"
     ],
     "photo_urls": [
-      "/photos/pexels-28735475.jpg"
+      "/photos/pexels-8543399.jpg"
     ],
-    "dominant_color": "#1b2028",
+    "dominant_color": "#3a81a9",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -5156,22 +5139,21 @@
     "id": "uky-l03",
     "closet_id": "closet-uky-u11",
     "campus_id": "uky",
-    "title": "Light blue oxford button-down",
-    "description": "Light blue oxford button-down. Steamed and ready.",
+    "title": "Navy pinstripe double-breasted suit",
+    "description": "Jacket and pants, tailored once. Wore it to two formals; tie and shoes not included.",
     "category": "top",
     "brand": "Brooks Brothers",
-    "size": "M",
+    "size": "38R / 30W",
     "condition": "like new",
-    "price_cents": 2200,
+    "price_cents": 12000,
     "tags": [
-      "Gameday",
-      "Rush",
-      "Casual"
+      "Formal",
+      "Rush"
     ],
     "photo_urls": [
-      "/photos/pexels-9558723.jpg"
+      "/photos/pexels-39715168.jpg"
     ],
-    "dominant_color": "#cbd1d6",
+    "dominant_color": "#6b5245",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -5325,7 +5307,7 @@
     "campus_id": "uky",
     "title": "Teal leather top-handle bag",
     "description": "Teal leather top-handle bag. Meet at the Exchange Spot or ship to your MSC.",
-    "category": "shoes",
+    "category": "accessory",
     "brand": "Ariat",
     "size": "One size",
     "condition": "fair",
@@ -5347,20 +5329,20 @@
     "id": "uky-l11",
     "closet_id": "closet-uky-me",
     "campus_id": "uky",
-    "title": "Silver sequin mini, worn once",
-    "description": "Silver sequin mini, worn once. Smoke-free closet.",
-    "category": "dress",
-    "brand": "Lulus",
-    "size": "XS",
+    "title": "Royal blue + white pom-pom pair",
+    "description": "Metallic blue and white vinyl poms from one season in the student section. Still full, no bent streamers.",
+    "category": "accessory",
+    "brand": "Other",
+    "size": "One size",
     "condition": "good",
-    "price_cents": 4400,
+    "price_cents": 1500,
     "tags": [
-      "Formal"
+      "Gameday"
     ],
     "photo_urls": [
-      "/photos/pexels-5713296.jpg"
+      "/photos/pexels-7321048.jpg"
     ],
-    "dominant_color": "#eaedec",
+    "dominant_color": "#687285",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -5370,20 +5352,21 @@
     "id": "uky-l12",
     "closet_id": "closet-uky-u1",
     "campus_id": "uky",
-    "title": "Mid-wash straight jeans, bundle of 3",
-    "description": "Mid-wash straight jeans, bundle of 3. Steamed and ready.",
+    "title": "Vintage West Virginia University hoodie, gold",
+    "description": "Thrifted on a road trip and it's the softest hoodie I own. Navy collegiate print, no cracking, fits oversized.",
     "category": "top",
-    "brand": "Abercrombie",
-    "size": "26",
-    "condition": "new",
-    "price_cents": 4200,
+    "brand": "Other",
+    "size": "L",
+    "condition": "good",
+    "price_cents": 3400,
     "tags": [
+      "Gameday",
       "Casual"
     ],
     "photo_urls": [
-      "/photos/pexels-4109797.jpg"
+      "/photos/pexels-6443595.jpg"
     ],
-    "dominant_color": "#2a333c",
+    "dominant_color": "#b35521",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -5466,20 +5449,21 @@
     "id": "uky-l16",
     "closet_id": "closet-uky-u5",
     "campus_id": "uky",
-    "title": "Chunky striped crewneck sweater",
-    "description": "Chunky striped crewneck sweater. Meet at the Exchange Spot or ship to your MSC.",
+    "title": "White puff-sleeve tie-front top + light-wash denim shorts",
+    "description": "My go-to tailgate set, selling the top and shorts together. Boots not included.",
     "category": "top",
-    "brand": "Levi's",
-    "size": "M",
-    "condition": "good",
-    "price_cents": 2400,
+    "brand": "Other",
+    "size": "S / 25",
+    "condition": "like new",
+    "price_cents": 2700,
     "tags": [
+      "Gameday",
       "Casual"
     ],
     "photo_urls": [
-      "/photos/pexels-12944791.jpg"
+      "/photos/pexels-34235836.jpg"
     ],
-    "dominant_color": "#6e2637",
+    "dominant_color": "#b2a08e",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -5536,22 +5520,21 @@
     "id": "uky-l19",
     "closet_id": "closet-uky-u11",
     "campus_id": "uky",
-    "title": "White piqué polo, barely worn",
-    "description": "White piqué polo, barely worn. Meet at the Exchange Spot or ship to your MSC.",
+    "title": "Vintage navy + white varsity jacket, lion patch",
+    "description": "Thrifted varsity jacket with a lion patch on the sleeve and a stitched crest on the chest. Snap front, striped cuffs, barely worn.",
     "category": "top",
-    "brand": "Vineyard Vines",
-    "size": "M",
-    "condition": "fair",
-    "price_cents": 2000,
+    "brand": "Other",
+    "size": "L",
+    "condition": "like new",
+    "price_cents": 5200,
     "tags": [
-      "Casual",
       "Gameday",
-      "Philanthropy"
+      "Casual"
     ],
     "photo_urls": [
-      "/photos/unsplash-F5i3PZXYkvY.jpg"
+      "/photos/pexels-32483237.jpg"
     ],
-    "dominant_color": "#b09670",
+    "dominant_color": "#4f6993",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -5585,22 +5568,21 @@
     "id": "uky-l21",
     "closet_id": "closet-uky-u0",
     "campus_id": "uky",
-    "title": "Freshwater pearl + white bead necklace set",
-    "description": "Freshwater pearl + white bead necklace set. Steamed and ready.",
-    "category": "accessory",
+    "title": "Suede espadrille platform wedges, black + cognac (2 pairs)",
+    "description": "Selling both pairs together. Comfy enough for a full day of rush, a little wear on the jute.",
+    "category": "shoes",
     "brand": "Other",
-    "size": "One size",
-    "condition": "like new",
-    "price_cents": 2200,
+    "size": "US 7.5",
+    "condition": "good",
+    "price_cents": 4700,
     "tags": [
       "Rush",
-      "Bid Day",
-      "Formal"
+      "Casual"
     ],
     "photo_urls": [
-      "/photos/pexels-10877350.jpg"
+      "/photos/pexels-31450993.jpg"
     ],
-    "dominant_color": "#cbcecf",
+    "dominant_color": "#a97b67",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -5636,8 +5618,8 @@
     "campus_id": "uky",
     "title": "Broken-in brown cowboy boots",
     "description": "Broken-in brown cowboy boots. Happy to bundle.",
-    "category": "dress",
-    "brand": "Altar'd State",
+    "category": "shoes",
+    "brand": "Other",
     "size": "US 8",
     "condition": "good",
     "price_cents": 7800,
@@ -5704,22 +5686,21 @@
     "id": "uky-l26",
     "closet_id": "closet-uky-u5",
     "campus_id": "uky",
-    "title": "Gold chunky huggie earrings",
-    "description": "Gold chunky huggie earrings. Smoke-free closet.",
-    "category": "accessory",
-    "brand": "BaubleBar",
-    "size": "One size",
-    "condition": "fair",
-    "price_cents": 1600,
+    "title": "Black + taupe jacquard halter mini, worn once",
+    "description": "Wore it once to a date party and it's been hanging in my closet since. Halter straps and a sheer banded waist, no snags.",
+    "category": "dress",
+    "brand": "Other",
+    "size": "S",
+    "condition": "like new",
+    "price_cents": 4200,
     "tags": [
-      "Rush",
       "Formal",
-      "Gameday"
+      "Rush"
     ],
     "photo_urls": [
-      "/photos/pexels-12168883.jpg"
+      "/photos/pexels-14513896.jpg"
     ],
-    "dominant_color": "#c0ac91",
+    "dominant_color": "#565772",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -5776,21 +5757,21 @@
     "id": "uky-l29",
     "closet_id": "closet-uky-u8",
     "campus_id": "uky",
-    "title": "Crimson stripe button-down, oversized fit",
-    "description": "Crimson stripe button-down, oversized fit. Smoke-free closet.",
-    "category": "dress",
-    "brand": "Judith March",
-    "size": "M",
-    "condition": "good",
-    "price_cents": 2600,
+    "title": "Oversized heavyweight tee, dusty rose",
+    "description": "Blank heavyweight tee in that washed rose color, great for bid day or painting your own letters on. Worn once.",
+    "category": "top",
+    "brand": "Other",
+    "size": "XL",
+    "condition": "like new",
+    "price_cents": 1800,
     "tags": [
-      "Gameday",
-      "Casual"
+      "Casual",
+      "Bid Day"
     ],
     "photo_urls": [
-      "/photos/pexels-12955555.jpg"
+      "/photos/pexels-9558761.jpg"
     ],
-    "dominant_color": "#c3b1ae",
+    "dominant_color": "#c5a9ae",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -5800,21 +5781,21 @@
     "id": "uky-l30",
     "closet_id": "closet-uky-u9",
     "campus_id": "uky",
-    "title": "Navy stripe tee + dark wash jeans",
-    "description": "Navy stripe tee + dark wash jeans. Smoke-free closet.",
-    "category": "top",
-    "brand": "Abercrombie",
-    "size": "S / 27",
-    "condition": "good",
-    "price_cents": 2400,
+    "title": "Black velvet hair bow with pearl ring",
+    "description": "Clip-back velvet bow with a pearl ring in the middle. Wore it to one formal.",
+    "category": "accessory",
+    "brand": "Lele Sadoughi",
+    "size": "One size",
+    "condition": "like new",
+    "price_cents": 1500,
     "tags": [
-      "Casual",
-      "Philanthropy"
+      "Formal",
+      "Rush"
     ],
     "photo_urls": [
-      "/photos/pexels-934063.jpg"
+      "/photos/unsplash-d_iVNyGeeHo.jpg"
     ],
-    "dominant_color": "#4e5767",
+    "dominant_color": "#a5a8a8",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -6108,7 +6089,7 @@
     "campus_id": "uky",
     "title": "Philanthropy canvas tote, natural",
     "description": "Philanthropy canvas tote, natural",
-    "category": "top",
+    "category": "accessory",
     "brand": "Phi Mu",
     "size": "One size",
     "condition": "new",
@@ -6129,21 +6110,20 @@
     "id": "lsu-l01",
     "closet_id": "closet-lsu-u0",
     "campus_id": "lsu",
-    "title": "Crimson stripe button-down, oversized fit",
-    "description": "Crimson stripe button-down, oversized fit. Steamed and ready.",
-    "category": "dress",
+    "title": "Philanthropy VOLUNTEER tees, royal blue (set of 2)",
+    "description": "Two tees left over from our service day. Washed once, priced for both.",
+    "category": "top",
     "brand": "Other",
-    "size": "M",
-    "condition": "good",
-    "price_cents": 2000,
+    "size": "S / M",
+    "condition": "like new",
+    "price_cents": 1500,
     "tags": [
-      "Gameday",
-      "Casual"
+      "Philanthropy"
     ],
     "photo_urls": [
-      "/photos/pexels-12955555.jpg"
+      "/photos/pexels-8543399.jpg"
     ],
-    "dominant_color": "#c3b1ae",
+    "dominant_color": "#3a81a9",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -6177,20 +6157,21 @@
     "id": "lsu-l03",
     "closet_id": "closet-lsu-u2",
     "campus_id": "lsu",
-    "title": "Mid-wash straight jeans, bundle of 3",
-    "description": "Mid-wash straight jeans, bundle of 3. Meet at the Exchange Spot or ship to your MSC.",
-    "category": "top",
-    "brand": "Madewell",
-    "size": "26",
-    "condition": "new",
-    "price_cents": 5000,
+    "title": "Burnt orange mini top-handle bag",
+    "description": "Fits your phone, ID and a lip gloss, which is all you need on gameday. Gold hardware, no scuffs.",
+    "category": "accessory",
+    "brand": "Other",
+    "size": "One size",
+    "condition": "like new",
+    "price_cents": 3400,
     "tags": [
-      "Casual"
+      "Gameday",
+      "Formal"
     ],
     "photo_urls": [
-      "/photos/pexels-4109797.jpg"
+      "/photos/pexels-8801091.jpg"
     ],
-    "dominant_color": "#2a333c",
+    "dominant_color": "#867468",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -6248,22 +6229,21 @@
     "id": "lsu-l06",
     "closet_id": "closet-lsu-u5",
     "campus_id": "lsu",
-    "title": "Gold chunky huggie earrings",
-    "description": "Gold chunky huggie earrings. Meet at the Exchange Spot or ship to your MSC.",
-    "category": "accessory",
-    "brand": "BaubleBar",
-    "size": "One size",
-    "condition": "new",
-    "price_cents": 1600,
+    "title": "Blush croc-embossed platform wedge sandals",
+    "description": "Only worn once to a sunset rush event. Gold buckle ankle strap, and the white sole is still clean.",
+    "category": "shoes",
+    "brand": "Other",
+    "size": "US 7",
+    "condition": "like new",
+    "price_cents": 3400,
     "tags": [
       "Rush",
-      "Formal",
-      "Gameday"
+      "Casual"
     ],
     "photo_urls": [
-      "/photos/pexels-12168883.jpg"
+      "/photos/pexels-26925245.jpg"
     ],
-    "dominant_color": "#c0ac91",
+    "dominant_color": "#f2e7e5",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -6320,20 +6300,20 @@
     "id": "lsu-l09",
     "closet_id": "closet-lsu-u8",
     "campus_id": "lsu",
-    "title": "Silver sequin mini, worn once",
-    "description": "Silver sequin mini, worn once. Meet at the Exchange Spot or ship to your MSC.",
+    "title": "Rose gold sequin bodycon mini, worn once",
+    "description": "Bought it for semi-formal and only wore it that night. Stretchy, no missing sequins.",
     "category": "dress",
-    "brand": "Revolve",
-    "size": "XS",
-    "condition": "good",
-    "price_cents": 4800,
+    "brand": "Princess Polly",
+    "size": "S",
+    "condition": "like new",
+    "price_cents": 5300,
     "tags": [
       "Formal"
     ],
     "photo_urls": [
-      "/photos/pexels-5713296.jpg"
+      "/photos/pexels-11046456.jpg"
     ],
-    "dominant_color": "#eaedec",
+    "dominant_color": "#d4ccc9",
     "status": "sold",
     "drop_id": null,
     "stock": 1,
@@ -6343,22 +6323,21 @@
     "id": "lsu-l10",
     "closet_id": "closet-lsu-u9",
     "campus_id": "lsu",
-    "title": "Freshwater pearl + white bead necklace set",
-    "description": "Freshwater pearl + white bead necklace set. Meet at the Exchange Spot or ship to your MSC.",
-    "category": "accessory",
-    "brand": "Other",
-    "size": "One size",
-    "condition": "like new",
-    "price_cents": 2400,
+    "title": "White embroidered cowboy boots",
+    "description": "Tan embroidery and a stacked wood heel. Broken in from a season of gamedays, plenty of life left.",
+    "category": "shoes",
+    "brand": "Boot Barn",
+    "size": "US 8",
+    "condition": "good",
+    "price_cents": 5700,
     "tags": [
-      "Rush",
       "Bid Day",
-      "Formal"
+      "Gameday"
     ],
     "photo_urls": [
-      "/photos/pexels-10877350.jpg"
+      "/photos/pexels-28991312.jpg"
     ],
-    "dominant_color": "#cbcecf",
+    "dominant_color": "#776755",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -6394,7 +6373,7 @@
     "campus_id": "lsu",
     "title": "Broken-in brown cowboy boots",
     "description": "Broken-in brown cowboy boots. Smoke-free closet.",
-    "category": "dress",
+    "category": "shoes",
     "brand": "Boot Barn",
     "size": "US 8",
     "condition": "fair",
@@ -6438,22 +6417,21 @@
     "id": "lsu-l14",
     "closet_id": "closet-lsu-u11",
     "campus_id": "lsu",
-    "title": "Light blue oxford button-down",
-    "description": "Light blue oxford button-down. Meet at the Exchange Spot or ship to your MSC.",
+    "title": "Light blue suit jacket + white shirt + black tie",
+    "description": "Selling all three together. Wore it to one formal and a wedding, no stains.",
     "category": "top",
-    "brand": "Brooks Brothers",
-    "size": "M",
+    "brand": "Other",
+    "size": "42R / L",
     "condition": "good",
-    "price_cents": 2000,
+    "price_cents": 7200,
     "tags": [
-      "Gameday",
-      "Rush",
-      "Casual"
+      "Formal",
+      "Rush"
     ],
     "photo_urls": [
-      "/photos/pexels-9558723.jpg"
+      "/photos/pexels-6375747.jpg"
     ],
-    "dominant_color": "#cbd1d6",
+    "dominant_color": "#5877b1",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -6511,21 +6489,21 @@
     "id": "lsu-l17",
     "closet_id": "closet-lsu-u6",
     "campus_id": "lsu",
-    "title": "Navy satin slip dress, never worn",
-    "description": "Navy satin slip dress, never worn. Smoke-free closet.",
+    "title": "White tiered tie-waist sundress",
+    "description": "Perfect for bid day, or gameday with boots. Tie waist and a tiered skirt; boots and hat not included.",
     "category": "dress",
-    "brand": "Lulus",
+    "brand": "Altar'd State",
     "size": "S",
     "condition": "good",
-    "price_cents": 4000,
+    "price_cents": 3800,
     "tags": [
-      "Gameday",
-      "Formal"
+      "Bid Day",
+      "Rush"
     ],
     "photo_urls": [
-      "/photos/pexels-28735475.jpg"
+      "/photos/pexels-18194381.jpg"
     ],
-    "dominant_color": "#1b2028",
+    "dominant_color": "#515347",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -6630,20 +6608,21 @@
     "id": "lsu-l22",
     "closet_id": "closet-lsu-u1",
     "campus_id": "lsu",
-    "title": "Chunky striped crewneck sweater",
-    "description": "Chunky striped crewneck sweater. Happy to bundle.",
+    "title": "Forest green + cream varsity jacket, M patch",
+    "description": "Green wool body, cream sleeves and a chenille M. Fits oversized, light wear on the cuffs.",
     "category": "top",
-    "brand": "Levi's",
-    "size": "M",
-    "condition": "like new",
-    "price_cents": 2400,
+    "brand": "Other",
+    "size": "L",
+    "condition": "good",
+    "price_cents": 6000,
     "tags": [
+      "Gameday",
       "Casual"
     ],
     "photo_urls": [
-      "/photos/pexels-12944791.jpg"
+      "/photos/unsplash-tJJNf1gqb94.jpg"
     ],
-    "dominant_color": "#6e2637",
+    "dominant_color": "#44402a",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -6655,7 +6634,7 @@
     "campus_id": "lsu",
     "title": "Teal leather top-handle bag",
     "description": "Teal leather top-handle bag. Happy to bundle.",
-    "category": "shoes",
+    "category": "accessory",
     "brand": "Ariat",
     "size": "One size",
     "condition": "good",
@@ -6677,21 +6656,21 @@
     "id": "lsu-l24",
     "closet_id": "closet-lsu-u3",
     "campus_id": "lsu",
-    "title": "Navy stripe tee + dark wash jeans",
-    "description": "Navy stripe tee + dark wash jeans. Smoke-free closet.",
+    "title": "Vintage West Virginia University hoodie, gold",
+    "description": "Thrifted on a road trip and it's the softest hoodie I own. Navy collegiate print, no cracking, fits oversized.",
     "category": "top",
-    "brand": "Aerie",
-    "size": "S / 27",
-    "condition": "fair",
-    "price_cents": 3000,
+    "brand": "Other",
+    "size": "XL",
+    "condition": "good",
+    "price_cents": 3200,
     "tags": [
-      "Casual",
-      "Philanthropy"
+      "Gameday",
+      "Casual"
     ],
     "photo_urls": [
-      "/photos/pexels-934063.jpg"
+      "/photos/pexels-6443595.jpg"
     ],
-    "dominant_color": "#4e5767",
+    "dominant_color": "#b35521",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -6772,22 +6751,21 @@
     "id": "lsu-l28",
     "closet_id": "closet-lsu-u11",
     "campus_id": "lsu",
-    "title": "White piqué polo, barely worn",
-    "description": "White piqué polo, barely worn. Smoke-free closet.",
+    "title": "Vintage Arizona State crewneck, maroon",
+    "description": "Thrift find with the old Sparky graphic. Fleece inside, fits a little big.",
     "category": "top",
-    "brand": "Peter Millar",
-    "size": "M",
-    "condition": "like new",
-    "price_cents": 1800,
+    "brand": "Other",
+    "size": "L",
+    "condition": "good",
+    "price_cents": 2700,
     "tags": [
-      "Casual",
       "Gameday",
-      "Philanthropy"
+      "Casual"
     ],
     "photo_urls": [
-      "/photos/unsplash-F5i3PZXYkvY.jpg"
+      "/photos/unsplash-UXbofi0X8Cg.jpg"
     ],
-    "dominant_color": "#b09670",
+    "dominant_color": "#412f3b",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -7129,7 +7107,7 @@
     "campus_id": "lsu",
     "title": "Philanthropy canvas tote, natural",
     "description": "Philanthropy canvas tote, natural",
-    "category": "top",
+    "category": "accessory",
     "brand": "Phi Mu",
     "size": "One size",
     "condition": "new",
@@ -7200,7 +7178,7 @@
     "campus_id": "olemiss",
     "title": "Teal leather top-handle bag",
     "description": "Teal leather top-handle bag. Steamed and ready.",
-    "category": "shoes",
+    "category": "accessory",
     "brand": "Steve Madden",
     "size": "One size",
     "condition": "good",
@@ -7388,22 +7366,21 @@
     "id": "olemiss-l11",
     "closet_id": "closet-olemiss-u10",
     "campus_id": "olemiss",
-    "title": "Light blue oxford button-down",
-    "description": "Light blue oxford button-down. Happy to bundle.",
+    "title": "Vintage navy + white varsity jacket, lion patch",
+    "description": "Thrifted varsity jacket with a lion patch on the sleeve and a stitched crest on the chest. Snap front, striped cuffs, barely worn.",
     "category": "top",
-    "brand": "Brooks Brothers",
+    "brand": "Other",
     "size": "M",
-    "condition": "good",
-    "price_cents": 2600,
+    "condition": "like new",
+    "price_cents": 5800,
     "tags": [
       "Gameday",
-      "Rush",
       "Casual"
     ],
     "photo_urls": [
-      "/photos/pexels-9558723.jpg"
+      "/photos/pexels-32483237.jpg"
     ],
-    "dominant_color": "#cbd1d6",
+    "dominant_color": "#4f6993",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -7508,21 +7485,21 @@
     "id": "olemiss-l16",
     "closet_id": "closet-olemiss-u5",
     "campus_id": "olemiss",
-    "title": "Navy satin slip dress, never worn",
-    "description": "Navy satin slip dress, never worn. Steamed and ready.",
-    "category": "dress",
-    "brand": "Boot Barn",
-    "size": "S",
-    "condition": "good",
-    "price_cents": 3200,
+    "title": "Black velvet hair bow with pearl ring",
+    "description": "Clip-back velvet bow with a pearl ring in the middle. Wore it to one formal.",
+    "category": "accessory",
+    "brand": "Lele Sadoughi",
+    "size": "One size",
+    "condition": "like new",
+    "price_cents": 1400,
     "tags": [
-      "Gameday",
-      "Formal"
+      "Formal",
+      "Rush"
     ],
     "photo_urls": [
-      "/photos/pexels-28735475.jpg"
+      "/photos/unsplash-d_iVNyGeeHo.jpg"
     ],
-    "dominant_color": "#1b2028",
+    "dominant_color": "#a5a8a8",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -7581,8 +7558,8 @@
     "campus_id": "olemiss",
     "title": "Broken-in brown cowboy boots",
     "description": "Broken-in brown cowboy boots. Smoke-free closet.",
-    "category": "dress",
-    "brand": "Judith March",
+    "category": "shoes",
+    "brand": "Other",
     "size": "US 8",
     "condition": "new",
     "price_cents": 8800,
@@ -7650,21 +7627,21 @@
     "id": "olemiss-l22",
     "closet_id": "closet-olemiss-u1",
     "campus_id": "olemiss",
-    "title": "Crimson stripe button-down, oversized fit",
-    "description": "Crimson stripe button-down, oversized fit. Steamed and ready.",
+    "title": "Blush floral satin wrap midi with side ties",
+    "description": "Lulus wrap midi, the side ties let you cinch the waist however you want. Worn to one rush round and a wedding.",
     "category": "dress",
     "brand": "Lulus",
     "size": "M",
     "condition": "good",
-    "price_cents": 2200,
+    "price_cents": 4000,
     "tags": [
-      "Gameday",
-      "Casual"
+      "Rush",
+      "Formal"
     ],
     "photo_urls": [
-      "/photos/pexels-12955555.jpg"
+      "/photos/pexels-36213224.jpg"
     ],
-    "dominant_color": "#c3b1ae",
+    "dominant_color": "#cbb8b5",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -7674,22 +7651,21 @@
     "id": "olemiss-l23",
     "closet_id": "closet-olemiss-u10",
     "campus_id": "olemiss",
-    "title": "White piqué polo, barely worn",
-    "description": "White piqué polo, barely worn. Smoke-free closet.",
+    "title": "Light blue suit jacket + white shirt + black tie",
+    "description": "Selling all three together. Wore it to one formal and a wedding, no stains.",
     "category": "top",
-    "brand": "Vineyard Vines",
-    "size": "M",
+    "brand": "Other",
+    "size": "42R / L",
     "condition": "good",
-    "price_cents": 1600,
+    "price_cents": 6500,
     "tags": [
-      "Casual",
-      "Gameday",
-      "Philanthropy"
+      "Formal",
+      "Rush"
     ],
     "photo_urls": [
-      "/photos/unsplash-F5i3PZXYkvY.jpg"
+      "/photos/pexels-6375747.jpg"
     ],
-    "dominant_color": "#b09670",
+    "dominant_color": "#5877b1",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -7723,22 +7699,21 @@
     "id": "olemiss-l25",
     "closet_id": "closet-olemiss-me",
     "campus_id": "olemiss",
-    "title": "Gold chunky huggie earrings",
-    "description": "Gold chunky huggie earrings. Happy to bundle.",
-    "category": "accessory",
+    "title": "White puff-sleeve tie-front top + light-wash denim shorts",
+    "description": "My go-to tailgate set, selling the top and shorts together. Boots not included.",
+    "category": "top",
     "brand": "Other",
-    "size": "One size",
+    "size": "S / 25",
     "condition": "like new",
-    "price_cents": 1600,
+    "price_cents": 3000,
     "tags": [
-      "Rush",
-      "Formal",
-      "Gameday"
+      "Gameday",
+      "Casual"
     ],
     "photo_urls": [
-      "/photos/pexels-12168883.jpg"
+      "/photos/pexels-34235836.jpg"
     ],
-    "dominant_color": "#c0ac91",
+    "dominant_color": "#b2a08e",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -7772,22 +7747,21 @@
     "id": "olemiss-l27",
     "closet_id": "closet-olemiss-u6",
     "campus_id": "olemiss",
-    "title": "Freshwater pearl + white bead necklace set",
-    "description": "Freshwater pearl + white bead necklace set. Smoke-free closet.",
-    "category": "accessory",
-    "brand": "BaubleBar",
-    "size": "One size",
-    "condition": "good",
-    "price_cents": 2800,
+    "title": "Oversized heavyweight tee, dusty rose",
+    "description": "Blank heavyweight tee in that washed rose color, great for bid day or painting your own letters on. Worn once.",
+    "category": "top",
+    "brand": "Other",
+    "size": "XL",
+    "condition": "like new",
+    "price_cents": 2000,
     "tags": [
-      "Rush",
-      "Bid Day",
-      "Formal"
+      "Casual",
+      "Bid Day"
     ],
     "photo_urls": [
-      "/photos/pexels-10877350.jpg"
+      "/photos/pexels-9558761.jpg"
     ],
-    "dominant_color": "#cbcecf",
+    "dominant_color": "#c5a9ae",
     "status": "sold",
     "drop_id": null,
     "stock": 1,
@@ -7797,20 +7771,21 @@
     "id": "olemiss-l28",
     "closet_id": "closet-olemiss-u7",
     "campus_id": "olemiss",
-    "title": "Silver sequin mini, worn once",
-    "description": "Silver sequin mini, worn once. Meet at the Exchange Spot or ship to your MSC.",
-    "category": "dress",
-    "brand": "House of CB",
-    "size": "XS",
+    "title": "White embroidered cowboy boots",
+    "description": "Tan embroidery and a stacked wood heel. Broken in from a season of gamedays, plenty of life left.",
+    "category": "shoes",
+    "brand": "Boot Barn",
+    "size": "US 8",
     "condition": "good",
-    "price_cents": 4800,
+    "price_cents": 6300,
     "tags": [
-      "Formal"
+      "Bid Day",
+      "Gameday"
     ],
     "photo_urls": [
-      "/photos/pexels-5713296.jpg"
+      "/photos/pexels-28991312.jpg"
     ],
-    "dominant_color": "#eaedec",
+    "dominant_color": "#776755",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -7844,21 +7819,21 @@
     "id": "olemiss-l30",
     "closet_id": "closet-olemiss-u9",
     "campus_id": "olemiss",
-    "title": "Navy stripe tee + dark wash jeans",
-    "description": "Navy stripe tee + dark wash jeans. Smoke-free closet.",
+    "title": "Red + cream varsity jacket, chenille P patch",
+    "description": "Oversized wool varsity with a chenille P. Bought it for gamedays and wore it twice, way too warm for September.",
     "category": "top",
-    "brand": "Levi's",
-    "size": "S / 27",
-    "condition": "fair",
-    "price_cents": 2200,
+    "brand": "Other",
+    "size": "M",
+    "condition": "like new",
+    "price_cents": 6500,
     "tags": [
-      "Casual",
-      "Philanthropy"
+      "Gameday",
+      "Casual"
     ],
     "photo_urls": [
-      "/photos/pexels-934063.jpg"
+      "/photos/pexels-32782661.jpg"
     ],
-    "dominant_color": "#4e5767",
+    "dominant_color": "#735c65",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -7868,20 +7843,21 @@
     "id": "olemiss-l31",
     "closet_id": "closet-olemiss-u0",
     "campus_id": "olemiss",
-    "title": "Mid-wash straight jeans, bundle of 3",
-    "description": "Mid-wash straight jeans, bundle of 3. Happy to bundle.",
+    "title": "Vintage Arizona Wildcats crewneck, red",
+    "description": "Thrifted this over break. Navy arch lettering and block A, soft inside and still bright.",
     "category": "top",
-    "brand": "Abercrombie",
-    "size": "26",
+    "brand": "Other",
+    "size": "L",
     "condition": "good",
-    "price_cents": 4400,
+    "price_cents": 3000,
     "tags": [
+      "Gameday",
       "Casual"
     ],
     "photo_urls": [
-      "/photos/pexels-4109797.jpg"
+      "/photos/unsplash-tWRJDkIfuQE.jpg"
     ],
-    "dominant_color": "#2a333c",
+    "dominant_color": "#7b433c",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -7891,20 +7867,21 @@
     "id": "olemiss-l32",
     "closet_id": "closet-olemiss-me",
     "campus_id": "olemiss",
-    "title": "Chunky striped crewneck sweater",
-    "description": "Chunky striped crewneck sweater. Smoke-free closet.",
+    "title": "Big letter tees, set of 4 (spells T-E-A-M)",
+    "description": "Made these for a philanthropy relay and we're done with them. Red and navy, sizes S through XL, selling all four together.",
     "category": "top",
-    "brand": "Levi's",
-    "size": "M",
+    "brand": "Other",
+    "size": "S-XL",
     "condition": "good",
-    "price_cents": 2400,
+    "price_cents": 5300,
     "tags": [
+      "Philanthropy",
       "Casual"
     ],
     "photo_urls": [
-      "/photos/pexels-12944791.jpg"
+      "/photos/pexels-7551442.jpg"
     ],
-    "dominant_color": "#6e2637",
+    "dominant_color": "#74595d",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -8150,7 +8127,7 @@
     "campus_id": "olemiss",
     "title": "Philanthropy canvas tote, natural",
     "description": "Philanthropy canvas tote, natural",
-    "category": "top",
+    "category": "accessory",
     "brand": "Phi Mu",
     "size": "One size",
     "condition": "new",
@@ -8195,22 +8172,20 @@
     "id": "msstate-l02",
     "closet_id": "closet-msstate-u1",
     "campus_id": "msstate",
-    "title": "Freshwater pearl + white bead necklace set",
-    "description": "Freshwater pearl + white bead necklace set. Meet at the Exchange Spot or ship to your MSC.",
-    "category": "accessory",
+    "title": "Embroidered Chicago crewneck, heather gray",
+    "description": "Maroon stitched lettering, not printed. Picked it up on a trip and only wore it twice.",
+    "category": "top",
     "brand": "Other",
-    "size": "One size",
-    "condition": "good",
-    "price_cents": 2200,
+    "size": "M",
+    "condition": "like new",
+    "price_cents": 2700,
     "tags": [
-      "Rush",
-      "Bid Day",
-      "Formal"
+      "Casual"
     ],
     "photo_urls": [
-      "/photos/pexels-10877350.jpg"
+      "/photos/unsplash-CDpHeDpkKek.jpg"
     ],
-    "dominant_color": "#cbcecf",
+    "dominant_color": "#c4b7bd",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -8243,20 +8218,21 @@
     "id": "msstate-l04",
     "closet_id": "closet-msstate-me",
     "campus_id": "msstate",
-    "title": "Mid-wash straight jeans, bundle of 3",
-    "description": "Mid-wash straight jeans, bundle of 3. Smoke-free closet.",
+    "title": "Navy tailored blazer, women's fit",
+    "description": "Got it for recruitment interviews and wore it twice. Fitted through the waist and fully lined.",
     "category": "top",
-    "brand": "Aerie",
-    "size": "26",
-    "condition": "fair",
-    "price_cents": 4800,
+    "brand": "J.Crew",
+    "size": "6",
+    "condition": "like new",
+    "price_cents": 6100,
     "tags": [
-      "Casual"
+      "Rush",
+      "Formal"
     ],
     "photo_urls": [
-      "/photos/pexels-4109797.jpg"
+      "/photos/pexels-19109151.jpg"
     ],
-    "dominant_color": "#2a333c",
+    "dominant_color": "#8e887e",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -8313,21 +8289,20 @@
     "id": "msstate-l07",
     "closet_id": "closet-msstate-u6",
     "campus_id": "msstate",
-    "title": "Navy satin slip dress, never worn",
-    "description": "Navy satin slip dress, never worn. Smoke-free closet.",
-    "category": "dress",
+    "title": "Red embroidered western boots",
+    "description": "Red with white stitching, pointed toe and a block heel. Worn to a handful of games, soles in good shape.",
+    "category": "shoes",
     "brand": "Other",
-    "size": "S",
-    "condition": "new",
-    "price_cents": 3800,
+    "size": "US 8",
+    "condition": "good",
+    "price_cents": 6800,
     "tags": [
-      "Gameday",
-      "Formal"
+      "Gameday"
     ],
     "photo_urls": [
-      "/photos/pexels-28735475.jpg"
+      "/photos/unsplash--EEpGsUR6_s.jpg"
     ],
-    "dominant_color": "#1b2028",
+    "dominant_color": "#aa896c",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -8456,22 +8431,21 @@
     "id": "msstate-l13",
     "closet_id": "closet-msstate-u10",
     "campus_id": "msstate",
-    "title": "Light blue oxford button-down",
-    "description": "Light blue oxford button-down. Smoke-free closet.",
+    "title": "Vintage Arizona State crewneck, maroon",
+    "description": "Thrift find with the old Sparky graphic. Fleece inside, fits a little big.",
     "category": "top",
-    "brand": "Southern Tide",
-    "size": "M",
+    "brand": "Other",
+    "size": "XL",
     "condition": "good",
-    "price_cents": 2200,
+    "price_cents": 3300,
     "tags": [
       "Gameday",
-      "Rush",
       "Casual"
     ],
     "photo_urls": [
-      "/photos/pexels-9558723.jpg"
+      "/photos/unsplash-UXbofi0X8Cg.jpg"
     ],
-    "dominant_color": "#cbd1d6",
+    "dominant_color": "#412f3b",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -8505,20 +8479,21 @@
     "id": "msstate-l15",
     "closet_id": "closet-msstate-u4",
     "campus_id": "msstate",
-    "title": "Chunky striped crewneck sweater",
-    "description": "Chunky striped crewneck sweater. Happy to bundle.",
-    "category": "top",
-    "brand": "Abercrombie",
+    "title": "Blush floral satin wrap midi with side ties",
+    "description": "Lulus wrap midi, the side ties let you cinch the waist however you want. Worn to one rush round and a wedding.",
+    "category": "dress",
+    "brand": "Lulus",
     "size": "M",
-    "condition": "like new",
-    "price_cents": 3000,
+    "condition": "good",
+    "price_cents": 3600,
     "tags": [
-      "Casual"
+      "Rush",
+      "Formal"
     ],
     "photo_urls": [
-      "/photos/pexels-12944791.jpg"
+      "/photos/pexels-36213224.jpg"
     ],
-    "dominant_color": "#6e2637",
+    "dominant_color": "#cbb8b5",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -8599,21 +8574,21 @@
     "id": "msstate-l19",
     "closet_id": "closet-msstate-u8",
     "campus_id": "msstate",
-    "title": "Navy stripe tee + dark wash jeans",
-    "description": "Navy stripe tee + dark wash jeans. Meet at the Exchange Spot or ship to your MSC.",
-    "category": "top",
-    "brand": "Aerie",
-    "size": "S / 27",
-    "condition": "fair",
-    "price_cents": 2600,
+    "title": "Suede espadrille platform wedges, black + cognac (2 pairs)",
+    "description": "Selling both pairs together. Comfy enough for a full day of rush, a little wear on the jute.",
+    "category": "shoes",
+    "brand": "Other",
+    "size": "US 7.5",
+    "condition": "good",
+    "price_cents": 4300,
     "tags": [
-      "Casual",
-      "Philanthropy"
+      "Rush",
+      "Casual"
     ],
     "photo_urls": [
-      "/photos/pexels-934063.jpg"
+      "/photos/pexels-31450993.jpg"
     ],
-    "dominant_color": "#4e5767",
+    "dominant_color": "#a97b67",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -8625,7 +8600,7 @@
     "campus_id": "msstate",
     "title": "Broken-in brown cowboy boots",
     "description": "Broken-in brown cowboy boots. Steamed and ready.",
-    "category": "dress",
+    "category": "shoes",
     "brand": "Other",
     "size": "US 8",
     "condition": "like new",
@@ -8646,20 +8621,21 @@
     "id": "msstate-l21",
     "closet_id": "closet-msstate-u0",
     "campus_id": "msstate",
-    "title": "Silver sequin mini, worn once",
-    "description": "Silver sequin mini, worn once. Smoke-free closet.",
-    "category": "dress",
-    "brand": "Windsor",
-    "size": "XS",
-    "condition": "good",
-    "price_cents": 4800,
+    "title": "Oversized heavyweight tee, dusty rose",
+    "description": "Blank heavyweight tee in that washed rose color, great for bid day or painting your own letters on. Worn once.",
+    "category": "top",
+    "brand": "Other",
+    "size": "M",
+    "condition": "like new",
+    "price_cents": 1600,
     "tags": [
-      "Formal"
+      "Casual",
+      "Bid Day"
     ],
     "photo_urls": [
-      "/photos/pexels-5713296.jpg"
+      "/photos/pexels-9558761.jpg"
     ],
-    "dominant_color": "#eaedec",
+    "dominant_color": "#c5a9ae",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -8718,22 +8694,21 @@
     "id": "msstate-l24",
     "closet_id": "closet-msstate-u3",
     "campus_id": "msstate",
-    "title": "Gold chunky huggie earrings",
-    "description": "Gold chunky huggie earrings. Happy to bundle.",
+    "title": "Statement earring bundle + pearl scrunchie",
+    "description": "Cleaning out my jewelry box: crystal hoops, gold knots, drop earrings, a ring and a pearl scrunchie. Happy to split if you only want a few.",
     "category": "accessory",
-    "brand": "Lele Sadoughi",
+    "brand": "BaubleBar",
     "size": "One size",
-    "condition": "fair",
-    "price_cents": 2000,
+    "condition": "good",
+    "price_cents": 2700,
     "tags": [
       "Rush",
-      "Formal",
-      "Gameday"
+      "Formal"
     ],
     "photo_urls": [
-      "/photos/pexels-12168883.jpg"
+      "/photos/pexels-34501351.jpg"
     ],
-    "dominant_color": "#c0ac91",
+    "dominant_color": "#959083",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -8790,22 +8765,21 @@
     "id": "msstate-l27",
     "closet_id": "closet-msstate-u10",
     "campus_id": "msstate",
-    "title": "White piqué polo, barely worn",
-    "description": "White piqué polo, barely worn. Meet at the Exchange Spot or ship to your MSC.",
+    "title": "White cotton button-down, rush week ready",
+    "description": "Textured cotton with tortoise buttons and a chest pocket. Made it through rush week and still looks crisp.",
     "category": "top",
-    "brand": "Brooks Brothers",
-    "size": "M",
-    "condition": "like new",
-    "price_cents": 1800,
+    "brand": "Southern Tide",
+    "size": "L",
+    "condition": "good",
+    "price_cents": 2500,
     "tags": [
-      "Casual",
-      "Gameday",
-      "Philanthropy"
+      "Rush",
+      "Casual"
     ],
     "photo_urls": [
-      "/photos/unsplash-F5i3PZXYkvY.jpg"
+      "/photos/pexels-28576622.jpg"
     ],
-    "dominant_color": "#b09670",
+    "dominant_color": "#b0bbc1",
     "status": "sold",
     "drop_id": null,
     "stock": 1,
@@ -8815,21 +8789,21 @@
     "id": "msstate-l28",
     "closet_id": "closet-msstate-u7",
     "campus_id": "msstate",
-    "title": "Crimson stripe button-down, oversized fit",
-    "description": "Crimson stripe button-down, oversized fit. Smoke-free closet.",
-    "category": "dress",
-    "brand": "Judith March",
-    "size": "M",
-    "condition": "good",
-    "price_cents": 2200,
+    "title": "White puff-sleeve tie-front top + light-wash denim shorts",
+    "description": "My go-to tailgate set, selling the top and shorts together. Boots not included.",
+    "category": "top",
+    "brand": "Other",
+    "size": "S / 25",
+    "condition": "like new",
+    "price_cents": 3000,
     "tags": [
       "Gameday",
       "Casual"
     ],
     "photo_urls": [
-      "/photos/pexels-12955555.jpg"
+      "/photos/pexels-34235836.jpg"
     ],
-    "dominant_color": "#c3b1ae",
+    "dominant_color": "#b2a08e",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -8865,7 +8839,7 @@
     "campus_id": "msstate",
     "title": "Teal leather top-handle bag",
     "description": "Teal leather top-handle bag. Meet at the Exchange Spot or ship to your MSC.",
-    "category": "shoes",
+    "category": "accessory",
     "brand": "Sam Edelman",
     "size": "One size",
     "condition": "good",
@@ -9171,7 +9145,7 @@
     "campus_id": "msstate",
     "title": "Philanthropy canvas tote, natural",
     "description": "Philanthropy canvas tote, natural",
-    "category": "top",
+    "category": "accessory",
     "brand": "Phi Mu",
     "size": "One size",
     "condition": "new",
@@ -9192,21 +9166,21 @@
     "id": "mizzou-l01",
     "closet_id": "closet-mizzou-u0",
     "campus_id": "mizzou",
-    "title": "Navy satin slip dress, never worn",
-    "description": "Navy satin slip dress, never worn. Meet at the Exchange Spot or ship to your MSC.",
-    "category": "dress",
-    "brand": "Lulus",
-    "size": "S",
-    "condition": "new",
-    "price_cents": 3600,
+    "title": "Forest green + cream varsity jacket, M patch",
+    "description": "Green wool body, cream sleeves and a chenille M. Fits oversized, light wear on the cuffs.",
+    "category": "top",
+    "brand": "Other",
+    "size": "L",
+    "condition": "good",
+    "price_cents": 6600,
     "tags": [
       "Gameday",
-      "Formal"
+      "Casual"
     ],
     "photo_urls": [
-      "/photos/pexels-28735475.jpg"
+      "/photos/unsplash-tJJNf1gqb94.jpg"
     ],
-    "dominant_color": "#1b2028",
+    "dominant_color": "#44402a",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -9240,21 +9214,21 @@
     "id": "mizzou-l03",
     "closet_id": "closet-mizzou-u2",
     "campus_id": "mizzou",
-    "title": "Navy stripe tee + dark wash jeans",
-    "description": "Navy stripe tee + dark wash jeans. Meet at the Exchange Spot or ship to your MSC.",
+    "title": "Vintage West Virginia University hoodie, gold",
+    "description": "Thrifted on a road trip and it's the softest hoodie I own. Navy collegiate print, no cracking, fits oversized.",
     "category": "top",
-    "brand": "Abercrombie",
-    "size": "S / 27",
-    "condition": "new",
-    "price_cents": 2800,
+    "brand": "Other",
+    "size": "L",
+    "condition": "good",
+    "price_cents": 3000,
     "tags": [
-      "Casual",
-      "Philanthropy"
+      "Gameday",
+      "Casual"
     ],
     "photo_urls": [
-      "/photos/pexels-934063.jpg"
+      "/photos/pexels-6443595.jpg"
     ],
-    "dominant_color": "#4e5767",
+    "dominant_color": "#b35521",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -9335,20 +9309,21 @@
     "id": "mizzou-l07",
     "closet_id": "closet-mizzou-u6",
     "campus_id": "mizzou",
-    "title": "Silver sequin mini, worn once",
-    "description": "Silver sequin mini, worn once. Happy to bundle.",
+    "title": "Blush floral satin wrap midi with side ties",
+    "description": "Lulus wrap midi, the side ties let you cinch the waist however you want. Worn to one rush round and a wedding.",
     "category": "dress",
-    "brand": "Princess Polly",
-    "size": "XS",
-    "condition": "like new",
-    "price_cents": 4200,
+    "brand": "Lulus",
+    "size": "L",
+    "condition": "good",
+    "price_cents": 3800,
     "tags": [
+      "Rush",
       "Formal"
     ],
     "photo_urls": [
-      "/photos/pexels-5713296.jpg"
+      "/photos/pexels-36213224.jpg"
     ],
-    "dominant_color": "#eaedec",
+    "dominant_color": "#cbb8b5",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -9406,21 +9381,21 @@
     "id": "mizzou-l10",
     "closet_id": "closet-mizzou-u9",
     "campus_id": "mizzou",
-    "title": "Crimson stripe button-down, oversized fit",
-    "description": "Crimson stripe button-down, oversized fit. Smoke-free closet.",
-    "category": "dress",
-    "brand": "Judith March",
-    "size": "M",
-    "condition": "new",
-    "price_cents": 2600,
+    "title": "Burnt orange mini top-handle bag",
+    "description": "Fits your phone, ID and a lip gloss, which is all you need on gameday. Gold hardware, no scuffs.",
+    "category": "accessory",
+    "brand": "Other",
+    "size": "One size",
+    "condition": "like new",
+    "price_cents": 3400,
     "tags": [
       "Gameday",
-      "Casual"
+      "Formal"
     ],
     "photo_urls": [
-      "/photos/pexels-12955555.jpg"
+      "/photos/pexels-8801091.jpg"
     ],
-    "dominant_color": "#c3b1ae",
+    "dominant_color": "#867468",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -9453,22 +9428,21 @@
     "id": "mizzou-l12",
     "closet_id": "closet-mizzou-u1",
     "campus_id": "mizzou",
-    "title": "Freshwater pearl + white bead necklace set",
-    "description": "Freshwater pearl + white bead necklace set. Steamed and ready.",
-    "category": "accessory",
-    "brand": "BaubleBar",
-    "size": "One size",
+    "title": "White tiered tie-waist sundress",
+    "description": "Perfect for bid day, or gameday with boots. Tie waist and a tiered skirt; boots and hat not included.",
+    "category": "dress",
+    "brand": "Altar'd State",
+    "size": "S",
     "condition": "good",
-    "price_cents": 2400,
+    "price_cents": 3400,
     "tags": [
-      "Rush",
       "Bid Day",
-      "Formal"
+      "Rush"
     ],
     "photo_urls": [
-      "/photos/pexels-10877350.jpg"
+      "/photos/pexels-18194381.jpg"
     ],
-    "dominant_color": "#cbcecf",
+    "dominant_color": "#515347",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -9526,22 +9500,21 @@
     "id": "mizzou-l15",
     "closet_id": "closet-mizzou-u10",
     "campus_id": "mizzou",
-    "title": "White piqué polo, barely worn",
-    "description": "White piqué polo, barely worn. Meet at the Exchange Spot or ship to your MSC.",
+    "title": "Vintage Oklahoma State hoodie, black",
+    "description": "Thrift find with stitched tackle-twill letters. Heavyweight and warm, no fading.",
     "category": "top",
-    "brand": "Vineyard Vines",
-    "size": "M",
-    "condition": "like new",
-    "price_cents": 2000,
+    "brand": "Other",
+    "size": "L",
+    "condition": "good",
+    "price_cents": 3400,
     "tags": [
-      "Casual",
       "Gameday",
-      "Philanthropy"
+      "Casual"
     ],
     "photo_urls": [
-      "/photos/unsplash-F5i3PZXYkvY.jpg"
+      "/photos/pexels-30494343.jpg"
     ],
-    "dominant_color": "#b09670",
+    "dominant_color": "#684e42",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -9551,22 +9524,21 @@
     "id": "mizzou-l16",
     "closet_id": "closet-mizzou-u11",
     "campus_id": "mizzou",
-    "title": "Light blue oxford button-down",
-    "description": "Light blue oxford button-down. Smoke-free closet.",
+    "title": "Vintage Notre Dame crewneck, white",
+    "description": "Found it at a flea market and the arch print and seal are still bright. Roomy fit, light pilling.",
     "category": "top",
-    "brand": "Southern Tide",
-    "size": "M",
-    "condition": "fair",
-    "price_cents": 2400,
+    "brand": "Other",
+    "size": "L",
+    "condition": "good",
+    "price_cents": 4500,
     "tags": [
       "Gameday",
-      "Rush",
       "Casual"
     ],
     "photo_urls": [
-      "/photos/pexels-9558723.jpg"
+      "/photos/pexels-16247612.jpg"
     ],
-    "dominant_color": "#cbd1d6",
+    "dominant_color": "#8d8476",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -9648,20 +9620,21 @@
     "id": "mizzou-l20",
     "closet_id": "closet-mizzou-u9",
     "campus_id": "mizzou",
-    "title": "Mid-wash straight jeans, bundle of 3",
-    "description": "Mid-wash straight jeans, bundle of 3. Smoke-free closet.",
+    "title": "Hand-stitched red 'A' tee, heather gray",
+    "description": "Stitched the letter myself for big/little reveal and ended up with an extra. Never worn.",
     "category": "top",
-    "brand": "Aerie",
-    "size": "26",
-    "condition": "good",
-    "price_cents": 4200,
+    "brand": "Other",
+    "size": "S",
+    "condition": "new",
+    "price_cents": 2500,
     "tags": [
+      "Bid Day",
       "Casual"
     ],
     "photo_urls": [
-      "/photos/pexels-4109797.jpg"
+      "/photos/pexels-10566058.jpg"
     ],
-    "dominant_color": "#2a333c",
+    "dominant_color": "#a2928b",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -9744,8 +9717,8 @@
     "campus_id": "mizzou",
     "title": "Broken-in brown cowboy boots",
     "description": "Broken-in brown cowboy boots. Steamed and ready.",
-    "category": "dress",
-    "brand": "Judith March",
+    "category": "shoes",
+    "brand": "Other",
     "size": "US 8",
     "condition": "like new",
     "price_cents": 9200,
@@ -9861,7 +9834,7 @@
     "campus_id": "mizzou",
     "title": "Teal leather top-handle bag",
     "description": "Teal leather top-handle bag. Steamed and ready.",
-    "category": "shoes",
+    "category": "accessory",
     "brand": "Dolce Vita",
     "size": "One size",
     "condition": "fair",
@@ -9932,22 +9905,20 @@
     "id": "mizzou-l32",
     "closet_id": "closet-mizzou-me",
     "campus_id": "mizzou",
-    "title": "Gold chunky huggie earrings",
-    "description": "Gold chunky huggie earrings. Happy to bundle.",
+    "title": "Clear vinyl tote with cognac trim + pouch",
+    "description": "Clear tote with a zip pouch inside for your phone and keys. Check your stadium's bag rules before you buy.",
     "category": "accessory",
-    "brand": "BaubleBar",
+    "brand": "Other",
     "size": "One size",
     "condition": "like new",
-    "price_cents": 2000,
+    "price_cents": 2700,
     "tags": [
-      "Rush",
-      "Formal",
       "Gameday"
     ],
     "photo_urls": [
-      "/photos/pexels-12168883.jpg"
+      "/photos/pexels-9958646.jpg"
     ],
-    "dominant_color": "#c0ac91",
+    "dominant_color": "#6d6b5c",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -9957,20 +9928,21 @@
     "id": "mizzou-l33",
     "closet_id": "closet-mizzou-u2",
     "campus_id": "mizzou",
-    "title": "Chunky striped crewneck sweater",
-    "description": "Chunky striped crewneck sweater. Meet at the Exchange Spot or ship to your MSC.",
-    "category": "top",
-    "brand": "Abercrombie",
-    "size": "M",
-    "condition": "new",
-    "price_cents": 3000,
+    "title": "White tall western boots, stacked heel",
+    "description": "Side zip so they're easy on and off. Worn once for bid day pictures.",
+    "category": "shoes",
+    "brand": "Other",
+    "size": "US 8",
+    "condition": "like new",
+    "price_cents": 5500,
     "tags": [
-      "Casual"
+      "Gameday",
+      "Bid Day"
     ],
     "photo_urls": [
-      "/photos/pexels-12944791.jpg"
+      "/photos/pexels-34584012.jpg"
     ],
-    "dominant_color": "#6e2637",
+    "dominant_color": "#88827c",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -10192,7 +10164,7 @@
     "campus_id": "mizzou",
     "title": "Philanthropy canvas tote, natural",
     "description": "Philanthropy canvas tote, natural",
-    "category": "top",
+    "category": "accessory",
     "brand": "Phi Mu",
     "size": "One size",
     "condition": "new",
@@ -10213,21 +10185,21 @@
     "id": "ou-l01",
     "closet_id": "closet-ou-u0",
     "campus_id": "ou",
-    "title": "Navy satin slip dress, never worn",
-    "description": "Navy satin slip dress, never worn. Smoke-free closet.",
-    "category": "dress",
-    "brand": "Judith March",
-    "size": "S",
-    "condition": "fair",
-    "price_cents": 4000,
+    "title": "Vintage Arizona Wildcats crewneck, red",
+    "description": "Thrifted this over break. Navy arch lettering and block A, soft inside and still bright.",
+    "category": "top",
+    "brand": "Other",
+    "size": "M",
+    "condition": "good",
+    "price_cents": 2900,
     "tags": [
       "Gameday",
-      "Formal"
+      "Casual"
     ],
     "photo_urls": [
-      "/photos/pexels-28735475.jpg"
+      "/photos/unsplash-tWRJDkIfuQE.jpg"
     ],
-    "dominant_color": "#1b2028",
+    "dominant_color": "#7b433c",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -10285,22 +10257,21 @@
     "id": "ou-l04",
     "closet_id": "closet-ou-me",
     "campus_id": "ou",
-    "title": "Gold chunky huggie earrings",
-    "description": "Gold chunky huggie earrings. Smoke-free closet.",
-    "category": "accessory",
-    "brand": "BaubleBar",
-    "size": "One size",
-    "condition": "new",
-    "price_cents": 2000,
+    "title": "Red + cream varsity jacket, chenille P patch",
+    "description": "Oversized wool varsity with a chenille P. Bought it for gamedays and wore it twice, way too warm for September.",
+    "category": "top",
+    "brand": "Other",
+    "size": "M",
+    "condition": "like new",
+    "price_cents": 7100,
     "tags": [
-      "Rush",
-      "Formal",
-      "Gameday"
+      "Gameday",
+      "Casual"
     ],
     "photo_urls": [
-      "/photos/pexels-12168883.jpg"
+      "/photos/pexels-32782661.jpg"
     ],
-    "dominant_color": "#c0ac91",
+    "dominant_color": "#735c65",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -10312,7 +10283,7 @@
     "campus_id": "ou",
     "title": "Broken-in brown cowboy boots",
     "description": "Broken-in brown cowboy boots. Smoke-free closet.",
-    "category": "dress",
+    "category": "shoes",
     "brand": "Boot Barn",
     "size": "US 8",
     "condition": "fair",
@@ -10357,22 +10328,21 @@
     "id": "ou-l07",
     "closet_id": "closet-ou-u11",
     "campus_id": "ou",
-    "title": "Light blue oxford button-down",
-    "description": "Light blue oxford button-down. Happy to bundle.",
+    "title": "Vintage Notre Dame crewneck, white",
+    "description": "Found it at a flea market and the arch print and seal are still bright. Roomy fit, light pilling.",
     "category": "top",
-    "brand": "Vineyard Vines",
+    "brand": "Other",
     "size": "M",
-    "condition": "like new",
-    "price_cents": 2400,
+    "condition": "good",
+    "price_cents": 4300,
     "tags": [
       "Gameday",
-      "Rush",
       "Casual"
     ],
     "photo_urls": [
-      "/photos/pexels-9558723.jpg"
+      "/photos/pexels-16247612.jpg"
     ],
-    "dominant_color": "#cbd1d6",
+    "dominant_color": "#8d8476",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -10503,7 +10473,7 @@
     "campus_id": "ou",
     "title": "Teal leather top-handle bag",
     "description": "Teal leather top-handle bag. Happy to bundle.",
-    "category": "shoes",
+    "category": "accessory",
     "brand": "Ariat",
     "size": "One size",
     "condition": "fair",
@@ -10525,20 +10495,21 @@
     "id": "ou-l14",
     "closet_id": "closet-ou-u3",
     "campus_id": "ou",
-    "title": "Silver sequin mini, worn once",
-    "description": "Silver sequin mini, worn once. Smoke-free closet.",
+    "title": "Black + taupe jacquard halter mini, worn once",
+    "description": "Wore it once to a date party and it's been hanging in my closet since. Halter straps and a sheer banded waist, no snags.",
     "category": "dress",
-    "brand": "Revolve",
-    "size": "XS",
-    "condition": "good",
+    "brand": "Other",
+    "size": "S",
+    "condition": "like new",
     "price_cents": 4200,
     "tags": [
-      "Formal"
+      "Formal",
+      "Rush"
     ],
     "photo_urls": [
-      "/photos/pexels-5713296.jpg"
+      "/photos/pexels-14513896.jpg"
     ],
-    "dominant_color": "#eaedec",
+    "dominant_color": "#565772",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -10572,22 +10543,21 @@
     "id": "ou-l16",
     "closet_id": "closet-ou-u5",
     "campus_id": "ou",
-    "title": "Freshwater pearl + white bead necklace set",
-    "description": "Freshwater pearl + white bead necklace set. Happy to bundle.",
-    "category": "accessory",
-    "brand": "Kendra Scott",
-    "size": "One size",
-    "condition": "fair",
-    "price_cents": 2200,
+    "title": "Big letter tees, set of 4 (spells T-E-A-M)",
+    "description": "Made these for a philanthropy relay and we're done with them. Red and navy, sizes S through XL, selling all four together.",
+    "category": "top",
+    "brand": "Other",
+    "size": "S-XL",
+    "condition": "good",
+    "price_cents": 5300,
     "tags": [
-      "Rush",
-      "Bid Day",
-      "Formal"
+      "Philanthropy",
+      "Casual"
     ],
     "photo_urls": [
-      "/photos/pexels-10877350.jpg"
+      "/photos/pexels-7551442.jpg"
     ],
-    "dominant_color": "#cbcecf",
+    "dominant_color": "#74595d",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -10692,22 +10662,21 @@
     "id": "ou-l21",
     "closet_id": "closet-ou-u12",
     "campus_id": "ou",
-    "title": "White piqué polo, barely worn",
-    "description": "White piqué polo, barely worn. Meet at the Exchange Spot or ship to your MSC.",
+    "title": "Light blue suit jacket + white shirt + black tie",
+    "description": "Selling all three together. Wore it to one formal and a wedding, no stains.",
     "category": "top",
-    "brand": "J.Crew",
-    "size": "M",
-    "condition": "like new",
-    "price_cents": 2000,
+    "brand": "Other",
+    "size": "42R / L",
+    "condition": "good",
+    "price_cents": 7200,
     "tags": [
-      "Casual",
-      "Gameday",
-      "Philanthropy"
+      "Formal",
+      "Rush"
     ],
     "photo_urls": [
-      "/photos/unsplash-F5i3PZXYkvY.jpg"
+      "/photos/pexels-6375747.jpg"
     ],
-    "dominant_color": "#b09670",
+    "dominant_color": "#5877b1",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -10766,21 +10735,21 @@
     "id": "ou-l24",
     "closet_id": "closet-ou-u3",
     "campus_id": "ou",
-    "title": "Crimson stripe button-down, oversized fit",
-    "description": "Crimson stripe button-down, oversized fit. Steamed and ready.",
-    "category": "dress",
-    "brand": "Boot Barn",
-    "size": "M",
+    "title": "White tall western boots, stacked heel",
+    "description": "Side zip so they're easy on and off. Worn once for bid day pictures.",
+    "category": "shoes",
+    "brand": "Other",
+    "size": "US 7",
     "condition": "like new",
-    "price_cents": 2000,
+    "price_cents": 5800,
     "tags": [
       "Gameday",
-      "Casual"
+      "Bid Day"
     ],
     "photo_urls": [
-      "/photos/pexels-12955555.jpg"
+      "/photos/pexels-34584012.jpg"
     ],
-    "dominant_color": "#c3b1ae",
+    "dominant_color": "#88827c",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -10836,21 +10805,21 @@
     "id": "ou-l27",
     "closet_id": "closet-ou-u6",
     "campus_id": "ou",
-    "title": "Navy stripe tee + dark wash jeans",
-    "description": "Navy stripe tee + dark wash jeans. Happy to bundle.",
-    "category": "top",
-    "brand": "Madewell",
-    "size": "S / 27",
+    "title": "Black velvet hair bow with pearl ring",
+    "description": "Clip-back velvet bow with a pearl ring in the middle. Wore it to one formal.",
+    "category": "accessory",
+    "brand": "Lele Sadoughi",
+    "size": "One size",
     "condition": "like new",
-    "price_cents": 2800,
+    "price_cents": 1500,
     "tags": [
-      "Casual",
-      "Philanthropy"
+      "Formal",
+      "Rush"
     ],
     "photo_urls": [
-      "/photos/pexels-934063.jpg"
+      "/photos/unsplash-d_iVNyGeeHo.jpg"
     ],
-    "dominant_color": "#4e5767",
+    "dominant_color": "#a5a8a8",
     "status": "sold",
     "drop_id": null,
     "stock": 1,
@@ -10931,20 +10900,20 @@
     "id": "ou-l31",
     "closet_id": "closet-ou-u0",
     "campus_id": "ou",
-    "title": "Chunky striped crewneck sweater",
-    "description": "Chunky striped crewneck sweater. Smoke-free closet.",
-    "category": "top",
-    "brand": "Madewell",
-    "size": "M",
+    "title": "Clear vinyl tote with cognac trim + pouch",
+    "description": "Clear tote with a zip pouch inside for your phone and keys. Check your stadium's bag rules before you buy.",
+    "category": "accessory",
+    "brand": "Other",
+    "size": "One size",
     "condition": "like new",
-    "price_cents": 3000,
+    "price_cents": 2500,
     "tags": [
-      "Casual"
+      "Gameday"
     ],
     "photo_urls": [
-      "/photos/pexels-12944791.jpg"
+      "/photos/pexels-9958646.jpg"
     ],
-    "dominant_color": "#6e2637",
+    "dominant_color": "#6d6b5c",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -10954,20 +10923,21 @@
     "id": "ou-l32",
     "closet_id": "closet-ou-me",
     "campus_id": "ou",
-    "title": "Mid-wash straight jeans, bundle of 3",
-    "description": "Mid-wash straight jeans, bundle of 3. Meet at the Exchange Spot or ship to your MSC.",
+    "title": "Hand-stitched red 'A' tee, heather gray",
+    "description": "Stitched the letter myself for big/little reveal and ended up with an extra. Never worn.",
     "category": "top",
-    "brand": "Madewell",
-    "size": "26",
-    "condition": "like new",
-    "price_cents": 4200,
+    "brand": "Other",
+    "size": "S",
+    "condition": "new",
+    "price_cents": 2800,
     "tags": [
+      "Bid Day",
       "Casual"
     ],
     "photo_urls": [
-      "/photos/pexels-4109797.jpg"
+      "/photos/pexels-10566058.jpg"
     ],
-    "dominant_color": "#2a333c",
+    "dominant_color": "#a2928b",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -11213,7 +11183,7 @@
     "campus_id": "ou",
     "title": "Philanthropy canvas tote, natural",
     "description": "Philanthropy canvas tote, natural",
-    "category": "top",
+    "category": "accessory",
     "brand": "Phi Mu",
     "size": "One size",
     "condition": "new",
@@ -11260,7 +11230,7 @@
     "campus_id": "sc",
     "title": "Teal leather top-handle bag",
     "description": "Teal leather top-handle bag. Steamed and ready.",
-    "category": "shoes",
+    "category": "accessory",
     "brand": "Ariat",
     "size": "One size",
     "condition": "like new",
@@ -11330,22 +11300,21 @@
     "id": "sc-l05",
     "closet_id": "closet-sc-u4",
     "campus_id": "sc",
-    "title": "Gold chunky huggie earrings",
-    "description": "Gold chunky huggie earrings. Steamed and ready.",
-    "category": "accessory",
-    "brand": "Lele Sadoughi",
-    "size": "One size",
-    "condition": "fair",
-    "price_cents": 2000,
+    "title": "White embroidered cowboy boots",
+    "description": "Tan embroidery and a stacked wood heel. Broken in from a season of gamedays, plenty of life left.",
+    "category": "shoes",
+    "brand": "Boot Barn",
+    "size": "US 8",
+    "condition": "good",
+    "price_cents": 5700,
     "tags": [
-      "Rush",
-      "Formal",
+      "Bid Day",
       "Gameday"
     ],
     "photo_urls": [
-      "/photos/pexels-12168883.jpg"
+      "/photos/pexels-28991312.jpg"
     ],
-    "dominant_color": "#c0ac91",
+    "dominant_color": "#776755",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -11379,22 +11348,21 @@
     "id": "sc-l07",
     "closet_id": "closet-sc-u11",
     "campus_id": "sc",
-    "title": "Light blue oxford button-down",
-    "description": "Light blue oxford button-down. Meet at the Exchange Spot or ship to your MSC.",
+    "title": "Navy pinstripe double-breasted suit",
+    "description": "Jacket and pants, tailored once. Wore it to two formals; tie and shoes not included.",
     "category": "top",
-    "brand": "Vineyard Vines",
-    "size": "M",
-    "condition": "good",
-    "price_cents": 2000,
+    "brand": "Brooks Brothers",
+    "size": "40R / 32W",
+    "condition": "like new",
+    "price_cents": 12000,
     "tags": [
-      "Gameday",
-      "Rush",
-      "Casual"
+      "Formal",
+      "Rush"
     ],
     "photo_urls": [
-      "/photos/pexels-9558723.jpg"
+      "/photos/pexels-39715168.jpg"
     ],
-    "dominant_color": "#cbd1d6",
+    "dominant_color": "#6b5245",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -11428,20 +11396,21 @@
     "id": "sc-l09",
     "closet_id": "closet-sc-u8",
     "campus_id": "sc",
-    "title": "Mid-wash straight jeans, bundle of 3",
-    "description": "Mid-wash straight jeans, bundle of 3. Steamed and ready.",
-    "category": "top",
-    "brand": "Abercrombie",
-    "size": "26",
-    "condition": "like new",
-    "price_cents": 4400,
+    "title": "White tiered tie-waist sundress",
+    "description": "Perfect for bid day, or gameday with boots. Tie waist and a tiered skirt; boots and hat not included.",
+    "category": "dress",
+    "brand": "Altar'd State",
+    "size": "S",
+    "condition": "good",
+    "price_cents": 3400,
     "tags": [
-      "Casual"
+      "Bid Day",
+      "Rush"
     ],
     "photo_urls": [
-      "/photos/pexels-4109797.jpg"
+      "/photos/pexels-18194381.jpg"
     ],
-    "dominant_color": "#2a333c",
+    "dominant_color": "#515347",
     "status": "sold",
     "drop_id": null,
     "stock": 1,
@@ -11451,21 +11420,20 @@
     "id": "sc-l10",
     "closet_id": "closet-sc-u9",
     "campus_id": "sc",
-    "title": "Navy stripe tee + dark wash jeans",
-    "description": "Navy stripe tee + dark wash jeans. Happy to bundle.",
-    "category": "top",
-    "brand": "Levi's",
-    "size": "S / 27",
+    "title": "Rose gold sequin bodycon mini, worn once",
+    "description": "Bought it for semi-formal and only wore it that night. Stretchy, no missing sequins.",
+    "category": "dress",
+    "brand": "Princess Polly",
+    "size": "M",
     "condition": "like new",
-    "price_cents": 2800,
+    "price_cents": 4800,
     "tags": [
-      "Casual",
-      "Philanthropy"
+      "Formal"
     ],
     "photo_urls": [
-      "/photos/pexels-934063.jpg"
+      "/photos/pexels-11046456.jpg"
     ],
-    "dominant_color": "#4e5767",
+    "dominant_color": "#d4ccc9",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -11477,7 +11445,7 @@
     "campus_id": "sc",
     "title": "Broken-in brown cowboy boots",
     "description": "Broken-in brown cowboy boots. Meet at the Exchange Spot or ship to your MSC.",
-    "category": "dress",
+    "category": "shoes",
     "brand": "Boot Barn",
     "size": "US 8",
     "condition": "good",
@@ -11593,22 +11561,21 @@
     "id": "sc-l16",
     "closet_id": "closet-sc-u5",
     "campus_id": "sc",
-    "title": "Freshwater pearl + white bead necklace set",
-    "description": "Freshwater pearl + white bead necklace set. Meet at the Exchange Spot or ship to your MSC.",
-    "category": "accessory",
+    "title": "Hand-stitched red 'A' tee, heather gray",
+    "description": "Stitched the letter myself for big/little reveal and ended up with an extra. Never worn.",
+    "category": "top",
     "brand": "Other",
-    "size": "One size",
-    "condition": "like new",
-    "price_cents": 2200,
+    "size": "S",
+    "condition": "new",
+    "price_cents": 2800,
     "tags": [
-      "Rush",
       "Bid Day",
-      "Formal"
+      "Casual"
     ],
     "photo_urls": [
-      "/photos/pexels-10877350.jpg"
+      "/photos/pexels-10566058.jpg"
     ],
-    "dominant_color": "#cbcecf",
+    "dominant_color": "#a2928b",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -11689,21 +11656,21 @@
     "id": "sc-l20",
     "closet_id": "closet-sc-u9",
     "campus_id": "sc",
-    "title": "Navy satin slip dress, never worn",
-    "description": "Navy satin slip dress, never worn. Smoke-free closet.",
-    "category": "dress",
-    "brand": "Judith March",
-    "size": "S",
-    "condition": "like new",
-    "price_cents": 3400,
+    "title": "Vintage Arizona Wildcats crewneck, red",
+    "description": "Thrifted this over break. Navy arch lettering and block A, soft inside and still bright.",
+    "category": "top",
+    "brand": "Other",
+    "size": "L",
+    "condition": "good",
+    "price_cents": 3000,
     "tags": [
       "Gameday",
-      "Formal"
+      "Casual"
     ],
     "photo_urls": [
-      "/photos/pexels-28735475.jpg"
+      "/photos/unsplash-tWRJDkIfuQE.jpg"
     ],
-    "dominant_color": "#1b2028",
+    "dominant_color": "#7b433c",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -11736,20 +11703,20 @@
     "id": "sc-l22",
     "closet_id": "closet-sc-u1",
     "campus_id": "sc",
-    "title": "Chunky striped crewneck sweater",
-    "description": "Chunky striped crewneck sweater. Happy to bundle.",
+    "title": "Embroidered Chicago crewneck, heather gray",
+    "description": "Maroon stitched lettering, not printed. Picked it up on a trip and only wore it twice.",
     "category": "top",
-    "brand": "Levi's",
-    "size": "M",
+    "brand": "Other",
+    "size": "S",
     "condition": "like new",
-    "price_cents": 3000,
+    "price_cents": 2500,
     "tags": [
       "Casual"
     ],
     "photo_urls": [
-      "/photos/pexels-12944791.jpg"
+      "/photos/unsplash-CDpHeDpkKek.jpg"
     ],
-    "dominant_color": "#6e2637",
+    "dominant_color": "#c4b7bd",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -11808,22 +11775,21 @@
     "id": "sc-l25",
     "closet_id": "closet-sc-u10",
     "campus_id": "sc",
-    "title": "White piqué polo, barely worn",
-    "description": "White piqué polo, barely worn. Steamed and ready.",
+    "title": "Vintage Arizona State crewneck, maroon",
+    "description": "Thrift find with the old Sparky graphic. Fleece inside, fits a little big.",
     "category": "top",
-    "brand": "J.Crew",
-    "size": "M",
+    "brand": "Other",
+    "size": "L",
     "condition": "good",
-    "price_cents": 1800,
+    "price_cents": 3000,
     "tags": [
-      "Casual",
       "Gameday",
-      "Philanthropy"
+      "Casual"
     ],
     "photo_urls": [
-      "/photos/unsplash-F5i3PZXYkvY.jpg"
+      "/photos/unsplash-UXbofi0X8Cg.jpg"
     ],
-    "dominant_color": "#b09670",
+    "dominant_color": "#412f3b",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -11833,21 +11799,21 @@
     "id": "sc-l26",
     "closet_id": "closet-sc-u5",
     "campus_id": "sc",
-    "title": "Crimson stripe button-down, oversized fit",
-    "description": "Crimson stripe button-down, oversized fit. Steamed and ready.",
-    "category": "dress",
-    "brand": "Altar'd State",
-    "size": "M",
-    "condition": "good",
-    "price_cents": 2000,
+    "title": "Red + cream varsity jacket, chenille P patch",
+    "description": "Oversized wool varsity with a chenille P. Bought it for gamedays and wore it twice, way too warm for September.",
+    "category": "top",
+    "brand": "Other",
+    "size": "L",
+    "condition": "like new",
+    "price_cents": 6800,
     "tags": [
       "Gameday",
       "Casual"
     ],
     "photo_urls": [
-      "/photos/pexels-12955555.jpg"
+      "/photos/pexels-32782661.jpg"
     ],
-    "dominant_color": "#c3b1ae",
+    "dominant_color": "#735c65",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -11857,20 +11823,21 @@
     "id": "sc-l27",
     "closet_id": "closet-sc-u6",
     "campus_id": "sc",
-    "title": "Silver sequin mini, worn once",
-    "description": "Silver sequin mini, worn once. Happy to bundle.",
-    "category": "dress",
-    "brand": "Revolve",
-    "size": "XS",
-    "condition": "fair",
-    "price_cents": 4400,
+    "title": "Statement earring bundle + pearl scrunchie",
+    "description": "Cleaning out my jewelry box: crystal hoops, gold knots, drop earrings, a ring and a pearl scrunchie. Happy to split if you only want a few.",
+    "category": "accessory",
+    "brand": "BaubleBar",
+    "size": "One size",
+    "condition": "good",
+    "price_cents": 2700,
     "tags": [
+      "Rush",
       "Formal"
     ],
     "photo_urls": [
-      "/photos/pexels-5713296.jpg"
+      "/photos/pexels-34501351.jpg"
     ],
-    "dominant_color": "#eaedec",
+    "dominant_color": "#959083",
     "status": "sold",
     "drop_id": null,
     "stock": 1,
@@ -12234,7 +12201,7 @@
     "campus_id": "sc",
     "title": "Philanthropy canvas tote, natural",
     "description": "Philanthropy canvas tote, natural",
-    "category": "top",
+    "category": "accessory",
     "brand": "Phi Mu",
     "size": "One size",
     "condition": "new",
@@ -12255,22 +12222,21 @@
     "id": "utk-l01",
     "closet_id": "closet-utk-u10",
     "campus_id": "utk",
-    "title": "Light blue oxford button-down",
-    "description": "Light blue oxford button-down. Smoke-free closet.",
+    "title": "Vintage Cal Berkeley crewneck, navy + gold",
+    "description": "Thrifted, and it looks great over a collared shirt. Gold arch print and seal, no cracking.",
     "category": "top",
-    "brand": "Brooks Brothers",
-    "size": "M",
+    "brand": "Other",
+    "size": "L",
     "condition": "good",
-    "price_cents": 2000,
+    "price_cents": 3200,
     "tags": [
       "Gameday",
-      "Rush",
-      "Casual"
+      "Rush"
     ],
     "photo_urls": [
-      "/photos/pexels-9558723.jpg"
+      "/photos/unsplash-la_ylOzgxiA.jpg"
     ],
-    "dominant_color": "#cbd1d6",
+    "dominant_color": "#494c4a",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -12447,22 +12413,21 @@
     "id": "utk-l09",
     "closet_id": "closet-utk-u8",
     "campus_id": "utk",
-    "title": "Gold chunky huggie earrings",
-    "description": "Gold chunky huggie earrings. Steamed and ready.",
-    "category": "accessory",
-    "brand": "Kendra Scott",
-    "size": "One size",
-    "condition": "good",
-    "price_cents": 1800,
+    "title": "Hand-stitched red 'A' tee, heather gray",
+    "description": "Stitched the letter myself for big/little reveal and ended up with an extra. Never worn.",
+    "category": "top",
+    "brand": "Other",
+    "size": "L",
+    "condition": "new",
+    "price_cents": 3100,
     "tags": [
-      "Rush",
-      "Formal",
-      "Gameday"
+      "Bid Day",
+      "Casual"
     ],
     "photo_urls": [
-      "/photos/pexels-12168883.jpg"
+      "/photos/pexels-10566058.jpg"
     ],
-    "dominant_color": "#c0ac91",
+    "dominant_color": "#a2928b",
     "status": "sold",
     "drop_id": null,
     "stock": 1,
@@ -12543,21 +12508,21 @@
     "id": "utk-l13",
     "closet_id": "closet-utk-u2",
     "campus_id": "utk",
-    "title": "Navy satin slip dress, never worn",
-    "description": "Navy satin slip dress, never worn. Smoke-free closet.",
-    "category": "dress",
-    "brand": "Boot Barn",
-    "size": "S",
-    "condition": "like new",
-    "price_cents": 3400,
+    "title": "Forest green + cream varsity jacket, M patch",
+    "description": "Green wool body, cream sleeves and a chenille M. Fits oversized, light wear on the cuffs.",
+    "category": "top",
+    "brand": "Other",
+    "size": "M",
+    "condition": "good",
+    "price_cents": 6300,
     "tags": [
       "Gameday",
-      "Formal"
+      "Casual"
     ],
     "photo_urls": [
-      "/photos/pexels-28735475.jpg"
+      "/photos/unsplash-tJJNf1gqb94.jpg"
     ],
-    "dominant_color": "#1b2028",
+    "dominant_color": "#44402a",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -12663,20 +12628,21 @@
     "id": "utk-l18",
     "closet_id": "closet-utk-me",
     "campus_id": "utk",
-    "title": "Silver sequin mini, worn once",
-    "description": "Silver sequin mini, worn once. Smoke-free closet.",
-    "category": "dress",
-    "brand": "Lulus",
-    "size": "XS",
-    "condition": "new",
-    "price_cents": 5000,
+    "title": "White tall western boots, stacked heel",
+    "description": "Side zip so they're easy on and off. Worn once for bid day pictures.",
+    "category": "shoes",
+    "brand": "Other",
+    "size": "US 8",
+    "condition": "like new",
+    "price_cents": 6100,
     "tags": [
-      "Formal"
+      "Gameday",
+      "Bid Day"
     ],
     "photo_urls": [
-      "/photos/pexels-5713296.jpg"
+      "/photos/pexels-34584012.jpg"
     ],
-    "dominant_color": "#eaedec",
+    "dominant_color": "#88827c",
     "status": "sold",
     "drop_id": null,
     "stock": 1,
@@ -12758,22 +12724,21 @@
     "id": "utk-l22",
     "closet_id": "closet-utk-u1",
     "campus_id": "utk",
-    "title": "Freshwater pearl + white bead necklace set",
-    "description": "Freshwater pearl + white bead necklace set. Meet at the Exchange Spot or ship to your MSC.",
+    "title": "Burnt orange mini top-handle bag",
+    "description": "Fits your phone, ID and a lip gloss, which is all you need on gameday. Gold hardware, no scuffs.",
     "category": "accessory",
-    "brand": "Kendra Scott",
+    "brand": "Other",
     "size": "One size",
     "condition": "like new",
-    "price_cents": 2800,
+    "price_cents": 3100,
     "tags": [
-      "Rush",
-      "Bid Day",
+      "Gameday",
       "Formal"
     ],
     "photo_urls": [
-      "/photos/pexels-10877350.jpg"
+      "/photos/pexels-8801091.jpg"
     ],
-    "dominant_color": "#cbcecf",
+    "dominant_color": "#867468",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -12783,20 +12748,21 @@
     "id": "utk-l23",
     "closet_id": "closet-utk-u2",
     "campus_id": "utk",
-    "title": "Mid-wash straight jeans, bundle of 3",
-    "description": "Mid-wash straight jeans, bundle of 3. Smoke-free closet.",
+    "title": "Oversized heavyweight tee, dusty rose",
+    "description": "Blank heavyweight tee in that washed rose color, great for bid day or painting your own letters on. Worn once.",
     "category": "top",
-    "brand": "Levi's",
-    "size": "26",
-    "condition": "good",
-    "price_cents": 5000,
+    "brand": "Other",
+    "size": "XL",
+    "condition": "like new",
+    "price_cents": 2000,
     "tags": [
-      "Casual"
+      "Casual",
+      "Bid Day"
     ],
     "photo_urls": [
-      "/photos/pexels-4109797.jpg"
+      "/photos/pexels-9558761.jpg"
     ],
-    "dominant_color": "#2a333c",
+    "dominant_color": "#c5a9ae",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -12806,21 +12772,21 @@
     "id": "utk-l24",
     "closet_id": "closet-utk-u3",
     "campus_id": "utk",
-    "title": "Crimson stripe button-down, oversized fit",
-    "description": "Crimson stripe button-down, oversized fit. Steamed and ready.",
-    "category": "dress",
+    "title": "Suede espadrille platform wedges, black + cognac (2 pairs)",
+    "description": "Selling both pairs together. Comfy enough for a full day of rush, a little wear on the jute.",
+    "category": "shoes",
     "brand": "Other",
-    "size": "M",
+    "size": "US 7",
     "condition": "good",
-    "price_cents": 2400,
+    "price_cents": 4100,
     "tags": [
-      "Gameday",
+      "Rush",
       "Casual"
     ],
     "photo_urls": [
-      "/photos/pexels-12955555.jpg"
+      "/photos/pexels-31450993.jpg"
     ],
-    "dominant_color": "#c3b1ae",
+    "dominant_color": "#a97b67",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -12878,7 +12844,7 @@
     "campus_id": "utk",
     "title": "Teal leather top-handle bag",
     "description": "Teal leather top-handle bag. Steamed and ready.",
-    "category": "shoes",
+    "category": "accessory",
     "brand": "Sam Edelman",
     "size": "One size",
     "condition": "like new",
@@ -12900,21 +12866,21 @@
     "id": "utk-l28",
     "closet_id": "closet-utk-u7",
     "campus_id": "utk",
-    "title": "Navy stripe tee + dark wash jeans",
-    "description": "Navy stripe tee + dark wash jeans. Meet at the Exchange Spot or ship to your MSC.",
+    "title": "Burnt orange crewneck + frayed denim cutoffs",
+    "description": "Blank oversized crewneck in burnt orange plus gray frayed cutoffs. Selling as a set but can split.",
     "category": "top",
-    "brand": "Abercrombie",
-    "size": "S / 27",
+    "brand": "Other",
+    "size": "M / 26",
     "condition": "like new",
-    "price_cents": 2800,
+    "price_cents": 2900,
     "tags": [
-      "Casual",
-      "Philanthropy"
+      "Gameday",
+      "Casual"
     ],
     "photo_urls": [
-      "/photos/pexels-934063.jpg"
+      "/photos/pexels-4871890.jpg"
     ],
-    "dominant_color": "#4e5767",
+    "dominant_color": "#91683f",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -12924,22 +12890,21 @@
     "id": "utk-l29",
     "closet_id": "closet-utk-u11",
     "campus_id": "utk",
-    "title": "White piqué polo, barely worn",
-    "description": "White piqué polo, barely worn. Steamed and ready.",
+    "title": "White cotton button-down, rush week ready",
+    "description": "Textured cotton with tortoise buttons and a chest pocket. Made it through rush week and still looks crisp.",
     "category": "top",
     "brand": "Southern Tide",
-    "size": "M",
+    "size": "S",
     "condition": "good",
-    "price_cents": 1800,
+    "price_cents": 2600,
     "tags": [
-      "Casual",
-      "Gameday",
-      "Philanthropy"
+      "Rush",
+      "Casual"
     ],
     "photo_urls": [
-      "/photos/unsplash-F5i3PZXYkvY.jpg"
+      "/photos/pexels-28576622.jpg"
     ],
-    "dominant_color": "#b09670",
+    "dominant_color": "#b0bbc1",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -12973,20 +12938,21 @@
     "id": "utk-l31",
     "closet_id": "closet-utk-u0",
     "campus_id": "utk",
-    "title": "Chunky striped crewneck sweater",
-    "description": "Chunky striped crewneck sweater. Smoke-free closet.",
-    "category": "top",
-    "brand": "J.Crew",
-    "size": "M",
+    "title": "Black + taupe jacquard halter mini, worn once",
+    "description": "Wore it once to a date party and it's been hanging in my closet since. Halter straps and a sheer banded waist, no snags.",
+    "category": "dress",
+    "brand": "Other",
+    "size": "XS",
     "condition": "like new",
-    "price_cents": 2800,
+    "price_cents": 4400,
     "tags": [
-      "Casual"
+      "Formal",
+      "Rush"
     ],
     "photo_urls": [
-      "/photos/pexels-12944791.jpg"
+      "/photos/pexels-14513896.jpg"
     ],
-    "dominant_color": "#6e2637",
+    "dominant_color": "#565772",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -13022,8 +12988,8 @@
     "campus_id": "utk",
     "title": "Broken-in brown cowboy boots",
     "description": "Broken-in brown cowboy boots. Smoke-free closet.",
-    "category": "dress",
-    "brand": "Judith March",
+    "category": "shoes",
+    "brand": "Other",
     "size": "US 8",
     "condition": "good",
     "price_cents": 7800,
@@ -13255,7 +13221,7 @@
     "campus_id": "utk",
     "title": "Philanthropy canvas tote, natural",
     "description": "Philanthropy canvas tote, natural",
-    "category": "top",
+    "category": "accessory",
     "brand": "Phi Mu",
     "size": "One size",
     "condition": "new",
@@ -13371,20 +13337,21 @@
     "id": "utexas-l05",
     "closet_id": "closet-utexas-u4",
     "campus_id": "utexas",
-    "title": "Mid-wash straight jeans, bundle of 3",
-    "description": "Mid-wash straight jeans, bundle of 3. Meet at the Exchange Spot or ship to your MSC.",
-    "category": "top",
-    "brand": "Levi's",
-    "size": "26",
+    "title": "Burnt orange mini top-handle bag",
+    "description": "Fits your phone, ID and a lip gloss, which is all you need on gameday. Gold hardware, no scuffs.",
+    "category": "accessory",
+    "brand": "Other",
+    "size": "One size",
     "condition": "like new",
-    "price_cents": 4800,
+    "price_cents": 3200,
     "tags": [
-      "Casual"
+      "Gameday",
+      "Formal"
     ],
     "photo_urls": [
-      "/photos/pexels-4109797.jpg"
+      "/photos/pexels-8801091.jpg"
     ],
-    "dominant_color": "#2a333c",
+    "dominant_color": "#867468",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -13394,21 +13361,20 @@
     "id": "utexas-l06",
     "closet_id": "closet-utexas-u5",
     "campus_id": "utexas",
-    "title": "Crimson stripe button-down, oversized fit",
-    "description": "Crimson stripe button-down, oversized fit. Meet at the Exchange Spot or ship to your MSC.",
+    "title": "Rose gold sequin bodycon mini, worn once",
+    "description": "Bought it for semi-formal and only wore it that night. Stretchy, no missing sequins.",
     "category": "dress",
-    "brand": "Altar'd State",
-    "size": "M",
+    "brand": "Princess Polly",
+    "size": "S",
     "condition": "like new",
-    "price_cents": 2200,
+    "price_cents": 4300,
     "tags": [
-      "Gameday",
-      "Casual"
+      "Formal"
     ],
     "photo_urls": [
-      "/photos/pexels-12955555.jpg"
+      "/photos/pexels-11046456.jpg"
     ],
-    "dominant_color": "#c3b1ae",
+    "dominant_color": "#d4ccc9",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -13418,22 +13384,21 @@
     "id": "utexas-l07",
     "closet_id": "closet-utexas-u6",
     "campus_id": "utexas",
-    "title": "Gold chunky huggie earrings",
-    "description": "Gold chunky huggie earrings. Happy to bundle.",
-    "category": "accessory",
-    "brand": "Kendra Scott",
-    "size": "One size",
+    "title": "Suede espadrille platform wedges, black + cognac (2 pairs)",
+    "description": "Selling both pairs together. Comfy enough for a full day of rush, a little wear on the jute.",
+    "category": "shoes",
+    "brand": "Other",
+    "size": "US 8",
     "condition": "good",
-    "price_cents": 2000,
+    "price_cents": 5000,
     "tags": [
       "Rush",
-      "Formal",
-      "Gameday"
+      "Casual"
     ],
     "photo_urls": [
-      "/photos/pexels-12168883.jpg"
+      "/photos/pexels-31450993.jpg"
     ],
-    "dominant_color": "#c0ac91",
+    "dominant_color": "#a97b67",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -13493,7 +13458,7 @@
     "campus_id": "utexas",
     "title": "Teal leather top-handle bag",
     "description": "Teal leather top-handle bag. Steamed and ready.",
-    "category": "shoes",
+    "category": "accessory",
     "brand": "Ariat",
     "size": "One size",
     "condition": "like new",
@@ -13541,7 +13506,7 @@
     "campus_id": "utexas",
     "title": "Broken-in brown cowboy boots",
     "description": "Broken-in brown cowboy boots. Happy to bundle.",
-    "category": "dress",
+    "category": "shoes",
     "brand": "Boot Barn",
     "size": "US 8",
     "condition": "like new",
@@ -13657,20 +13622,21 @@
     "id": "utexas-l17",
     "closet_id": "closet-utexas-u6",
     "campus_id": "utexas",
-    "title": "Chunky striped crewneck sweater",
-    "description": "Chunky striped crewneck sweater. Smoke-free closet.",
+    "title": "Oversized heavyweight tee, dusty rose",
+    "description": "Blank heavyweight tee in that washed rose color, great for bid day or painting your own letters on. Worn once.",
     "category": "top",
-    "brand": "J.Crew",
-    "size": "M",
-    "condition": "fair",
-    "price_cents": 2400,
+    "brand": "Other",
+    "size": "L",
+    "condition": "like new",
+    "price_cents": 1900,
     "tags": [
-      "Casual"
+      "Casual",
+      "Bid Day"
     ],
     "photo_urls": [
-      "/photos/pexels-12944791.jpg"
+      "/photos/pexels-9558761.jpg"
     ],
-    "dominant_color": "#6e2637",
+    "dominant_color": "#c5a9ae",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -13775,22 +13741,21 @@
     "id": "utexas-l22",
     "closet_id": "closet-utexas-u11",
     "campus_id": "utexas",
-    "title": "White piqué polo, barely worn",
-    "description": "White piqué polo, barely worn. Happy to bundle.",
+    "title": "Light blue suit jacket + white shirt + black tie",
+    "description": "Selling all three together. Wore it to one formal and a wedding, no stains.",
     "category": "top",
-    "brand": "Brooks Brothers",
-    "size": "M",
+    "brand": "Other",
+    "size": "40R / M",
     "condition": "good",
-    "price_cents": 1800,
+    "price_cents": 5900,
     "tags": [
-      "Casual",
-      "Gameday",
-      "Philanthropy"
+      "Formal",
+      "Rush"
     ],
     "photo_urls": [
-      "/photos/unsplash-F5i3PZXYkvY.jpg"
+      "/photos/pexels-6375747.jpg"
     ],
-    "dominant_color": "#b09670",
+    "dominant_color": "#5877b1",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -13846,21 +13811,21 @@
     "id": "utexas-l25",
     "closet_id": "closet-utexas-me",
     "campus_id": "utexas",
-    "title": "Navy stripe tee + dark wash jeans",
-    "description": "Navy stripe tee + dark wash jeans. Meet at the Exchange Spot or ship to your MSC.",
-    "category": "top",
-    "brand": "Abercrombie",
-    "size": "S / 27",
+    "title": "White embroidered cowboy boots",
+    "description": "Tan embroidery and a stacked wood heel. Broken in from a season of gamedays, plenty of life left.",
+    "category": "shoes",
+    "brand": "Boot Barn",
+    "size": "US 8",
     "condition": "good",
-    "price_cents": 3000,
+    "price_cents": 5700,
     "tags": [
-      "Casual",
-      "Philanthropy"
+      "Bid Day",
+      "Gameday"
     ],
     "photo_urls": [
-      "/photos/pexels-934063.jpg"
+      "/photos/pexels-28991312.jpg"
     ],
-    "dominant_color": "#4e5767",
+    "dominant_color": "#776755",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -13870,22 +13835,21 @@
     "id": "utexas-l26",
     "closet_id": "closet-utexas-u12",
     "campus_id": "utexas",
-    "title": "Light blue oxford button-down",
-    "description": "Light blue oxford button-down. Smoke-free closet.",
+    "title": "Vintage Cal Berkeley crewneck, navy + gold",
+    "description": "Thrifted, and it looks great over a collared shirt. Gold arch print and seal, no cracking.",
     "category": "top",
-    "brand": "Vineyard Vines",
+    "brand": "Other",
     "size": "M",
-    "condition": "like new",
-    "price_cents": 2000,
+    "condition": "good",
+    "price_cents": 3600,
     "tags": [
       "Gameday",
-      "Rush",
-      "Casual"
+      "Rush"
     ],
     "photo_urls": [
-      "/photos/pexels-9558723.jpg"
+      "/photos/unsplash-la_ylOzgxiA.jpg"
     ],
-    "dominant_color": "#cbd1d6",
+    "dominant_color": "#494c4a",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -13895,21 +13859,20 @@
     "id": "utexas-l27",
     "closet_id": "closet-utexas-u6",
     "campus_id": "utexas",
-    "title": "Navy satin slip dress, never worn",
-    "description": "Navy satin slip dress, never worn. Meet at the Exchange Spot or ship to your MSC.",
-    "category": "dress",
-    "brand": "Boot Barn",
-    "size": "S",
-    "condition": "new",
-    "price_cents": 3200,
+    "title": "Clear vinyl tote with cognac trim + pouch",
+    "description": "Clear tote with a zip pouch inside for your phone and keys. Check your stadium's bag rules before you buy.",
+    "category": "accessory",
+    "brand": "Other",
+    "size": "One size",
+    "condition": "like new",
+    "price_cents": 2800,
     "tags": [
-      "Gameday",
-      "Formal"
+      "Gameday"
     ],
     "photo_urls": [
-      "/photos/pexels-28735475.jpg"
+      "/photos/pexels-9958646.jpg"
     ],
-    "dominant_color": "#1b2028",
+    "dominant_color": "#6d6b5c",
     "status": "sold",
     "drop_id": null,
     "stock": 1,
@@ -13967,22 +13930,21 @@
     "id": "utexas-l30",
     "closet_id": "closet-utexas-u9",
     "campus_id": "utexas",
-    "title": "Freshwater pearl + white bead necklace set",
-    "description": "Freshwater pearl + white bead necklace set. Smoke-free closet.",
-    "category": "accessory",
-    "brand": "Lele Sadoughi",
-    "size": "One size",
-    "condition": "fair",
-    "price_cents": 2200,
+    "title": "Forest green + cream varsity jacket, M patch",
+    "description": "Green wool body, cream sleeves and a chenille M. Fits oversized, light wear on the cuffs.",
+    "category": "top",
+    "brand": "Other",
+    "size": "L",
+    "condition": "good",
+    "price_cents": 6600,
     "tags": [
-      "Rush",
-      "Bid Day",
-      "Formal"
+      "Gameday",
+      "Casual"
     ],
     "photo_urls": [
-      "/photos/pexels-10877350.jpg"
+      "/photos/unsplash-tJJNf1gqb94.jpg"
     ],
-    "dominant_color": "#cbcecf",
+    "dominant_color": "#44402a",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -14016,20 +13978,21 @@
     "id": "utexas-l32",
     "closet_id": "closet-utexas-me",
     "campus_id": "utexas",
-    "title": "Silver sequin mini, worn once",
-    "description": "Silver sequin mini, worn once. Happy to bundle.",
-    "category": "dress",
-    "brand": "Lulus",
-    "size": "XS",
-    "condition": "good",
-    "price_cents": 5200,
+    "title": "Burnt orange crewneck + frayed denim cutoffs",
+    "description": "Blank oversized crewneck in burnt orange plus gray frayed cutoffs. Selling as a set but can split.",
+    "category": "top",
+    "brand": "Other",
+    "size": "M / 26",
+    "condition": "like new",
+    "price_cents": 3200,
     "tags": [
-      "Formal"
+      "Gameday",
+      "Casual"
     ],
     "photo_urls": [
-      "/photos/pexels-5713296.jpg"
+      "/photos/pexels-4871890.jpg"
     ],
-    "dominant_color": "#eaedec",
+    "dominant_color": "#91683f",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -14276,7 +14239,7 @@
     "campus_id": "utexas",
     "title": "Philanthropy canvas tote, natural",
     "description": "Philanthropy canvas tote, natural",
-    "category": "top",
+    "category": "accessory",
     "brand": "Phi Mu",
     "size": "One size",
     "condition": "new",
@@ -14391,22 +14354,21 @@
     "id": "tamu-l05",
     "closet_id": "closet-tamu-u10",
     "campus_id": "tamu",
-    "title": "Light blue oxford button-down",
-    "description": "Light blue oxford button-down. Steamed and ready.",
+    "title": "Vintage Oklahoma State hoodie, black",
+    "description": "Thrift find with stitched tackle-twill letters. Heavyweight and warm, no fading.",
     "category": "top",
-    "brand": "Southern Tide",
-    "size": "M",
+    "brand": "Other",
+    "size": "L",
     "condition": "good",
-    "price_cents": 2200,
+    "price_cents": 3400,
     "tags": [
       "Gameday",
-      "Rush",
       "Casual"
     ],
     "photo_urls": [
-      "/photos/pexels-9558723.jpg"
+      "/photos/pexels-30494343.jpg"
     ],
-    "dominant_color": "#cbd1d6",
+    "dominant_color": "#684e42",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -14487,20 +14449,21 @@
     "id": "tamu-l09",
     "closet_id": "closet-tamu-u8",
     "campus_id": "tamu",
-    "title": "Chunky striped crewneck sweater",
-    "description": "Chunky striped crewneck sweater. Happy to bundle.",
+    "title": "White puff-sleeve tie-front top + light-wash denim shorts",
+    "description": "My go-to tailgate set, selling the top and shorts together. Boots not included.",
     "category": "top",
-    "brand": "J.Crew",
-    "size": "M",
-    "condition": "good",
-    "price_cents": 2800,
+    "brand": "Other",
+    "size": "S / 25",
+    "condition": "like new",
+    "price_cents": 2700,
     "tags": [
+      "Gameday",
       "Casual"
     ],
     "photo_urls": [
-      "/photos/pexels-12944791.jpg"
+      "/photos/pexels-34235836.jpg"
     ],
-    "dominant_color": "#6e2637",
+    "dominant_color": "#b2a08e",
     "status": "sold",
     "drop_id": null,
     "stock": 1,
@@ -14534,22 +14497,20 @@
     "id": "tamu-l11",
     "closet_id": "closet-tamu-me",
     "campus_id": "tamu",
-    "title": "Gold chunky huggie earrings",
-    "description": "Gold chunky huggie earrings. Happy to bundle.",
-    "category": "accessory",
+    "title": "Philanthropy VOLUNTEER tees, royal blue (set of 2)",
+    "description": "Two tees left over from our service day. Washed once, priced for both.",
+    "category": "top",
     "brand": "Other",
-    "size": "One size",
+    "size": "S / M",
     "condition": "like new",
-    "price_cents": 1600,
+    "price_cents": 1500,
     "tags": [
-      "Rush",
-      "Formal",
-      "Gameday"
+      "Philanthropy"
     ],
     "photo_urls": [
-      "/photos/pexels-12168883.jpg"
+      "/photos/pexels-8543399.jpg"
     ],
-    "dominant_color": "#c0ac91",
+    "dominant_color": "#3a81a9",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -14561,7 +14522,7 @@
     "campus_id": "tamu",
     "title": "Teal leather top-handle bag",
     "description": "Teal leather top-handle bag. Smoke-free closet.",
-    "category": "shoes",
+    "category": "accessory",
     "brand": "Dolce Vita",
     "size": "One size",
     "condition": "like new",
@@ -14630,21 +14591,20 @@
     "id": "tamu-l15",
     "closet_id": "closet-tamu-u4",
     "campus_id": "tamu",
-    "title": "Crimson stripe button-down, oversized fit",
-    "description": "Crimson stripe button-down, oversized fit. Happy to bundle.",
-    "category": "dress",
-    "brand": "Altar'd State",
-    "size": "M",
+    "title": "Embroidered Chicago crewneck, heather gray",
+    "description": "Maroon stitched lettering, not printed. Picked it up on a trip and only wore it twice.",
+    "category": "top",
+    "brand": "Other",
+    "size": "L",
     "condition": "like new",
-    "price_cents": 2400,
+    "price_cents": 3100,
     "tags": [
-      "Gameday",
       "Casual"
     ],
     "photo_urls": [
-      "/photos/pexels-12955555.jpg"
+      "/photos/unsplash-CDpHeDpkKek.jpg"
     ],
-    "dominant_color": "#c3b1ae",
+    "dominant_color": "#c4b7bd",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -14654,21 +14614,21 @@
     "id": "tamu-l16",
     "closet_id": "closet-tamu-u5",
     "campus_id": "tamu",
-    "title": "Navy satin slip dress, never worn",
-    "description": "Navy satin slip dress, never worn. Happy to bundle.",
-    "category": "dress",
-    "brand": "Judith March",
-    "size": "S",
-    "condition": "like new",
-    "price_cents": 3000,
+    "title": "Forest green + cream varsity jacket, M patch",
+    "description": "Green wool body, cream sleeves and a chenille M. Fits oversized, light wear on the cuffs.",
+    "category": "top",
+    "brand": "Other",
+    "size": "M",
+    "condition": "good",
+    "price_cents": 6300,
     "tags": [
       "Gameday",
-      "Formal"
+      "Casual"
     ],
     "photo_urls": [
-      "/photos/pexels-28735475.jpg"
+      "/photos/unsplash-tJJNf1gqb94.jpg"
     ],
-    "dominant_color": "#1b2028",
+    "dominant_color": "#44402a",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -14701,21 +14661,21 @@
     "id": "tamu-l18",
     "closet_id": "closet-tamu-me",
     "campus_id": "tamu",
-    "title": "Navy stripe tee + dark wash jeans",
-    "description": "Navy stripe tee + dark wash jeans. Steamed and ready.",
-    "category": "top",
-    "brand": "Levi's",
-    "size": "S / 27",
-    "condition": "fair",
-    "price_cents": 2200,
+    "title": "Blush floral satin wrap midi with side ties",
+    "description": "Lulus wrap midi, the side ties let you cinch the waist however you want. Worn to one rush round and a wedding.",
+    "category": "dress",
+    "brand": "Lulus",
+    "size": "L",
+    "condition": "good",
+    "price_cents": 3400,
     "tags": [
-      "Casual",
-      "Philanthropy"
+      "Rush",
+      "Formal"
     ],
     "photo_urls": [
-      "/photos/pexels-934063.jpg"
+      "/photos/pexels-36213224.jpg"
     ],
-    "dominant_color": "#4e5767",
+    "dominant_color": "#cbb8b5",
     "status": "sold",
     "drop_id": null,
     "stock": 1,
@@ -14869,22 +14829,21 @@
     "id": "tamu-l25",
     "closet_id": "closet-tamu-me",
     "campus_id": "tamu",
-    "title": "Freshwater pearl + white bead necklace set",
-    "description": "Freshwater pearl + white bead necklace set. Steamed and ready.",
+    "title": "Statement earring bundle + pearl scrunchie",
+    "description": "Cleaning out my jewelry box: crystal hoops, gold knots, drop earrings, a ring and a pearl scrunchie. Happy to split if you only want a few.",
     "category": "accessory",
-    "brand": "Other",
+    "brand": "BaubleBar",
     "size": "One size",
     "condition": "good",
-    "price_cents": 2200,
+    "price_cents": 2800,
     "tags": [
       "Rush",
-      "Bid Day",
       "Formal"
     ],
     "photo_urls": [
-      "/photos/pexels-10877350.jpg"
+      "/photos/pexels-34501351.jpg"
     ],
-    "dominant_color": "#cbcecf",
+    "dominant_color": "#959083",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -14919,20 +14878,21 @@
     "id": "tamu-l27",
     "closet_id": "closet-tamu-u6",
     "campus_id": "tamu",
-    "title": "Silver sequin mini, worn once",
-    "description": "Silver sequin mini, worn once. Happy to bundle.",
-    "category": "dress",
-    "brand": "Princess Polly",
-    "size": "XS",
-    "condition": "good",
-    "price_cents": 4800,
+    "title": "Blush croc-embossed platform wedge sandals",
+    "description": "Only worn once to a sunset rush event. Gold buckle ankle strap, and the white sole is still clean.",
+    "category": "shoes",
+    "brand": "Other",
+    "size": "US 7",
+    "condition": "like new",
+    "price_cents": 3400,
     "tags": [
-      "Formal"
+      "Rush",
+      "Casual"
     ],
     "photo_urls": [
-      "/photos/pexels-5713296.jpg"
+      "/photos/pexels-26925245.jpg"
     ],
-    "dominant_color": "#eaedec",
+    "dominant_color": "#f2e7e5",
     "status": "sold",
     "drop_id": null,
     "stock": 1,
@@ -14990,20 +14950,20 @@
     "id": "tamu-l30",
     "closet_id": "closet-tamu-u9",
     "campus_id": "tamu",
-    "title": "Mid-wash straight jeans, bundle of 3",
-    "description": "Mid-wash straight jeans, bundle of 3. Steamed and ready.",
-    "category": "top",
-    "brand": "Madewell",
-    "size": "26",
+    "title": "Red embroidered western boots",
+    "description": "Red with white stitching, pointed toe and a block heel. Worn to a handful of games, soles in good shape.",
+    "category": "shoes",
+    "brand": "Other",
+    "size": "US 7.5",
     "condition": "good",
-    "price_cents": 4800,
+    "price_cents": 5900,
     "tags": [
-      "Casual"
+      "Gameday"
     ],
     "photo_urls": [
-      "/photos/pexels-4109797.jpg"
+      "/photos/unsplash--EEpGsUR6_s.jpg"
     ],
-    "dominant_color": "#2a333c",
+    "dominant_color": "#aa896c",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -15037,22 +14997,21 @@
     "id": "tamu-l32",
     "closet_id": "closet-tamu-u12",
     "campus_id": "tamu",
-    "title": "White piqué polo, barely worn",
-    "description": "White piqué polo, barely worn. Steamed and ready.",
+    "title": "Vintage Arizona State crewneck, maroon",
+    "description": "Thrift find with the old Sparky graphic. Fleece inside, fits a little big.",
     "category": "top",
-    "brand": "Brooks Brothers",
-    "size": "M",
-    "condition": "like new",
-    "price_cents": 2000,
+    "brand": "Other",
+    "size": "XL",
+    "condition": "good",
+    "price_cents": 3000,
     "tags": [
-      "Casual",
       "Gameday",
-      "Philanthropy"
+      "Casual"
     ],
     "photo_urls": [
-      "/photos/unsplash-F5i3PZXYkvY.jpg"
+      "/photos/unsplash-UXbofi0X8Cg.jpg"
     ],
-    "dominant_color": "#b09670",
+    "dominant_color": "#412f3b",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -15064,8 +15023,8 @@
     "campus_id": "tamu",
     "title": "Broken-in brown cowboy boots",
     "description": "Broken-in brown cowboy boots. Meet at the Exchange Spot or ship to your MSC.",
-    "category": "dress",
-    "brand": "Lulus",
+    "category": "shoes",
+    "brand": "Other",
     "size": "US 8",
     "condition": "like new",
     "price_cents": 7200,
@@ -15297,7 +15256,7 @@
     "campus_id": "tamu",
     "title": "Philanthropy canvas tote, natural",
     "description": "Philanthropy canvas tote, natural",
-    "category": "top",
+    "category": "accessory",
     "brand": "Phi Mu",
     "size": "One size",
     "condition": "new",
@@ -15344,8 +15303,8 @@
     "campus_id": "vanderbilt",
     "title": "Broken-in brown cowboy boots",
     "description": "Broken-in brown cowboy boots. Meet at the Exchange Spot or ship to your MSC.",
-    "category": "dress",
-    "brand": "Altar'd State",
+    "category": "shoes",
+    "brand": "Other",
     "size": "US 8",
     "condition": "like new",
     "price_cents": 9200,
@@ -15388,22 +15347,21 @@
     "id": "vanderbilt-l04",
     "closet_id": "closet-vanderbilt-me",
     "campus_id": "vanderbilt",
-    "title": "Gold chunky huggie earrings",
-    "description": "Gold chunky huggie earrings. Happy to bundle.",
-    "category": "accessory",
+    "title": "Blush croc-embossed platform wedge sandals",
+    "description": "Only worn once to a sunset rush event. Gold buckle ankle strap, and the white sole is still clean.",
+    "category": "shoes",
     "brand": "Other",
-    "size": "One size",
+    "size": "US 8",
     "condition": "like new",
-    "price_cents": 1600,
+    "price_cents": 4200,
     "tags": [
       "Rush",
-      "Formal",
-      "Gameday"
+      "Casual"
     ],
     "photo_urls": [
-      "/photos/pexels-12168883.jpg"
+      "/photos/pexels-26925245.jpg"
     ],
-    "dominant_color": "#c0ac91",
+    "dominant_color": "#f2e7e5",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -15413,21 +15371,21 @@
     "id": "vanderbilt-l05",
     "closet_id": "closet-vanderbilt-u4",
     "campus_id": "vanderbilt",
-    "title": "Crimson stripe button-down, oversized fit",
-    "description": "Crimson stripe button-down, oversized fit. Smoke-free closet.",
+    "title": "Black + taupe jacquard halter mini, worn once",
+    "description": "Wore it once to a date party and it's been hanging in my closet since. Halter straps and a sheer banded waist, no snags.",
     "category": "dress",
-    "brand": "Boot Barn",
-    "size": "M",
-    "condition": "good",
-    "price_cents": 2400,
+    "brand": "Other",
+    "size": "S",
+    "condition": "like new",
+    "price_cents": 3800,
     "tags": [
-      "Gameday",
-      "Casual"
+      "Formal",
+      "Rush"
     ],
     "photo_urls": [
-      "/photos/pexels-12955555.jpg"
+      "/photos/pexels-14513896.jpg"
     ],
-    "dominant_color": "#c3b1ae",
+    "dominant_color": "#565772",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -15437,20 +15395,20 @@
     "id": "vanderbilt-l06",
     "closet_id": "closet-vanderbilt-u5",
     "campus_id": "vanderbilt",
-    "title": "Silver sequin mini, worn once",
-    "description": "Silver sequin mini, worn once. Happy to bundle.",
-    "category": "dress",
-    "brand": "House of CB",
-    "size": "XS",
-    "condition": "fair",
-    "price_cents": 4400,
+    "title": "Philanthropy VOLUNTEER tees, royal blue (set of 2)",
+    "description": "Two tees left over from our service day. Washed once, priced for both.",
+    "category": "top",
+    "brand": "Other",
+    "size": "S / M",
+    "condition": "like new",
+    "price_cents": 1500,
     "tags": [
-      "Formal"
+      "Philanthropy"
     ],
     "photo_urls": [
-      "/photos/pexels-5713296.jpg"
+      "/photos/pexels-8543399.jpg"
     ],
-    "dominant_color": "#eaedec",
+    "dominant_color": "#3a81a9",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -15507,21 +15465,21 @@
     "id": "vanderbilt-l09",
     "closet_id": "closet-vanderbilt-u8",
     "campus_id": "vanderbilt",
-    "title": "Navy satin slip dress, never worn",
-    "description": "Navy satin slip dress, never worn. Steamed and ready.",
-    "category": "dress",
-    "brand": "Lulus",
-    "size": "S",
+    "title": "White tall western boots, stacked heel",
+    "description": "Side zip so they're easy on and off. Worn once for bid day pictures.",
+    "category": "shoes",
+    "brand": "Other",
+    "size": "US 7",
     "condition": "like new",
-    "price_cents": 3600,
+    "price_cents": 5800,
     "tags": [
       "Gameday",
-      "Formal"
+      "Bid Day"
     ],
     "photo_urls": [
-      "/photos/pexels-28735475.jpg"
+      "/photos/pexels-34584012.jpg"
     ],
-    "dominant_color": "#1b2028",
+    "dominant_color": "#88827c",
     "status": "sold",
     "drop_id": null,
     "stock": 1,
@@ -15603,22 +15561,21 @@
     "id": "vanderbilt-l13",
     "closet_id": "closet-vanderbilt-u10",
     "campus_id": "vanderbilt",
-    "title": "White piqué polo, barely worn",
-    "description": "White piqué polo, barely worn. Happy to bundle.",
+    "title": "Vintage navy + white varsity jacket, lion patch",
+    "description": "Thrifted varsity jacket with a lion patch on the sleeve and a stitched crest on the chest. Snap front, striped cuffs, barely worn.",
     "category": "top",
-    "brand": "Vineyard Vines",
-    "size": "M",
-    "condition": "good",
-    "price_cents": 1800,
+    "brand": "Other",
+    "size": "L",
+    "condition": "like new",
+    "price_cents": 6100,
     "tags": [
-      "Casual",
       "Gameday",
-      "Philanthropy"
+      "Casual"
     ],
     "photo_urls": [
-      "/photos/unsplash-F5i3PZXYkvY.jpg"
+      "/photos/pexels-32483237.jpg"
     ],
-    "dominant_color": "#b09670",
+    "dominant_color": "#4f6993",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -15652,21 +15609,21 @@
     "id": "vanderbilt-l15",
     "closet_id": "closet-vanderbilt-u4",
     "campus_id": "vanderbilt",
-    "title": "Navy stripe tee + dark wash jeans",
-    "description": "Navy stripe tee + dark wash jeans. Steamed and ready.",
-    "category": "top",
-    "brand": "Levi's",
-    "size": "S / 27",
-    "condition": "good",
-    "price_cents": 2800,
+    "title": "Black velvet hair bow with pearl ring",
+    "description": "Clip-back velvet bow with a pearl ring in the middle. Wore it to one formal.",
+    "category": "accessory",
+    "brand": "Lele Sadoughi",
+    "size": "One size",
+    "condition": "like new",
+    "price_cents": 1500,
     "tags": [
-      "Casual",
-      "Philanthropy"
+      "Formal",
+      "Rush"
     ],
     "photo_urls": [
-      "/photos/pexels-934063.jpg"
+      "/photos/unsplash-d_iVNyGeeHo.jpg"
     ],
-    "dominant_color": "#4e5767",
+    "dominant_color": "#a5a8a8",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -15700,22 +15657,21 @@
     "id": "vanderbilt-l17",
     "closet_id": "closet-vanderbilt-u12",
     "campus_id": "vanderbilt",
-    "title": "Light blue oxford button-down",
-    "description": "Light blue oxford button-down. Happy to bundle.",
+    "title": "Vintage Oklahoma State hoodie, black",
+    "description": "Thrift find with stitched tackle-twill letters. Heavyweight and warm, no fading.",
     "category": "top",
-    "brand": "J.Crew",
-    "size": "M",
-    "condition": "fair",
-    "price_cents": 2600,
+    "brand": "Other",
+    "size": "L",
+    "condition": "good",
+    "price_cents": 3800,
     "tags": [
       "Gameday",
-      "Rush",
       "Casual"
     ],
     "photo_urls": [
-      "/photos/pexels-9558723.jpg"
+      "/photos/pexels-30494343.jpg"
     ],
-    "dominant_color": "#cbd1d6",
+    "dominant_color": "#684e42",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -15796,22 +15752,20 @@
     "id": "vanderbilt-l21",
     "closet_id": "closet-vanderbilt-u0",
     "campus_id": "vanderbilt",
-    "title": "Freshwater pearl + white bead necklace set",
-    "description": "Freshwater pearl + white bead necklace set. Meet at the Exchange Spot or ship to your MSC.",
-    "category": "accessory",
-    "brand": "Kendra Scott",
-    "size": "One size",
-    "condition": "good",
-    "price_cents": 2200,
+    "title": "Embroidered Chicago crewneck, heather gray",
+    "description": "Maroon stitched lettering, not printed. Picked it up on a trip and only wore it twice.",
+    "category": "top",
+    "brand": "Other",
+    "size": "L",
+    "condition": "like new",
+    "price_cents": 2800,
     "tags": [
-      "Rush",
-      "Bid Day",
-      "Formal"
+      "Casual"
     ],
     "photo_urls": [
-      "/photos/pexels-10877350.jpg"
+      "/photos/unsplash-CDpHeDpkKek.jpg"
     ],
-    "dominant_color": "#cbcecf",
+    "dominant_color": "#c4b7bd",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -15920,7 +15874,7 @@
     "campus_id": "vanderbilt",
     "title": "Teal leather top-handle bag",
     "description": "Teal leather top-handle bag. Steamed and ready.",
-    "category": "shoes",
+    "category": "accessory",
     "brand": "Sam Edelman",
     "size": "One size",
     "condition": "fair",
@@ -15989,20 +15943,21 @@
     "id": "vanderbilt-l29",
     "closet_id": "closet-vanderbilt-u8",
     "campus_id": "vanderbilt",
-    "title": "Chunky striped crewneck sweater",
-    "description": "Chunky striped crewneck sweater. Meet at the Exchange Spot or ship to your MSC.",
+    "title": "Navy tailored blazer, women's fit",
+    "description": "Got it for recruitment interviews and wore it twice. Fitted through the waist and fully lined.",
     "category": "top",
-    "brand": "Madewell",
-    "size": "M",
-    "condition": "fair",
-    "price_cents": 2600,
+    "brand": "J.Crew",
+    "size": "2",
+    "condition": "like new",
+    "price_cents": 5000,
     "tags": [
-      "Casual"
+      "Rush",
+      "Formal"
     ],
     "photo_urls": [
-      "/photos/pexels-12944791.jpg"
+      "/photos/pexels-19109151.jpg"
     ],
-    "dominant_color": "#6e2637",
+    "dominant_color": "#8e887e",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -16083,20 +16038,21 @@
     "id": "vanderbilt-l33",
     "closet_id": "closet-vanderbilt-u2",
     "campus_id": "vanderbilt",
-    "title": "Mid-wash straight jeans, bundle of 3",
-    "description": "Mid-wash straight jeans, bundle of 3. Smoke-free closet.",
+    "title": "Vintage West Virginia University hoodie, gold",
+    "description": "Thrifted on a road trip and it's the softest hoodie I own. Navy collegiate print, no cracking, fits oversized.",
     "category": "top",
-    "brand": "Levi's",
-    "size": "26",
+    "brand": "Other",
+    "size": "M",
     "condition": "good",
-    "price_cents": 4600,
+    "price_cents": 3200,
     "tags": [
+      "Gameday",
       "Casual"
     ],
     "photo_urls": [
-      "/photos/pexels-4109797.jpg"
+      "/photos/pexels-6443595.jpg"
     ],
-    "dominant_color": "#2a333c",
+    "dominant_color": "#b35521",
     "status": "active",
     "drop_id": null,
     "stock": 1,
@@ -16318,7 +16274,7 @@
     "campus_id": "vanderbilt",
     "title": "Philanthropy canvas tote, natural",
     "description": "Philanthropy canvas tote, natural",
-    "category": "top",
+    "category": "accessory",
     "brand": "Phi Mu",
     "size": "One size",
     "condition": "new",
