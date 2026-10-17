@@ -152,9 +152,17 @@ export function setSession(next: Session) {
   listeners.forEach((l) => l(next));
 }
 
+/** Per-person preferences saved on the device; wiped with the session so a shared computer doesn't keep them. */
+const PERSONAL_KEYS = ["bidd.sizes"];
+
 export function clearSession() {
   session = null;
   store.set(null);
+  try {
+    for (const key of PERSONAL_KEYS) window.localStorage.removeItem(key);
+  } catch {
+    /* no storage access (private window or server): nothing saved to clear */
+  }
   listeners.forEach((l) => l(null));
 }
 
