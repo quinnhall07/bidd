@@ -1,0 +1,284 @@
+[
+  {
+    "slug": "ua",
+    "name": "Alabama",
+    "full_name": "The University of Alabama",
+    "email_domains": [
+      "crimson.ua.edu",
+      "ua.edu"
+    ],
+    "primary_color": "#9E1B32",
+    "secondary_color": "#828A8F",
+    "city": "Tuscaloosa",
+    "state": "AL",
+    "greek_members": 13000,
+    "conference": "SEC",
+    "notes": "Colors: Crimson Flame #9E1B32 + Capstone Gray #828A8F (primary palette also includes Victory White). Secondary is a grey. Students get userID@crimson.ua.edu (lifelong, Microsoft 365); ua.edu is for faculty/staff and student-employee accounts. Greek: OFSL one-pager (Jan 2025) gives 13,000+ members (38% of undergrads). Athletics hex not checked separately.",
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/333.png",
+    "logo_url_dark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/333.png"
+  },
+  {
+    "slug": "uark",
+    "name": "Arkansas",
+    "full_name": "University of Arkansas",
+    "email_domains": [
+      "uark.edu"
+    ],
+    "primary_color": "#9D2235",
+    "secondary_color": "#FFFFFF",
+    "city": "Fayetteville",
+    "state": "AR",
+    "greek_members": null,
+    "conference": "SEC",
+    "notes": "Official primary colors: Razorback Red #9D2235 (web hex) + Apple Blossom (white). The print page gives Razorback Red as RGB 161/0/47 (about #A1002F), which does not match the web hex; use #9D2235 on screens. Secondary is white. Non-white options: Spoofer's Stone #464648, Silverleaf #C7C8C9. Students use @uark.edu. Greek: uagreeks.uark.edu only gives an undated '~30% of undergraduates', with no headcount, so null. Athletics hex not checked separately.",
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/8.png",
+    "logo_url_dark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/8.png"
+  },
+  {
+    "slug": "auburn",
+    "name": "Auburn",
+    "full_name": "Auburn University",
+    "email_domains": [
+      "auburn.edu"
+    ],
+    "primary_color": "#0B2341",
+    "secondary_color": "#E86100",
+    "city": "Auburn",
+    "state": "AL",
+    "greek_members": 10000,
+    "conference": "SEC",
+    "notes": "Brand Center lists Auburn Blue #0B2341 then Auburn Orange #E86100 as the primary pair. FLAG: Auburn Blue is a very dark navy (contrast against black is 1.3:1). It is saturated, not grey, so the fallback rule will not trigger. Use orange if a brighter accent is wanted. Athletics hex UNVERIFIED: third-party sites give navy #0C2340 and orange #E87722/#F26522. Students use TigerMail at @auburn.edu. Greek: 2025-26 Greek Life Community Report says over 10,000 students (37% of undergrads).",
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2.png",
+    "logo_url_dark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2.png"
+  },
+  {
+    "slug": "uf",
+    "name": "Florida",
+    "full_name": "University of Florida",
+    "email_domains": [
+      "ufl.edu"
+    ],
+    "primary_color": "#FA4616",
+    "secondary_color": "#0021A5",
+    "city": "Gainesville",
+    "state": "FL",
+    "greek_members": 8300,
+    "conference": "SEC",
+    "notes": "Brand Center names Core Orange #FA4616 and Core Blue #0021A5 as the primary colors (extended: Dark Blue #002657, Alachua #F2A900). Orange is only 3.5:1 against white, so avoid it for small white-on-orange text. Students use GatorLink username@ufl.edu. Greek: 2025-26 Guide to Florida Greeks says more than 8,300 members in 62 organizations. Athletics hex not checked separately.",
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/57.png",
+    "logo_url_dark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/57.png"
+  },
+  {
+    "slug": "uga",
+    "name": "Georgia",
+    "full_name": "University of Georgia",
+    "email_domains": [
+      "uga.edu"
+    ],
+    "primary_color": "#BA0C2F",
+    "secondary_color": "#000000",
+    "city": "Athens",
+    "state": "GA",
+    "greek_members": 9481,
+    "conference": "SEC",
+    "notes": "UGA's primary palette is Arch Black #000000, Bulldog Red #BA0C2F and Chapel Bell White. Red is used as the primary here. Secondary is pure black. The brand advises against red text on black. Students use MyID@uga.edu (UGAMail). Greek: UGA Student Affairs 2025 Greek Life Report gives 9,481 members. Athletics hex not checked separately.",
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/61.png",
+    "logo_url_dark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/61.png"
+  },
+  {
+    "slug": "uky",
+    "name": "Kentucky",
+    "full_name": "University of Kentucky",
+    "email_domains": [
+      "uky.edu"
+    ],
+    "primary_color": "#0033A0",
+    "secondary_color": "#FFFFFF",
+    "city": "Lexington",
+    "state": "KY",
+    "greek_members": null,
+    "conference": "SEC",
+    "notes": "Primary: Wildcat Blue #0033A0 (PMS 286) + White, from the April 2025 brand guidelines PDF. Secondary is white. Non-white options: Midnight #1B365D, Bluegrass #1E8AFF. Students use linkblue@uky.edu, with an optional first.last@uky.edu alias. Greek: no official current headcount found. The Kentucky IFC site claims 5,900+ (undated, not a university page), so null. Athletics hex not checked separately.",
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/96.png",
+    "logo_url_dark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/96.png"
+  },
+  {
+    "slug": "lsu",
+    "name": "LSU",
+    "full_name": "Louisiana State University and Agricultural and Mechanical College",
+    "email_domains": [
+      "lsu.edu"
+    ],
+    "primary_color": "#461D7C",
+    "secondary_color": "#FDD023",
+    "city": "Baton Rouge",
+    "state": "LA",
+    "greek_members": 7000,
+    "conference": "SEC",
+    "notes": "Official LSU Purple #461D7C (PMS 268) + Official LSU Gold #FDD023 (PMS 123), from the lsu.edu brand guide PDF. The guide also lists Corporate Purple #3C1053 and Corporate Gold #D29F13. Athletics (lsusports.net/media) uses the same purple and gold hex. The secondary gold is very light (L=0.66). Students use myLSU-name@lsu.edu (LSUMail). Greek: 2025-26 Community Scorecard gives 7,000+ members.",
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/99.png",
+    "logo_url_dark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/99.png"
+  },
+  {
+    "slug": "olemiss",
+    "name": "Ole Miss",
+    "full_name": "University of Mississippi",
+    "email_domains": [
+      "go.olemiss.edu",
+      "olemiss.edu"
+    ],
+    "primary_color": "#14213D",
+    "secondary_color": "#CE1126",
+    "city": "Oxford",
+    "state": "MS",
+    "greek_members": 10700,
+    "conference": "SEC",
+    "notes": "DEMO ORDER: navy primary so the tenant swap reads next to Alabama crimson (matches brand/theme/campus.ts). Official: Primary palette: Lyceum Red #CF142B, Oxford Blue #142142, Magnolia White. brand.olemiss.edu blocks direct fetches (HTTP 403), so these hex values come from search-index extracts of that official page; two independent queries agreed. Secondary Oxford Blue is near-black navy (L=0.016). Athletics hex UNVERIFIED: third-party sites give #CE1126 / #14213D. Students use WebID@go.olemiss.edu; olemiss.edu is faculty/staff (and legacy pre-2012 students). Postal address is 'University, MS'. Greek: FSL page reports 10,700+ affiliated undergraduates (2025).",
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/145.png",
+    "logo_url_dark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/145.png",
+    "official_primary_color": "#CF142B",
+    "official_secondary_color": "#142142"
+  },
+  {
+    "slug": "msstate",
+    "name": "Mississippi State",
+    "full_name": "Mississippi State University",
+    "email_domains": [
+      "msstate.edu"
+    ],
+    "primary_color": "#5D1725",
+    "secondary_color": "#C1C6C8",
+    "city": "Starkville",
+    "state": "MS",
+    "greek_members": null,
+    "conference": "SEC",
+    "notes": "Official palette PDF lists three primary colors: Maroon #5D1725 (PMS 505), Light Grey #C1C6C8 (PMS 428) and Dark Grey #777777. The PDF's own RGB for Dark Grey is 117/120/123 (#75787B), an internal mismatch. Maroon must dominate. Secondary is a light grey. The athletics branding portal uses the same maroon with white and gray. Statutory name: Mississippi State University of Agriculture and Applied Science. Postal address is 'Mississippi State, MS'. Students use NetID@msstate.edu. Greek: 38 chapters but no official headcount found, so null.",
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/344.png",
+    "logo_url_dark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/344.png"
+  },
+  {
+    "slug": "mizzou",
+    "name": "Mizzou",
+    "full_name": "University of Missouri",
+    "email_domains": [
+      "umsystem.edu"
+    ],
+    "primary_color": "#FDB719",
+    "secondary_color": "#000000",
+    "city": "Columbia",
+    "state": "MO",
+    "greek_members": 7500,
+    "conference": "SEC",
+    "notes": "Primary colors: Mizzou Gold #FDB719 + Tiger Paw Black #000000. Athletics uses the same gold ('Both the Mizzou campus and Mizzou Athletics use the same gold'). FLAG: the primary is a very light gold (1.8:1 against white). Secondary is pure black. Students use username@umsystem.edu. CAVEAT: umsystem.edu is shared with the other UM System campuses (UMKC, UMSL, Missouri S&T), so it does not prove Mizzou enrollment. missouri.edu is the employee domain. Greek: an undated official Student Affairs FSL page gives 7,500+ (about 27% of undergrads).",
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/142.png",
+    "logo_url_dark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/142.png"
+  },
+  {
+    "slug": "ou",
+    "name": "Oklahoma",
+    "full_name": "University of Oklahoma",
+    "email_domains": [
+      "ou.edu"
+    ],
+    "primary_color": "#841617",
+    "secondary_color": "#FFFFFF",
+    "city": "Norman",
+    "state": "OK",
+    "greek_members": 7400,
+    "conference": "SEC",
+    "notes": "Primary: Oklahoma Crimson #841617. The traditional second color, Oklahoma Cream (PMS 468), is marked print-only with no hex, and OU says to use black or white instead in digital, so secondary is White. Cream #DDCBA4 appears only on third-party sites (UNVERIFIED, and off-brand for digital). Non-white options: Dark Crimson #4E0002 (accent), Dark Gray #323232 (neutral). Students use @ou.edu (default dotted address). Greek: FSPS landing page gives 7,400+ members (30% of undergrads). Athletics hex not checked separately.",
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/201.png",
+    "logo_url_dark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/201.png"
+  },
+  {
+    "slug": "sc",
+    "name": "South Carolina",
+    "full_name": "University of South Carolina",
+    "email_domains": [
+      "email.sc.edu",
+      "sc.edu"
+    ],
+    "primary_color": "#73000A",
+    "secondary_color": "#000000",
+    "city": "Columbia",
+    "state": "SC",
+    "greek_members": 9879,
+    "conference": "SEC",
+    "notes": "'Garnet, black and white are the official colors': Garnet #73000A + Black #000000. Secondary is pure black. Students use username@email.sc.edu. Per a 2018 IT standard, employees use @mailbox.sc.edu with @sc.edu as the short form. Greek: Spring 2026 Greek report gives 9,879 members (Fall 2025: 10,176). Athletics hex not checked separately.",
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2579.png",
+    "logo_url_dark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2579.png"
+  },
+  {
+    "slug": "utk",
+    "name": "Tennessee",
+    "full_name": "The University of Tennessee, Knoxville",
+    "email_domains": [
+      "vols.utk.edu",
+      "utk.edu",
+      "tennessee.edu"
+    ],
+    "primary_color": "#FF8200",
+    "secondary_color": "#FFFFFF",
+    "city": "Knoxville",
+    "state": "TN",
+    "greek_members": null,
+    "conference": "SEC",
+    "notes": "Tennessee Orange #FF8200 is the primary school color, with White and Smokey #4B4B4B as accents. Black is explicitly not in the palette; use Smokey instead. FLAG: the brand says the orange fails accessibility for type (2.5:1 against white). Secondary is white; Smokey #4B4B4B is the non-white option. Third-party sites give Smokey as #58595B (not official). Students use NetID@vols.utk.edu plus an @tennessee.edu alias (tennessee.edu is shared across the UT System). utk.edu is faculty/staff. Greek: UT News (2025) says 29% of undergrads, with no headcount, so null.",
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2633.png",
+    "logo_url_dark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2633.png"
+  },
+  {
+    "slug": "utexas",
+    "name": "Texas",
+    "full_name": "The University of Texas at Austin",
+    "email_domains": [
+      "my.utexas.edu",
+      "eid.utexas.edu",
+      "utexas.edu"
+    ],
+    "primary_color": "#BF5700",
+    "secondary_color": "#FFFFFF",
+    "city": "Austin",
+    "state": "TX",
+    "greek_members": 5782,
+    "conference": "SEC",
+    "notes": "'Burnt orange and white are the official colors': Burnt Orange #BF5700 (PMS 159) + White. Tints of burnt orange are not allowed. Secondary is white; Charcoal #333F48 (PMS 432) is the non-white option. Under the official student email rollout that began in Spring 2025, a student's official address is EID@my.utexas.edu. EID@eid.utexas.edu is the sign-in identifier and forwards to it. Bare @utexas.edu as a student address is UNVERIFIED (ITS lists austin.utexas.edu for employees). Greek: SFL Quick Facts gives 5,782 members (2023-24 Information Guide). Athletics hex not checked separately.",
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/251.png",
+    "logo_url_dark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/251.png"
+  },
+  {
+    "slug": "tamu",
+    "name": "Texas A&M",
+    "full_name": "Texas A&M University",
+    "email_domains": [
+      "tamu.edu",
+      "email.tamu.edu"
+    ],
+    "primary_color": "#500000",
+    "secondary_color": "#FFFFFF",
+    "city": "College Station",
+    "state": "TX",
+    "greek_members": 5778,
+    "conference": "SEC",
+    "notes": "'Our primary palette consists of Aggie Maroon and white': Aggie Maroon #500000 (custom Pantone, ref. 7421) + White. FLAG: Aggie Maroon is very dark (contrast against black is 1.3:1). It is saturated, not grey. Secondary is white. Non-white options: secondary neutrals #3E3E3E and #707070, accent #732F2F. NetID@tamu.edu is the student forwarding address; NetID@email.tamu.edu is the Gmail mailbox. Greek: 5,778 is a FALL 2021 figure (Texas A&M Today). No newer official count was found. Athletics hex not checked separately.",
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/245.png",
+    "logo_url_dark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/245.png"
+  },
+  {
+    "slug": "vanderbilt",
+    "name": "Vanderbilt",
+    "full_name": "Vanderbilt University",
+    "email_domains": [
+      "vanderbilt.edu"
+    ],
+    "primary_color": "#CFAE70",
+    "secondary_color": "#1C1C1C",
+    "city": "Nashville",
+    "state": "TN",
+    "greek_members": null,
+    "conference": "SEC",
+    "notes": "Core colors: Metallic Gold (a #FEEEB6 to #B49248 gradient), Flat Gold #CFAE70, Black #1C1C1C, White. Flat Gold is the solid primary. Athletics uses Flat Gold #CFAE70 and 'Rich Black' #000000; the academic black is #1C1C1C. FLAG: the primary is a light gold (2.1:1 against white) and the secondary is near-black. Students use @vanderbilt.edu; the address format comes from a dated page, but the domain is certain. Greek: Vanderbilt reports 33% of undergrads in 2025-26 with no headcount, so null.",
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/238.png",
+    "logo_url_dark": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/238.png"
+  }
+]

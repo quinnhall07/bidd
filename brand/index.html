@@ -1,0 +1,927 @@
+<title>Bidd Brand Kit</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="The Bidd identity: the B1DD wordmark and B1 mark, campus fills, type, voice, templates and the code kit.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@1,62..125,100..900&family=Hanken+Grotesk:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: full-bleed black and white bands like a drop campaign; one 1320px column inside;
+   the campus dock floats at the bottom and repaints every campus fill on the page. */
+:root {
+  --ink: #0b0b0b;
+  --paper: #ffffff;
+  --g50: #f5f5f5;
+  --g100: #ebebeb;
+  --g200: #d9d9d9;
+  --g400: #9e9e9e;
+  --g600: #6b6b6b;
+  --g800: #262626;
+  --dim: #a3a3a3;
+  --campus: #9e1b32;
+  --campus-ink: #ffffff;
+  --campus-line: #9e1b32;
+  --campus-on-dark: #b33242;
+  --campus-2: #828a8f;
+  --f: "Hanken Grotesk", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --fd: "Archivo", "Arial Narrow", sans-serif;
+  --gutter: clamp(16px, 4vw, 56px);
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);
+  color-scheme: light;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; accent-color: var(--ink); scrollbar-color: var(--g400) var(--g50); }
+body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--f); font-size: 16px; line-height: 1.5;
+  -webkit-font-smoothing: antialiased; padding-bottom: 96px; }
+::selection { background: var(--campus); color: var(--campus-ink); }
+:focus-visible { outline: 2px solid var(--campus-line); outline-offset: 3px; }
+.dark :focus-visible { outline-color: var(--campus-on-dark); }
+a { color: inherit; text-underline-offset: 0.2em; text-decoration-thickness: 1px; }
+img, svg { max-width: 100%; }
+h1, h2, h3, p, ul, ol, dl, dd, figure, pre { margin: 0; }
+ul, ol { padding: 0; list-style: none; }
+
+.display { font-family: var(--fd); font-stretch: 62%; font-variation-settings: "wdth" 62; font-weight: 900; font-style: italic;
+  text-transform: uppercase; line-height: 0.86; letter-spacing: -0.01em; word-spacing: 0.14em; text-wrap: balance; }
+.label { font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; }
+.num { font-variant-numeric: tabular-nums; }
+
+.band { padding-block: clamp(72px, 10vw, 136px);
+  padding-left: max(var(--gutter), env(safe-area-inset-left, 0px));
+  padding-right: max(var(--gutter), env(safe-area-inset-right, 0px)); }
+.dark { background: var(--ink); color: var(--paper); }
+.wrap { max-width: 1320px; margin-inline: auto; }
+.section-head { display: grid; gap: 24px; margin-bottom: clamp(40px, 6vw, 72px); max-width: 980px; }
+.section-head h2 { font-size: clamp(3rem, 8.4vw, 6rem); }
+.section-head p { font-size: clamp(1.0625rem, 1.6vw, 1.25rem); max-width: 62ch; color: var(--g600); }
+.dark .section-head p { color: var(--dim); }
+
+.pill { display: inline-flex; align-items: center; gap: 10px; border-radius: 999px; padding: 14px 24px; font: 700 1rem/1 var(--f);
+  text-decoration: none; border: 2px solid transparent; cursor: pointer; transition: transform 0.4s var(--ease), background-color 0.2s; }
+.pill:hover { transform: translateY(-2px); }
+.pill:active { transform: translateY(0); }
+.pill-ink { background: var(--ink); color: var(--paper); }
+.pill-paper { background: var(--paper); color: var(--ink); }
+.pill-line { background: transparent; color: var(--ink); border-color: var(--ink); }
+.pill[disabled] { background: var(--g100); color: var(--g400); cursor: not-allowed; transform: none; }
+
+/* campus-filled elements repaint in one sweep down the page */
+[data-fill] { transition: background-color 0.5s var(--ease), color 0.5s var(--ease), fill 0.5s var(--ease), stroke 0.5s var(--ease),
+  border-color 0.5s var(--ease); transition-delay: calc(var(--d, 0) * 1ms); }
+
+/* ---------- hero ---------- */
+.hero { padding-block: 0 clamp(56px, 7vw, 96px); padding-top: max(24px, env(safe-area-inset-top, 0px)); overflow: hidden; }
+.nav { display: flex; align-items: center; justify-content: space-between; gap: 24px; padding-block: 12px 0; }
+.nav-logo { display: block; color: var(--paper); line-height: 0; }
+.nav-logo svg { height: 26px; width: auto; }
+.nav ul { display: flex; gap: clamp(16px, 2.2vw, 32px); font-weight: 600; font-size: 0.9375rem; }
+.nav ul a { text-decoration: none; color: var(--dim); transition: color 0.2s; }
+.nav ul a:hover { color: var(--paper); }
+.hero-grid { display: grid; grid-template-columns: minmax(0, 1fr); align-items: end; gap: clamp(24px, 4vw, 64px);
+  margin-top: clamp(40px, 6vh, 72px); }
+.hero-mark { width: 100%; height: auto; max-height: 54vh; display: block; color: var(--paper); overflow: visible; }
+.hero-copy { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: end; gap: clamp(20px, 3vw, 48px); padding-bottom: 8px; }
+.hero-copy h1 { font-size: clamp(4rem, 10vw, 6rem); }
+.hero-copy p { font-size: clamp(1.0625rem, 1.5vw, 1.25rem); color: var(--dim); max-width: 34ch; }
+.hero-copy p strong { color: var(--paper); font-weight: 600; }
+.hero-copy .pill { justify-self: end; }
+
+/* ---------- campus dock ---------- */
+.dock { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(16px + env(safe-area-inset-bottom, 0px)); z-index: 20;
+  display: flex; align-items: center; gap: 4px; padding: 6px; background: var(--ink); color: var(--paper); border-radius: 999px;
+  border: 1px solid var(--g800); box-shadow: 0 12px 32px rgba(0, 0, 0, 0.28); max-width: calc(100vw - 24px); }
+.dock-label { padding: 0 10px 0 14px; color: var(--dim); }
+.dock button, .dock-custom { display: inline-flex; align-items: center; gap: 8px; border: 0; background: transparent; color: var(--paper);
+  font: 600 0.875rem/1 var(--f); padding: 10px 14px; border-radius: 999px; cursor: pointer; white-space: nowrap; transition: background-color 0.2s; }
+.dock button:hover, .dock-custom:hover { background: var(--g800); }
+.dock button[aria-pressed="true"], .dock-custom.on { background: var(--paper); color: var(--ink); }
+.sw { width: 14px; height: 14px; border-radius: 50%; background: var(--sw); box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.35); flex: none; }
+.dock-custom { position: relative; }
+.dock-custom input { position: absolute; inset: 0; opacity: 0; cursor: pointer; width: 100%; height: 100%; }
+.dock-custom:focus-within { outline: 2px solid var(--paper); outline-offset: 2px; }
+
+/* ---------- mark ---------- */
+.spec-grid { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 16px; }
+.spec { border-radius: 4px; padding: clamp(24px, 3vw, 40px); display: grid; align-content: space-between; gap: 32px; min-height: 320px; }
+.spec.paper { background: var(--g50); }
+.spec.ink { background: var(--ink); color: var(--paper); }
+.spec svg { display: block; }
+.spec figcaption { display: flex; justify-content: space-between; gap: 16px; font-size: 0.875rem; color: var(--g600); }
+.spec.ink figcaption { color: var(--dim); }
+.spec figcaption b { color: var(--ink); font-weight: 600; }
+.spec.ink figcaption b { color: var(--paper); }
+.s-a { grid-column: span 7; } .s-b { grid-column: span 5; } .s-c { grid-column: span 7; } .s-d { grid-column: span 5; }
+.s-a svg, .s-c svg { width: 100%; max-width: 560px; height: auto; }
+.s-b svg { height: clamp(110px, 13vw, 168px); width: auto; }
+.icons-row { display: flex; align-items: flex-end; gap: 20px; flex-wrap: wrap; }
+.ic { display: grid; place-items: center; background: var(--ink); width: var(--s); height: var(--s); border-radius: calc(var(--s) * 0.225); flex: none; }
+.ic svg { width: 64%; height: auto; color: var(--paper); }
+.home { display: grid; justify-items: center; gap: 8px; font-weight: 600; font-size: 0.875rem; }
+.ic-home { --s: clamp(112px, 11vw, 168px); }
+.tab { display: inline-flex; align-items: center; gap: 8px; background: var(--paper); border-radius: 8px 8px 0 0; padding: 10px 28px 10px 12px;
+  font-size: 0.8125rem; font-weight: 600; box-shadow: inset 0 -1px 0 var(--g200); }
+.tab .ic { border-radius: 3px; }
+.spec.s-c, .spec.s-d { min-height: 0; }
+.rules { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; margin-top: 16px; }
+.rule { border-top: 2px solid var(--ink); padding-top: 16px; display: grid; gap: 8px; }
+.rule h3 { font-size: 1.125rem; font-weight: 700; }
+.rule p { color: var(--g600); max-width: 40ch; }
+.donts { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; margin-top: 48px; }
+.dont { display: grid; gap: 12px; font-size: 0.875rem; color: var(--g600); }
+.dont .tile { position: relative; background: var(--g50); border-radius: 4px; aspect-ratio: 4 / 3; display: grid; place-items: center; }
+.dont .tile svg.m { height: 46%; width: auto; color: var(--ink); }
+.dont .x { position: absolute; top: 10px; right: 10px; width: 26px; height: 26px; }
+.dont b { color: var(--ink); font-weight: 600; display: block; }
+
+/* ---------- shout ---------- */
+.shout { background: var(--campus); color: var(--campus-ink); overflow: hidden; padding-block: clamp(20px, 3vw, 40px); }
+.shout span { display: block; font-size: clamp(7rem, 25vw, 26rem); white-space: nowrap; margin-left: -0.04em; line-height: 0.8; }
+
+/* ---------- campus ---------- */
+.campus-grid { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: clamp(24px, 4vw, 56px); align-items: start; }
+.tokens { background: var(--ink); color: var(--paper); border-radius: 4px; overflow: hidden; }
+.tokens-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 6px 16px; padding: 20px 24px; border-bottom: 1px solid var(--g800); }
+.tokens-head .who { white-space: nowrap; }
+.tokens-head .who { display: flex; align-items: center; gap: 10px; font-weight: 600; }
+.tokens-head .who .sw { width: 18px; height: 18px; }
+.tokens-head .label { color: var(--dim); }
+.tok { display: grid; grid-template-columns: 52px minmax(0, 1fr) auto; gap: 16px; align-items: center; padding: 18px 24px; border-bottom: 1px solid var(--g800); }
+.tok:last-child { border-bottom: 0; }
+.tok .chip { width: 52px; height: 52px; border-radius: 4px; box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.16); }
+.tok code { font: 600 0.9375rem/1.3 var(--f); display: block; }
+.tok .role { color: var(--dim); font-size: 0.875rem; display: block; margin-top: 2px; }
+.tok .val { text-align: right; font-size: 0.875rem; }
+.tok .val b { display: block; font-weight: 600; }
+.tok .val span { color: var(--dim); }
+.phones { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.phone { background: var(--paper); border: 1px solid var(--g100); border-radius: 28px; padding: 14px; display: grid; gap: 12px;
+  box-shadow: 0 18px 40px -18px rgba(0, 0, 0, 0.25); }
+.phone-bar { display: flex; justify-content: space-between; align-items: center; padding: 6px 4px 2px; }
+.phone-bar svg { height: 18px; width: auto; color: var(--ink); }
+.phone-bar .label { color: var(--g600); font-size: 0.6875rem; }
+.phone .drop { background: var(--campus); color: var(--campus-ink); border-radius: 6px; padding: 16px 14px 14px; display: grid; gap: 10px; }
+.phone .drop .display { font-size: 2.1rem; }
+.phone .drop .row { display: flex; justify-content: space-between; align-items: center; font-size: 0.75rem; font-weight: 600; }
+.phone .chips { display: flex; gap: 6px; flex-wrap: wrap; }
+.chip-s { border: 1.5px solid var(--ink); border-radius: 999px; padding: 6px 10px; font-size: 0.6875rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; }
+.chip-s.on { background: var(--campus); border-color: var(--campus); color: var(--campus-ink); }
+.phone .cup { display: grid; gap: 6px; font-size: 0.75rem; font-weight: 600; }
+.phone .cup .bar { height: 10px; border-radius: 0 999px 999px 0; background: var(--campus); }
+.phone .cup .meta { display: flex; justify-content: space-between; color: var(--g600); }
+.phones-note { grid-column: 1 / -1; font-size: 0.875rem; color: var(--g600); }
+
+/* ---------- type ---------- */
+.type-hero { display: grid; gap: 8px; margin-bottom: 56px; }
+.type-hero .display { font-size: clamp(3.5rem, 10vw, 6rem); }
+.type-hero .display.dim { color: var(--g400); }
+.scale { border-top: 1px solid var(--g800); }
+.scale li { display: grid; grid-template-columns: 180px minmax(0, 1fr) 240px; gap: 24px; align-items: baseline; padding: 22px 0; border-bottom: 1px solid var(--g800); }
+.scale .name { color: var(--dim); }
+.scale .spec-t { color: var(--dim); font-size: 0.875rem; text-align: right; }
+.t-xl { font-size: 6rem; } .t-l { font-size: 4rem; } .t-m { font-size: 2.5rem; }
+.t-title { font-size: 1.5rem; font-weight: 600; line-height: 1.2; }
+.t-body { font-size: 1rem; line-height: 1.5; max-width: 60ch; }
+.t-num { font-size: 1.5rem; font-weight: 600; }
+.font-note { margin-top: 32px; color: var(--dim); max-width: 70ch; }
+.font-note strong { color: var(--paper); font-weight: 600; }
+
+/* ---------- color ---------- */
+.colors { display: grid; grid-template-columns: 2fr 2fr 1fr 1fr 1fr 1fr; gap: 12px; }
+.c { display: grid; gap: 12px; align-content: start; }
+.c .s { display: block; height: 180px; border-radius: 4px; box-shadow: inset 0 0 0 1px var(--g100); }
+
+.c dl { display: grid; gap: 2px; font-size: 0.875rem; }
+.c dt { font-weight: 700; }
+.c dd { color: var(--g600); }
+.colors-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 12px; }
+.c.wide { grid-template-columns: 120px minmax(0, 1fr); align-items: center; gap: 16px; }
+.c.wide .s { height: 120px; }
+.err-sw { display: grid !important; place-items: center; background: var(--paper); color: var(--ink); }
+.err-sw svg { width: 44px; height: 44px; }
+.ratio { margin-top: 40px; display: grid; gap: 12px; }
+.ratio .bar { display: flex; height: 40px; border-radius: 4px; overflow: hidden; box-shadow: 0 0 0 1px var(--g200); }
+.ratio .bar span { display: block; }
+.ratio p { color: var(--g600); font-size: 0.875rem; }
+
+/* ---------- voice ---------- */
+.voice-rules { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 24px; margin-bottom: 64px; }
+.voice-rules li { border-top: 2px solid var(--paper); padding-top: 16px; display: grid; gap: 10px; align-content: start; }
+.voice-rules h3 { font-size: 1.75rem; }
+.voice-rules p { color: var(--dim); }
+.swap { width: 100%; border-collapse: collapse; font-size: 1rem; }
+.swap th { text-align: left; color: var(--dim); padding: 0 16px 12px 0; }
+.swap td { padding: 16px 16px 16px 0; border-top: 1px solid var(--g800); vertical-align: top; }
+.swap td:first-child { color: var(--dim); text-decoration: line-through; text-decoration-color: var(--g600); width: 42%; }
+.swap td:last-child { font-weight: 600; }
+.swap-wrap { overflow-x: auto; }
+.terms { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 48px; }
+.terms li { border: 1.5px solid var(--g800); border-radius: 999px; padding: 8px 14px; font-weight: 600; font-size: 0.9375rem; }
+.terms-head { margin-top: 64px; font-size: 1.5rem; font-weight: 600; }
+.terms-head + p { color: var(--dim); margin-top: 6px; }
+
+/* ---------- in the app ---------- */
+.app-grid { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 16px; }
+.ui { border: 1px solid var(--g100); border-radius: 4px; padding: clamp(20px, 2.4vw, 32px); display: grid; gap: 20px; align-content: start; }
+.u-drop { grid-column: span 7; background: var(--campus); border-color: var(--campus); color: var(--campus-ink); align-content: space-between; min-height: 440px; }
+.u-drop h3 { font-size: clamp(3.5rem, 7vw, 6rem); }
+.u-drop .clock { font-size: clamp(2.5rem, 5vw, 4rem); }
+.u-drop .meta { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px; font-weight: 600; }
+.sizes { display: flex; gap: 8px; flex-wrap: wrap; }
+.sizes button { min-width: 52px; padding: 12px 10px; border-radius: 999px; border: 2px solid currentColor; background: transparent; color: inherit;
+  font: 700 0.875rem/1 var(--f); cursor: pointer; }
+.sizes button[aria-pressed="true"] { background: var(--campus-ink); border-color: var(--campus-ink); color: var(--campus); }
+.pill-on-field { background: var(--campus-ink); color: var(--campus); }
+.sizes button:disabled { opacity: 0.4; text-decoration: line-through; cursor: not-allowed; }
+.u-drop .actions { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+.u-buy { grid-column: span 5; grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr); gap: 20px; }
+.buy-body { display: grid; gap: 16px; align-content: start; }
+.u-buy .row-btns, .u-buy .stamp { grid-column: 1 / -1; }
+.photo { aspect-ratio: 1; background: var(--g50); box-shadow: inset 0 0 0 1px var(--g200); display: flex; align-items: flex-end; padding: 12px; font-size: 0.75rem; line-height: 1.35; color: var(--g600); }
+.price { display: grid; gap: 4px; }
+.price .big { font-size: 2.5rem; font-weight: 700; line-height: 1; }
+.price .fee { color: var(--g600); font-size: 0.9375rem; }
+.item-title { font-size: 1.5rem; font-weight: 600; line-height: 1.2; }
+.item-meta { color: var(--g600); }
+.row-btns { display: flex; gap: 10px; flex-wrap: wrap; }
+.stamp { display: inline-flex; gap: 8px; align-items: center; justify-self: start; border: 1.5px solid var(--ink); border-radius: 999px; padding: 6px 12px; }
+.stamp i { width: 8px; height: 8px; border-radius: 50%; background: var(--campus-line); }
+.u-chips { grid-column: span 5; }
+.u-chips .chips { display: flex; gap: 8px; flex-wrap: wrap; }
+.chip-l { border: 2px solid var(--ink); background: var(--paper); color: var(--ink); border-radius: 999px; padding: 10px 16px; font: 700 0.8125rem/1 var(--f);
+  text-transform: uppercase; letter-spacing: 0.05em; cursor: pointer; }
+.chip-l[aria-pressed="true"] { background: var(--campus); border-color: var(--campus); color: var(--campus-ink); }
+.u-cup { grid-column: span 7; }
+.cup-rows { display: grid; gap: 18px; }
+.cup-row { display: grid; gap: 8px; }
+.cup-row .meta { display: flex; justify-content: space-between; align-items: baseline; font-weight: 600; }
+.cup-row .meta .n { font-size: 2rem; }
+.cup-row .bar { height: 28px; border-radius: 0 999px 999px 0; }
+.cup-foot { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; color: var(--g600); font-size: 0.875rem; }
+.u-gate { grid-column: span 6; }
+.code-boxes { display: flex; gap: 8px; }
+.code-boxes input { width: 52px; height: 60px; text-align: center; font: 700 1.5rem/1 var(--f); border: 2px solid var(--ink); border-radius: 4px; background: var(--paper); color: var(--ink);
+  text-transform: uppercase; }
+.code-boxes input:focus { outline: none; border-color: var(--campus-line); box-shadow: 0 0 0 3px color-mix(in srgb, var(--campus-line) 25%, transparent); }
+.gate-err { display: flex; gap: 8px; align-items: flex-start; color: var(--ink); font-weight: 600; font-size: 0.9375rem; }
+.gate-err svg { width: 20px; height: 20px; flex: none; margin-top: 1px; }
+.gate-err.ok svg { display: none; }
+.u-empty { grid-column: span 6; align-content: center; justify-items: start; }
+.u-empty .display { font-size: clamp(2.5rem, 4.5vw, 3.5rem); }
+.u-empty p { color: var(--g600); max-width: 36ch; }
+.sample { margin-top: 16px; color: var(--g600); font-size: 0.875rem; }
+
+/* ---------- templates ---------- */
+.tpl-grid { display: grid; grid-template-columns: 1.1fr 0.75fr 1.6fr; gap: 16px; align-items: end; }
+.tpl { display: grid; gap: 14px; }
+.tpl img { display: block; width: 100%; height: auto; border-radius: 4px; box-shadow: 0 0 0 1px var(--g800); }
+.tpl figcaption { display: grid; gap: 4px; font-size: 0.875rem; color: var(--dim); }
+.tpl figcaption b { color: var(--paper); font-weight: 600; font-size: 1rem; }
+.tpl code { font: 500 0.8125rem/1.4 var(--f); color: var(--dim); }
+
+/* ---------- kit ---------- */
+.kit { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.k { border-top: 2px solid var(--ink); padding-top: 20px; display: grid; grid-template-columns: minmax(0, 1fr); gap: 14px; align-content: start; min-width: 0; }
+.k h3 { font-size: 1.375rem; font-weight: 700; }
+.k p { color: var(--g600); max-width: 56ch; }
+.k ul { display: grid; gap: 4px; font-size: 0.9375rem; }
+.k ul code { font: 600 0.9375rem/1.4 var(--f); }
+.k ul span { color: var(--g600); }
+.snip { position: relative; background: var(--ink); color: var(--paper); border-radius: 4px; }
+.snip-head { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 8px 8px 8px 20px; border-bottom: 1px solid var(--g800); font: 600 0.8125rem/1.3 var(--f); color: var(--dim); }
+.snip pre { overflow-x: auto; padding: 16px 20px 18px; font: 500 0.8125rem/1.6 ui-monospace, "Cascadia Code", Consolas, monospace; white-space: pre; }
+.copy { padding: 8px 14px; font-size: 0.8125rem; flex: none; }
+.btn-row { display: flex; gap: 10px; flex-wrap: wrap; }
+
+/* ---------- footer ---------- */
+.foot { display: grid; grid-template-columns: 1fr auto; gap: 32px; align-items: end; }
+.foot svg { height: 56px; width: auto; color: var(--paper); }
+.foot .display { font-size: clamp(3rem, 8vw, 6rem); }
+.foot p { color: var(--dim); font-size: 0.875rem; margin-top: 20px; }
+
+/* ---------- motion ---------- */
+.hero-one { transform-box: fill-box; transform-origin: 50% 100%; }
+.hero-one.paint { animation: stamp 0.7s var(--ease) both; }
+@keyframes stamp { from { transform: translateY(12%) scaleY(0.55); opacity: 0.15; } to { transform: none; opacity: 1; } }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  [data-fill] { transition: none; }
+  .hero-one.paint { animation: none; }
+  .pill:hover { transform: none; }
+}
+
+/* ---------- responsive ---------- */
+@media (max-width: 1080px) {
+  .nav { flex-wrap: wrap; row-gap: 12px; }
+  .nav ul { flex-basis: 100%; overflow-x: auto; scrollbar-width: none; margin-inline: -6px; padding: 0 32px 0 6px;
+    -webkit-mask-image: linear-gradient(90deg, #000 calc(100% - 32px), transparent); mask-image: linear-gradient(90deg, #000 calc(100% - 32px), transparent); }
+  .nav ul::-webkit-scrollbar { display: none; }
+  .nav ul li { flex: none; }
+  .nav ul a { display: inline-block; padding-block: 12px; }
+  .s-a, .s-b, .s-c, .s-d { grid-column: span 12; }
+  .rules { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .campus-grid { grid-template-columns: minmax(0, 1fr); }
+  .scale li { grid-template-columns: 140px minmax(0, 1fr); }
+  .scale .spec-t { grid-column: 2; text-align: left; }
+  .voice-rules { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .u-drop, .u-buy, .u-chips, .u-cup, .u-gate, .u-empty { grid-column: span 12; }
+  .u-buy { grid-template-columns: minmax(0, 280px) minmax(0, 1fr); }
+  .tpl-grid { grid-template-columns: 1fr 1fr; }
+  .tpl-grid .tpl:last-child { grid-column: 1 / -1; }
+}
+@media (max-width: 760px) {
+  .hero-grid { grid-template-columns: minmax(0, 1fr); align-items: start; }
+  .hero-mark { height: auto; width: 100%; }
+  .hero-copy { grid-template-columns: minmax(0, 1fr); }
+  .hero-copy .pill { justify-self: start; }
+  .spec { min-height: 0; }
+  .rules { grid-template-columns: minmax(0, 1fr); }
+  .donts { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .phones { grid-template-columns: minmax(0, 1fr); max-width: 340px; }
+  .scale li { grid-template-columns: minmax(0, 1fr); gap: 8px; }
+  .scale .spec-t { grid-column: 1; }
+  .t-xl { font-size: 4rem; } .t-l { font-size: 3rem; }
+  .colors { grid-template-columns: 1fr 1fr; }
+  .c .s { height: 120px; }
+  .colors-2 { grid-template-columns: minmax(0, 1fr); }
+  .voice-rules { grid-template-columns: minmax(0, 1fr); }
+  .tpl-grid { grid-template-columns: minmax(0, 1fr); }
+  .u-buy { grid-template-columns: minmax(0, 1fr); }
+  .kit { grid-template-columns: minmax(0, 1fr); }
+  .foot { grid-template-columns: minmax(0, 1fr); }
+  .dock-label { display: none; }
+  .dock button, .dock-custom { padding: 10px 10px; font-size: 0.8125rem; }
+}
+@media (max-width: 400px) {
+  .dock .long { display: none; }
+}
+</style>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="wm" viewBox="-5 -689 1894 689">
+    <path d="M-5 0L115 -688L362 -688Q412 -688 449 -672.5Q486 -657 506 -626Q526 -595 526 -549Q526 -498 507 -460.5Q488 -423 458 -398Q428 -373 394 -359L393 -355Q431 -339 456 -311.5Q481 -284 481 -228Q481 -160 448.5 -108.5Q416 -57 363 -28.5Q310 0 249 0ZM201 -160L249 -160Q260 -160 272 -168Q284 -176 292 -193.5Q300 -211 300 -238Q300 -255 292 -266.5Q284 -278 270 -278L222 -278ZM247 -420L289 -420Q298 -420 307 -424.5Q316 -429 323.5 -438.5Q331 -448 335.5 -462.5Q340 -477 340 -497Q340 -514 332 -525.5Q324 -537 310 -537L268 -537Z" fill="currentColor"/>
+    <path d="M466 0L489 -134L579 -134L638 -466L547 -466L567 -581Q590 -583 618 -593Q646 -603 675 -618Q704 -633 732 -651.5Q760 -670 782 -689L840 -689L742 -134L833 -134L810 0Z" style="fill: var(--one, currentColor)"/>
+    <path d="M864 0L984 -688L1200 -688Q1298 -688 1339 -641.5Q1380 -595 1380 -497Q1380 -463 1375.5 -423.5Q1371 -384 1363 -337Q1343 -223 1312.5 -148Q1282 -73 1230.5 -36.5Q1179 0 1095 0ZM1074 -158L1102 -158Q1117 -158 1127 -164.5Q1137 -171 1143.5 -185.5Q1150 -200 1154.5 -222.5Q1159 -245 1165 -276Q1179 -355 1186 -396.5Q1193 -438 1195.5 -457Q1198 -476 1198 -487Q1198 -501 1195 -510.5Q1192 -520 1185.5 -525Q1179 -530 1167 -530L1139 -530Z" fill="currentColor"/>
+    <path d="M1373 0L1493 -688L1709 -688Q1807 -688 1848 -641.5Q1889 -595 1889 -497Q1889 -463 1884.5 -423.5Q1880 -384 1872 -337Q1852 -223 1821.5 -148Q1791 -73 1739.5 -36.5Q1688 0 1604 0ZM1583 -158L1611 -158Q1626 -158 1636 -164.5Q1646 -171 1652.5 -185.5Q1659 -200 1663.5 -222.5Q1668 -245 1674 -276Q1688 -355 1695 -396.5Q1702 -438 1704.5 -457Q1707 -476 1707 -487Q1707 -501 1704 -510.5Q1701 -520 1694.5 -525Q1688 -530 1676 -530L1648 -530Z" fill="currentColor"/>
+  </symbol>
+  <symbol id="mk" viewBox="-5 -689 845 689">
+    <path d="M-5 0L115 -688L362 -688Q412 -688 449 -672.5Q486 -657 506 -626Q526 -595 526 -549Q526 -498 507 -460.5Q488 -423 458 -398Q428 -373 394 -359L393 -355Q431 -339 456 -311.5Q481 -284 481 -228Q481 -160 448.5 -108.5Q416 -57 363 -28.5Q310 0 249 0ZM201 -160L249 -160Q260 -160 272 -168Q284 -176 292 -193.5Q300 -211 300 -238Q300 -255 292 -266.5Q284 -278 270 -278L222 -278ZM247 -420L289 -420Q298 -420 307 -424.5Q316 -429 323.5 -438.5Q331 -448 335.5 -462.5Q340 -477 340 -497Q340 -514 332 -525.5Q324 -537 310 -537L268 -537Z" fill="currentColor"/>
+    <path d="M466 0L489 -134L579 -134L638 -466L547 -466L567 -581Q590 -583 618 -593Q646 -603 675 -618Q704 -633 732 -651.5Q760 -670 782 -689L840 -689L742 -134L833 -134L810 0Z" style="fill: var(--one, currentColor)"/>
+  </symbol>
+  <symbol id="x" viewBox="0 0 26 26">
+    <circle cx="13" cy="13" r="13" fill="#0b0b0b"/>
+    <path d="M8.5 8.5 L17.5 17.5 M17.5 8.5 L8.5 17.5" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/>
+  </symbol>
+  <symbol id="alert" viewBox="0 0 20 20">
+    <circle cx="10" cy="10" r="8.5" fill="none" stroke="currentColor" stroke-width="2"/>
+    <path d="M10 5.5 L10 11" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+    <circle cx="10" cy="14.4" r="1.4" fill="currentColor"/>
+  </symbol>
+</svg>
+
+<header class="band dark hero" id="top">
+  <div class="wrap">
+    <nav class="nav" aria-label="Sections">
+      <a class="nav-logo" href="#top" aria-label="Bidd brand kit home">
+        <svg viewBox="0 0 1894 689" style="--one: var(--campus-on-dark)" data-fill><use href="#wm"/></svg>
+      </a>
+      <ul>
+        <li><a href="#mark">Mark</a></li>
+        <li><a href="#campus">Campus</a></li>
+        <li><a href="#type">Type</a></li>
+        <li><a href="#color">Color</a></li>
+        <li><a href="#voice">Voice</a></li>
+        <li><a href="#app">In the app</a></li>
+        <li><a href="#templates">Templates</a></li>
+        <li><a href="#kit">Kit</a></li>
+      </ul>
+    </nav>
+    <div class="hero-grid">
+      <svg class="hero-mark" viewBox="-5 -689 1894 689" preserveAspectRatio="xMinYMax meet" role="img" aria-label="B1DD, the Bidd wordmark">
+        <path d="M-5 0L115 -688L362 -688Q412 -688 449 -672.5Q486 -657 506 -626Q526 -595 526 -549Q526 -498 507 -460.5Q488 -423 458 -398Q428 -373 394 -359L393 -355Q431 -339 456 -311.5Q481 -284 481 -228Q481 -160 448.5 -108.5Q416 -57 363 -28.5Q310 0 249 0ZM201 -160L249 -160Q260 -160 272 -168Q284 -176 292 -193.5Q300 -211 300 -238Q300 -255 292 -266.5Q284 -278 270 -278L222 -278ZM247 -420L289 -420Q298 -420 307 -424.5Q316 -429 323.5 -438.5Q331 -448 335.5 -462.5Q340 -477 340 -497Q340 -514 332 -525.5Q324 -537 310 -537L268 -537Z" fill="currentColor"/>
+        <path class="hero-one" d="M466 0L489 -134L579 -134L638 -466L547 -466L567 -581Q590 -583 618 -593Q646 -603 675 -618Q704 -633 732 -651.5Q760 -670 782 -689L840 -689L742 -134L833 -134L810 0Z" style="fill: var(--campus-on-dark)" data-fill/>
+        <path d="M864 0L984 -688L1200 -688Q1298 -688 1339 -641.5Q1380 -595 1380 -497Q1380 -463 1375.5 -423.5Q1371 -384 1363 -337Q1343 -223 1312.5 -148Q1282 -73 1230.5 -36.5Q1179 0 1095 0ZM1074 -158L1102 -158Q1117 -158 1127 -164.5Q1137 -171 1143.5 -185.5Q1150 -200 1154.5 -222.5Q1159 -245 1165 -276Q1179 -355 1186 -396.5Q1193 -438 1195.5 -457Q1198 -476 1198 -487Q1198 -501 1195 -510.5Q1192 -520 1185.5 -525Q1179 -530 1167 -530L1139 -530Z" fill="currentColor"/>
+        <path d="M1373 0L1493 -688L1709 -688Q1807 -688 1848 -641.5Q1889 -595 1889 -497Q1889 -463 1884.5 -423.5Q1880 -384 1872 -337Q1852 -223 1821.5 -148Q1791 -73 1739.5 -36.5Q1688 0 1604 0ZM1583 -158L1611 -158Q1626 -158 1636 -164.5Q1646 -171 1652.5 -185.5Q1659 -200 1663.5 -222.5Q1668 -245 1674 -276Q1688 -355 1695 -396.5Q1702 -438 1704.5 -457Q1707 -476 1707 -487Q1707 -501 1704 -510.5Q1701 -520 1694.5 -525Q1688 -530 1676 -530L1648 -530Z" fill="currentColor"/>
+      </svg>
+      <div class="hero-copy">
+        <h1 class="display">Be 1 of 1.</h1>
+        <p><strong>The closet for SEC Greek life.</strong> The I in Bidd is a 1, and it wears your campus color. Switch campuses below and every fill on this page repaints.</p>
+        <a class="pill pill-paper" href="#kit">Get the kit</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="band" id="mark">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 class="display">The I is a 1.</h2>
+        <p>Everywhere people read it, the name is Bidd. The logo draws it B1DD: the I becomes a 1, the serial number on a one-of-one piece. The letters always print in ink, black on white and white on black. The 1 belongs to the campus and takes its color. Before anyone signs in, the 1 is ink too.</p>
+      </div>
+      <div class="spec-grid">
+        <figure class="spec paper s-a">
+          <svg viewBox="0 0 1894 689" style="--one: var(--campus-line)" data-fill role="img" aria-label="Wordmark on white"><use href="#wm"/></svg>
+          <figcaption><b>Wordmark on white</b><span>The 1: --campus-line</span></figcaption>
+        </figure>
+        <figure class="spec ink s-b">
+          <svg viewBox="0 0 845 689" style="--one: var(--campus-on-dark); color: var(--paper)" data-fill role="img" aria-label="Mark on black"><use href="#mk"/></svg>
+          <figcaption><b>Mark on black</b><span>The 1: --campus-on-dark</span></figcaption>
+        </figure>
+        <figure class="spec paper s-c">
+          <svg viewBox="0 0 1894 689" role="img" aria-label="Wordmark before sign-in"><use href="#wm"/></svg>
+          <figcaption><b>Before sign-in</b><span>The 1 is ink too</span></figcaption>
+        </figure>
+        <figure class="spec paper s-d">
+          <div class="icons-row" aria-label="App icon on the home screen, in a notification and as the browser tab favicon" role="img">
+            <span class="home"><span class="ic ic-home"><svg viewBox="0 0 845 689" aria-hidden="true"><use href="#mk"/></svg></span>Bidd</span>
+            <span class="ic" style="--s:56px"><svg viewBox="0 0 845 689" aria-hidden="true"><use href="#mk"/></svg></span>
+            <span class="ic" style="--s:32px"><svg viewBox="0 0 845 689" aria-hidden="true"><use href="#mk"/></svg></span>
+            <span class="tab"><span class="ic" style="--s:16px"><svg viewBox="0 0 845 689" aria-hidden="true"><use href="#mk"/></svg></span>Bidd</span>
+          </div>
+          <figcaption><b>App icon</b><span>The B1 mark in paper on ink</span></figcaption>
+        </figure>
+      </div>
+      <div class="rules">
+        <div class="rule"><h3>Clear space</h3><p>Keep the width of the 1 empty on every side of the logo.</p></div>
+        <div class="rule"><h3>Minimum size</h3><p>Wordmark 64px wide. Below that, use the B1 mark, which holds down to the 16px favicon.</p></div>
+        <div class="rule"><h3>No lockups</h3><p>Never join the Bidd logo to a university logo, chapter letters or a crest. In the demo, a school&rsquo;s logo can identify its campus, always set apart from ours.</p></div>
+        <div class="rule"><h3>Never retype it</h3><p>The logo is outlined from Archivo with its own spacing. Use the files; typing B1DD gets it wrong.</p></div>
+      </div>
+      <div class="donts">
+        <div class="dont">
+          <div class="tile"><svg class="m" viewBox="0 0 845 689" style="color:#9e1b32; --one:#0b0b0b"><use href="#mk"/></svg><svg class="x" aria-hidden="true"><use href="#x"/></svg></div>
+          <span><b>Never color the letters</b>The B and D stay ink. Only the 1 takes a color.</span>
+        </div>
+        <div class="dont">
+          <div class="tile"><svg class="m" viewBox="0 0 845 689" style="--one:#3ad17a"><use href="#mk"/></svg><svg class="x" aria-hidden="true"><use href="#x"/></svg></div>
+          <span><b>No outside colors</b>The 1 is a campus color or ink, nothing else.</span>
+        </div>
+        <div class="dont">
+          <div class="tile"><svg class="m" viewBox="0 0 845 689" style="transform: scaleX(1.5)"><use href="#mk"/></svg><svg class="x" aria-hidden="true"><use href="#x"/></svg></div>
+          <span><b>Never stretch it</b>Scale the mark evenly, or not at all.</span>
+        </div>
+        <div class="dont">
+          <div class="tile"><svg class="m" viewBox="0 0 845 689" style="filter: drop-shadow(6px 6px 0 #9e9e9e)"><use href="#mk"/></svg><svg class="x" aria-hidden="true"><use href="#x"/></svg></div>
+          <span><b>No effects</b>No shadows, outlines, gradients or glow.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="shout" data-fill aria-hidden="true"><span class="display" data-fill>Be 1 of 1. Be 1 of 1.</span></div>
+
+  <section class="band" id="campus" style="background: var(--g50)">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 class="display">Bidd frames. Campus fills.</h2>
+        <p>Bidd is black and white and nothing else. A campus color only ever arrives as a fill: the 1 in the logo, drop banners, Closet Cup bars, the active chip, focus rings. One row in <code>campuses</code> sets it, and the kit derives four values from it so it reads on any ground. A navy or maroon that would vanish next to black letters gets lifted with its hue kept, and a black campus hands the 1 to its second color.</p>
+      </div>
+      <div class="campus-grid">
+        <div class="tokens" aria-live="polite">
+          <div class="tokens-head">
+            <span class="who"><i class="sw" id="tokSw" style="--sw: var(--campus)"></i><span id="tokName">Alabama</span></span>
+            <span class="label" id="tokHex">#9E1B32 · #828A8F</span>
+          </div>
+          <div class="tok"><i class="chip" style="background: var(--campus)" data-fill></i>
+            <span><code>--campus</code><span class="role">Large fields: drop banners, Cup bars, chips</span></span>
+            <span class="val"><b class="num" data-v="campus">#9E1B32</b><span class="num" data-r="campus">text 7.9:1</span></span></div>
+          <div class="tok"><i class="chip" style="background: var(--campus-ink)" data-fill></i>
+            <span><code>--campus-ink</code><span class="role">Text on a campus field, black or white</span></span>
+            <span class="val"><b class="num" data-v="ink">#FFFFFF</b><span>picked by contrast</span></span></div>
+          <div class="tok"><i class="chip" style="background: var(--campus-line)" data-fill></i>
+            <span><code>--campus-line</code><span class="role">Thin marks on white: the 1, focus ring, links</span></span>
+            <span class="val"><b class="num" data-v="line">#9E1B32</b><span class="num" data-r="line">on white 7.9:1</span></span></div>
+          <div class="tok"><i class="chip" style="background: var(--campus-on-dark)" data-fill></i>
+            <span><code>--campus-on-dark</code><span class="role">The 1 and any campus mark on black, hue kept</span></span>
+            <span class="val"><b class="num" data-v="dark">#B33242</b><span class="num" data-r="dark">on black 3.2:1</span></span></div>
+        </div>
+        <div class="phones">
+          <div class="phone" style="--campus:#9E1B32; --campus-ink:#FFFFFF; --campus-line:#9E1B32">
+            <div class="phone-bar"><svg viewBox="0 0 1894 689" style="--one: var(--campus-line)" aria-label="Bidd"><use href="#wm"/></svg><span class="label">ua.edu</span></div>
+            <div class="drop"><span class="display">Bid Day drop</span><div class="row"><span>Chapter closet</span><span class="num">02:14:09</span></div></div>
+            <div class="chips"><span class="chip-s on">Rush</span><span class="chip-s">Bid Day</span><span class="chip-s">Gameday</span></div>
+            <div class="cup"><div class="meta"><span>Your chapter · 3rd</span><span class="num">128</span></div><div class="bar" style="width: 72%"></div></div>
+          </div>
+          <div class="phone" style="--campus:#14213D; --campus-ink:#FFFFFF; --campus-line:#274A9C">
+            <div class="phone-bar"><svg viewBox="0 0 1894 689" style="--one: var(--campus-line)" aria-label="Bidd"><use href="#wm"/></svg><span class="label">olemiss.edu</span></div>
+            <div class="drop"><span class="display">Bid Day drop</span><div class="row"><span>Chapter closet</span><span class="num">02:14:09</span></div></div>
+            <div class="chips"><span class="chip-s on">Rush</span><span class="chip-s">Bid Day</span><span class="chip-s">Gameday</span></div>
+            <div class="cup"><div class="meta"><span>Your chapter · 1st</span><span class="num">164</span></div><div class="bar" style="width: 92%"></div></div>
+          </div>
+          <p class="phones-note">Same app, two sign-ins. The campus comes from the email domain. Sample data.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band dark" id="type">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 class="display">Archivo shouts. Hanken talks.</h2>
+        <p>Two Google Fonts. Archivo Extra Condensed Black Italic, in capitals, is the headline voice and the letters of the logo. Hanken Grotesk sets everything people read: body copy, labels, buttons and prices.</p>
+      </div>
+      <div class="type-hero" aria-hidden="true">
+        <span class="display">Rush closet</span>
+        <span class="display dim">Senior clear-out</span>
+      </div>
+      <ol class="scale">
+        <li><span class="label name">Display XL</span><span class="display t-xl">Bid Day drop</span><span class="spec-t num">Archivo 96 / 0.86 · wdth 62 · 900 italic</span></li>
+        <li><span class="label name">Display L</span><span class="display t-l">Closet Cup</span><span class="spec-t num">64 / 0.86</span></li>
+        <li><span class="label name">Display M</span><span class="display t-m">Gameday fits</span><span class="spec-t num">40 / 0.86</span></li>
+        <li><span class="label name">Title</span><span class="t-title">Sequin mini, worn once</span><span class="spec-t num">Hanken 24 / 1.2 · 600</span></li>
+        <li><span class="label name">Body</span><span class="t-body">Snap a photo of the piece. Bidd fills in the title, size, condition and a price, and you post it in about thirty seconds.</span><span class="spec-t num">Hanken 16 / 1.5 · 400</span></li>
+        <li><span class="label name">Label</span><span class="label">Size S · Like new · Formal</span><span class="spec-t num">Hanken 12 · 700 · +0.06em caps</span></li>
+        <li><span class="label name">Numbers</span><span class="t-num num">$38.00 · 02:14:09 · 48 left</span><span class="spec-t num">Hanken, tabular figures</span></li>
+      </ol>
+      <p class="font-note"><strong>Never</strong> set body copy in the condensed italic, and never set the italic in lowercase. Headlines stay short: two to four words, ending on a period when it's a statement.</p>
+    </div>
+  </section>
+
+  <section class="band" id="color">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 class="display">Black. White. Your campus.</h2>
+        <p>Neutral grays do the quiet work. There is no Bidd accent color, because the campus is the accent. Errors are ink with an icon, so no hue ever competes with a campus.</p>
+      </div>
+      <div class="colors">
+        <div class="c big"><span class="s" style="background: var(--ink)"></span><dl><dt>Ink</dt><dd class="num">#0B0B0B · the letters, type, primary buttons</dd></dl></div>
+        <div class="c big"><span class="s" style="background: var(--paper)"></span><dl><dt>Paper</dt><dd class="num">#FFFFFF · the app's ground</dd></dl></div>
+        <div class="c"><span class="s" style="background: var(--g50)"></span><dl><dt>Gray 50</dt><dd class="num">#F5F5F5 · surfaces</dd></dl></div>
+        <div class="c"><span class="s" style="background: var(--g100)"></span><dl><dt>Gray 100</dt><dd class="num">#EBEBEB · borders</dd></dl></div>
+        <div class="c"><span class="s" style="background: var(--g400)"></span><dl><dt>Gray 400</dt><dd class="num">#9E9E9E · disabled</dd></dl></div>
+        <div class="c"><span class="s" style="background: var(--g600)"></span><dl><dt>Gray 600</dt><dd class="num">#6B6B6B · muted text, 5.3:1</dd></dl></div>
+      </div>
+      <div class="colors-2">
+        <div class="c wide"><span class="s" style="background: var(--campus)" data-fill></span><dl><dt>Campus</dt><dd>Whatever the signed-in campus is. Switch it in the dock below. Fields, active states and the 1 only.</dd></dl></div>
+        <div class="c wide"><span class="s err-sw"><svg viewBox="0 0 20 20" aria-hidden="true"><use href="#alert"/></svg></span><dl><dt>Errors</dt><dd>Ink, an icon and a plain sentence that names the fix. Never red: every hue already belongs to some campus.</dd></dl></div>
+      </div>
+      <div class="ratio">
+        <div class="bar" aria-hidden="true"><span style="flex: 58; background: var(--paper)"></span><span style="flex: 28; background: var(--ink)"></span><span style="flex: 4; background: var(--g100)"></span><span style="flex: 10; background: var(--campus)" data-fill></span></div>
+        <p>A typical screen: about 90% ink and paper, about 10% campus.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="band dark" id="voice">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 class="display">Say it like a drop.</h2>
+        <p>Bidd talks like someone in your chapter who knows fashion, not like a brand deck. Short, sure, specific.</p>
+      </div>
+      <ul class="voice-rules">
+        <li><h3 class="display">Say less.</h3><p>Two to four words for a headline. Buttons are verbs: List it, Buy it, Pre-order.</p></li>
+        <li><h3 class="display">Numbers win.</h3><p>"48 left" and "02:14:09" beat "almost gone" and "ending soon".</p></li>
+        <li><h3 class="display">Talk campus.</h3><p>Rush, Bid Day, gameday, formal, the Cup. Use the words chapters already use.</p></li>
+        <li><h3 class="display">No fake hype.</h3><p>Never invent scarcity, prices or partners. A drop is limited because the chapter set the stock.</p></li>
+      </ul>
+      <div class="swap-wrap">
+        <table class="swap">
+          <thead><tr><th class="label">Instead of</th><th class="label">Bidd says</th></tr></thead>
+          <tbody>
+            <tr><td>Submit listing</td><td>List it</td></tr>
+            <tr><td>No items found</td><td>Nothing in your closet yet. Your first listing takes about 30 seconds.</td></tr>
+            <tr><td>Access code required</td><td>This closet is members-only. Enter your chapter's code.</td></tr>
+            <tr><td>Invalid code. Please try again.</td><td>That code didn't work. Check it with your chapter's merch chair.</td></tr>
+            <tr><td>Hurry, limited time offer!!</td><td>Drop closes in 02:14:09. 48 left.</td></tr>
+            <tr><td>Transaction complete</td><td>It's yours. Meet at the Exchange Spot and scan to finish.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="terms-head">Say it exactly</p>
+      <p>The product's words, spelled and capitalized like this every time. The name is Bidd in every sentence; B1DD is how the logo draws it, never how we spell it.</p>
+      <ul class="terms">
+        <li>closet</li><li>chapter closet</li><li>drop</li><li>access code</li><li>Closet Cup</li><li>Fall Cup</li><li>Spring Cup</li><li>SEC view</li><li>Exchange Spot</li><li>MSC</li><li>Rush Closet</li><li>Senior Clear-out</li><li>points</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="band" id="app">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 class="display">In the app.</h2>
+        <p>Black pill actions, pill chips, square corners on content, campus on the fills. These pieces are live: pick a size, tap a moment, try a code.</p>
+      </div>
+      <div class="app-grid">
+        <article class="ui u-drop" data-fill>
+          <h3 class="display">Bid Day drop</h3>
+          <div class="clock display num" id="clock">02:14:09</div>
+          <div class="meta"><span class="num">48 of 120 left</span><span>Opens to members with the chapter code</span></div>
+          <div class="sizes" role="group" aria-label="Size">
+            <button type="button" aria-pressed="false">XS</button>
+            <button type="button" aria-pressed="true">S</button>
+            <button type="button" aria-pressed="false">M</button>
+            <button type="button" aria-pressed="false">L</button>
+            <button type="button" aria-pressed="false" disabled aria-label="XL, sold out">XL</button>
+          </div>
+          <div class="actions"><button class="pill pill-on-field" type="button" data-fill>Pre-order size S</button><span class="label">10% to philanthropy</span></div>
+        </article>
+        <article class="ui u-buy">
+          <div class="photo" role="img" aria-label="Listing photo slot, pending">Listing photo: square, full garment, daylight. Rowan, pending.</div>
+          <div class="buy-body">
+          <p class="item-title">Sequin mini, worn once</p>
+          <p class="item-meta">Size S · Like new · Formal</p>
+          <div class="price"><span class="big num">$38</span><span class="fee num">+ $2.40 buyer fee (5% + $0.50). The seller keeps $38.</span></div>
+          </div>
+          <div class="row-btns"><button class="pill pill-ink" type="button">Buy it</button><button class="pill pill-line" type="button">Save</button><button class="pill" type="button" disabled>Sold</button></div>
+          <span class="stamp label"><i data-fill></i>Fall Cup · day 23</span>
+        </article>
+        <article class="ui u-chips">
+          <h3 class="item-title">Shop by moment</h3>
+          <div class="chips" role="group" aria-label="Filter by moment">
+            <button class="chip-l" type="button" aria-pressed="true" data-fill>Rush</button>
+            <button class="chip-l" type="button" aria-pressed="false" data-fill>Bid Day</button>
+            <button class="chip-l" type="button" aria-pressed="false" data-fill>Gameday</button>
+            <button class="chip-l" type="button" aria-pressed="false" data-fill>Formal</button>
+            <button class="chip-l" type="button" aria-pressed="false" data-fill>Casual</button>
+            <button class="chip-l" type="button" aria-pressed="false" data-fill>Philanthropy</button>
+          </div>
+        </article>
+        <article class="ui u-cup">
+          <h3 class="item-title">Closet Cup, SEC view</h3>
+          <div class="cup-rows">
+            <div class="cup-row"><div class="meta"><span>Alabama</span><span class="n display num">412</span></div><div class="bar" style="width: 100%; background: #9E1B32"></div></div>
+            <div class="cup-row"><div class="meta"><span>Ole Miss</span><span class="n display num">388</span></div><div class="bar" style="width: 94%; background: #14213D"></div></div>
+          </div>
+          <div class="cup-foot"><span>Same national chapter, two campuses. Each bar wears its own campus.</span><span>Sample standings</span></div>
+        </article>
+        <article class="ui u-gate">
+          <p class="item-title">This closet is members-only. Enter your chapter's code.</p>
+          <form id="gate" class="code-boxes" autocomplete="off" aria-label="Access code">
+            <input id="c1" maxlength="1" aria-label="Character 1"><input id="c2" maxlength="1" aria-label="Character 2"><input id="c3" maxlength="1" aria-label="Character 3"><input id="c4" maxlength="1" aria-label="Character 4"><input id="c5" maxlength="1" aria-label="Character 5">
+          </form>
+          <p class="gate-err" id="gateMsg" hidden><svg viewBox="0 0 20 20" aria-hidden="true"><use href="#alert"/></svg><span id="gateText">That code didn't work. Check it with your chapter's merch chair.</span></p>
+          <span class="item-meta">Try any five letters, or BIDD1 to unlock.</span>
+        </article>
+        <article class="ui u-empty">
+          <h3 class="display">Nothing here yet.</h3>
+          <p>Your first listing takes about 30 seconds. Snap it, check what Bidd filled in, post it.</p>
+          <button class="pill pill-ink" type="button">List your first piece</button>
+        </article>
+      </div>
+      <p class="sample">Prices, stock and standings on this page are sample data.</p>
+    </div>
+  </section>
+
+  <section class="band dark" id="templates">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 class="display">Ready to post.</h2>
+        <p>Three templates in the brand voice. Each is an HTML file in the repo: edit the words, then screenshot it at its size or drop the PNG into Canva.</p>
+      </div>
+      <div class="tpl-grid">
+        <figure class="tpl"><img src="templates/ig-drop.png" width="1080" height="1350" alt="Instagram post: Bid Day drop in a crimson field with a 48-hour countdown"><figcaption><b>Drop post</b><span>1080 × 1350</span><code>brand/templates/ig-drop.html</code></figcaption></figure>
+        <figure class="tpl"><img src="templates/story-cup.png" width="1080" height="1920" alt="Instagram story: Closet Cup SEC view, Alabama 412 against Ole Miss 388"><figcaption><b>Cup story</b><span>1080 × 1920</span><code>brand/templates/story-cup.html</code></figcaption></figure>
+        <figure class="tpl"><img src="templates/deck-title.png" width="1920" height="1080" alt="Deck title slide: the B1DD wordmark with a crimson 1, and Be 1 of 1."><figcaption><b>Deck title</b><span>1920 × 1080</span><code>brand/templates/deck-title.html</code></figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="band" id="kit">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 class="display">Get the kit.</h2>
+        <p>Everything lives in the repo under <code>brand/</code>. Copy what you need from here, or open the files directly.</p>
+      </div>
+      <div class="kit">
+        <div class="k">
+          <h3>Logos</h3>
+          <ul>
+            <li><code>brand/logo/bidd-wordmark.svg</code> <span>· B1DD, black, plus -white</span></li>
+            <li><code>brand/logo/bidd-mark.svg</code> <span>· B1, black, plus -white</span></li>
+            <li><code>brand/logo/source/</code> <span>· the outlines and the font license</span></li>
+            <li><code>brand/logo/campus/</code> <span>· Alabama and Ole Miss 1s, on white and on black</span></li>
+          </ul>
+          <div class="btn-row">
+            <button class="pill pill-ink copy-svg" type="button" data-src="wm">Copy wordmark SVG</button>
+            <button class="pill pill-line copy-svg" type="button" data-src="mk">Copy mark SVG</button>
+          </div>
+          <p>New campus? Add it to <code>brand/scripts/logos.mjs</code> and run <code>node brand/scripts/logos.mjs</code>.</p>
+        </div>
+        <div class="k">
+          <h3>App icons</h3>
+          <ul>
+            <li><code>brand/icons/favicon.ico</code> <span>· 16, 32, 48</span></li>
+            <li><code>brand/icons/icon.svg</code>, <code>apple-icon.png</code> <span>· 180</span></li>
+            <li><code>brand/icons/icon-192.png</code>, <code>icon-512.png</code>, <code>icon-maskable-512.png</code></li>
+          </ul>
+          <p>Copy <code>favicon.ico</code>, <code>icon.svg</code> and <code>apple-icon.png</code> into <code>app/</code>. Next.js picks them up by name.</p>
+        </div>
+        <div class="k">
+          <h3>Theme</h3>
+          <p>Tokens for Tailwind v4 and shadcn/ui: black primary, campus ring and fills, the <code>display</code> and <code>label</code> utilities.</p>
+          <div class="snip"><div class="snip-head"><span>app/globals.css, after Tailwind and shadcn</span><button class="pill pill-paper copy" type="button" data-copy="s-css">Copy</button></div><pre id="s-css">@import "../brand/theme/bidd.css";</pre></div>
+        </div>
+        <div class="k">
+          <h3>Fonts</h3>
+          <p>Archivo for display and Hanken Grotesk for text, both through <code>next/font</code>.</p>
+          <div class="snip"><div class="snip-head"><span>app/layout.tsx</span><button class="pill pill-paper copy" type="button" data-copy="s-font">Copy</button></div><pre id="s-font">import { archivo, hanken } from "@/brand/theme/fonts";
+
+&lt;html lang="en" className={`${archivo.variable} ${hanken.variable}`}&gt;</pre></div>
+        </div>
+        <div class="k">
+          <h3>Campus colors</h3>
+          <p>Turns a <code>campuses</code> row into the four fill variables. Put it on <code>&lt;body&gt;</code> once the campus is known.</p>
+          <div class="snip"><div class="snip-head"><span>app/layout.tsx</span><button class="pill pill-paper copy" type="button" data-copy="s-campus">Copy</button></div><pre id="s-campus">import { campusTheme } from "@/brand/theme/campus";
+
+&lt;body style={campusTheme({
+  primary: campus.primary_color,
+  secondary: campus.secondary_color,
+})}&gt;</pre></div>
+        </div>
+        <div class="k">
+          <h3>Logo components</h3>
+          <p>React SVGs. The letters follow <code>currentColor</code>, the 1 follows the campus.</p>
+          <div class="snip"><div class="snip-head"><span>any component</span><button class="pill pill-paper copy" type="button" data-copy="s-react">Copy</button></div><pre id="s-react">import { BiddWordmark, BiddMark } from "@/brand/react/bidd-logo";
+
+&lt;BiddWordmark className="h-7 text-ink" /&gt;
+&lt;BiddMark className="size-10 text-paper" tone="dark" /&gt;</pre></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="band dark">
+  <div class="wrap foot">
+    <div>
+      <svg viewBox="0 0 1894 689" style="--one: var(--campus-on-dark)" data-fill role="img" aria-label="Bidd"><use href="#wm"/></svg>
+      <p>Bidd brand kit, version 2 · October 2026 · The closet for SEC Greek life.</p>
+    </div>
+    <span class="display">Be 1 of 1.</span>
+  </div>
+</footer>
+
+<div class="dock" role="group" aria-label="Preview a campus">
+  <span class="dock-label label">Campus</span>
+  <button type="button" data-campus="none" aria-pressed="false"><i class="sw" style="--sw:#ffffff"></i>Bidd</button>
+  <button type="button" data-campus="ua" aria-pressed="true"><i class="sw" style="--sw:#9e1b32"></i>Alabama</button>
+  <button type="button" data-campus="olemiss" aria-pressed="false"><i class="sw" style="--sw:#14213d"></i>Ole Miss</button>
+  <label class="dock-custom" id="customWrap"><i class="sw" id="customSw" style="--sw: conic-gradient(#f1b82d 0 25%, #461d7c 0 50%, #ff8200 0 75%, #0021a5 0)"></i><span>Any<span class="long"> campus</span></span><input type="color" id="campusColor" value="#f1b82d" aria-label="Pick any campus color"></label>
+</div>
+
+<script>
+(() => {
+  const INK = "#0B0B0B", PAPER = "#FFFFFF";
+  const toRgb = (h) => { h = h.replace("#", ""); if (h.length === 3) h = [...h].map((c) => c + c).join(""); const n = parseInt(h, 16); return [(n >> 16) & 255, (n >> 8) & 255, n & 255]; };
+  const toHex = (a) => "#" + a.map((v) => Math.round(v).toString(16).padStart(2, "0")).join("").toUpperCase();
+  const ch = (v) => { const s = v / 255; return s <= 0.04045 ? s / 12.92 : ((s + 0.055) / 1.055) ** 2.4; };
+  const lum = (h) => { const [r, g, b] = toRgb(h).map(ch); return 0.2126 * r + 0.7152 * g + 0.0722 * b; };
+  const contrast = (a, b) => { const [x, y] = [lum(a), lum(b)].sort((p, q) => q - p); return (x + 0.05) / (y + 0.05); };
+  const toOklch = (hex) => {
+    const [r, g, b] = toRgb(hex).map(ch);
+    const l = Math.cbrt(0.4122214708 * r + 0.5363325363 * g + 0.0514459929 * b);
+    const m = Math.cbrt(0.2119034982 * r + 0.6806995451 * g + 0.1073969566 * b);
+    const s = Math.cbrt(0.0883024619 * r + 0.2817188376 * g + 0.6299787005 * b);
+    const L = 0.2104542553 * l + 0.793617785 * m - 0.0040720468 * s;
+    const A = 1.9779984951 * l - 2.428592205 * m + 0.4505937099 * s;
+    const B = 0.0259040371 * l + 0.7827717662 * m - 0.808675766 * s;
+    return [L, Math.hypot(A, B), Math.atan2(B, A)];
+  };
+  const fromOklch = ([L, C, H]) => {
+    const A = C * Math.cos(H), B = C * Math.sin(H);
+    const l = (L + 0.3963377774 * A + 0.2158037573 * B) ** 3;
+    const m = (L - 0.1055613458 * A - 0.0638541728 * B) ** 3;
+    const s = (L - 0.0894841775 * A - 1.291485548 * B) ** 3;
+    const lin = [4.0767416621 * l - 3.3077115913 * m + 0.2309699292 * s, -1.2684380046 * l + 2.6097574011 * m - 0.3413193965 * s, -0.0041960863 * l - 0.7034186147 * m + 1.707614701 * s];
+    if (lin.some((v) => v < -0.0005 || v > 1.0005)) return null;
+    const enc = (v) => 255 * (v <= 0.0031308 ? 12.92 * v : 1.055 * Math.max(v, 0) ** (1 / 2.4) - 0.055);
+    return lin.map((v) => Math.min(255, Math.max(0, enc(v))));
+  };
+  const at = (L, C, H) => { for (let c = C; c >= 0; c -= 0.005) { const rgb = fromOklch([L, c, H]); if (rgb) return toHex(rgb); } return L > 0.5 ? PAPER : INK; };
+  const gap = (a, b) => {
+    const [p, q] = [toOklch(a), toOklch(b)];
+    return Math.hypot(p[0] - q[0], p[1] * Math.cos(p[2]) - q[1] * Math.cos(q[2]), p[1] * Math.sin(p[2]) - q[1] * Math.sin(q[2]));
+  };
+  // Same rule as markOn() in theme/campus.ts: the 1 clears 3:1 on its ground, sits 0.3 (OKLab) from the letters, and is never grey.
+  const markOn = (hex, ground) => {
+    const letters = lum(ground) < 0.5 ? PAPER : INK;
+    const [L0, C0, H] = toOklch(hex);
+    if (C0 < 0.03) return letters;
+    const C = Math.max(C0, 0.14);
+    for (let step = 0; step <= 50; step++) for (const L of [L0 + step * 0.02, L0 - step * 0.02]) {
+      if (L < 0 || L > 1) continue;
+      const c = at(L, C, H);
+      if (contrast(c, ground) >= 3 && gap(c, letters) >= 0.3) return c;
+    }
+    return letters;
+  };
+  const isGrey = (h) => toOklch(h)[1] < 0.03;
+  const colorsFor = (primary, secondary) => {
+    const campus = primary.toUpperCase();
+    const hue = isGrey(primary) && secondary && !isGrey(secondary) ? secondary : primary;
+    return { campus, ink: contrast(campus, PAPER) >= contrast(campus, INK) ? PAPER : INK,
+      line: markOn(hue, PAPER), dark: markOn(hue, INK), two: (secondary || primary).toUpperCase() };
+  };
+
+  const CAMPUSES = {
+    none: { name: "Before sign-in", primary: INK, secondary: null },
+    ua: { name: "Alabama", primary: "#9E1B32", secondary: "#828A8F" },
+    olemiss: { name: "Ole Miss", primary: "#14213D", secondary: "#CE1126" },
+  };
+
+  const root = document.documentElement;
+  const fills = [...document.querySelectorAll("[data-fill]")];
+  const stagger = () => {
+    const h = Math.max(1, document.body.scrollHeight);
+    fills.forEach((el) => { const y = el.getBoundingClientRect().top + window.scrollY; el.style.setProperty("--d", Math.round((y / h) * 700)); });
+  };
+  const slash = document.querySelector(".hero-one");
+  const $ = (id) => document.getElementById(id);
+
+  function apply(c, name, opts = {}) {
+    const v = opts.bidd ? { campus: INK, ink: PAPER, line: INK, dark: PAPER, two: "#6B6B6B" } : colorsFor(c.primary, c.secondary);
+    root.style.setProperty("--campus", v.campus);
+    root.style.setProperty("--campus-ink", v.ink);
+    root.style.setProperty("--campus-line", v.line);
+    root.style.setProperty("--campus-on-dark", v.dark);
+    root.style.setProperty("--campus-2", v.two);
+    $("tokName").textContent = name;
+    $("tokHex").textContent = opts.bidd ? "ink and paper only" : [c.primary, c.secondary].filter(Boolean).join(" · ").toUpperCase();
+    document.querySelector('[data-v="campus"]').textContent = v.campus;
+    document.querySelector('[data-v="ink"]').textContent = v.ink;
+    document.querySelector('[data-v="line"]').textContent = v.line;
+    document.querySelector('[data-v="dark"]').textContent = v.dark;
+    document.querySelector('[data-r="campus"]').textContent = "text " + contrast(v.ink, v.campus).toFixed(1) + ":1";
+    document.querySelector('[data-r="line"]').textContent = "on white " + contrast(v.line, PAPER).toFixed(1) + ":1";
+    document.querySelector('[data-r="dark"]').textContent = "on black " + contrast(v.dark, INK).toFixed(1) + ":1";
+    if (opts.animate && slash && !matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      slash.classList.remove("paint"); void slash.getBoundingClientRect(); slash.classList.add("paint");
+    }
+  }
+
+  const dockButtons = [...document.querySelectorAll(".dock button")];
+  const customWrap = $("customWrap");
+  const press = (btn) => {
+    dockButtons.forEach((b) => b.setAttribute("aria-pressed", String(b === btn)));
+    customWrap.classList.toggle("on", !btn);
+  };
+  dockButtons.forEach((b) => b.addEventListener("click", () => {
+    stagger();
+    const key = b.dataset.campus; const c = CAMPUSES[key];
+    press(b); apply(c, c.name, { animate: true, bidd: key === "none" });
+    try { localStorage.setItem("bidd-campus", key); } catch (e) {}
+  }));
+  const picker = $("campusColor");
+  const onPick = (animate) => {
+    stagger(); press(null);
+    $("customSw").style.setProperty("--sw", picker.value);
+    apply({ primary: picker.value, secondary: null }, "Any campus", { animate });
+  };
+  picker.addEventListener("input", () => onPick(false));
+  picker.addEventListener("change", () => onPick(true));
+
+  try { const saved = localStorage.getItem("bidd-campus"); if (saved && CAMPUSES[saved]) { const b = dockButtons.find((x) => x.dataset.campus === saved); press(b); apply(CAMPUSES[saved], CAMPUSES[saved].name, { bidd: saved === "none" }); } } catch (e) {}
+
+  // live demo pieces
+  document.querySelectorAll(".sizes").forEach((g) => g.addEventListener("click", (e) => {
+    const b = e.target.closest("button"); if (!b || b.disabled) return;
+    g.querySelectorAll("button").forEach((x) => x.setAttribute("aria-pressed", String(x === b)));
+    const cta = g.parentElement.querySelector(".actions .pill"); if (cta) cta.textContent = "Pre-order size " + b.textContent;
+  }));
+  document.querySelectorAll(".u-chips .chips").forEach((g) => g.addEventListener("click", (e) => {
+    const b = e.target.closest("button"); if (!b) return;
+    g.querySelectorAll("button").forEach((x) => x.setAttribute("aria-pressed", String(x === b)));
+  }));
+
+  let left = 2 * 3600 + 14 * 60 + 9;
+  const clock = $("clock");
+  setInterval(() => {
+    left = left > 0 ? left - 1 : 2 * 3600 + 14 * 60 + 9;
+    const p = (n) => String(n).padStart(2, "0");
+    clock.textContent = p(Math.floor(left / 3600)) + ":" + p(Math.floor((left % 3600) / 60)) + ":" + p(left % 60);
+  }, 1000);
+
+  const boxes = [...document.querySelectorAll("#gate input")];
+  const gateMsg = $("gateMsg");
+  boxes.forEach((inp, i) => {
+    inp.addEventListener("input", () => {
+      inp.value = inp.value.slice(-1).toUpperCase(); gateMsg.hidden = true;
+      if (inp.value && boxes[i + 1]) boxes[i + 1].focus();
+      const code = boxes.map((x) => x.value).join("");
+      if (code.length === boxes.length) {
+        if (code === "BIDD1") { gateMsg.hidden = false; gateMsg.classList.add("ok"); $("gateText").textContent = "You're in. Welcome to the chapter closet."; }
+        else { gateMsg.hidden = false; gateMsg.classList.remove("ok"); $("gateText").textContent = "That code didn't work. Check it with your chapter's merch chair."; }
+      }
+    });
+    inp.addEventListener("keydown", (e) => { if (e.key === "Backspace" && !inp.value && boxes[i - 1]) boxes[i - 1].focus(); });
+  });
+  $("gate").addEventListener("submit", (e) => e.preventDefault());
+
+  // copy buttons
+  const copyText = async (text, btn) => {
+    const old = btn.textContent;
+    try { await navigator.clipboard.writeText(text); btn.textContent = "Copied"; }
+    catch (e) { btn.textContent = "Select and copy"; }
+    setTimeout(() => (btn.textContent = old), 1600);
+  };
+  document.querySelectorAll(".copy").forEach((b) => b.addEventListener("click", () => {
+    const pre = $(b.dataset.copy); copyText(pre.textContent, b);
+    const r = document.createRange(); r.selectNodeContents(pre); const s = getSelection(); s.removeAllRanges(); s.addRange(r);
+  }));
+  const fromSymbol = (id) => document.getElementById(id).outerHTML
+    .replace("<symbol", '<svg xmlns="http://www.w3.org/2000/svg"').replace(/<\/symbol>$/, "</svg>").replace(` id="${id}"`, "")
+    .replace(/fill: var\(--one, currentColor\)/g, "fill: #0B0B0B").replace(/currentColor/g, "#0B0B0B");
+  const svgSource = { wm: fromSymbol("wm"), mk: fromSymbol("mk") };
+  document.querySelectorAll(".copy-svg").forEach((b) => b.addEventListener("click", () => copyText(svgSource[b.dataset.src], b)));
+})();
+</script>

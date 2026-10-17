@@ -1,0 +1,1010 @@
+[
+  {
+    "chapter_id": "ua-kd",
+    "campus_id": "ua",
+    "national_org": "Kappa Delta",
+    "season": "fall-2026",
+    "sales_count": 97,
+    "gmv_cents": 318839,
+    "points": 1040
+  },
+  {
+    "chapter_id": "ua-chio",
+    "campus_id": "ua",
+    "national_org": "Chi Omega",
+    "season": "fall-2026",
+    "sales_count": 59,
+    "gmv_cents": 248272,
+    "points": 630
+  },
+  {
+    "chapter_id": "ua-dg",
+    "campus_id": "ua",
+    "national_org": "Delta Gamma",
+    "season": "fall-2026",
+    "sales_count": 81,
+    "gmv_cents": 423468,
+    "points": 810
+  },
+  {
+    "chapter_id": "ua-zta",
+    "campus_id": "ua",
+    "national_org": "Zeta Tau Alpha",
+    "season": "fall-2026",
+    "sales_count": 84,
+    "gmv_cents": 378672,
+    "points": 890
+  },
+  {
+    "chapter_id": "ua-phimu",
+    "campus_id": "ua",
+    "national_org": "Phi Mu",
+    "season": "fall-2026",
+    "sales_count": 75,
+    "gmv_cents": 285150,
+    "points": 790
+  },
+  {
+    "chapter_id": "ua-adpi",
+    "campus_id": "ua",
+    "national_org": "Alpha Delta Pi",
+    "season": "fall-2026",
+    "sales_count": 33,
+    "gmv_cents": 136752,
+    "points": 330
+  },
+  {
+    "chapter_id": "ua-sigmachi",
+    "campus_id": "ua",
+    "national_org": "Sigma Chi",
+    "season": "fall-2026",
+    "sales_count": 81,
+    "gmv_cents": 447039,
+    "points": 860
+  },
+  {
+    "chapter_id": "uark-kd",
+    "campus_id": "uark",
+    "national_org": "Kappa Delta",
+    "season": "fall-2026",
+    "sales_count": 81,
+    "gmv_cents": 235062,
+    "points": 890
+  },
+  {
+    "chapter_id": "uark-chio",
+    "campus_id": "uark",
+    "national_org": "Chi Omega",
+    "season": "fall-2026",
+    "sales_count": 40,
+    "gmv_cents": 196160,
+    "points": 430
+  },
+  {
+    "chapter_id": "uark-dg",
+    "campus_id": "uark",
+    "national_org": "Delta Gamma",
+    "season": "fall-2026",
+    "sales_count": 11,
+    "gmv_cents": 45078,
+    "points": 160
+  },
+  {
+    "chapter_id": "uark-zta",
+    "campus_id": "uark",
+    "national_org": "Zeta Tau Alpha",
+    "season": "fall-2026",
+    "sales_count": 26,
+    "gmv_cents": 98904,
+    "points": 320
+  },
+  {
+    "chapter_id": "uark-phimu",
+    "campus_id": "uark",
+    "national_org": "Phi Mu",
+    "season": "fall-2026",
+    "sales_count": 92,
+    "gmv_cents": 375544,
+    "points": 980
+  },
+  {
+    "chapter_id": "uark-adpi",
+    "campus_id": "uark",
+    "national_org": "Alpha Delta Pi",
+    "season": "fall-2026",
+    "sales_count": 70,
+    "gmv_cents": 240520,
+    "points": 700
+  },
+  {
+    "chapter_id": "uark-sigmachi",
+    "campus_id": "uark",
+    "national_org": "Sigma Chi",
+    "season": "fall-2026",
+    "sales_count": 46,
+    "gmv_cents": 218270,
+    "points": 490
+  },
+  {
+    "chapter_id": "auburn-kd",
+    "campus_id": "auburn",
+    "national_org": "Kappa Delta",
+    "season": "fall-2026",
+    "sales_count": 86,
+    "gmv_cents": 284918,
+    "points": 900
+  },
+  {
+    "chapter_id": "auburn-chio",
+    "campus_id": "auburn",
+    "national_org": "Chi Omega",
+    "season": "fall-2026",
+    "sales_count": 61,
+    "gmv_cents": 162931,
+    "points": 650
+  },
+  {
+    "chapter_id": "auburn-dg",
+    "campus_id": "auburn",
+    "national_org": "Delta Gamma",
+    "season": "fall-2026",
+    "sales_count": 91,
+    "gmv_cents": 407862,
+    "points": 970
+  },
+  {
+    "chapter_id": "auburn-zta",
+    "campus_id": "auburn",
+    "national_org": "Zeta Tau Alpha",
+    "season": "fall-2026",
+    "sales_count": 13,
+    "gmv_cents": 45331,
+    "points": 180
+  },
+  {
+    "chapter_id": "auburn-phimu",
+    "campus_id": "auburn",
+    "national_org": "Phi Mu",
+    "season": "fall-2026",
+    "sales_count": 93,
+    "gmv_cents": 254913,
+    "points": 940
+  },
+  {
+    "chapter_id": "auburn-adpi",
+    "campus_id": "auburn",
+    "national_org": "Alpha Delta Pi",
+    "season": "fall-2026",
+    "sales_count": 30,
+    "gmv_cents": 156000,
+    "points": 350
+  },
+  {
+    "chapter_id": "auburn-sigmachi",
+    "campus_id": "auburn",
+    "national_org": "Sigma Chi",
+    "season": "fall-2026",
+    "sales_count": 37,
+    "gmv_cents": 154697,
+    "points": 370
+  },
+  {
+    "chapter_id": "uf-kd",
+    "campus_id": "uf",
+    "national_org": "Kappa Delta",
+    "season": "fall-2026",
+    "sales_count": 16,
+    "gmv_cents": 75552,
+    "points": 230
+  },
+  {
+    "chapter_id": "uf-chio",
+    "campus_id": "uf",
+    "national_org": "Chi Omega",
+    "season": "fall-2026",
+    "sales_count": 10,
+    "gmv_cents": 47020,
+    "points": 100
+  },
+  {
+    "chapter_id": "uf-dg",
+    "campus_id": "uf",
+    "national_org": "Delta Gamma",
+    "season": "fall-2026",
+    "sales_count": 37,
+    "gmv_cents": 201650,
+    "points": 380
+  },
+  {
+    "chapter_id": "uf-zta",
+    "campus_id": "uf",
+    "national_org": "Zeta Tau Alpha",
+    "season": "fall-2026",
+    "sales_count": 59,
+    "gmv_cents": 306682,
+    "points": 620
+  },
+  {
+    "chapter_id": "uf-phimu",
+    "campus_id": "uf",
+    "national_org": "Phi Mu",
+    "season": "fall-2026",
+    "sales_count": 71,
+    "gmv_cents": 257801,
+    "points": 770
+  },
+  {
+    "chapter_id": "uf-adpi",
+    "campus_id": "uf",
+    "national_org": "Alpha Delta Pi",
+    "season": "fall-2026",
+    "sales_count": 14,
+    "gmv_cents": 69552,
+    "points": 190
+  },
+  {
+    "chapter_id": "uf-sigmachi",
+    "campus_id": "uf",
+    "national_org": "Sigma Chi",
+    "season": "fall-2026",
+    "sales_count": 26,
+    "gmv_cents": 131092,
+    "points": 320
+  },
+  {
+    "chapter_id": "uga-kd",
+    "campus_id": "uga",
+    "national_org": "Kappa Delta",
+    "season": "fall-2026",
+    "sales_count": 15,
+    "gmv_cents": 83625,
+    "points": 170
+  },
+  {
+    "chapter_id": "uga-chio",
+    "campus_id": "uga",
+    "national_org": "Chi Omega",
+    "season": "fall-2026",
+    "sales_count": 61,
+    "gmv_cents": 314455,
+    "points": 660
+  },
+  {
+    "chapter_id": "uga-dg",
+    "campus_id": "uga",
+    "national_org": "Delta Gamma",
+    "season": "fall-2026",
+    "sales_count": 84,
+    "gmv_cents": 397824,
+    "points": 850
+  },
+  {
+    "chapter_id": "uga-zta",
+    "campus_id": "uga",
+    "national_org": "Zeta Tau Alpha",
+    "season": "fall-2026",
+    "sales_count": 33,
+    "gmv_cents": 107613,
+    "points": 340
+  },
+  {
+    "chapter_id": "uga-phimu",
+    "campus_id": "uga",
+    "national_org": "Phi Mu",
+    "season": "fall-2026",
+    "sales_count": 20,
+    "gmv_cents": 96760,
+    "points": 280
+  },
+  {
+    "chapter_id": "uga-adpi",
+    "campus_id": "uga",
+    "national_org": "Alpha Delta Pi",
+    "season": "fall-2026",
+    "sales_count": 13,
+    "gmv_cents": 66027,
+    "points": 200
+  },
+  {
+    "chapter_id": "uga-sigmachi",
+    "campus_id": "uga",
+    "national_org": "Sigma Chi",
+    "season": "fall-2026",
+    "sales_count": 10,
+    "gmv_cents": 43410,
+    "points": 140
+  },
+  {
+    "chapter_id": "uky-kd",
+    "campus_id": "uky",
+    "national_org": "Kappa Delta",
+    "season": "fall-2026",
+    "sales_count": 37,
+    "gmv_cents": 105339,
+    "points": 400
+  },
+  {
+    "chapter_id": "uky-chio",
+    "campus_id": "uky",
+    "national_org": "Chi Omega",
+    "season": "fall-2026",
+    "sales_count": 20,
+    "gmv_cents": 77460,
+    "points": 250
+  },
+  {
+    "chapter_id": "uky-dg",
+    "campus_id": "uky",
+    "national_org": "Delta Gamma",
+    "season": "fall-2026",
+    "sales_count": 62,
+    "gmv_cents": 302622,
+    "points": 640
+  },
+  {
+    "chapter_id": "uky-zta",
+    "campus_id": "uky",
+    "national_org": "Zeta Tau Alpha",
+    "season": "fall-2026",
+    "sales_count": 31,
+    "gmv_cents": 119381,
+    "points": 310
+  },
+  {
+    "chapter_id": "uky-phimu",
+    "campus_id": "uky",
+    "national_org": "Phi Mu",
+    "season": "fall-2026",
+    "sales_count": 47,
+    "gmv_cents": 232133,
+    "points": 530
+  },
+  {
+    "chapter_id": "uky-adpi",
+    "campus_id": "uky",
+    "national_org": "Alpha Delta Pi",
+    "season": "fall-2026",
+    "sales_count": 83,
+    "gmv_cents": 256802,
+    "points": 850
+  },
+  {
+    "chapter_id": "uky-sigmachi",
+    "campus_id": "uky",
+    "national_org": "Sigma Chi",
+    "season": "fall-2026",
+    "sales_count": 37,
+    "gmv_cents": 138935,
+    "points": 450
+  },
+  {
+    "chapter_id": "lsu-kd",
+    "campus_id": "lsu",
+    "national_org": "Kappa Delta",
+    "season": "fall-2026",
+    "sales_count": 74,
+    "gmv_cents": 409220,
+    "points": 790
+  },
+  {
+    "chapter_id": "lsu-chio",
+    "campus_id": "lsu",
+    "national_org": "Chi Omega",
+    "season": "fall-2026",
+    "sales_count": 64,
+    "gmv_cents": 352320,
+    "points": 680
+  },
+  {
+    "chapter_id": "lsu-dg",
+    "campus_id": "lsu",
+    "national_org": "Delta Gamma",
+    "season": "fall-2026",
+    "sales_count": 93,
+    "gmv_cents": 241800,
+    "points": 1000
+  },
+  {
+    "chapter_id": "lsu-zta",
+    "campus_id": "lsu",
+    "national_org": "Zeta Tau Alpha",
+    "season": "fall-2026",
+    "sales_count": 97,
+    "gmv_cents": 509250,
+    "points": 1000
+  },
+  {
+    "chapter_id": "lsu-phimu",
+    "campus_id": "lsu",
+    "national_org": "Phi Mu",
+    "season": "fall-2026",
+    "sales_count": 19,
+    "gmv_cents": 85937,
+    "points": 200
+  },
+  {
+    "chapter_id": "lsu-adpi",
+    "campus_id": "lsu",
+    "national_org": "Alpha Delta Pi",
+    "season": "fall-2026",
+    "sales_count": 43,
+    "gmv_cents": 182922,
+    "points": 500
+  },
+  {
+    "chapter_id": "lsu-sigmachi",
+    "campus_id": "lsu",
+    "national_org": "Sigma Chi",
+    "season": "fall-2026",
+    "sales_count": 62,
+    "gmv_cents": 313720,
+    "points": 650
+  },
+  {
+    "chapter_id": "olemiss-kd",
+    "campus_id": "olemiss",
+    "national_org": "Kappa Delta",
+    "season": "fall-2026",
+    "sales_count": 86,
+    "gmv_cents": 431118,
+    "points": 870
+  },
+  {
+    "chapter_id": "olemiss-chio",
+    "campus_id": "olemiss",
+    "national_org": "Chi Omega",
+    "season": "fall-2026",
+    "sales_count": 43,
+    "gmv_cents": 131709,
+    "points": 450
+  },
+  {
+    "chapter_id": "olemiss-dg",
+    "campus_id": "olemiss",
+    "national_org": "Delta Gamma",
+    "season": "fall-2026",
+    "sales_count": 64,
+    "gmv_cents": 174464,
+    "points": 650
+  },
+  {
+    "chapter_id": "olemiss-zta",
+    "campus_id": "olemiss",
+    "national_org": "Zeta Tau Alpha",
+    "season": "fall-2026",
+    "sales_count": 38,
+    "gmv_cents": 140866,
+    "points": 390
+  },
+  {
+    "chapter_id": "olemiss-phimu",
+    "campus_id": "olemiss",
+    "national_org": "Phi Mu",
+    "season": "fall-2026",
+    "sales_count": 82,
+    "gmv_cents": 225336,
+    "points": 860
+  },
+  {
+    "chapter_id": "olemiss-adpi",
+    "campus_id": "olemiss",
+    "national_org": "Alpha Delta Pi",
+    "season": "fall-2026",
+    "sales_count": 96,
+    "gmv_cents": 350688,
+    "points": 970
+  },
+  {
+    "chapter_id": "olemiss-sigmachi",
+    "campus_id": "olemiss",
+    "national_org": "Sigma Chi",
+    "season": "fall-2026",
+    "sales_count": 59,
+    "gmv_cents": 178003,
+    "points": 650
+  },
+  {
+    "chapter_id": "msstate-kd",
+    "campus_id": "msstate",
+    "national_org": "Kappa Delta",
+    "season": "fall-2026",
+    "sales_count": 94,
+    "gmv_cents": 336426,
+    "points": 970
+  },
+  {
+    "chapter_id": "msstate-chio",
+    "campus_id": "msstate",
+    "national_org": "Chi Omega",
+    "season": "fall-2026",
+    "sales_count": 54,
+    "gmv_cents": 227070,
+    "points": 600
+  },
+  {
+    "chapter_id": "msstate-dg",
+    "campus_id": "msstate",
+    "national_org": "Delta Gamma",
+    "season": "fall-2026",
+    "sales_count": 53,
+    "gmv_cents": 174370,
+    "points": 590
+  },
+  {
+    "chapter_id": "msstate-zta",
+    "campus_id": "msstate",
+    "national_org": "Zeta Tau Alpha",
+    "season": "fall-2026",
+    "sales_count": 92,
+    "gmv_cents": 469108,
+    "points": 1000
+  },
+  {
+    "chapter_id": "msstate-phimu",
+    "campus_id": "msstate",
+    "national_org": "Phi Mu",
+    "season": "fall-2026",
+    "sales_count": 80,
+    "gmv_cents": 419360,
+    "points": 860
+  },
+  {
+    "chapter_id": "msstate-adpi",
+    "campus_id": "msstate",
+    "national_org": "Alpha Delta Pi",
+    "season": "fall-2026",
+    "sales_count": 33,
+    "gmv_cents": 91806,
+    "points": 380
+  },
+  {
+    "chapter_id": "msstate-sigmachi",
+    "campus_id": "msstate",
+    "national_org": "Sigma Chi",
+    "season": "fall-2026",
+    "sales_count": 76,
+    "gmv_cents": 288648,
+    "points": 800
+  },
+  {
+    "chapter_id": "mizzou-kd",
+    "campus_id": "mizzou",
+    "national_org": "Kappa Delta",
+    "season": "fall-2026",
+    "sales_count": 49,
+    "gmv_cents": 259357,
+    "points": 560
+  },
+  {
+    "chapter_id": "mizzou-chio",
+    "campus_id": "mizzou",
+    "national_org": "Chi Omega",
+    "season": "fall-2026",
+    "sales_count": 61,
+    "gmv_cents": 322385,
+    "points": 650
+  },
+  {
+    "chapter_id": "mizzou-dg",
+    "campus_id": "mizzou",
+    "national_org": "Delta Gamma",
+    "season": "fall-2026",
+    "sales_count": 96,
+    "gmv_cents": 396576,
+    "points": 1040
+  },
+  {
+    "chapter_id": "mizzou-zta",
+    "campus_id": "mizzou",
+    "national_org": "Zeta Tau Alpha",
+    "season": "fall-2026",
+    "sales_count": 35,
+    "gmv_cents": 185920,
+    "points": 400
+  },
+  {
+    "chapter_id": "mizzou-phimu",
+    "campus_id": "mizzou",
+    "national_org": "Phi Mu",
+    "season": "fall-2026",
+    "sales_count": 22,
+    "gmv_cents": 69806,
+    "points": 250
+  },
+  {
+    "chapter_id": "mizzou-adpi",
+    "campus_id": "mizzou",
+    "national_org": "Alpha Delta Pi",
+    "season": "fall-2026",
+    "sales_count": 63,
+    "gmv_cents": 258300,
+    "points": 680
+  },
+  {
+    "chapter_id": "mizzou-sigmachi",
+    "campus_id": "mizzou",
+    "national_org": "Sigma Chi",
+    "season": "fall-2026",
+    "sales_count": 22,
+    "gmv_cents": 121022,
+    "points": 290
+  },
+  {
+    "chapter_id": "ou-kd",
+    "campus_id": "ou",
+    "national_org": "Kappa Delta",
+    "season": "fall-2026",
+    "sales_count": 86,
+    "gmv_cents": 244412,
+    "points": 860
+  },
+  {
+    "chapter_id": "ou-chio",
+    "campus_id": "ou",
+    "national_org": "Chi Omega",
+    "season": "fall-2026",
+    "sales_count": 67,
+    "gmv_cents": 242205,
+    "points": 680
+  },
+  {
+    "chapter_id": "ou-dg",
+    "campus_id": "ou",
+    "national_org": "Delta Gamma",
+    "season": "fall-2026",
+    "sales_count": 70,
+    "gmv_cents": 188860,
+    "points": 740
+  },
+  {
+    "chapter_id": "ou-zta",
+    "campus_id": "ou",
+    "national_org": "Zeta Tau Alpha",
+    "season": "fall-2026",
+    "sales_count": 81,
+    "gmv_cents": 300429,
+    "points": 860
+  },
+  {
+    "chapter_id": "ou-phimu",
+    "campus_id": "ou",
+    "national_org": "Phi Mu",
+    "season": "fall-2026",
+    "sales_count": 23,
+    "gmv_cents": 96186,
+    "points": 280
+  },
+  {
+    "chapter_id": "ou-adpi",
+    "campus_id": "ou",
+    "national_org": "Alpha Delta Pi",
+    "season": "fall-2026",
+    "sales_count": 8,
+    "gmv_cents": 29512,
+    "points": 130
+  },
+  {
+    "chapter_id": "ou-sigmachi",
+    "campus_id": "ou",
+    "national_org": "Sigma Chi",
+    "season": "fall-2026",
+    "sales_count": 66,
+    "gmv_cents": 332970,
+    "points": 680
+  },
+  {
+    "chapter_id": "sc-kd",
+    "campus_id": "sc",
+    "national_org": "Kappa Delta",
+    "season": "fall-2026",
+    "sales_count": 22,
+    "gmv_cents": 87516,
+    "points": 230
+  },
+  {
+    "chapter_id": "sc-chio",
+    "campus_id": "sc",
+    "national_org": "Chi Omega",
+    "season": "fall-2026",
+    "sales_count": 45,
+    "gmv_cents": 135405,
+    "points": 460
+  },
+  {
+    "chapter_id": "sc-dg",
+    "campus_id": "sc",
+    "national_org": "Delta Gamma",
+    "season": "fall-2026",
+    "sales_count": 90,
+    "gmv_cents": 343890,
+    "points": 940
+  },
+  {
+    "chapter_id": "sc-zta",
+    "campus_id": "sc",
+    "national_org": "Zeta Tau Alpha",
+    "season": "fall-2026",
+    "sales_count": 18,
+    "gmv_cents": 54000,
+    "points": 190
+  },
+  {
+    "chapter_id": "sc-phimu",
+    "campus_id": "sc",
+    "national_org": "Phi Mu",
+    "season": "fall-2026",
+    "sales_count": 12,
+    "gmv_cents": 34752,
+    "points": 190
+  },
+  {
+    "chapter_id": "sc-adpi",
+    "campus_id": "sc",
+    "national_org": "Alpha Delta Pi",
+    "season": "fall-2026",
+    "sales_count": 26,
+    "gmv_cents": 112268,
+    "points": 270
+  },
+  {
+    "chapter_id": "sc-sigmachi",
+    "campus_id": "sc",
+    "national_org": "Sigma Chi",
+    "season": "fall-2026",
+    "sales_count": 96,
+    "gmv_cents": 319392,
+    "points": 1020
+  },
+  {
+    "chapter_id": "utk-kd",
+    "campus_id": "utk",
+    "national_org": "Kappa Delta",
+    "season": "fall-2026",
+    "sales_count": 60,
+    "gmv_cents": 335580,
+    "points": 620
+  },
+  {
+    "chapter_id": "utk-chio",
+    "campus_id": "utk",
+    "national_org": "Chi Omega",
+    "season": "fall-2026",
+    "sales_count": 24,
+    "gmv_cents": 84936,
+    "points": 270
+  },
+  {
+    "chapter_id": "utk-dg",
+    "campus_id": "utk",
+    "national_org": "Delta Gamma",
+    "season": "fall-2026",
+    "sales_count": 46,
+    "gmv_cents": 161736,
+    "points": 540
+  },
+  {
+    "chapter_id": "utk-zta",
+    "campus_id": "utk",
+    "national_org": "Zeta Tau Alpha",
+    "season": "fall-2026",
+    "sales_count": 47,
+    "gmv_cents": 210231,
+    "points": 510
+  },
+  {
+    "chapter_id": "utk-phimu",
+    "campus_id": "utk",
+    "national_org": "Phi Mu",
+    "season": "fall-2026",
+    "sales_count": 78,
+    "gmv_cents": 225888,
+    "points": 800
+  },
+  {
+    "chapter_id": "utk-adpi",
+    "campus_id": "utk",
+    "national_org": "Alpha Delta Pi",
+    "season": "fall-2026",
+    "sales_count": 15,
+    "gmv_cents": 76620,
+    "points": 170
+  },
+  {
+    "chapter_id": "utk-sigmachi",
+    "campus_id": "utk",
+    "national_org": "Sigma Chi",
+    "season": "fall-2026",
+    "sales_count": 74,
+    "gmv_cents": 303844,
+    "points": 820
+  },
+  {
+    "chapter_id": "utexas-kd",
+    "campus_id": "utexas",
+    "national_org": "Kappa Delta",
+    "season": "fall-2026",
+    "sales_count": 81,
+    "gmv_cents": 309744,
+    "points": 890
+  },
+  {
+    "chapter_id": "utexas-chio",
+    "campus_id": "utexas",
+    "national_org": "Chi Omega",
+    "season": "fall-2026",
+    "sales_count": 28,
+    "gmv_cents": 78428,
+    "points": 280
+  },
+  {
+    "chapter_id": "utexas-dg",
+    "campus_id": "utexas",
+    "national_org": "Delta Gamma",
+    "season": "fall-2026",
+    "sales_count": 76,
+    "gmv_cents": 240008,
+    "points": 840
+  },
+  {
+    "chapter_id": "utexas-zta",
+    "campus_id": "utexas",
+    "national_org": "Zeta Tau Alpha",
+    "season": "fall-2026",
+    "sales_count": 41,
+    "gmv_cents": 148092,
+    "points": 420
+  },
+  {
+    "chapter_id": "utexas-phimu",
+    "campus_id": "utexas",
+    "national_org": "Phi Mu",
+    "season": "fall-2026",
+    "sales_count": 42,
+    "gmv_cents": 180138,
+    "points": 470
+  },
+  {
+    "chapter_id": "utexas-adpi",
+    "campus_id": "utexas",
+    "national_org": "Alpha Delta Pi",
+    "season": "fall-2026",
+    "sales_count": 81,
+    "gmv_cents": 311688,
+    "points": 880
+  },
+  {
+    "chapter_id": "utexas-sigmachi",
+    "campus_id": "utexas",
+    "national_org": "Sigma Chi",
+    "season": "fall-2026",
+    "sales_count": 66,
+    "gmv_cents": 304458,
+    "points": 670
+  },
+  {
+    "chapter_id": "tamu-kd",
+    "campus_id": "tamu",
+    "national_org": "Kappa Delta",
+    "season": "fall-2026",
+    "sales_count": 50,
+    "gmv_cents": 154550,
+    "points": 550
+  },
+  {
+    "chapter_id": "tamu-chio",
+    "campus_id": "tamu",
+    "national_org": "Chi Omega",
+    "season": "fall-2026",
+    "sales_count": 24,
+    "gmv_cents": 86328,
+    "points": 320
+  },
+  {
+    "chapter_id": "tamu-dg",
+    "campus_id": "tamu",
+    "national_org": "Delta Gamma",
+    "season": "fall-2026",
+    "sales_count": 32,
+    "gmv_cents": 167776,
+    "points": 330
+  },
+  {
+    "chapter_id": "tamu-zta",
+    "campus_id": "tamu",
+    "national_org": "Zeta Tau Alpha",
+    "season": "fall-2026",
+    "sales_count": 71,
+    "gmv_cents": 387731,
+    "points": 790
+  },
+  {
+    "chapter_id": "tamu-phimu",
+    "campus_id": "tamu",
+    "national_org": "Phi Mu",
+    "season": "fall-2026",
+    "sales_count": 58,
+    "gmv_cents": 305660,
+    "points": 660
+  },
+  {
+    "chapter_id": "tamu-adpi",
+    "campus_id": "tamu",
+    "national_org": "Alpha Delta Pi",
+    "season": "fall-2026",
+    "sales_count": 44,
+    "gmv_cents": 240724,
+    "points": 500
+  },
+  {
+    "chapter_id": "tamu-sigmachi",
+    "campus_id": "tamu",
+    "national_org": "Sigma Chi",
+    "season": "fall-2026",
+    "sales_count": 21,
+    "gmv_cents": 101514,
+    "points": 290
+  },
+  {
+    "chapter_id": "vanderbilt-kd",
+    "campus_id": "vanderbilt",
+    "national_org": "Kappa Delta",
+    "season": "fall-2026",
+    "sales_count": 12,
+    "gmv_cents": 44844,
+    "points": 120
+  },
+  {
+    "chapter_id": "vanderbilt-chio",
+    "campus_id": "vanderbilt",
+    "national_org": "Chi Omega",
+    "season": "fall-2026",
+    "sales_count": 76,
+    "gmv_cents": 341924,
+    "points": 770
+  },
+  {
+    "chapter_id": "vanderbilt-dg",
+    "campus_id": "vanderbilt",
+    "national_org": "Delta Gamma",
+    "season": "fall-2026",
+    "sales_count": 41,
+    "gmv_cents": 131159,
+    "points": 460
+  },
+  {
+    "chapter_id": "vanderbilt-zta",
+    "campus_id": "vanderbilt",
+    "national_org": "Zeta Tau Alpha",
+    "season": "fall-2026",
+    "sales_count": 82,
+    "gmv_cents": 289050,
+    "points": 860
+  },
+  {
+    "chapter_id": "vanderbilt-phimu",
+    "campus_id": "vanderbilt",
+    "national_org": "Phi Mu",
+    "season": "fall-2026",
+    "sales_count": 29,
+    "gmv_cents": 98165,
+    "points": 340
+  },
+  {
+    "chapter_id": "vanderbilt-adpi",
+    "campus_id": "vanderbilt",
+    "national_org": "Alpha Delta Pi",
+    "season": "fall-2026",
+    "sales_count": 86,
+    "gmv_cents": 381582,
+    "points": 860
+  },
+  {
+    "chapter_id": "vanderbilt-sigmachi",
+    "campus_id": "vanderbilt",
+    "national_org": "Sigma Chi",
+    "season": "fall-2026",
+    "sales_count": 19,
+    "gmv_cents": 72732,
+    "points": 190
+  }
+]

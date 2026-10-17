@@ -1,0 +1,55 @@
+# Secrets
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Next.js / build
+.next/
+out/
+build/
+dist/
+*.tsbuildinfo
+next-env.d.ts
+
+# Vercel
+.vercel
+
+# Supabase local
+supabase/.branches
+supabase/.temp
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+*.log
+
+# Official school logos: demo only, never committed. The app loads logo_url from mock/campuses.json.
+mock/logos/
+
+# Impeccable: screenshots (they show school logos) and live-session state stay local
+**/.impeccable/review/
+**/.impeccable/live/sessions/
+**/.impeccable/live/annotations/
+**/.impeccable/live/roots.json
+**/.impeccable/hook.cache.json
+
+# Local agent tooling
+.agents/
+.claude/
+skills-lock.json
+
+# Demo video build output
+tools/demo-video/node_modules/
+tools/demo-video/clips/
+tools/demo-video/review/
+tools/demo-video/*.mp4

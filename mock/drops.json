@@ -1,0 +1,7215 @@
+[
+  {
+    "id": "ua-bid-day",
+    "slug": "bid-day",
+    "kind": "preorder",
+    "closet_id": "closet-ua-kd",
+    "campus_id": "ua",
+    "chapter_id": "ua-kd",
+    "name": "Bid Day drop",
+    "description": "Bid Day hoodie, sage. Printed by the chapter's licensed vendor; ships to your MSC or hands off at the Exchange Spot.",
+    "starts_at": "2026-10-17T17:00:00.000Z",
+    "ends_at": "2026-10-17T23:00:00.000Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": null,
+    "university_licensed": false,
+    "company": {
+      "name": "Campus Ink Co.",
+      "role": "vendor"
+    },
+    "price_cents": 5800,
+    "photo_url": "/photos/pexels-9594669.jpg",
+    "banner_url": "/photos/unsplash-RYHvzYdeoCI.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 4,
+        "stock": 1
+      },
+      {
+        "size": "S",
+        "total": 10,
+        "stock": 4
+      },
+      {
+        "size": "M",
+        "total": 12,
+        "stock": 7
+      },
+      {
+        "size": "L",
+        "total": 10,
+        "stock": 6
+      },
+      {
+        "size": "XL",
+        "total": 8,
+        "stock": 3
+      },
+      {
+        "size": "XXL",
+        "total": 4,
+        "stock": 1
+      }
+    ],
+    "auction": null,
+    "raised_cents": 9035
+  },
+  {
+    "id": "ua-one-of-one",
+    "slug": "one-of-one",
+    "kind": "auction",
+    "closet_id": "closet-ua-kd",
+    "campus_id": "ua",
+    "chapter_id": "ua-kd",
+    "name": "1 of 1 Big/Little sets",
+    "description": "Twelve one-off Big/Little crewneck sets, each hand-finished and numbered. Sealed bids: nobody sees anyone else's bid, and the top 12 win.",
+    "starts_at": "2026-10-17T16:00:00.000Z",
+    "ends_at": "2026-10-18T00:30:00.000Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": null,
+    "university_licensed": false,
+    "company": {
+      "name": "Campus Ink Co.",
+      "role": "vendor"
+    },
+    "price_cents": 6000,
+    "photo_url": "/merch/crimson-tide.jpg",
+    "banner_url": "/merch/crimson-tide.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "S",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "M",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "L",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "XL",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "XXL",
+        "total": 2,
+        "stock": 2
+      }
+    ],
+    "auction": {
+      "pieces": 12,
+      "min_bid_cents": 6000,
+      "bid_count": 51,
+      "bids_cents": [
+        14000,
+        13800,
+        13600,
+        13400,
+        13400,
+        13200,
+        13100,
+        12600,
+        11700,
+        11700,
+        11500,
+        11300,
+        10900,
+        10800,
+        10400,
+        10300,
+        10200,
+        9800,
+        9800,
+        9700,
+        9400,
+        8900,
+        8700,
+        8600,
+        8600,
+        8200,
+        8100,
+        8000,
+        7500,
+        7400,
+        7400,
+        7300,
+        7200,
+        7100,
+        7100,
+        7000,
+        6900,
+        6900,
+        6800,
+        6700,
+        6700,
+        6600,
+        6500,
+        6300,
+        6200,
+        6200,
+        6200,
+        6200,
+        6000,
+        6000,
+        6000
+      ]
+    },
+    "raised_cents": 22399
+  },
+  {
+    "id": "ua-gameday-tee",
+    "slug": "gameday-tee",
+    "kind": "preorder",
+    "closet_id": "closet-ua-chio",
+    "campus_id": "ua",
+    "chapter_id": "ua-chio",
+    "name": "Gameday tee",
+    "description": "Chapter tee, heather gray / tangerine / olive. Printed by the chapter's licensed vendor; ships to your MSC or hands off at the Exchange Spot.",
+    "starts_at": "2026-10-19T00:00:00.000Z",
+    "ends_at": "2026-10-21T00:00:00.000Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": null,
+    "university_licensed": true,
+    "company": {
+      "name": "Campus Ink Co.",
+      "role": "vendor"
+    },
+    "price_cents": 3200,
+    "photo_url": "/merch/crimson-tide.jpg",
+    "banner_url": "/merch/crimson-tide.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 6,
+        "stock": 6
+      },
+      {
+        "size": "S",
+        "total": 12,
+        "stock": 12
+      },
+      {
+        "size": "M",
+        "total": 14,
+        "stock": 14
+      },
+      {
+        "size": "L",
+        "total": 12,
+        "stock": 12
+      },
+      {
+        "size": "XL",
+        "total": 8,
+        "stock": 8
+      },
+      {
+        "size": "XXL",
+        "total": 4,
+        "stock": 4
+      }
+    ],
+    "auction": null,
+    "raised_cents": 38178
+  },
+  {
+    "id": "ua-white-fox",
+    "slug": "white-fox",
+    "kind": "auction",
+    "closet_id": "closet-ua-whitefox",
+    "campus_id": "ua",
+    "chapter_id": "ua-kd",
+    "name": "White Fox × Kappa Delta",
+    "description": "White Fox brand drop for one chapter: a mocha chapter hoodie in 24 numbered pieces. Sealed bids: nobody sees anyone else's bid, and the top 24 win. Made by the chapter's licensed vendor, never by Bidd.",
+    "starts_at": "2026-10-17T20:13:13.581Z",
+    "ends_at": "2026-10-20T00:13:13.581Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": "White Fox",
+    "university_licensed": true,
+    "company": {
+      "name": "White Fox",
+      "role": "brand"
+    },
+    "price_cents": 5500,
+    "photo_url": "/photos/pexels-6786666.jpg",
+    "banner_url": "/photos/pexels-6786666.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "S",
+        "total": 4,
+        "stock": 4
+      },
+      {
+        "size": "M",
+        "total": 6,
+        "stock": 6
+      },
+      {
+        "size": "L",
+        "total": 6,
+        "stock": 6
+      },
+      {
+        "size": "XL",
+        "total": 4,
+        "stock": 4
+      },
+      {
+        "size": "XXL",
+        "total": 2,
+        "stock": 2
+      }
+    ],
+    "auction": {
+      "pieces": 24,
+      "min_bid_cents": 5500,
+      "bid_count": 97,
+      "bids_cents": [
+        14600,
+        14600,
+        14300,
+        14300,
+        14300,
+        13700,
+        13700,
+        13700,
+        13400,
+        13400,
+        13400,
+        13300,
+        12800,
+        12800,
+        12500,
+        12000,
+        12000,
+        11700,
+        11200,
+        11200,
+        10900,
+        10900,
+        10900,
+        10800,
+        10500,
+        10500,
+        10200,
+        10200,
+        10100,
+        9800,
+        9800,
+        9800,
+        9600,
+        9600,
+        9600,
+        9200,
+        9000,
+        8900,
+        8600,
+        8600,
+        8400,
+        8100,
+        8100,
+        8100,
+        7900,
+        7900,
+        7900,
+        7600,
+        7600,
+        7600,
+        7500,
+        7200,
+        7200,
+        7100,
+        6900,
+        6800,
+        6700,
+        6700,
+        6700,
+        6500,
+        6500,
+        6400,
+        6400,
+        6400,
+        6400,
+        6300,
+        6200,
+        6200,
+        6200,
+        6200,
+        6000,
+        6000,
+        5900,
+        5800,
+        5800,
+        5800,
+        5800,
+        5700,
+        5700,
+        5700,
+        5700,
+        5700,
+        5700,
+        5600,
+        5600,
+        5600,
+        5600,
+        5600,
+        5500,
+        5500,
+        5500,
+        5500,
+        5500,
+        5500,
+        5500,
+        5500,
+        5500
+      ]
+    },
+    "raised_cents": 38101
+  },
+  {
+    "id": "ua-philanthropy-week",
+    "slug": "philanthropy-week",
+    "kind": "preorder",
+    "closet_id": "closet-ua-liquiddeath",
+    "campus_id": "ua",
+    "chapter_id": "ua-phimu",
+    "name": "Liquid Death × Philanthropy week",
+    "description": "Liquid Death brand co-drop for Philanthropy week: a co-branded tee, pre-order now. Made by the chapter's licensed vendor, never by Bidd, and 10% of the chapter's profit goes to its philanthropy.",
+    "starts_at": "2026-10-17T19:57:21.105Z",
+    "ends_at": "2026-10-20T20:57:21.105Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": "Liquid Death",
+    "university_licensed": false,
+    "company": {
+      "name": "Liquid Death",
+      "role": "brand"
+    },
+    "price_cents": 3000,
+    "photo_url": "/merch/liquid-death.jpg",
+    "banner_url": "/merch/liquid-death.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 4,
+        "stock": 0
+      },
+      {
+        "size": "S",
+        "total": 10,
+        "stock": 0
+      },
+      {
+        "size": "M",
+        "total": 14,
+        "stock": 0
+      },
+      {
+        "size": "L",
+        "total": 12,
+        "stock": 0
+      },
+      {
+        "size": "XL",
+        "total": 6,
+        "stock": 0
+      },
+      {
+        "size": "XXL",
+        "total": 2,
+        "stock": 0
+      }
+    ],
+    "auction": null,
+    "raised_cents": 124000
+  },
+  {
+    "id": "uark-bid-day",
+    "slug": "bid-day",
+    "kind": "preorder",
+    "closet_id": "closet-uark-kd",
+    "campus_id": "uark",
+    "chapter_id": "uark-kd",
+    "name": "Bid Day drop",
+    "description": "Bid Day hoodie, sage. Printed by the chapter's licensed vendor; ships to your MSC or hands off at the Exchange Spot.",
+    "starts_at": "2026-10-17T17:00:00.000Z",
+    "ends_at": "2026-10-17T23:00:00.000Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": null,
+    "university_licensed": false,
+    "company": {
+      "name": "Campus Ink Co.",
+      "role": "vendor"
+    },
+    "price_cents": 5800,
+    "photo_url": "/photos/pexels-9594669.jpg",
+    "banner_url": "/photos/unsplash-RYHvzYdeoCI.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 4,
+        "stock": 1
+      },
+      {
+        "size": "S",
+        "total": 10,
+        "stock": 4
+      },
+      {
+        "size": "M",
+        "total": 12,
+        "stock": 7
+      },
+      {
+        "size": "L",
+        "total": 10,
+        "stock": 6
+      },
+      {
+        "size": "XL",
+        "total": 8,
+        "stock": 3
+      },
+      {
+        "size": "XXL",
+        "total": 4,
+        "stock": 1
+      }
+    ],
+    "auction": null,
+    "raised_cents": 2339
+  },
+  {
+    "id": "uark-one-of-one",
+    "slug": "one-of-one",
+    "kind": "auction",
+    "closet_id": "closet-uark-kd",
+    "campus_id": "uark",
+    "chapter_id": "uark-kd",
+    "name": "1 of 1 Big/Little sets",
+    "description": "Twelve one-off Big/Little crewneck sets, each hand-finished and numbered. Sealed bids: nobody sees anyone else's bid, and the top 12 win.",
+    "starts_at": "2026-10-17T16:00:00.000Z",
+    "ends_at": "2026-10-18T00:30:00.000Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": null,
+    "university_licensed": false,
+    "company": {
+      "name": "Campus Ink Co.",
+      "role": "vendor"
+    },
+    "price_cents": 6000,
+    "photo_url": "/photos/pexels-9594422.jpg",
+    "banner_url": "/photos/pexels-9594422.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "S",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "M",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "L",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "XL",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "XXL",
+        "total": 2,
+        "stock": 2
+      }
+    ],
+    "auction": {
+      "pieces": 12,
+      "min_bid_cents": 6000,
+      "bid_count": 60,
+      "bids_cents": [
+        14400,
+        14300,
+        14200,
+        13800,
+        13700,
+        13300,
+        13000,
+        13000,
+        12900,
+        12200,
+        12200,
+        12100,
+        11900,
+        11800,
+        11600,
+        11400,
+        10900,
+        10900,
+        10500,
+        10100,
+        10000,
+        9700,
+        9500,
+        9300,
+        8900,
+        8600,
+        8600,
+        8600,
+        8400,
+        8400,
+        8200,
+        8200,
+        8100,
+        8000,
+        8000,
+        7900,
+        7700,
+        7500,
+        7500,
+        7300,
+        7200,
+        6800,
+        6800,
+        6700,
+        6600,
+        6600,
+        6500,
+        6400,
+        6400,
+        6300,
+        6300,
+        6300,
+        6300,
+        6300,
+        6200,
+        6200,
+        6100,
+        6100,
+        6100,
+        6000
+      ]
+    },
+    "raised_cents": 10135
+  },
+  {
+    "id": "uark-gameday-tee",
+    "slug": "gameday-tee",
+    "kind": "preorder",
+    "closet_id": "closet-uark-chio",
+    "campus_id": "uark",
+    "chapter_id": "uark-chio",
+    "name": "Gameday tee",
+    "description": "Chapter tee, heather gray / tangerine / olive. Printed by the chapter's licensed vendor; ships to your MSC or hands off at the Exchange Spot.",
+    "starts_at": "2026-10-19T00:00:00.000Z",
+    "ends_at": "2026-10-21T00:00:00.000Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": null,
+    "university_licensed": true,
+    "company": {
+      "name": "Campus Ink Co.",
+      "role": "vendor"
+    },
+    "price_cents": 3200,
+    "photo_url": "/photos/pexels-39277919.jpg",
+    "banner_url": "/photos/pexels-39277919.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 6,
+        "stock": 6
+      },
+      {
+        "size": "S",
+        "total": 12,
+        "stock": 12
+      },
+      {
+        "size": "M",
+        "total": 14,
+        "stock": 14
+      },
+      {
+        "size": "L",
+        "total": 12,
+        "stock": 12
+      },
+      {
+        "size": "XL",
+        "total": 8,
+        "stock": 8
+      },
+      {
+        "size": "XXL",
+        "total": 4,
+        "stock": 4
+      }
+    ],
+    "auction": null,
+    "raised_cents": 12959
+  },
+  {
+    "id": "uark-white-fox",
+    "slug": "white-fox",
+    "kind": "auction",
+    "closet_id": "closet-uark-whitefox",
+    "campus_id": "uark",
+    "chapter_id": "uark-kd",
+    "name": "White Fox × Kappa Delta",
+    "description": "White Fox brand drop for one chapter: a mocha chapter hoodie in 24 numbered pieces. Sealed bids: nobody sees anyone else's bid, and the top 24 win. Made by the chapter's licensed vendor, never by Bidd.",
+    "starts_at": "2026-10-17T20:13:13.581Z",
+    "ends_at": "2026-10-20T00:13:13.581Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": "White Fox",
+    "university_licensed": true,
+    "company": {
+      "name": "White Fox",
+      "role": "brand"
+    },
+    "price_cents": 5500,
+    "photo_url": "/photos/pexels-6786666.jpg",
+    "banner_url": "/photos/pexels-6786666.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "S",
+        "total": 4,
+        "stock": 4
+      },
+      {
+        "size": "M",
+        "total": 6,
+        "stock": 6
+      },
+      {
+        "size": "L",
+        "total": 6,
+        "stock": 6
+      },
+      {
+        "size": "XL",
+        "total": 4,
+        "stock": 4
+      },
+      {
+        "size": "XXL",
+        "total": 2,
+        "stock": 2
+      }
+    ],
+    "auction": {
+      "pieces": 24,
+      "min_bid_cents": 5500,
+      "bid_count": 70,
+      "bids_cents": [
+        14700,
+        14600,
+        13200,
+        13000,
+        12900,
+        12700,
+        12300,
+        12300,
+        12000,
+        12000,
+        11900,
+        11300,
+        11200,
+        11100,
+        10800,
+        10500,
+        10400,
+        10100,
+        9700,
+        9400,
+        9200,
+        9200,
+        9100,
+        8800,
+        8800,
+        8600,
+        8600,
+        8600,
+        8300,
+        7800,
+        7700,
+        7600,
+        7400,
+        7400,
+        7200,
+        7200,
+        7000,
+        6900,
+        6900,
+        6800,
+        6800,
+        6700,
+        6700,
+        6700,
+        6500,
+        6500,
+        6100,
+        6100,
+        6000,
+        6000,
+        6000,
+        5900,
+        5900,
+        5900,
+        5800,
+        5800,
+        5800,
+        5800,
+        5700,
+        5600,
+        5600,
+        5600,
+        5600,
+        5500,
+        5500,
+        5500,
+        5500,
+        5500,
+        5500,
+        5500
+      ]
+    },
+    "raised_cents": 480
+  },
+  {
+    "id": "uark-philanthropy-week",
+    "slug": "philanthropy-week",
+    "kind": "preorder",
+    "closet_id": "closet-uark-liquiddeath",
+    "campus_id": "uark",
+    "chapter_id": "uark-phimu",
+    "name": "Liquid Death × Philanthropy week",
+    "description": "Liquid Death brand co-drop for Philanthropy week: a co-branded tee, pre-order now. Made by the chapter's licensed vendor, never by Bidd, and 10% of the chapter's profit goes to its philanthropy.",
+    "starts_at": "2026-10-17T19:57:21.105Z",
+    "ends_at": "2026-10-20T20:57:21.105Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": "Liquid Death",
+    "university_licensed": false,
+    "company": {
+      "name": "Liquid Death",
+      "role": "brand"
+    },
+    "price_cents": 3000,
+    "photo_url": "/merch/liquid-death.jpg",
+    "banner_url": "/merch/liquid-death.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 4,
+        "stock": 0
+      },
+      {
+        "size": "S",
+        "total": 10,
+        "stock": 0
+      },
+      {
+        "size": "M",
+        "total": 14,
+        "stock": 0
+      },
+      {
+        "size": "L",
+        "total": 12,
+        "stock": 0
+      },
+      {
+        "size": "XL",
+        "total": 6,
+        "stock": 0
+      },
+      {
+        "size": "XXL",
+        "total": 2,
+        "stock": 0
+      }
+    ],
+    "auction": null,
+    "raised_cents": 124000
+  },
+  {
+    "id": "auburn-bid-day",
+    "slug": "bid-day",
+    "kind": "preorder",
+    "closet_id": "closet-auburn-kd",
+    "campus_id": "auburn",
+    "chapter_id": "auburn-kd",
+    "name": "Bid Day drop",
+    "description": "Bid Day hoodie, sage. Printed by the chapter's licensed vendor; ships to your MSC or hands off at the Exchange Spot.",
+    "starts_at": "2026-10-17T17:00:00.000Z",
+    "ends_at": "2026-10-17T23:00:00.000Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": null,
+    "university_licensed": false,
+    "company": {
+      "name": "Campus Ink Co.",
+      "role": "vendor"
+    },
+    "price_cents": 5800,
+    "photo_url": "/photos/pexels-9594669.jpg",
+    "banner_url": "/photos/unsplash-RYHvzYdeoCI.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 4,
+        "stock": 1
+      },
+      {
+        "size": "S",
+        "total": 10,
+        "stock": 4
+      },
+      {
+        "size": "M",
+        "total": 12,
+        "stock": 7
+      },
+      {
+        "size": "L",
+        "total": 10,
+        "stock": 6
+      },
+      {
+        "size": "XL",
+        "total": 8,
+        "stock": 3
+      },
+      {
+        "size": "XXL",
+        "total": 4,
+        "stock": 1
+      }
+    ],
+    "auction": null,
+    "raised_cents": 3826
+  },
+  {
+    "id": "auburn-one-of-one",
+    "slug": "one-of-one",
+    "kind": "auction",
+    "closet_id": "closet-auburn-kd",
+    "campus_id": "auburn",
+    "chapter_id": "auburn-kd",
+    "name": "1 of 1 Big/Little sets",
+    "description": "Twelve one-off Big/Little crewneck sets, each hand-finished and numbered. Sealed bids: nobody sees anyone else's bid, and the top 12 win.",
+    "starts_at": "2026-10-17T16:00:00.000Z",
+    "ends_at": "2026-10-18T00:30:00.000Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": null,
+    "university_licensed": false,
+    "company": {
+      "name": "Campus Ink Co.",
+      "role": "vendor"
+    },
+    "price_cents": 6000,
+    "photo_url": "/photos/pexels-9594422.jpg",
+    "banner_url": "/photos/pexels-9594422.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "S",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "M",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "L",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "XL",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "XXL",
+        "total": 2,
+        "stock": 2
+      }
+    ],
+    "auction": {
+      "pieces": 12,
+      "min_bid_cents": 6000,
+      "bid_count": 95,
+      "bids_cents": [
+        14400,
+        14200,
+        14100,
+        14000,
+        13700,
+        13500,
+        13500,
+        13500,
+        13400,
+        13300,
+        13100,
+        13000,
+        13000,
+        12900,
+        12800,
+        12700,
+        12500,
+        12400,
+        12300,
+        12100,
+        12100,
+        11700,
+        11700,
+        11600,
+        11500,
+        11000,
+        11000,
+        10900,
+        10700,
+        10600,
+        10600,
+        10500,
+        10500,
+        10300,
+        10000,
+        9800,
+        9800,
+        9300,
+        9100,
+        9000,
+        9000,
+        8700,
+        8500,
+        8500,
+        8500,
+        8200,
+        8200,
+        8100,
+        8000,
+        8000,
+        7900,
+        7800,
+        7700,
+        7600,
+        7500,
+        7400,
+        7200,
+        7200,
+        7200,
+        7100,
+        7100,
+        7100,
+        7000,
+        7000,
+        6900,
+        6900,
+        6900,
+        6900,
+        6900,
+        6800,
+        6800,
+        6700,
+        6600,
+        6600,
+        6500,
+        6500,
+        6500,
+        6400,
+        6400,
+        6400,
+        6300,
+        6300,
+        6200,
+        6200,
+        6100,
+        6100,
+        6100,
+        6000,
+        6000,
+        6000,
+        6000,
+        6000,
+        6000,
+        6000,
+        6000
+      ]
+    },
+    "raised_cents": 8009
+  },
+  {
+    "id": "auburn-gameday-tee",
+    "slug": "gameday-tee",
+    "kind": "preorder",
+    "closet_id": "closet-auburn-chio",
+    "campus_id": "auburn",
+    "chapter_id": "auburn-chio",
+    "name": "Gameday tee",
+    "description": "Chapter tee, heather gray / tangerine / olive. Printed by the chapter's licensed vendor; ships to your MSC or hands off at the Exchange Spot.",
+    "starts_at": "2026-10-19T00:00:00.000Z",
+    "ends_at": "2026-10-21T00:00:00.000Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": null,
+    "university_licensed": true,
+    "company": {
+      "name": "Campus Ink Co.",
+      "role": "vendor"
+    },
+    "price_cents": 3200,
+    "photo_url": "/photos/pexels-39277919.jpg",
+    "banner_url": "/photos/pexels-39277919.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 6,
+        "stock": 6
+      },
+      {
+        "size": "S",
+        "total": 12,
+        "stock": 12
+      },
+      {
+        "size": "M",
+        "total": 14,
+        "stock": 14
+      },
+      {
+        "size": "L",
+        "total": 12,
+        "stock": 12
+      },
+      {
+        "size": "XL",
+        "total": 8,
+        "stock": 8
+      },
+      {
+        "size": "XXL",
+        "total": 4,
+        "stock": 4
+      }
+    ],
+    "auction": null,
+    "raised_cents": 9462
+  },
+  {
+    "id": "auburn-white-fox",
+    "slug": "white-fox",
+    "kind": "auction",
+    "closet_id": "closet-auburn-whitefox",
+    "campus_id": "auburn",
+    "chapter_id": "auburn-kd",
+    "name": "White Fox × Kappa Delta",
+    "description": "White Fox brand drop for one chapter: a mocha chapter hoodie in 24 numbered pieces. Sealed bids: nobody sees anyone else's bid, and the top 24 win. Made by the chapter's licensed vendor, never by Bidd.",
+    "starts_at": "2026-10-17T20:13:13.581Z",
+    "ends_at": "2026-10-20T00:13:13.581Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": "White Fox",
+    "university_licensed": true,
+    "company": {
+      "name": "White Fox",
+      "role": "brand"
+    },
+    "price_cents": 5500,
+    "photo_url": "/photos/pexels-6786666.jpg",
+    "banner_url": "/photos/pexels-6786666.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "S",
+        "total": 4,
+        "stock": 4
+      },
+      {
+        "size": "M",
+        "total": 6,
+        "stock": 6
+      },
+      {
+        "size": "L",
+        "total": 6,
+        "stock": 6
+      },
+      {
+        "size": "XL",
+        "total": 4,
+        "stock": 4
+      },
+      {
+        "size": "XXL",
+        "total": 2,
+        "stock": 2
+      }
+    ],
+    "auction": {
+      "pieces": 24,
+      "min_bid_cents": 5500,
+      "bid_count": 84,
+      "bids_cents": [
+        14700,
+        14100,
+        14100,
+        14000,
+        13800,
+        13700,
+        13200,
+        12900,
+        12900,
+        12400,
+        12300,
+        12300,
+        12000,
+        11900,
+        11500,
+        11500,
+        11500,
+        11300,
+        10500,
+        10400,
+        10100,
+        10100,
+        10000,
+        9800,
+        9800,
+        9800,
+        9400,
+        9200,
+        9200,
+        9100,
+        8900,
+        8800,
+        8700,
+        8700,
+        8600,
+        8300,
+        8300,
+        8300,
+        8100,
+        7800,
+        7700,
+        7700,
+        7600,
+        7400,
+        7400,
+        7400,
+        7200,
+        7200,
+        7000,
+        7000,
+        6900,
+        6900,
+        6600,
+        6500,
+        6400,
+        6400,
+        6300,
+        6300,
+        6200,
+        6100,
+        6000,
+        5900,
+        5900,
+        5900,
+        5900,
+        5900,
+        5800,
+        5800,
+        5800,
+        5700,
+        5600,
+        5600,
+        5600,
+        5600,
+        5600,
+        5600,
+        5500,
+        5500,
+        5500,
+        5500,
+        5500,
+        5500,
+        5500,
+        5500
+      ]
+    },
+    "raised_cents": 38027
+  },
+  {
+    "id": "auburn-philanthropy-week",
+    "slug": "philanthropy-week",
+    "kind": "preorder",
+    "closet_id": "closet-auburn-liquiddeath",
+    "campus_id": "auburn",
+    "chapter_id": "auburn-phimu",
+    "name": "Liquid Death × Philanthropy week",
+    "description": "Liquid Death brand co-drop for Philanthropy week: a co-branded tee, pre-order now. Made by the chapter's licensed vendor, never by Bidd, and 10% of the chapter's profit goes to its philanthropy.",
+    "starts_at": "2026-10-17T19:57:21.105Z",
+    "ends_at": "2026-10-20T20:57:21.105Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": "Liquid Death",
+    "university_licensed": false,
+    "company": {
+      "name": "Liquid Death",
+      "role": "brand"
+    },
+    "price_cents": 3000,
+    "photo_url": "/merch/liquid-death.jpg",
+    "banner_url": "/merch/liquid-death.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 4,
+        "stock": 0
+      },
+      {
+        "size": "S",
+        "total": 10,
+        "stock": 0
+      },
+      {
+        "size": "M",
+        "total": 14,
+        "stock": 0
+      },
+      {
+        "size": "L",
+        "total": 12,
+        "stock": 0
+      },
+      {
+        "size": "XL",
+        "total": 6,
+        "stock": 0
+      },
+      {
+        "size": "XXL",
+        "total": 2,
+        "stock": 0
+      }
+    ],
+    "auction": null,
+    "raised_cents": 124000
+  },
+  {
+    "id": "uf-bid-day",
+    "slug": "bid-day",
+    "kind": "preorder",
+    "closet_id": "closet-uf-kd",
+    "campus_id": "uf",
+    "chapter_id": "uf-kd",
+    "name": "Bid Day drop",
+    "description": "Bid Day hoodie, sage. Printed by the chapter's licensed vendor; ships to your MSC or hands off at the Exchange Spot.",
+    "starts_at": "2026-10-17T17:00:00.000Z",
+    "ends_at": "2026-10-17T23:00:00.000Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": null,
+    "university_licensed": false,
+    "company": {
+      "name": "Campus Ink Co.",
+      "role": "vendor"
+    },
+    "price_cents": 5800,
+    "photo_url": "/photos/pexels-9594669.jpg",
+    "banner_url": "/photos/unsplash-RYHvzYdeoCI.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 4,
+        "stock": 1
+      },
+      {
+        "size": "S",
+        "total": 10,
+        "stock": 4
+      },
+      {
+        "size": "M",
+        "total": 12,
+        "stock": 7
+      },
+      {
+        "size": "L",
+        "total": 10,
+        "stock": 6
+      },
+      {
+        "size": "XL",
+        "total": 8,
+        "stock": 3
+      },
+      {
+        "size": "XXL",
+        "total": 4,
+        "stock": 1
+      }
+    ],
+    "auction": null,
+    "raised_cents": 14372
+  },
+  {
+    "id": "uf-one-of-one",
+    "slug": "one-of-one",
+    "kind": "auction",
+    "closet_id": "closet-uf-kd",
+    "campus_id": "uf",
+    "chapter_id": "uf-kd",
+    "name": "1 of 1 Big/Little sets",
+    "description": "Twelve one-off Big/Little crewneck sets, each hand-finished and numbered. Sealed bids: nobody sees anyone else's bid, and the top 12 win.",
+    "starts_at": "2026-10-17T16:00:00.000Z",
+    "ends_at": "2026-10-18T00:30:00.000Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": null,
+    "university_licensed": false,
+    "company": {
+      "name": "Campus Ink Co.",
+      "role": "vendor"
+    },
+    "price_cents": 6000,
+    "photo_url": "/merch/florida-gators.jpg",
+    "banner_url": "/merch/florida-gators.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "S",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "M",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "L",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "XL",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "XXL",
+        "total": 2,
+        "stock": 2
+      }
+    ],
+    "auction": {
+      "pieces": 12,
+      "min_bid_cents": 6000,
+      "bid_count": 68,
+      "bids_cents": [
+        13900,
+        13900,
+        13800,
+        13500,
+        13100,
+        13000,
+        13000,
+        12700,
+        12300,
+        12300,
+        12100,
+        11800,
+        11700,
+        11700,
+        11400,
+        11300,
+        11300,
+        11100,
+        10900,
+        10900,
+        10700,
+        10700,
+        10400,
+        10200,
+        10200,
+        10100,
+        9800,
+        9800,
+        9800,
+        9500,
+        9200,
+        9200,
+        9000,
+        8900,
+        8800,
+        8700,
+        8600,
+        8600,
+        8500,
+        8500,
+        8100,
+        8100,
+        8000,
+        8000,
+        7900,
+        7800,
+        7700,
+        7700,
+        7700,
+        7500,
+        7400,
+        7400,
+        7300,
+        7300,
+        7100,
+        7000,
+        6900,
+        6800,
+        6700,
+        6500,
+        6400,
+        6400,
+        6400,
+        6400,
+        6200,
+        6000,
+        6000,
+        6000
+      ]
+    },
+    "raised_cents": 8666
+  },
+  {
+    "id": "uf-gameday-tee",
+    "slug": "gameday-tee",
+    "kind": "preorder",
+    "closet_id": "closet-uf-chio",
+    "campus_id": "uf",
+    "chapter_id": "uf-chio",
+    "name": "Gameday tee",
+    "description": "Chapter tee, heather gray / tangerine / olive. Printed by the chapter's licensed vendor; ships to your MSC or hands off at the Exchange Spot.",
+    "starts_at": "2026-10-19T00:00:00.000Z",
+    "ends_at": "2026-10-21T00:00:00.000Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": null,
+    "university_licensed": true,
+    "company": {
+      "name": "Campus Ink Co.",
+      "role": "vendor"
+    },
+    "price_cents": 3200,
+    "photo_url": "/merch/florida-gators.jpg",
+    "banner_url": "/merch/florida-gators.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 6,
+        "stock": 6
+      },
+      {
+        "size": "S",
+        "total": 12,
+        "stock": 12
+      },
+      {
+        "size": "M",
+        "total": 14,
+        "stock": 14
+      },
+      {
+        "size": "L",
+        "total": 12,
+        "stock": 12
+      },
+      {
+        "size": "XL",
+        "total": 8,
+        "stock": 8
+      },
+      {
+        "size": "XXL",
+        "total": 4,
+        "stock": 4
+      }
+    ],
+    "auction": null,
+    "raised_cents": 28233
+  },
+  {
+    "id": "uf-white-fox",
+    "slug": "white-fox",
+    "kind": "auction",
+    "closet_id": "closet-uf-whitefox",
+    "campus_id": "uf",
+    "chapter_id": "uf-kd",
+    "name": "White Fox × Kappa Delta",
+    "description": "White Fox brand drop for one chapter: a mocha chapter hoodie in 24 numbered pieces. Sealed bids: nobody sees anyone else's bid, and the top 24 win. Made by the chapter's licensed vendor, never by Bidd.",
+    "starts_at": "2026-10-17T20:13:13.581Z",
+    "ends_at": "2026-10-20T00:13:13.581Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": "White Fox",
+    "university_licensed": true,
+    "company": {
+      "name": "White Fox",
+      "role": "brand"
+    },
+    "price_cents": 5500,
+    "photo_url": "/photos/pexels-6786666.jpg",
+    "banner_url": "/photos/pexels-6786666.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "S",
+        "total": 4,
+        "stock": 4
+      },
+      {
+        "size": "M",
+        "total": 6,
+        "stock": 6
+      },
+      {
+        "size": "L",
+        "total": 6,
+        "stock": 6
+      },
+      {
+        "size": "XL",
+        "total": 4,
+        "stock": 4
+      },
+      {
+        "size": "XXL",
+        "total": 2,
+        "stock": 2
+      }
+    ],
+    "auction": {
+      "pieces": 24,
+      "min_bid_cents": 5500,
+      "bid_count": 60,
+      "bids_cents": [
+        14900,
+        14900,
+        14900,
+        14800,
+        14400,
+        14000,
+        13900,
+        13100,
+        13100,
+        12900,
+        12600,
+        12200,
+        12200,
+        12200,
+        11400,
+        10700,
+        10700,
+        10600,
+        10300,
+        10000,
+        10000,
+        9400,
+        9300,
+        9100,
+        8800,
+        8800,
+        8800,
+        8500,
+        8200,
+        8200,
+        7800,
+        7800,
+        7700,
+        7500,
+        7300,
+        7300,
+        7300,
+        6900,
+        6600,
+        6600,
+        6600,
+        6500,
+        6300,
+        6300,
+        6100,
+        6100,
+        6100,
+        6000,
+        5900,
+        5900,
+        5800,
+        5700,
+        5700,
+        5600,
+        5600,
+        5600,
+        5600,
+        5500,
+        5500,
+        5500
+      ]
+    },
+    "raised_cents": 5173
+  },
+  {
+    "id": "uf-philanthropy-week",
+    "slug": "philanthropy-week",
+    "kind": "preorder",
+    "closet_id": "closet-uf-liquiddeath",
+    "campus_id": "uf",
+    "chapter_id": "uf-phimu",
+    "name": "Liquid Death × Philanthropy week",
+    "description": "Liquid Death brand co-drop for Philanthropy week: a co-branded tee, pre-order now. Made by the chapter's licensed vendor, never by Bidd, and 10% of the chapter's profit goes to its philanthropy.",
+    "starts_at": "2026-10-17T19:57:21.105Z",
+    "ends_at": "2026-10-20T20:57:21.105Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": "Liquid Death",
+    "university_licensed": false,
+    "company": {
+      "name": "Liquid Death",
+      "role": "brand"
+    },
+    "price_cents": 3000,
+    "photo_url": "/merch/liquid-death.jpg",
+    "banner_url": "/merch/liquid-death.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 4,
+        "stock": 0
+      },
+      {
+        "size": "S",
+        "total": 10,
+        "stock": 0
+      },
+      {
+        "size": "M",
+        "total": 14,
+        "stock": 0
+      },
+      {
+        "size": "L",
+        "total": 12,
+        "stock": 0
+      },
+      {
+        "size": "XL",
+        "total": 6,
+        "stock": 0
+      },
+      {
+        "size": "XXL",
+        "total": 2,
+        "stock": 0
+      }
+    ],
+    "auction": null,
+    "raised_cents": 124000
+  },
+  {
+    "id": "uga-bid-day",
+    "slug": "bid-day",
+    "kind": "preorder",
+    "closet_id": "closet-uga-kd",
+    "campus_id": "uga",
+    "chapter_id": "uga-kd",
+    "name": "Bid Day drop",
+    "description": "Bid Day hoodie, sage. Printed by the chapter's licensed vendor; ships to your MSC or hands off at the Exchange Spot.",
+    "starts_at": "2026-10-17T17:00:00.000Z",
+    "ends_at": "2026-10-17T23:00:00.000Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": null,
+    "university_licensed": false,
+    "company": {
+      "name": "Campus Ink Co.",
+      "role": "vendor"
+    },
+    "price_cents": 5800,
+    "photo_url": "/photos/pexels-9594669.jpg",
+    "banner_url": "/photos/unsplash-RYHvzYdeoCI.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 4,
+        "stock": 1
+      },
+      {
+        "size": "S",
+        "total": 10,
+        "stock": 4
+      },
+      {
+        "size": "M",
+        "total": 12,
+        "stock": 7
+      },
+      {
+        "size": "L",
+        "total": 10,
+        "stock": 6
+      },
+      {
+        "size": "XL",
+        "total": 8,
+        "stock": 3
+      },
+      {
+        "size": "XXL",
+        "total": 4,
+        "stock": 1
+      }
+    ],
+    "auction": null,
+    "raised_cents": 9217
+  },
+  {
+    "id": "uga-one-of-one",
+    "slug": "one-of-one",
+    "kind": "auction",
+    "closet_id": "closet-uga-kd",
+    "campus_id": "uga",
+    "chapter_id": "uga-kd",
+    "name": "1 of 1 Big/Little sets",
+    "description": "Twelve one-off Big/Little crewneck sets, each hand-finished and numbered. Sealed bids: nobody sees anyone else's bid, and the top 12 win.",
+    "starts_at": "2026-10-17T16:00:00.000Z",
+    "ends_at": "2026-10-18T00:30:00.000Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": null,
+    "university_licensed": false,
+    "company": {
+      "name": "Campus Ink Co.",
+      "role": "vendor"
+    },
+    "price_cents": 6000,
+    "photo_url": "/photos/pexels-9594422.jpg",
+    "banner_url": "/photos/pexels-9594422.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "S",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "M",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "L",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "XL",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "XXL",
+        "total": 2,
+        "stock": 2
+      }
+    ],
+    "auction": {
+      "pieces": 12,
+      "min_bid_cents": 6000,
+      "bid_count": 96,
+      "bids_cents": [
+        14400,
+        14200,
+        14000,
+        13900,
+        13700,
+        13700,
+        13600,
+        13500,
+        13500,
+        13100,
+        13100,
+        12700,
+        12400,
+        12100,
+        12000,
+        11800,
+        11800,
+        11800,
+        11700,
+        11500,
+        11400,
+        11400,
+        11400,
+        10900,
+        10500,
+        10200,
+        10100,
+        10000,
+        10000,
+        9900,
+        9900,
+        9800,
+        9600,
+        9600,
+        9400,
+        9200,
+        9100,
+        8900,
+        8700,
+        8600,
+        8400,
+        8300,
+        8100,
+        8100,
+        8000,
+        8000,
+        8000,
+        7900,
+        7900,
+        7800,
+        7800,
+        7800,
+        7800,
+        7600,
+        7600,
+        7600,
+        7600,
+        7500,
+        7300,
+        7300,
+        7200,
+        7200,
+        7200,
+        7200,
+        7200,
+        7100,
+        7000,
+        7000,
+        6900,
+        6900,
+        6800,
+        6800,
+        6700,
+        6700,
+        6700,
+        6700,
+        6600,
+        6600,
+        6600,
+        6500,
+        6400,
+        6400,
+        6300,
+        6300,
+        6200,
+        6200,
+        6200,
+        6200,
+        6100,
+        6100,
+        6100,
+        6000,
+        6000,
+        6000,
+        6000,
+        6000
+      ]
+    },
+    "raised_cents": 31221
+  },
+  {
+    "id": "uga-gameday-tee",
+    "slug": "gameday-tee",
+    "kind": "preorder",
+    "closet_id": "closet-uga-chio",
+    "campus_id": "uga",
+    "chapter_id": "uga-chio",
+    "name": "Gameday tee",
+    "description": "Chapter tee, heather gray / tangerine / olive. Printed by the chapter's licensed vendor; ships to your MSC or hands off at the Exchange Spot.",
+    "starts_at": "2026-10-19T00:00:00.000Z",
+    "ends_at": "2026-10-21T00:00:00.000Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": null,
+    "university_licensed": true,
+    "company": {
+      "name": "Campus Ink Co.",
+      "role": "vendor"
+    },
+    "price_cents": 3200,
+    "photo_url": "/photos/pexels-39277919.jpg",
+    "banner_url": "/photos/pexels-39277919.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 6,
+        "stock": 6
+      },
+      {
+        "size": "S",
+        "total": 12,
+        "stock": 12
+      },
+      {
+        "size": "M",
+        "total": 14,
+        "stock": 14
+      },
+      {
+        "size": "L",
+        "total": 12,
+        "stock": 12
+      },
+      {
+        "size": "XL",
+        "total": 8,
+        "stock": 8
+      },
+      {
+        "size": "XXL",
+        "total": 4,
+        "stock": 4
+      }
+    ],
+    "auction": null,
+    "raised_cents": 2168
+  },
+  {
+    "id": "uga-white-fox",
+    "slug": "white-fox",
+    "kind": "auction",
+    "closet_id": "closet-uga-whitefox",
+    "campus_id": "uga",
+    "chapter_id": "uga-kd",
+    "name": "White Fox × Kappa Delta",
+    "description": "White Fox brand drop for one chapter: a mocha chapter hoodie in 24 numbered pieces. Sealed bids: nobody sees anyone else's bid, and the top 24 win. Made by the chapter's licensed vendor, never by Bidd.",
+    "starts_at": "2026-10-17T20:13:13.581Z",
+    "ends_at": "2026-10-20T00:13:13.581Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": "White Fox",
+    "university_licensed": true,
+    "company": {
+      "name": "White Fox",
+      "role": "brand"
+    },
+    "price_cents": 5500,
+    "photo_url": "/photos/pexels-6786666.jpg",
+    "banner_url": "/photos/pexels-6786666.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "S",
+        "total": 4,
+        "stock": 4
+      },
+      {
+        "size": "M",
+        "total": 6,
+        "stock": 6
+      },
+      {
+        "size": "L",
+        "total": 6,
+        "stock": 6
+      },
+      {
+        "size": "XL",
+        "total": 4,
+        "stock": 4
+      },
+      {
+        "size": "XXL",
+        "total": 2,
+        "stock": 2
+      }
+    ],
+    "auction": {
+      "pieces": 24,
+      "min_bid_cents": 5500,
+      "bid_count": 90,
+      "bids_cents": [
+        14700,
+        14600,
+        14600,
+        13800,
+        13700,
+        13700,
+        13600,
+        12800,
+        12800,
+        12800,
+        12700,
+        12400,
+        12000,
+        12000,
+        11300,
+        11200,
+        11200,
+        11100,
+        11100,
+        10500,
+        10500,
+        10500,
+        10500,
+        10400,
+        10100,
+        9900,
+        9800,
+        9800,
+        9700,
+        9200,
+        9200,
+        9200,
+        9100,
+        8900,
+        8600,
+        8600,
+        8600,
+        8500,
+        8100,
+        8100,
+        8100,
+        8000,
+        7600,
+        7600,
+        7600,
+        7600,
+        7400,
+        7300,
+        7200,
+        7000,
+        6900,
+        6800,
+        6800,
+        6500,
+        6500,
+        6500,
+        6500,
+        6400,
+        6300,
+        6300,
+        6300,
+        6200,
+        6000,
+        6000,
+        6000,
+        5900,
+        5800,
+        5800,
+        5800,
+        5800,
+        5800,
+        5700,
+        5700,
+        5700,
+        5700,
+        5600,
+        5600,
+        5600,
+        5600,
+        5600,
+        5600,
+        5500,
+        5500,
+        5500,
+        5500,
+        5500,
+        5500,
+        5500,
+        5500,
+        5500
+      ]
+    },
+    "raised_cents": 16660
+  },
+  {
+    "id": "uga-philanthropy-week",
+    "slug": "philanthropy-week",
+    "kind": "preorder",
+    "closet_id": "closet-uga-liquiddeath",
+    "campus_id": "uga",
+    "chapter_id": "uga-phimu",
+    "name": "Liquid Death × Philanthropy week",
+    "description": "Liquid Death brand co-drop for Philanthropy week: a co-branded tee, pre-order now. Made by the chapter's licensed vendor, never by Bidd, and 10% of the chapter's profit goes to its philanthropy.",
+    "starts_at": "2026-10-17T19:57:21.105Z",
+    "ends_at": "2026-10-20T20:57:21.105Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": "Liquid Death",
+    "university_licensed": false,
+    "company": {
+      "name": "Liquid Death",
+      "role": "brand"
+    },
+    "price_cents": 3000,
+    "photo_url": "/merch/liquid-death.jpg",
+    "banner_url": "/merch/liquid-death.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 4,
+        "stock": 0
+      },
+      {
+        "size": "S",
+        "total": 10,
+        "stock": 0
+      },
+      {
+        "size": "M",
+        "total": 14,
+        "stock": 0
+      },
+      {
+        "size": "L",
+        "total": 12,
+        "stock": 0
+      },
+      {
+        "size": "XL",
+        "total": 6,
+        "stock": 0
+      },
+      {
+        "size": "XXL",
+        "total": 2,
+        "stock": 0
+      }
+    ],
+    "auction": null,
+    "raised_cents": 124000
+  },
+  {
+    "id": "uky-bid-day",
+    "slug": "bid-day",
+    "kind": "preorder",
+    "closet_id": "closet-uky-kd",
+    "campus_id": "uky",
+    "chapter_id": "uky-kd",
+    "name": "Bid Day drop",
+    "description": "Bid Day hoodie, sage. Printed by the chapter's licensed vendor; ships to your MSC or hands off at the Exchange Spot.",
+    "starts_at": "2026-10-17T17:00:00.000Z",
+    "ends_at": "2026-10-17T23:00:00.000Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": null,
+    "university_licensed": false,
+    "company": {
+      "name": "Campus Ink Co.",
+      "role": "vendor"
+    },
+    "price_cents": 5800,
+    "photo_url": "/photos/pexels-9594669.jpg",
+    "banner_url": "/photos/unsplash-RYHvzYdeoCI.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 4,
+        "stock": 1
+      },
+      {
+        "size": "S",
+        "total": 10,
+        "stock": 4
+      },
+      {
+        "size": "M",
+        "total": 12,
+        "stock": 7
+      },
+      {
+        "size": "L",
+        "total": 10,
+        "stock": 6
+      },
+      {
+        "size": "XL",
+        "total": 8,
+        "stock": 3
+      },
+      {
+        "size": "XXL",
+        "total": 4,
+        "stock": 1
+      }
+    ],
+    "auction": null,
+    "raised_cents": 7734
+  },
+  {
+    "id": "uky-one-of-one",
+    "slug": "one-of-one",
+    "kind": "auction",
+    "closet_id": "closet-uky-kd",
+    "campus_id": "uky",
+    "chapter_id": "uky-kd",
+    "name": "1 of 1 Big/Little sets",
+    "description": "Twelve one-off Big/Little crewneck sets, each hand-finished and numbered. Sealed bids: nobody sees anyone else's bid, and the top 12 win.",
+    "starts_at": "2026-10-17T16:00:00.000Z",
+    "ends_at": "2026-10-18T00:30:00.000Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": null,
+    "university_licensed": false,
+    "company": {
+      "name": "Campus Ink Co.",
+      "role": "vendor"
+    },
+    "price_cents": 6000,
+    "photo_url": "/merch/uk-chrome-hearts.jpg",
+    "banner_url": "/merch/uk-chrome-hearts.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "S",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "M",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "L",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "XL",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "XXL",
+        "total": 2,
+        "stock": 2
+      }
+    ],
+    "auction": {
+      "pieces": 12,
+      "min_bid_cents": 6000,
+      "bid_count": 82,
+      "bids_cents": [
+        13900,
+        13700,
+        13700,
+        13500,
+        13200,
+        13000,
+        12900,
+        12800,
+        12600,
+        12400,
+        12300,
+        12200,
+        12100,
+        12000,
+        11900,
+        11600,
+        11400,
+        11400,
+        11200,
+        11100,
+        11000,
+        10800,
+        10700,
+        10700,
+        10600,
+        10500,
+        10200,
+        10200,
+        10200,
+        10100,
+        10000,
+        9900,
+        9600,
+        9600,
+        9600,
+        9500,
+        9400,
+        9400,
+        9100,
+        9100,
+        8800,
+        8700,
+        8700,
+        8600,
+        8600,
+        8600,
+        8500,
+        8500,
+        8400,
+        8400,
+        8400,
+        8300,
+        8100,
+        8100,
+        8000,
+        8000,
+        7800,
+        7700,
+        7500,
+        7400,
+        7400,
+        7000,
+        6900,
+        6800,
+        6600,
+        6500,
+        6500,
+        6500,
+        6400,
+        6200,
+        6100,
+        6100,
+        6100,
+        6100,
+        6100,
+        6100,
+        6100,
+        6100,
+        6100,
+        6000,
+        6000,
+        6000
+      ]
+    },
+    "raised_cents": 4021
+  },
+  {
+    "id": "uky-gameday-tee",
+    "slug": "gameday-tee",
+    "kind": "preorder",
+    "closet_id": "closet-uky-chio",
+    "campus_id": "uky",
+    "chapter_id": "uky-chio",
+    "name": "Gameday tee",
+    "description": "Chapter tee, heather gray / tangerine / olive. Printed by the chapter's licensed vendor; ships to your MSC or hands off at the Exchange Spot.",
+    "starts_at": "2026-10-19T00:00:00.000Z",
+    "ends_at": "2026-10-21T00:00:00.000Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": null,
+    "university_licensed": true,
+    "company": {
+      "name": "Campus Ink Co.",
+      "role": "vendor"
+    },
+    "price_cents": 3200,
+    "photo_url": "/merch/uk-chrome-hearts.jpg",
+    "banner_url": "/merch/uk-chrome-hearts.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 6,
+        "stock": 6
+      },
+      {
+        "size": "S",
+        "total": 12,
+        "stock": 12
+      },
+      {
+        "size": "M",
+        "total": 14,
+        "stock": 14
+      },
+      {
+        "size": "L",
+        "total": 12,
+        "stock": 12
+      },
+      {
+        "size": "XL",
+        "total": 8,
+        "stock": 8
+      },
+      {
+        "size": "XXL",
+        "total": 4,
+        "stock": 4
+      }
+    ],
+    "auction": null,
+    "raised_cents": 1953
+  },
+  {
+    "id": "uky-white-fox",
+    "slug": "white-fox",
+    "kind": "auction",
+    "closet_id": "closet-uky-whitefox",
+    "campus_id": "uky",
+    "chapter_id": "uky-kd",
+    "name": "White Fox × Kappa Delta",
+    "description": "White Fox brand drop for one chapter: a mocha chapter hoodie in 24 numbered pieces. Sealed bids: nobody sees anyone else's bid, and the top 24 win. Made by the chapter's licensed vendor, never by Bidd.",
+    "starts_at": "2026-10-17T20:13:13.581Z",
+    "ends_at": "2026-10-20T00:13:13.581Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": "White Fox",
+    "university_licensed": true,
+    "company": {
+      "name": "White Fox",
+      "role": "brand"
+    },
+    "price_cents": 5500,
+    "photo_url": "/photos/pexels-6786666.jpg",
+    "banner_url": "/photos/pexels-6786666.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "S",
+        "total": 4,
+        "stock": 4
+      },
+      {
+        "size": "M",
+        "total": 6,
+        "stock": 6
+      },
+      {
+        "size": "L",
+        "total": 6,
+        "stock": 6
+      },
+      {
+        "size": "XL",
+        "total": 4,
+        "stock": 4
+      },
+      {
+        "size": "XXL",
+        "total": 2,
+        "stock": 2
+      }
+    ],
+    "auction": {
+      "pieces": 24,
+      "min_bid_cents": 5500,
+      "bid_count": 62,
+      "bids_cents": [
+        15000,
+        14800,
+        14500,
+        14000,
+        13600,
+        13500,
+        13100,
+        13100,
+        13000,
+        12700,
+        12100,
+        11500,
+        11100,
+        10700,
+        10600,
+        10400,
+        10400,
+        10000,
+        9900,
+        9400,
+        9300,
+        9300,
+        9100,
+        8800,
+        8700,
+        8700,
+        8500,
+        8300,
+        8000,
+        7800,
+        7800,
+        7700,
+        7600,
+        7300,
+        7000,
+        6900,
+        6900,
+        6800,
+        6600,
+        6500,
+        6300,
+        6200,
+        6100,
+        6100,
+        6000,
+        5900,
+        5900,
+        5900,
+        5800,
+        5700,
+        5700,
+        5600,
+        5600,
+        5600,
+        5600,
+        5600,
+        5500,
+        5500,
+        5500,
+        5500,
+        5500,
+        5500
+      ]
+    },
+    "raised_cents": 37682
+  },
+  {
+    "id": "uky-philanthropy-week",
+    "slug": "philanthropy-week",
+    "kind": "preorder",
+    "closet_id": "closet-uky-liquiddeath",
+    "campus_id": "uky",
+    "chapter_id": "uky-phimu",
+    "name": "Liquid Death × Philanthropy week",
+    "description": "Liquid Death brand co-drop for Philanthropy week: a co-branded tee, pre-order now. Made by the chapter's licensed vendor, never by Bidd, and 10% of the chapter's profit goes to its philanthropy.",
+    "starts_at": "2026-10-17T19:57:21.105Z",
+    "ends_at": "2026-10-20T20:57:21.105Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": "Liquid Death",
+    "university_licensed": false,
+    "company": {
+      "name": "Liquid Death",
+      "role": "brand"
+    },
+    "price_cents": 3000,
+    "photo_url": "/merch/liquid-death.jpg",
+    "banner_url": "/merch/liquid-death.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 4,
+        "stock": 0
+      },
+      {
+        "size": "S",
+        "total": 10,
+        "stock": 0
+      },
+      {
+        "size": "M",
+        "total": 14,
+        "stock": 0
+      },
+      {
+        "size": "L",
+        "total": 12,
+        "stock": 0
+      },
+      {
+        "size": "XL",
+        "total": 6,
+        "stock": 0
+      },
+      {
+        "size": "XXL",
+        "total": 2,
+        "stock": 0
+      }
+    ],
+    "auction": null,
+    "raised_cents": 124000
+  },
+  {
+    "id": "lsu-bid-day",
+    "slug": "bid-day",
+    "kind": "preorder",
+    "closet_id": "closet-lsu-kd",
+    "campus_id": "lsu",
+    "chapter_id": "lsu-kd",
+    "name": "Bid Day drop",
+    "description": "Bid Day hoodie, sage. Printed by the chapter's licensed vendor; ships to your MSC or hands off at the Exchange Spot.",
+    "starts_at": "2026-10-17T17:00:00.000Z",
+    "ends_at": "2026-10-17T23:00:00.000Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": null,
+    "university_licensed": false,
+    "company": {
+      "name": "Campus Ink Co.",
+      "role": "vendor"
+    },
+    "price_cents": 5800,
+    "photo_url": "/photos/pexels-9594669.jpg",
+    "banner_url": "/photos/unsplash-RYHvzYdeoCI.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 4,
+        "stock": 1
+      },
+      {
+        "size": "S",
+        "total": 10,
+        "stock": 4
+      },
+      {
+        "size": "M",
+        "total": 12,
+        "stock": 7
+      },
+      {
+        "size": "L",
+        "total": 10,
+        "stock": 6
+      },
+      {
+        "size": "XL",
+        "total": 8,
+        "stock": 3
+      },
+      {
+        "size": "XXL",
+        "total": 4,
+        "stock": 1
+      }
+    ],
+    "auction": null,
+    "raised_cents": 7230
+  },
+  {
+    "id": "lsu-one-of-one",
+    "slug": "one-of-one",
+    "kind": "auction",
+    "closet_id": "closet-lsu-kd",
+    "campus_id": "lsu",
+    "chapter_id": "lsu-kd",
+    "name": "1 of 1 Big/Little sets",
+    "description": "Twelve one-off Big/Little crewneck sets, each hand-finished and numbered. Sealed bids: nobody sees anyone else's bid, and the top 12 win.",
+    "starts_at": "2026-10-17T16:00:00.000Z",
+    "ends_at": "2026-10-18T00:30:00.000Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": null,
+    "university_licensed": false,
+    "company": {
+      "name": "Campus Ink Co.",
+      "role": "vendor"
+    },
+    "price_cents": 6000,
+    "photo_url": "/merch/lsu-street.jpg",
+    "banner_url": "/merch/lsu-street.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "S",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "M",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "L",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "XL",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "XXL",
+        "total": 2,
+        "stock": 2
+      }
+    ],
+    "auction": {
+      "pieces": 12,
+      "min_bid_cents": 6000,
+      "bid_count": 61,
+      "bids_cents": [
+        14400,
+        14100,
+        14100,
+        14000,
+        13900,
+        13600,
+        13500,
+        13300,
+        13100,
+        13000,
+        12900,
+        12900,
+        12300,
+        12200,
+        12100,
+        11700,
+        11600,
+        11500,
+        11500,
+        11300,
+        11200,
+        11000,
+        10900,
+        10000,
+        10000,
+        10000,
+        10000,
+        9700,
+        9500,
+        9500,
+        9300,
+        9200,
+        9000,
+        9000,
+        8600,
+        8300,
+        8100,
+        8000,
+        8000,
+        7900,
+        7800,
+        7600,
+        7400,
+        7400,
+        7300,
+        7300,
+        7300,
+        7300,
+        6900,
+        6500,
+        6500,
+        6400,
+        6200,
+        6100,
+        6000,
+        6000,
+        6000,
+        6000,
+        6000,
+        6000,
+        6000
+      ]
+    },
+    "raised_cents": 20802
+  },
+  {
+    "id": "lsu-gameday-tee",
+    "slug": "gameday-tee",
+    "kind": "preorder",
+    "closet_id": "closet-lsu-chio",
+    "campus_id": "lsu",
+    "chapter_id": "lsu-chio",
+    "name": "Gameday tee",
+    "description": "Chapter tee, heather gray / tangerine / olive. Printed by the chapter's licensed vendor; ships to your MSC or hands off at the Exchange Spot.",
+    "starts_at": "2026-10-19T00:00:00.000Z",
+    "ends_at": "2026-10-21T00:00:00.000Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": null,
+    "university_licensed": true,
+    "company": {
+      "name": "Campus Ink Co.",
+      "role": "vendor"
+    },
+    "price_cents": 3200,
+    "photo_url": "/merch/lsu-street.jpg",
+    "banner_url": "/merch/lsu-street.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 6,
+        "stock": 6
+      },
+      {
+        "size": "S",
+        "total": 12,
+        "stock": 12
+      },
+      {
+        "size": "M",
+        "total": 14,
+        "stock": 14
+      },
+      {
+        "size": "L",
+        "total": 12,
+        "stock": 12
+      },
+      {
+        "size": "XL",
+        "total": 8,
+        "stock": 8
+      },
+      {
+        "size": "XXL",
+        "total": 4,
+        "stock": 4
+      }
+    ],
+    "auction": null,
+    "raised_cents": 1228
+  },
+  {
+    "id": "lsu-white-fox",
+    "slug": "white-fox",
+    "kind": "auction",
+    "closet_id": "closet-lsu-whitefox",
+    "campus_id": "lsu",
+    "chapter_id": "lsu-kd",
+    "name": "White Fox × Kappa Delta",
+    "description": "White Fox brand drop for one chapter: a mocha chapter hoodie in 24 numbered pieces. Sealed bids: nobody sees anyone else's bid, and the top 24 win. Made by the chapter's licensed vendor, never by Bidd.",
+    "starts_at": "2026-10-17T20:13:13.581Z",
+    "ends_at": "2026-10-20T00:13:13.581Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": "White Fox",
+    "university_licensed": true,
+    "company": {
+      "name": "White Fox",
+      "role": "brand"
+    },
+    "price_cents": 5500,
+    "photo_url": "/photos/pexels-6786666.jpg",
+    "banner_url": "/photos/pexels-6786666.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "S",
+        "total": 4,
+        "stock": 4
+      },
+      {
+        "size": "M",
+        "total": 6,
+        "stock": 6
+      },
+      {
+        "size": "L",
+        "total": 6,
+        "stock": 6
+      },
+      {
+        "size": "XL",
+        "total": 4,
+        "stock": 4
+      },
+      {
+        "size": "XXL",
+        "total": 2,
+        "stock": 2
+      }
+    ],
+    "auction": {
+      "pieces": 24,
+      "min_bid_cents": 5500,
+      "bid_count": 85,
+      "bids_cents": [
+        15000,
+        14900,
+        14500,
+        14500,
+        14500,
+        14400,
+        14400,
+        14000,
+        13900,
+        13500,
+        13100,
+        13000,
+        12700,
+        12700,
+        12600,
+        11900,
+        11800,
+        11300,
+        11300,
+        11100,
+        10700,
+        10600,
+        10400,
+        10400,
+        10300,
+        10300,
+        9900,
+        9700,
+        9700,
+        9300,
+        9100,
+        9100,
+        8800,
+        8500,
+        8500,
+        8500,
+        8300,
+        8200,
+        8000,
+        8000,
+        7800,
+        7700,
+        7600,
+        7600,
+        7500,
+        7200,
+        7200,
+        7100,
+        6900,
+        6900,
+        6600,
+        6600,
+        6600,
+        6500,
+        6500,
+        6500,
+        6400,
+        6400,
+        6300,
+        6200,
+        6200,
+        6100,
+        6000,
+        6000,
+        6000,
+        5900,
+        5800,
+        5800,
+        5800,
+        5700,
+        5700,
+        5700,
+        5700,
+        5600,
+        5600,
+        5600,
+        5600,
+        5600,
+        5600,
+        5500,
+        5500,
+        5500,
+        5500,
+        5500,
+        5500
+      ]
+    },
+    "raised_cents": 37491
+  },
+  {
+    "id": "lsu-philanthropy-week",
+    "slug": "philanthropy-week",
+    "kind": "preorder",
+    "closet_id": "closet-lsu-liquiddeath",
+    "campus_id": "lsu",
+    "chapter_id": "lsu-phimu",
+    "name": "Liquid Death × Philanthropy week",
+    "description": "Liquid Death brand co-drop for Philanthropy week: a co-branded tee, pre-order now. Made by the chapter's licensed vendor, never by Bidd, and 10% of the chapter's profit goes to its philanthropy.",
+    "starts_at": "2026-10-17T19:57:21.105Z",
+    "ends_at": "2026-10-20T20:57:21.105Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": "Liquid Death",
+    "university_licensed": false,
+    "company": {
+      "name": "Liquid Death",
+      "role": "brand"
+    },
+    "price_cents": 3000,
+    "photo_url": "/merch/liquid-death.jpg",
+    "banner_url": "/merch/liquid-death.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 4,
+        "stock": 0
+      },
+      {
+        "size": "S",
+        "total": 10,
+        "stock": 0
+      },
+      {
+        "size": "M",
+        "total": 14,
+        "stock": 0
+      },
+      {
+        "size": "L",
+        "total": 12,
+        "stock": 0
+      },
+      {
+        "size": "XL",
+        "total": 6,
+        "stock": 0
+      },
+      {
+        "size": "XXL",
+        "total": 2,
+        "stock": 0
+      }
+    ],
+    "auction": null,
+    "raised_cents": 124000
+  },
+  {
+    "id": "olemiss-bid-day",
+    "slug": "bid-day",
+    "kind": "preorder",
+    "closet_id": "closet-olemiss-kd",
+    "campus_id": "olemiss",
+    "chapter_id": "olemiss-kd",
+    "name": "Bid Day drop",
+    "description": "Bid Day hoodie, sage. Printed by the chapter's licensed vendor; ships to your MSC or hands off at the Exchange Spot.",
+    "starts_at": "2026-10-17T17:00:00.000Z",
+    "ends_at": "2026-10-17T23:00:00.000Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": null,
+    "university_licensed": false,
+    "company": {
+      "name": "Campus Ink Co.",
+      "role": "vendor"
+    },
+    "price_cents": 5800,
+    "photo_url": "/photos/pexels-9594669.jpg",
+    "banner_url": "/photos/unsplash-RYHvzYdeoCI.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 4,
+        "stock": 1
+      },
+      {
+        "size": "S",
+        "total": 10,
+        "stock": 4
+      },
+      {
+        "size": "M",
+        "total": 12,
+        "stock": 7
+      },
+      {
+        "size": "L",
+        "total": 10,
+        "stock": 6
+      },
+      {
+        "size": "XL",
+        "total": 8,
+        "stock": 3
+      },
+      {
+        "size": "XXL",
+        "total": 4,
+        "stock": 1
+      }
+    ],
+    "auction": null,
+    "raised_cents": 5415
+  },
+  {
+    "id": "olemiss-one-of-one",
+    "slug": "one-of-one",
+    "kind": "auction",
+    "closet_id": "closet-olemiss-kd",
+    "campus_id": "olemiss",
+    "chapter_id": "olemiss-kd",
+    "name": "1 of 1 Big/Little sets",
+    "description": "Twelve one-off Big/Little crewneck sets, each hand-finished and numbered. Sealed bids: nobody sees anyone else's bid, and the top 12 win.",
+    "starts_at": "2026-10-17T16:00:00.000Z",
+    "ends_at": "2026-10-18T00:30:00.000Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": null,
+    "university_licensed": false,
+    "company": {
+      "name": "Campus Ink Co.",
+      "role": "vendor"
+    },
+    "price_cents": 6000,
+    "photo_url": "/photos/pexels-9594422.jpg",
+    "banner_url": "/photos/pexels-9594422.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "S",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "M",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "L",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "XL",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "XXL",
+        "total": 2,
+        "stock": 2
+      }
+    ],
+    "auction": {
+      "pieces": 12,
+      "min_bid_cents": 6000,
+      "bid_count": 64,
+      "bids_cents": [
+        14400,
+        14300,
+        14100,
+        13900,
+        13900,
+        13700,
+        13600,
+        13600,
+        13400,
+        13300,
+        13000,
+        13000,
+        12600,
+        12200,
+        11700,
+        11400,
+        10800,
+        10800,
+        10700,
+        10500,
+        10400,
+        10200,
+        10100,
+        9700,
+        9400,
+        9400,
+        9000,
+        8800,
+        8800,
+        8400,
+        8300,
+        8200,
+        8100,
+        8100,
+        7500,
+        7500,
+        7500,
+        7400,
+        7400,
+        7100,
+        7100,
+        7000,
+        7000,
+        7000,
+        6900,
+        6900,
+        6900,
+        6700,
+        6500,
+        6500,
+        6500,
+        6400,
+        6300,
+        6200,
+        6200,
+        6100,
+        6100,
+        6100,
+        6100,
+        6100,
+        6000,
+        6000,
+        6000,
+        6000
+      ]
+    },
+    "raised_cents": 4398
+  },
+  {
+    "id": "olemiss-gameday-tee",
+    "slug": "gameday-tee",
+    "kind": "preorder",
+    "closet_id": "closet-olemiss-chio",
+    "campus_id": "olemiss",
+    "chapter_id": "olemiss-chio",
+    "name": "Gameday tee",
+    "description": "Chapter tee, heather gray / tangerine / olive. Printed by the chapter's licensed vendor; ships to your MSC or hands off at the Exchange Spot.",
+    "starts_at": "2026-10-19T00:00:00.000Z",
+    "ends_at": "2026-10-21T00:00:00.000Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": null,
+    "university_licensed": true,
+    "company": {
+      "name": "Campus Ink Co.",
+      "role": "vendor"
+    },
+    "price_cents": 3200,
+    "photo_url": "/photos/pexels-39277919.jpg",
+    "banner_url": "/photos/pexels-39277919.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 6,
+        "stock": 6
+      },
+      {
+        "size": "S",
+        "total": 12,
+        "stock": 12
+      },
+      {
+        "size": "M",
+        "total": 14,
+        "stock": 14
+      },
+      {
+        "size": "L",
+        "total": 12,
+        "stock": 12
+      },
+      {
+        "size": "XL",
+        "total": 8,
+        "stock": 8
+      },
+      {
+        "size": "XXL",
+        "total": 4,
+        "stock": 4
+      }
+    ],
+    "auction": null,
+    "raised_cents": 9867
+  },
+  {
+    "id": "olemiss-white-fox",
+    "slug": "white-fox",
+    "kind": "auction",
+    "closet_id": "closet-olemiss-whitefox",
+    "campus_id": "olemiss",
+    "chapter_id": "olemiss-kd",
+    "name": "White Fox × Kappa Delta",
+    "description": "White Fox brand drop for one chapter: a mocha chapter hoodie in 24 numbered pieces. Sealed bids: nobody sees anyone else's bid, and the top 24 win. Made by the chapter's licensed vendor, never by Bidd.",
+    "starts_at": "2026-10-17T20:13:13.581Z",
+    "ends_at": "2026-10-20T00:13:13.581Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": "White Fox",
+    "university_licensed": true,
+    "company": {
+      "name": "White Fox",
+      "role": "brand"
+    },
+    "price_cents": 5500,
+    "photo_url": "/photos/pexels-6786666.jpg",
+    "banner_url": "/photos/pexels-6786666.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "S",
+        "total": 4,
+        "stock": 4
+      },
+      {
+        "size": "M",
+        "total": 6,
+        "stock": 6
+      },
+      {
+        "size": "L",
+        "total": 6,
+        "stock": 6
+      },
+      {
+        "size": "XL",
+        "total": 4,
+        "stock": 4
+      },
+      {
+        "size": "XXL",
+        "total": 2,
+        "stock": 2
+      }
+    ],
+    "auction": {
+      "pieces": 24,
+      "min_bid_cents": 5500,
+      "bid_count": 63,
+      "bids_cents": [
+        15000,
+        14700,
+        14400,
+        14000,
+        13100,
+        13100,
+        12900,
+        12600,
+        12300,
+        12200,
+        12200,
+        12000,
+        11500,
+        11400,
+        11400,
+        10800,
+        10700,
+        10300,
+        10000,
+        10000,
+        9800,
+        9700,
+        9300,
+        9100,
+        8900,
+        8800,
+        8800,
+        8700,
+        8300,
+        8200,
+        7800,
+        7800,
+        7700,
+        7500,
+        7300,
+        7300,
+        7200,
+        7000,
+        7000,
+        6900,
+        6700,
+        6600,
+        6600,
+        6500,
+        6300,
+        6200,
+        6100,
+        6000,
+        5900,
+        5900,
+        5900,
+        5900,
+        5800,
+        5700,
+        5700,
+        5600,
+        5600,
+        5600,
+        5500,
+        5500,
+        5500,
+        5500,
+        5500
+      ]
+    },
+    "raised_cents": 29348
+  },
+  {
+    "id": "olemiss-philanthropy-week",
+    "slug": "philanthropy-week",
+    "kind": "preorder",
+    "closet_id": "closet-olemiss-liquiddeath",
+    "campus_id": "olemiss",
+    "chapter_id": "olemiss-phimu",
+    "name": "Liquid Death × Philanthropy week",
+    "description": "Liquid Death brand co-drop for Philanthropy week: a co-branded tee, pre-order now. Made by the chapter's licensed vendor, never by Bidd, and 10% of the chapter's profit goes to its philanthropy.",
+    "starts_at": "2026-10-17T19:57:21.105Z",
+    "ends_at": "2026-10-20T20:57:21.105Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": "Liquid Death",
+    "university_licensed": false,
+    "company": {
+      "name": "Liquid Death",
+      "role": "brand"
+    },
+    "price_cents": 3000,
+    "photo_url": "/merch/liquid-death.jpg",
+    "banner_url": "/merch/liquid-death.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 4,
+        "stock": 0
+      },
+      {
+        "size": "S",
+        "total": 10,
+        "stock": 0
+      },
+      {
+        "size": "M",
+        "total": 14,
+        "stock": 0
+      },
+      {
+        "size": "L",
+        "total": 12,
+        "stock": 0
+      },
+      {
+        "size": "XL",
+        "total": 6,
+        "stock": 0
+      },
+      {
+        "size": "XXL",
+        "total": 2,
+        "stock": 0
+      }
+    ],
+    "auction": null,
+    "raised_cents": 124000
+  },
+  {
+    "id": "msstate-bid-day",
+    "slug": "bid-day",
+    "kind": "preorder",
+    "closet_id": "closet-msstate-kd",
+    "campus_id": "msstate",
+    "chapter_id": "msstate-kd",
+    "name": "Bid Day drop",
+    "description": "Bid Day hoodie, sage. Printed by the chapter's licensed vendor; ships to your MSC or hands off at the Exchange Spot.",
+    "starts_at": "2026-10-17T17:00:00.000Z",
+    "ends_at": "2026-10-17T23:00:00.000Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": null,
+    "university_licensed": false,
+    "company": {
+      "name": "Campus Ink Co.",
+      "role": "vendor"
+    },
+    "price_cents": 5800,
+    "photo_url": "/photos/pexels-9594669.jpg",
+    "banner_url": "/photos/unsplash-RYHvzYdeoCI.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 4,
+        "stock": 1
+      },
+      {
+        "size": "S",
+        "total": 10,
+        "stock": 4
+      },
+      {
+        "size": "M",
+        "total": 12,
+        "stock": 7
+      },
+      {
+        "size": "L",
+        "total": 10,
+        "stock": 6
+      },
+      {
+        "size": "XL",
+        "total": 8,
+        "stock": 3
+      },
+      {
+        "size": "XXL",
+        "total": 4,
+        "stock": 1
+      }
+    ],
+    "auction": null,
+    "raised_cents": 26516
+  },
+  {
+    "id": "msstate-one-of-one",
+    "slug": "one-of-one",
+    "kind": "auction",
+    "closet_id": "closet-msstate-kd",
+    "campus_id": "msstate",
+    "chapter_id": "msstate-kd",
+    "name": "1 of 1 Big/Little sets",
+    "description": "Twelve one-off Big/Little crewneck sets, each hand-finished and numbered. Sealed bids: nobody sees anyone else's bid, and the top 12 win.",
+    "starts_at": "2026-10-17T16:00:00.000Z",
+    "ends_at": "2026-10-18T00:30:00.000Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": null,
+    "university_licensed": false,
+    "company": {
+      "name": "Campus Ink Co.",
+      "role": "vendor"
+    },
+    "price_cents": 6000,
+    "photo_url": "/photos/pexels-9594422.jpg",
+    "banner_url": "/photos/pexels-9594422.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "S",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "M",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "L",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "XL",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "XXL",
+        "total": 2,
+        "stock": 2
+      }
+    ],
+    "auction": {
+      "pieces": 12,
+      "min_bid_cents": 6000,
+      "bid_count": 85,
+      "bids_cents": [
+        14000,
+        14000,
+        13800,
+        13600,
+        13500,
+        13200,
+        12900,
+        12800,
+        12700,
+        12700,
+        12500,
+        12500,
+        12400,
+        12300,
+        12000,
+        12000,
+        11800,
+        11600,
+        11500,
+        11400,
+        11200,
+        11100,
+        11000,
+        11000,
+        10700,
+        10400,
+        10300,
+        10200,
+        10100,
+        9800,
+        9800,
+        9600,
+        9400,
+        9400,
+        9400,
+        9200,
+        8800,
+        8600,
+        8600,
+        8500,
+        8400,
+        8300,
+        8300,
+        8200,
+        8200,
+        8100,
+        8100,
+        8000,
+        8000,
+        8000,
+        8000,
+        7800,
+        7600,
+        7500,
+        7400,
+        7400,
+        7200,
+        7200,
+        7200,
+        7200,
+        7000,
+        6900,
+        6900,
+        6900,
+        6500,
+        6500,
+        6500,
+        6500,
+        6500,
+        6500,
+        6400,
+        6400,
+        6400,
+        6300,
+        6200,
+        6200,
+        6200,
+        6100,
+        6100,
+        6100,
+        6100,
+        6000,
+        6000,
+        6000,
+        6000
+      ]
+    },
+    "raised_cents": 13224
+  },
+  {
+    "id": "msstate-gameday-tee",
+    "slug": "gameday-tee",
+    "kind": "preorder",
+    "closet_id": "closet-msstate-chio",
+    "campus_id": "msstate",
+    "chapter_id": "msstate-chio",
+    "name": "Gameday tee",
+    "description": "Chapter tee, heather gray / tangerine / olive. Printed by the chapter's licensed vendor; ships to your MSC or hands off at the Exchange Spot.",
+    "starts_at": "2026-10-19T00:00:00.000Z",
+    "ends_at": "2026-10-21T00:00:00.000Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": null,
+    "university_licensed": true,
+    "company": {
+      "name": "Campus Ink Co.",
+      "role": "vendor"
+    },
+    "price_cents": 3200,
+    "photo_url": "/photos/pexels-39277919.jpg",
+    "banner_url": "/photos/pexels-39277919.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 6,
+        "stock": 6
+      },
+      {
+        "size": "S",
+        "total": 12,
+        "stock": 12
+      },
+      {
+        "size": "M",
+        "total": 14,
+        "stock": 14
+      },
+      {
+        "size": "L",
+        "total": 12,
+        "stock": 12
+      },
+      {
+        "size": "XL",
+        "total": 8,
+        "stock": 8
+      },
+      {
+        "size": "XXL",
+        "total": 4,
+        "stock": 4
+      }
+    ],
+    "auction": null,
+    "raised_cents": 29543
+  },
+  {
+    "id": "msstate-white-fox",
+    "slug": "white-fox",
+    "kind": "auction",
+    "closet_id": "closet-msstate-whitefox",
+    "campus_id": "msstate",
+    "chapter_id": "msstate-kd",
+    "name": "White Fox × Kappa Delta",
+    "description": "White Fox brand drop for one chapter: a mocha chapter hoodie in 24 numbered pieces. Sealed bids: nobody sees anyone else's bid, and the top 24 win. Made by the chapter's licensed vendor, never by Bidd.",
+    "starts_at": "2026-10-17T20:13:13.581Z",
+    "ends_at": "2026-10-20T00:13:13.581Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": "White Fox",
+    "university_licensed": true,
+    "company": {
+      "name": "White Fox",
+      "role": "brand"
+    },
+    "price_cents": 5500,
+    "photo_url": "/photos/pexels-6786666.jpg",
+    "banner_url": "/photos/pexels-6786666.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "S",
+        "total": 4,
+        "stock": 4
+      },
+      {
+        "size": "M",
+        "total": 6,
+        "stock": 6
+      },
+      {
+        "size": "L",
+        "total": 6,
+        "stock": 6
+      },
+      {
+        "size": "XL",
+        "total": 4,
+        "stock": 4
+      },
+      {
+        "size": "XXL",
+        "total": 2,
+        "stock": 2
+      }
+    ],
+    "auction": {
+      "pieces": 24,
+      "min_bid_cents": 5500,
+      "bid_count": 92,
+      "bids_cents": [
+        14900,
+        14700,
+        14300,
+        14200,
+        14200,
+        13900,
+        13800,
+        13300,
+        13300,
+        13000,
+        13000,
+        12500,
+        12400,
+        12200,
+        12100,
+        11700,
+        11400,
+        11300,
+        10900,
+        10900,
+        10900,
+        10600,
+        10200,
+        10200,
+        10200,
+        9900,
+        9600,
+        9500,
+        9500,
+        9300,
+        9200,
+        8900,
+        8900,
+        8900,
+        8700,
+        8700,
+        8400,
+        8400,
+        8200,
+        8100,
+        7900,
+        7900,
+        7700,
+        7700,
+        7700,
+        7500,
+        7400,
+        7300,
+        7300,
+        7100,
+        7100,
+        6900,
+        6900,
+        6900,
+        6700,
+        6700,
+        6700,
+        6600,
+        6600,
+        6400,
+        6400,
+        6400,
+        6300,
+        6300,
+        6200,
+        6200,
+        6200,
+        6100,
+        5900,
+        5900,
+        5900,
+        5900,
+        5900,
+        5900,
+        5800,
+        5700,
+        5700,
+        5700,
+        5700,
+        5600,
+        5600,
+        5600,
+        5600,
+        5500,
+        5500,
+        5500,
+        5500,
+        5500,
+        5500,
+        5500,
+        5500,
+        5500
+      ]
+    },
+    "raised_cents": 11221
+  },
+  {
+    "id": "msstate-philanthropy-week",
+    "slug": "philanthropy-week",
+    "kind": "preorder",
+    "closet_id": "closet-msstate-liquiddeath",
+    "campus_id": "msstate",
+    "chapter_id": "msstate-phimu",
+    "name": "Liquid Death × Philanthropy week",
+    "description": "Liquid Death brand co-drop for Philanthropy week: a co-branded tee, pre-order now. Made by the chapter's licensed vendor, never by Bidd, and 10% of the chapter's profit goes to its philanthropy.",
+    "starts_at": "2026-10-17T19:57:21.105Z",
+    "ends_at": "2026-10-20T20:57:21.105Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": "Liquid Death",
+    "university_licensed": false,
+    "company": {
+      "name": "Liquid Death",
+      "role": "brand"
+    },
+    "price_cents": 3000,
+    "photo_url": "/merch/liquid-death.jpg",
+    "banner_url": "/merch/liquid-death.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 4,
+        "stock": 0
+      },
+      {
+        "size": "S",
+        "total": 10,
+        "stock": 0
+      },
+      {
+        "size": "M",
+        "total": 14,
+        "stock": 0
+      },
+      {
+        "size": "L",
+        "total": 12,
+        "stock": 0
+      },
+      {
+        "size": "XL",
+        "total": 6,
+        "stock": 0
+      },
+      {
+        "size": "XXL",
+        "total": 2,
+        "stock": 0
+      }
+    ],
+    "auction": null,
+    "raised_cents": 124000
+  },
+  {
+    "id": "mizzou-bid-day",
+    "slug": "bid-day",
+    "kind": "preorder",
+    "closet_id": "closet-mizzou-kd",
+    "campus_id": "mizzou",
+    "chapter_id": "mizzou-kd",
+    "name": "Bid Day drop",
+    "description": "Bid Day hoodie, sage. Printed by the chapter's licensed vendor; ships to your MSC or hands off at the Exchange Spot.",
+    "starts_at": "2026-10-17T17:00:00.000Z",
+    "ends_at": "2026-10-17T23:00:00.000Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": null,
+    "university_licensed": false,
+    "company": {
+      "name": "Campus Ink Co.",
+      "role": "vendor"
+    },
+    "price_cents": 5800,
+    "photo_url": "/photos/pexels-9594669.jpg",
+    "banner_url": "/photos/unsplash-RYHvzYdeoCI.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 4,
+        "stock": 1
+      },
+      {
+        "size": "S",
+        "total": 10,
+        "stock": 4
+      },
+      {
+        "size": "M",
+        "total": 12,
+        "stock": 7
+      },
+      {
+        "size": "L",
+        "total": 10,
+        "stock": 6
+      },
+      {
+        "size": "XL",
+        "total": 8,
+        "stock": 3
+      },
+      {
+        "size": "XXL",
+        "total": 4,
+        "stock": 1
+      }
+    ],
+    "auction": null,
+    "raised_cents": 26927
+  },
+  {
+    "id": "mizzou-one-of-one",
+    "slug": "one-of-one",
+    "kind": "auction",
+    "closet_id": "closet-mizzou-kd",
+    "campus_id": "mizzou",
+    "chapter_id": "mizzou-kd",
+    "name": "1 of 1 Big/Little sets",
+    "description": "Twelve one-off Big/Little crewneck sets, each hand-finished and numbered. Sealed bids: nobody sees anyone else's bid, and the top 12 win.",
+    "starts_at": "2026-10-17T16:00:00.000Z",
+    "ends_at": "2026-10-18T00:30:00.000Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": null,
+    "university_licensed": false,
+    "company": {
+      "name": "Campus Ink Co.",
+      "role": "vendor"
+    },
+    "price_cents": 6000,
+    "photo_url": "/photos/pexels-9594422.jpg",
+    "banner_url": "/photos/pexels-9594422.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "S",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "M",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "L",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "XL",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "XXL",
+        "total": 2,
+        "stock": 2
+      }
+    ],
+    "auction": {
+      "pieces": 12,
+      "min_bid_cents": 6000,
+      "bid_count": 44,
+      "bids_cents": [
+        13700,
+        12700,
+        12200,
+        11800,
+        11400,
+        11300,
+        10900,
+        10800,
+        9900,
+        9300,
+        9000,
+        8900,
+        8900,
+        8600,
+        8600,
+        8400,
+        8100,
+        7900,
+        7900,
+        7800,
+        7800,
+        7700,
+        7700,
+        7600,
+        7500,
+        7500,
+        7200,
+        7200,
+        6900,
+        6800,
+        6800,
+        6800,
+        6700,
+        6500,
+        6400,
+        6400,
+        6300,
+        6300,
+        6200,
+        6100,
+        6100,
+        6000,
+        6000,
+        6000
+      ]
+    },
+    "raised_cents": 38634
+  },
+  {
+    "id": "mizzou-gameday-tee",
+    "slug": "gameday-tee",
+    "kind": "preorder",
+    "closet_id": "closet-mizzou-chio",
+    "campus_id": "mizzou",
+    "chapter_id": "mizzou-chio",
+    "name": "Gameday tee",
+    "description": "Chapter tee, heather gray / tangerine / olive. Printed by the chapter's licensed vendor; ships to your MSC or hands off at the Exchange Spot.",
+    "starts_at": "2026-10-19T00:00:00.000Z",
+    "ends_at": "2026-10-21T00:00:00.000Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": null,
+    "university_licensed": true,
+    "company": {
+      "name": "Campus Ink Co.",
+      "role": "vendor"
+    },
+    "price_cents": 3200,
+    "photo_url": "/photos/pexels-39277919.jpg",
+    "banner_url": "/photos/pexels-39277919.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 6,
+        "stock": 6
+      },
+      {
+        "size": "S",
+        "total": 12,
+        "stock": 12
+      },
+      {
+        "size": "M",
+        "total": 14,
+        "stock": 14
+      },
+      {
+        "size": "L",
+        "total": 12,
+        "stock": 12
+      },
+      {
+        "size": "XL",
+        "total": 8,
+        "stock": 8
+      },
+      {
+        "size": "XXL",
+        "total": 4,
+        "stock": 4
+      }
+    ],
+    "auction": null,
+    "raised_cents": 25981
+  },
+  {
+    "id": "mizzou-white-fox",
+    "slug": "white-fox",
+    "kind": "auction",
+    "closet_id": "closet-mizzou-whitefox",
+    "campus_id": "mizzou",
+    "chapter_id": "mizzou-kd",
+    "name": "White Fox × Kappa Delta",
+    "description": "White Fox brand drop for one chapter: a mocha chapter hoodie in 24 numbered pieces. Sealed bids: nobody sees anyone else's bid, and the top 24 win. Made by the chapter's licensed vendor, never by Bidd.",
+    "starts_at": "2026-10-17T20:13:13.581Z",
+    "ends_at": "2026-10-20T00:13:13.581Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": "White Fox",
+    "university_licensed": true,
+    "company": {
+      "name": "White Fox",
+      "role": "brand"
+    },
+    "price_cents": 5500,
+    "photo_url": "/photos/pexels-6786666.jpg",
+    "banner_url": "/photos/pexels-6786666.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "S",
+        "total": 4,
+        "stock": 4
+      },
+      {
+        "size": "M",
+        "total": 6,
+        "stock": 6
+      },
+      {
+        "size": "L",
+        "total": 6,
+        "stock": 6
+      },
+      {
+        "size": "XL",
+        "total": 4,
+        "stock": 4
+      },
+      {
+        "size": "XXL",
+        "total": 2,
+        "stock": 2
+      }
+    ],
+    "auction": {
+      "pieces": 24,
+      "min_bid_cents": 5500,
+      "bid_count": 97,
+      "bids_cents": [
+        14800,
+        14700,
+        14000,
+        13900,
+        13800,
+        13100,
+        13100,
+        13000,
+        13000,
+        12900,
+        12700,
+        12300,
+        12200,
+        12100,
+        12100,
+        11900,
+        11500,
+        11400,
+        11400,
+        11300,
+        10700,
+        10600,
+        10600,
+        10600,
+        10500,
+        10400,
+        10000,
+        10000,
+        9900,
+        9900,
+        9400,
+        9400,
+        9300,
+        9300,
+        9100,
+        8800,
+        8800,
+        8700,
+        8600,
+        8300,
+        8200,
+        8200,
+        8100,
+        7800,
+        7800,
+        7700,
+        7700,
+        7700,
+        7600,
+        7400,
+        7300,
+        7300,
+        7300,
+        7000,
+        6900,
+        6900,
+        6600,
+        6600,
+        6600,
+        6500,
+        6500,
+        6300,
+        6300,
+        6300,
+        6300,
+        6300,
+        6100,
+        6100,
+        6100,
+        6100,
+        6000,
+        6000,
+        5900,
+        5900,
+        5800,
+        5700,
+        5700,
+        5700,
+        5700,
+        5700,
+        5600,
+        5600,
+        5600,
+        5600,
+        5600,
+        5600,
+        5600,
+        5600,
+        5500,
+        5500,
+        5500,
+        5500,
+        5500,
+        5500,
+        5500,
+        5500,
+        5500
+      ]
+    },
+    "raised_cents": 36908
+  },
+  {
+    "id": "mizzou-philanthropy-week",
+    "slug": "philanthropy-week",
+    "kind": "preorder",
+    "closet_id": "closet-mizzou-liquiddeath",
+    "campus_id": "mizzou",
+    "chapter_id": "mizzou-phimu",
+    "name": "Liquid Death × Philanthropy week",
+    "description": "Liquid Death brand co-drop for Philanthropy week: a co-branded tee, pre-order now. Made by the chapter's licensed vendor, never by Bidd, and 10% of the chapter's profit goes to its philanthropy.",
+    "starts_at": "2026-10-17T19:57:21.105Z",
+    "ends_at": "2026-10-20T20:57:21.105Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": "Liquid Death",
+    "university_licensed": false,
+    "company": {
+      "name": "Liquid Death",
+      "role": "brand"
+    },
+    "price_cents": 3000,
+    "photo_url": "/merch/liquid-death.jpg",
+    "banner_url": "/merch/liquid-death.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 4,
+        "stock": 0
+      },
+      {
+        "size": "S",
+        "total": 10,
+        "stock": 0
+      },
+      {
+        "size": "M",
+        "total": 14,
+        "stock": 0
+      },
+      {
+        "size": "L",
+        "total": 12,
+        "stock": 0
+      },
+      {
+        "size": "XL",
+        "total": 6,
+        "stock": 0
+      },
+      {
+        "size": "XXL",
+        "total": 2,
+        "stock": 0
+      }
+    ],
+    "auction": null,
+    "raised_cents": 124000
+  },
+  {
+    "id": "ou-bid-day",
+    "slug": "bid-day",
+    "kind": "preorder",
+    "closet_id": "closet-ou-kd",
+    "campus_id": "ou",
+    "chapter_id": "ou-kd",
+    "name": "Bid Day drop",
+    "description": "Bid Day hoodie, sage. Printed by the chapter's licensed vendor; ships to your MSC or hands off at the Exchange Spot.",
+    "starts_at": "2026-10-17T17:00:00.000Z",
+    "ends_at": "2026-10-17T23:00:00.000Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": null,
+    "university_licensed": false,
+    "company": {
+      "name": "Campus Ink Co.",
+      "role": "vendor"
+    },
+    "price_cents": 5800,
+    "photo_url": "/photos/pexels-9594669.jpg",
+    "banner_url": "/photos/unsplash-RYHvzYdeoCI.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 4,
+        "stock": 1
+      },
+      {
+        "size": "S",
+        "total": 10,
+        "stock": 4
+      },
+      {
+        "size": "M",
+        "total": 12,
+        "stock": 7
+      },
+      {
+        "size": "L",
+        "total": 10,
+        "stock": 6
+      },
+      {
+        "size": "XL",
+        "total": 8,
+        "stock": 3
+      },
+      {
+        "size": "XXL",
+        "total": 4,
+        "stock": 1
+      }
+    ],
+    "auction": null,
+    "raised_cents": 33927
+  },
+  {
+    "id": "ou-one-of-one",
+    "slug": "one-of-one",
+    "kind": "auction",
+    "closet_id": "closet-ou-kd",
+    "campus_id": "ou",
+    "chapter_id": "ou-kd",
+    "name": "1 of 1 Big/Little sets",
+    "description": "Twelve one-off Big/Little crewneck sets, each hand-finished and numbered. Sealed bids: nobody sees anyone else's bid, and the top 12 win.",
+    "starts_at": "2026-10-17T16:00:00.000Z",
+    "ends_at": "2026-10-18T00:30:00.000Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": null,
+    "university_licensed": false,
+    "company": {
+      "name": "Campus Ink Co.",
+      "role": "vendor"
+    },
+    "price_cents": 6000,
+    "photo_url": "/photos/pexels-9594422.jpg",
+    "banner_url": "/photos/pexels-9594422.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "S",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "M",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "L",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "XL",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "XXL",
+        "total": 2,
+        "stock": 2
+      }
+    ],
+    "auction": {
+      "pieces": 12,
+      "min_bid_cents": 6000,
+      "bid_count": 72,
+      "bids_cents": [
+        14200,
+        13800,
+        13600,
+        13600,
+        13500,
+        13200,
+        13200,
+        12800,
+        12700,
+        12600,
+        12100,
+        11800,
+        11500,
+        11400,
+        11400,
+        11100,
+        11000,
+        11000,
+        10400,
+        10200,
+        10100,
+        10000,
+        9900,
+        9700,
+        9700,
+        9600,
+        9600,
+        9500,
+        9400,
+        9200,
+        9000,
+        9000,
+        8800,
+        8700,
+        8600,
+        8200,
+        8100,
+        8100,
+        7600,
+        7500,
+        7300,
+        7300,
+        7000,
+        6900,
+        6800,
+        6700,
+        6600,
+        6600,
+        6500,
+        6500,
+        6500,
+        6500,
+        6400,
+        6200,
+        6200,
+        6200,
+        6200,
+        6200,
+        6100,
+        6100,
+        6100,
+        6100,
+        6100,
+        6100,
+        6100,
+        6000,
+        6000,
+        6000,
+        6000,
+        6000,
+        6000,
+        6000
+      ]
+    },
+    "raised_cents": 32684
+  },
+  {
+    "id": "ou-gameday-tee",
+    "slug": "gameday-tee",
+    "kind": "preorder",
+    "closet_id": "closet-ou-chio",
+    "campus_id": "ou",
+    "chapter_id": "ou-chio",
+    "name": "Gameday tee",
+    "description": "Chapter tee, heather gray / tangerine / olive. Printed by the chapter's licensed vendor; ships to your MSC or hands off at the Exchange Spot.",
+    "starts_at": "2026-10-19T00:00:00.000Z",
+    "ends_at": "2026-10-21T00:00:00.000Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": null,
+    "university_licensed": true,
+    "company": {
+      "name": "Campus Ink Co.",
+      "role": "vendor"
+    },
+    "price_cents": 3200,
+    "photo_url": "/photos/pexels-39277919.jpg",
+    "banner_url": "/photos/pexels-39277919.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 6,
+        "stock": 6
+      },
+      {
+        "size": "S",
+        "total": 12,
+        "stock": 12
+      },
+      {
+        "size": "M",
+        "total": 14,
+        "stock": 14
+      },
+      {
+        "size": "L",
+        "total": 12,
+        "stock": 12
+      },
+      {
+        "size": "XL",
+        "total": 8,
+        "stock": 8
+      },
+      {
+        "size": "XXL",
+        "total": 4,
+        "stock": 4
+      }
+    ],
+    "auction": null,
+    "raised_cents": 26972
+  },
+  {
+    "id": "ou-white-fox",
+    "slug": "white-fox",
+    "kind": "auction",
+    "closet_id": "closet-ou-whitefox",
+    "campus_id": "ou",
+    "chapter_id": "ou-kd",
+    "name": "White Fox × Kappa Delta",
+    "description": "White Fox brand drop for one chapter: a mocha chapter hoodie in 24 numbered pieces. Sealed bids: nobody sees anyone else's bid, and the top 24 win. Made by the chapter's licensed vendor, never by Bidd.",
+    "starts_at": "2026-10-17T20:13:13.581Z",
+    "ends_at": "2026-10-20T00:13:13.581Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": "White Fox",
+    "university_licensed": true,
+    "company": {
+      "name": "White Fox",
+      "role": "brand"
+    },
+    "price_cents": 5500,
+    "photo_url": "/photos/pexels-6786666.jpg",
+    "banner_url": "/photos/pexels-6786666.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "S",
+        "total": 4,
+        "stock": 4
+      },
+      {
+        "size": "M",
+        "total": 6,
+        "stock": 6
+      },
+      {
+        "size": "L",
+        "total": 6,
+        "stock": 6
+      },
+      {
+        "size": "XL",
+        "total": 4,
+        "stock": 4
+      },
+      {
+        "size": "XXL",
+        "total": 2,
+        "stock": 2
+      }
+    ],
+    "auction": {
+      "pieces": 24,
+      "min_bid_cents": 5500,
+      "bid_count": 91,
+      "bids_cents": [
+        14600,
+        14300,
+        14300,
+        14300,
+        14200,
+        14200,
+        14200,
+        13400,
+        13400,
+        13300,
+        12800,
+        12800,
+        12500,
+        12400,
+        12400,
+        11700,
+        11600,
+        11600,
+        11000,
+        10900,
+        10800,
+        10500,
+        10400,
+        10200,
+        10200,
+        10100,
+        9800,
+        9800,
+        9600,
+        9500,
+        9200,
+        9200,
+        9000,
+        9000,
+        8900,
+        8900,
+        8400,
+        8400,
+        8400,
+        8400,
+        7900,
+        7900,
+        7600,
+        7600,
+        7500,
+        7400,
+        7400,
+        7400,
+        7100,
+        7000,
+        7000,
+        6700,
+        6700,
+        6700,
+        6500,
+        6500,
+        6400,
+        6400,
+        6400,
+        6400,
+        6400,
+        6200,
+        6200,
+        6100,
+        6100,
+        6000,
+        6000,
+        6000,
+        6000,
+        5900,
+        5900,
+        5800,
+        5800,
+        5800,
+        5800,
+        5800,
+        5700,
+        5700,
+        5600,
+        5600,
+        5600,
+        5600,
+        5600,
+        5600,
+        5500,
+        5500,
+        5500,
+        5500,
+        5500,
+        5500,
+        5500
+      ]
+    },
+    "raised_cents": 17120
+  },
+  {
+    "id": "ou-philanthropy-week",
+    "slug": "philanthropy-week",
+    "kind": "preorder",
+    "closet_id": "closet-ou-liquiddeath",
+    "campus_id": "ou",
+    "chapter_id": "ou-phimu",
+    "name": "Liquid Death × Philanthropy week",
+    "description": "Liquid Death brand co-drop for Philanthropy week: a co-branded tee, pre-order now. Made by the chapter's licensed vendor, never by Bidd, and 10% of the chapter's profit goes to its philanthropy.",
+    "starts_at": "2026-10-17T19:57:21.105Z",
+    "ends_at": "2026-10-20T20:57:21.105Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": "Liquid Death",
+    "university_licensed": false,
+    "company": {
+      "name": "Liquid Death",
+      "role": "brand"
+    },
+    "price_cents": 3000,
+    "photo_url": "/merch/liquid-death.jpg",
+    "banner_url": "/merch/liquid-death.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 4,
+        "stock": 0
+      },
+      {
+        "size": "S",
+        "total": 10,
+        "stock": 0
+      },
+      {
+        "size": "M",
+        "total": 14,
+        "stock": 0
+      },
+      {
+        "size": "L",
+        "total": 12,
+        "stock": 0
+      },
+      {
+        "size": "XL",
+        "total": 6,
+        "stock": 0
+      },
+      {
+        "size": "XXL",
+        "total": 2,
+        "stock": 0
+      }
+    ],
+    "auction": null,
+    "raised_cents": 124000
+  },
+  {
+    "id": "sc-bid-day",
+    "slug": "bid-day",
+    "kind": "preorder",
+    "closet_id": "closet-sc-kd",
+    "campus_id": "sc",
+    "chapter_id": "sc-kd",
+    "name": "Bid Day drop",
+    "description": "Bid Day hoodie, sage. Printed by the chapter's licensed vendor; ships to your MSC or hands off at the Exchange Spot.",
+    "starts_at": "2026-10-17T17:00:00.000Z",
+    "ends_at": "2026-10-17T23:00:00.000Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": null,
+    "university_licensed": false,
+    "company": {
+      "name": "Campus Ink Co.",
+      "role": "vendor"
+    },
+    "price_cents": 5800,
+    "photo_url": "/photos/pexels-9594669.jpg",
+    "banner_url": "/photos/unsplash-RYHvzYdeoCI.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 4,
+        "stock": 1
+      },
+      {
+        "size": "S",
+        "total": 10,
+        "stock": 4
+      },
+      {
+        "size": "M",
+        "total": 12,
+        "stock": 7
+      },
+      {
+        "size": "L",
+        "total": 10,
+        "stock": 6
+      },
+      {
+        "size": "XL",
+        "total": 8,
+        "stock": 3
+      },
+      {
+        "size": "XXL",
+        "total": 4,
+        "stock": 1
+      }
+    ],
+    "auction": null,
+    "raised_cents": 1771
+  },
+  {
+    "id": "sc-one-of-one",
+    "slug": "one-of-one",
+    "kind": "auction",
+    "closet_id": "closet-sc-kd",
+    "campus_id": "sc",
+    "chapter_id": "sc-kd",
+    "name": "1 of 1 Big/Little sets",
+    "description": "Twelve one-off Big/Little crewneck sets, each hand-finished and numbered. Sealed bids: nobody sees anyone else's bid, and the top 12 win.",
+    "starts_at": "2026-10-17T16:00:00.000Z",
+    "ends_at": "2026-10-18T00:30:00.000Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": null,
+    "university_licensed": false,
+    "company": {
+      "name": "Campus Ink Co.",
+      "role": "vendor"
+    },
+    "price_cents": 6000,
+    "photo_url": "/photos/pexels-9594422.jpg",
+    "banner_url": "/photos/pexels-9594422.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "S",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "M",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "L",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "XL",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "XXL",
+        "total": 2,
+        "stock": 2
+      }
+    ],
+    "auction": {
+      "pieces": 12,
+      "min_bid_cents": 6000,
+      "bid_count": 68,
+      "bids_cents": [
+        14400,
+        14000,
+        13800,
+        13700,
+        13700,
+        13600,
+        13500,
+        13400,
+        13200,
+        12800,
+        12500,
+        12400,
+        12400,
+        11800,
+        11800,
+        11700,
+        11400,
+        11300,
+        11300,
+        11100,
+        10700,
+        10600,
+        10400,
+        9600,
+        9500,
+        9400,
+        9300,
+        9300,
+        9200,
+        9000,
+        8700,
+        8700,
+        8500,
+        8400,
+        8300,
+        8200,
+        7800,
+        7700,
+        7600,
+        7600,
+        7400,
+        7300,
+        7200,
+        7000,
+        7000,
+        6900,
+        6900,
+        6800,
+        6700,
+        6700,
+        6600,
+        6600,
+        6600,
+        6500,
+        6500,
+        6500,
+        6400,
+        6400,
+        6300,
+        6200,
+        6200,
+        6100,
+        6100,
+        6100,
+        6100,
+        6000,
+        6000,
+        6000
+      ]
+    },
+    "raised_cents": 10716
+  },
+  {
+    "id": "sc-gameday-tee",
+    "slug": "gameday-tee",
+    "kind": "preorder",
+    "closet_id": "closet-sc-chio",
+    "campus_id": "sc",
+    "chapter_id": "sc-chio",
+    "name": "Gameday tee",
+    "description": "Chapter tee, heather gray / tangerine / olive. Printed by the chapter's licensed vendor; ships to your MSC or hands off at the Exchange Spot.",
+    "starts_at": "2026-10-19T00:00:00.000Z",
+    "ends_at": "2026-10-21T00:00:00.000Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": null,
+    "university_licensed": true,
+    "company": {
+      "name": "Campus Ink Co.",
+      "role": "vendor"
+    },
+    "price_cents": 3200,
+    "photo_url": "/photos/pexels-39277919.jpg",
+    "banner_url": "/photos/pexels-39277919.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 6,
+        "stock": 6
+      },
+      {
+        "size": "S",
+        "total": 12,
+        "stock": 12
+      },
+      {
+        "size": "M",
+        "total": 14,
+        "stock": 14
+      },
+      {
+        "size": "L",
+        "total": 12,
+        "stock": 12
+      },
+      {
+        "size": "XL",
+        "total": 8,
+        "stock": 8
+      },
+      {
+        "size": "XXL",
+        "total": 4,
+        "stock": 4
+      }
+    ],
+    "auction": null,
+    "raised_cents": 24475
+  },
+  {
+    "id": "sc-white-fox",
+    "slug": "white-fox",
+    "kind": "auction",
+    "closet_id": "closet-sc-whitefox",
+    "campus_id": "sc",
+    "chapter_id": "sc-kd",
+    "name": "White Fox × Kappa Delta",
+    "description": "White Fox brand drop for one chapter: a mocha chapter hoodie in 24 numbered pieces. Sealed bids: nobody sees anyone else's bid, and the top 24 win. Made by the chapter's licensed vendor, never by Bidd.",
+    "starts_at": "2026-10-17T20:13:13.581Z",
+    "ends_at": "2026-10-20T00:13:13.581Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": "White Fox",
+    "university_licensed": true,
+    "company": {
+      "name": "White Fox",
+      "role": "brand"
+    },
+    "price_cents": 5500,
+    "photo_url": "/photos/pexels-6786666.jpg",
+    "banner_url": "/photos/pexels-6786666.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "S",
+        "total": 4,
+        "stock": 4
+      },
+      {
+        "size": "M",
+        "total": 6,
+        "stock": 6
+      },
+      {
+        "size": "L",
+        "total": 6,
+        "stock": 6
+      },
+      {
+        "size": "XL",
+        "total": 4,
+        "stock": 4
+      },
+      {
+        "size": "XXL",
+        "total": 2,
+        "stock": 2
+      }
+    ],
+    "auction": {
+      "pieces": 24,
+      "min_bid_cents": 5500,
+      "bid_count": 73,
+      "bids_cents": [
+        14900,
+        14900,
+        14500,
+        14500,
+        13600,
+        13000,
+        13000,
+        12700,
+        12500,
+        12200,
+        12100,
+        11900,
+        11400,
+        11300,
+        11100,
+        11100,
+        10600,
+        10600,
+        10400,
+        10300,
+        9900,
+        9700,
+        9600,
+        9300,
+        9300,
+        9100,
+        9100,
+        9000,
+        8700,
+        8500,
+        8500,
+        8000,
+        7700,
+        7700,
+        7600,
+        7500,
+        7300,
+        7300,
+        7200,
+        7200,
+        6900,
+        6900,
+        6800,
+        6600,
+        6600,
+        6600,
+        6500,
+        6400,
+        6200,
+        6200,
+        6100,
+        6100,
+        6000,
+        6000,
+        6000,
+        5900,
+        5900,
+        5800,
+        5800,
+        5700,
+        5700,
+        5700,
+        5600,
+        5600,
+        5600,
+        5600,
+        5500,
+        5500,
+        5500,
+        5500,
+        5500,
+        5500,
+        5500
+      ]
+    },
+    "raised_cents": 35451
+  },
+  {
+    "id": "sc-philanthropy-week",
+    "slug": "philanthropy-week",
+    "kind": "preorder",
+    "closet_id": "closet-sc-liquiddeath",
+    "campus_id": "sc",
+    "chapter_id": "sc-phimu",
+    "name": "Liquid Death × Philanthropy week",
+    "description": "Liquid Death brand co-drop for Philanthropy week: a co-branded tee, pre-order now. Made by the chapter's licensed vendor, never by Bidd, and 10% of the chapter's profit goes to its philanthropy.",
+    "starts_at": "2026-10-17T19:57:21.105Z",
+    "ends_at": "2026-10-20T20:57:21.105Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": "Liquid Death",
+    "university_licensed": false,
+    "company": {
+      "name": "Liquid Death",
+      "role": "brand"
+    },
+    "price_cents": 3000,
+    "photo_url": "/merch/liquid-death.jpg",
+    "banner_url": "/merch/liquid-death.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 4,
+        "stock": 0
+      },
+      {
+        "size": "S",
+        "total": 10,
+        "stock": 0
+      },
+      {
+        "size": "M",
+        "total": 14,
+        "stock": 0
+      },
+      {
+        "size": "L",
+        "total": 12,
+        "stock": 0
+      },
+      {
+        "size": "XL",
+        "total": 6,
+        "stock": 0
+      },
+      {
+        "size": "XXL",
+        "total": 2,
+        "stock": 0
+      }
+    ],
+    "auction": null,
+    "raised_cents": 124000
+  },
+  {
+    "id": "utk-bid-day",
+    "slug": "bid-day",
+    "kind": "preorder",
+    "closet_id": "closet-utk-kd",
+    "campus_id": "utk",
+    "chapter_id": "utk-kd",
+    "name": "Bid Day drop",
+    "description": "Bid Day hoodie, sage. Printed by the chapter's licensed vendor; ships to your MSC or hands off at the Exchange Spot.",
+    "starts_at": "2026-10-17T17:00:00.000Z",
+    "ends_at": "2026-10-17T23:00:00.000Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": null,
+    "university_licensed": false,
+    "company": {
+      "name": "Campus Ink Co.",
+      "role": "vendor"
+    },
+    "price_cents": 5800,
+    "photo_url": "/photos/pexels-9594669.jpg",
+    "banner_url": "/photos/unsplash-RYHvzYdeoCI.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 4,
+        "stock": 1
+      },
+      {
+        "size": "S",
+        "total": 10,
+        "stock": 4
+      },
+      {
+        "size": "M",
+        "total": 12,
+        "stock": 7
+      },
+      {
+        "size": "L",
+        "total": 10,
+        "stock": 6
+      },
+      {
+        "size": "XL",
+        "total": 8,
+        "stock": 3
+      },
+      {
+        "size": "XXL",
+        "total": 4,
+        "stock": 1
+      }
+    ],
+    "auction": null,
+    "raised_cents": 38747
+  },
+  {
+    "id": "utk-one-of-one",
+    "slug": "one-of-one",
+    "kind": "auction",
+    "closet_id": "closet-utk-kd",
+    "campus_id": "utk",
+    "chapter_id": "utk-kd",
+    "name": "1 of 1 Big/Little sets",
+    "description": "Twelve one-off Big/Little crewneck sets, each hand-finished and numbered. Sealed bids: nobody sees anyone else's bid, and the top 12 win.",
+    "starts_at": "2026-10-17T16:00:00.000Z",
+    "ends_at": "2026-10-18T00:30:00.000Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": null,
+    "university_licensed": false,
+    "company": {
+      "name": "Campus Ink Co.",
+      "role": "vendor"
+    },
+    "price_cents": 6000,
+    "photo_url": "/photos/pexels-9594422.jpg",
+    "banner_url": "/photos/pexels-9594422.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "S",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "M",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "L",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "XL",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "XXL",
+        "total": 2,
+        "stock": 2
+      }
+    ],
+    "auction": {
+      "pieces": 12,
+      "min_bid_cents": 6000,
+      "bid_count": 75,
+      "bids_cents": [
+        14400,
+        14300,
+        13900,
+        13700,
+        13600,
+        13400,
+        13300,
+        13300,
+        13200,
+        13200,
+        13100,
+        13100,
+        13000,
+        12900,
+        12700,
+        12600,
+        12300,
+        12300,
+        11900,
+        11900,
+        11900,
+        11900,
+        11600,
+        11600,
+        11500,
+        11400,
+        11400,
+        11300,
+        11200,
+        11100,
+        11100,
+        11000,
+        10900,
+        10800,
+        10800,
+        10700,
+        10400,
+        10300,
+        9500,
+        9400,
+        9300,
+        8700,
+        8600,
+        8500,
+        8400,
+        8300,
+        7800,
+        7700,
+        7500,
+        7500,
+        7400,
+        7400,
+        7400,
+        7300,
+        7000,
+        6900,
+        6800,
+        6700,
+        6600,
+        6600,
+        6500,
+        6400,
+        6300,
+        6300,
+        6300,
+        6300,
+        6200,
+        6200,
+        6100,
+        6000,
+        6000,
+        6000,
+        6000,
+        6000,
+        6000
+      ]
+    },
+    "raised_cents": 7840
+  },
+  {
+    "id": "utk-gameday-tee",
+    "slug": "gameday-tee",
+    "kind": "preorder",
+    "closet_id": "closet-utk-chio",
+    "campus_id": "utk",
+    "chapter_id": "utk-chio",
+    "name": "Gameday tee",
+    "description": "Chapter tee, heather gray / tangerine / olive. Printed by the chapter's licensed vendor; ships to your MSC or hands off at the Exchange Spot.",
+    "starts_at": "2026-10-19T00:00:00.000Z",
+    "ends_at": "2026-10-21T00:00:00.000Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": null,
+    "university_licensed": true,
+    "company": {
+      "name": "Campus Ink Co.",
+      "role": "vendor"
+    },
+    "price_cents": 3200,
+    "photo_url": "/photos/pexels-39277919.jpg",
+    "banner_url": "/photos/pexels-39277919.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 6,
+        "stock": 6
+      },
+      {
+        "size": "S",
+        "total": 12,
+        "stock": 12
+      },
+      {
+        "size": "M",
+        "total": 14,
+        "stock": 14
+      },
+      {
+        "size": "L",
+        "total": 12,
+        "stock": 12
+      },
+      {
+        "size": "XL",
+        "total": 8,
+        "stock": 8
+      },
+      {
+        "size": "XXL",
+        "total": 4,
+        "stock": 4
+      }
+    ],
+    "auction": null,
+    "raised_cents": 1005
+  },
+  {
+    "id": "utk-white-fox",
+    "slug": "white-fox",
+    "kind": "auction",
+    "closet_id": "closet-utk-whitefox",
+    "campus_id": "utk",
+    "chapter_id": "utk-kd",
+    "name": "White Fox × Kappa Delta",
+    "description": "White Fox brand drop for one chapter: a mocha chapter hoodie in 24 numbered pieces. Sealed bids: nobody sees anyone else's bid, and the top 24 win. Made by the chapter's licensed vendor, never by Bidd.",
+    "starts_at": "2026-10-17T20:13:13.581Z",
+    "ends_at": "2026-10-20T00:13:13.581Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": "White Fox",
+    "university_licensed": true,
+    "company": {
+      "name": "White Fox",
+      "role": "brand"
+    },
+    "price_cents": 5500,
+    "photo_url": "/photos/pexels-6786666.jpg",
+    "banner_url": "/photos/pexels-6786666.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "S",
+        "total": 4,
+        "stock": 4
+      },
+      {
+        "size": "M",
+        "total": 6,
+        "stock": 6
+      },
+      {
+        "size": "L",
+        "total": 6,
+        "stock": 6
+      },
+      {
+        "size": "XL",
+        "total": 4,
+        "stock": 4
+      },
+      {
+        "size": "XXL",
+        "total": 2,
+        "stock": 2
+      }
+    ],
+    "auction": {
+      "pieces": 24,
+      "min_bid_cents": 5500,
+      "bid_count": 79,
+      "bids_cents": [
+        14800,
+        14800,
+        14700,
+        14500,
+        14200,
+        14200,
+        13900,
+        13700,
+        13300,
+        13000,
+        12800,
+        12700,
+        12100,
+        11600,
+        11300,
+        11200,
+        10900,
+        10800,
+        10600,
+        10500,
+        10400,
+        10200,
+        9900,
+        9900,
+        9800,
+        9500,
+        9300,
+        9300,
+        9200,
+        8700,
+        8700,
+        8500,
+        8400,
+        8200,
+        8100,
+        8100,
+        7900,
+        7700,
+        7600,
+        7600,
+        7300,
+        7000,
+        6900,
+        6900,
+        6900,
+        6800,
+        6700,
+        6600,
+        6500,
+        6500,
+        6500,
+        6400,
+        6400,
+        6300,
+        6300,
+        6100,
+        6100,
+        6100,
+        6000,
+        5900,
+        5800,
+        5800,
+        5700,
+        5700,
+        5700,
+        5700,
+        5600,
+        5600,
+        5600,
+        5600,
+        5600,
+        5500,
+        5500,
+        5500,
+        5500,
+        5500,
+        5500,
+        5500,
+        5500
+      ]
+    },
+    "raised_cents": 5939
+  },
+  {
+    "id": "utk-philanthropy-week",
+    "slug": "philanthropy-week",
+    "kind": "preorder",
+    "closet_id": "closet-utk-liquiddeath",
+    "campus_id": "utk",
+    "chapter_id": "utk-phimu",
+    "name": "Liquid Death × Philanthropy week",
+    "description": "Liquid Death brand co-drop for Philanthropy week: a co-branded tee, pre-order now. Made by the chapter's licensed vendor, never by Bidd, and 10% of the chapter's profit goes to its philanthropy.",
+    "starts_at": "2026-10-17T19:57:21.105Z",
+    "ends_at": "2026-10-20T20:57:21.105Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": "Liquid Death",
+    "university_licensed": false,
+    "company": {
+      "name": "Liquid Death",
+      "role": "brand"
+    },
+    "price_cents": 3000,
+    "photo_url": "/merch/liquid-death.jpg",
+    "banner_url": "/merch/liquid-death.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 4,
+        "stock": 0
+      },
+      {
+        "size": "S",
+        "total": 10,
+        "stock": 0
+      },
+      {
+        "size": "M",
+        "total": 14,
+        "stock": 0
+      },
+      {
+        "size": "L",
+        "total": 12,
+        "stock": 0
+      },
+      {
+        "size": "XL",
+        "total": 6,
+        "stock": 0
+      },
+      {
+        "size": "XXL",
+        "total": 2,
+        "stock": 0
+      }
+    ],
+    "auction": null,
+    "raised_cents": 124000
+  },
+  {
+    "id": "utexas-bid-day",
+    "slug": "bid-day",
+    "kind": "preorder",
+    "closet_id": "closet-utexas-kd",
+    "campus_id": "utexas",
+    "chapter_id": "utexas-kd",
+    "name": "Bid Day drop",
+    "description": "Bid Day hoodie, sage. Printed by the chapter's licensed vendor; ships to your MSC or hands off at the Exchange Spot.",
+    "starts_at": "2026-10-17T17:00:00.000Z",
+    "ends_at": "2026-10-17T23:00:00.000Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": null,
+    "university_licensed": false,
+    "company": {
+      "name": "Campus Ink Co.",
+      "role": "vendor"
+    },
+    "price_cents": 5800,
+    "photo_url": "/photos/pexels-9594669.jpg",
+    "banner_url": "/photos/unsplash-RYHvzYdeoCI.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 4,
+        "stock": 1
+      },
+      {
+        "size": "S",
+        "total": 10,
+        "stock": 4
+      },
+      {
+        "size": "M",
+        "total": 12,
+        "stock": 7
+      },
+      {
+        "size": "L",
+        "total": 10,
+        "stock": 6
+      },
+      {
+        "size": "XL",
+        "total": 8,
+        "stock": 3
+      },
+      {
+        "size": "XXL",
+        "total": 4,
+        "stock": 1
+      }
+    ],
+    "auction": null,
+    "raised_cents": 10932
+  },
+  {
+    "id": "utexas-one-of-one",
+    "slug": "one-of-one",
+    "kind": "auction",
+    "closet_id": "closet-utexas-kd",
+    "campus_id": "utexas",
+    "chapter_id": "utexas-kd",
+    "name": "1 of 1 Big/Little sets",
+    "description": "Twelve one-off Big/Little crewneck sets, each hand-finished and numbered. Sealed bids: nobody sees anyone else's bid, and the top 12 win.",
+    "starts_at": "2026-10-17T16:00:00.000Z",
+    "ends_at": "2026-10-18T00:30:00.000Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": null,
+    "university_licensed": false,
+    "company": {
+      "name": "Campus Ink Co.",
+      "role": "vendor"
+    },
+    "price_cents": 6000,
+    "photo_url": "/photos/pexels-9594422.jpg",
+    "banner_url": "/photos/pexels-9594422.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "S",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "M",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "L",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "XL",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "XXL",
+        "total": 2,
+        "stock": 2
+      }
+    ],
+    "auction": {
+      "pieces": 12,
+      "min_bid_cents": 6000,
+      "bid_count": 49,
+      "bids_cents": [
+        13800,
+        13100,
+        12800,
+        12600,
+        12500,
+        12500,
+        12500,
+        12400,
+        12100,
+        12000,
+        12000,
+        11800,
+        11500,
+        11400,
+        11300,
+        10800,
+        10800,
+        10800,
+        10300,
+        10100,
+        10000,
+        9400,
+        9100,
+        9000,
+        8900,
+        8900,
+        8800,
+        8400,
+        8300,
+        8300,
+        8300,
+        8200,
+        7700,
+        7700,
+        7400,
+        7400,
+        7400,
+        7300,
+        7100,
+        6600,
+        6600,
+        6600,
+        6400,
+        6300,
+        6300,
+        6300,
+        6200,
+        6000,
+        6000
+      ]
+    },
+    "raised_cents": 7002
+  },
+  {
+    "id": "utexas-gameday-tee",
+    "slug": "gameday-tee",
+    "kind": "preorder",
+    "closet_id": "closet-utexas-chio",
+    "campus_id": "utexas",
+    "chapter_id": "utexas-chio",
+    "name": "Gameday tee",
+    "description": "Chapter tee, heather gray / tangerine / olive. Printed by the chapter's licensed vendor; ships to your MSC or hands off at the Exchange Spot.",
+    "starts_at": "2026-10-19T00:00:00.000Z",
+    "ends_at": "2026-10-21T00:00:00.000Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": null,
+    "university_licensed": true,
+    "company": {
+      "name": "Campus Ink Co.",
+      "role": "vendor"
+    },
+    "price_cents": 3200,
+    "photo_url": "/photos/pexels-39277919.jpg",
+    "banner_url": "/photos/pexels-39277919.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 6,
+        "stock": 6
+      },
+      {
+        "size": "S",
+        "total": 12,
+        "stock": 12
+      },
+      {
+        "size": "M",
+        "total": 14,
+        "stock": 14
+      },
+      {
+        "size": "L",
+        "total": 12,
+        "stock": 12
+      },
+      {
+        "size": "XL",
+        "total": 8,
+        "stock": 8
+      },
+      {
+        "size": "XXL",
+        "total": 4,
+        "stock": 4
+      }
+    ],
+    "auction": null,
+    "raised_cents": 8406
+  },
+  {
+    "id": "utexas-white-fox",
+    "slug": "white-fox",
+    "kind": "auction",
+    "closet_id": "closet-utexas-whitefox",
+    "campus_id": "utexas",
+    "chapter_id": "utexas-kd",
+    "name": "White Fox × Kappa Delta",
+    "description": "White Fox brand drop for one chapter: a mocha chapter hoodie in 24 numbered pieces. Sealed bids: nobody sees anyone else's bid, and the top 24 win. Made by the chapter's licensed vendor, never by Bidd.",
+    "starts_at": "2026-10-17T20:13:13.581Z",
+    "ends_at": "2026-10-20T00:13:13.581Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": "White Fox",
+    "university_licensed": true,
+    "company": {
+      "name": "White Fox",
+      "role": "brand"
+    },
+    "price_cents": 5500,
+    "photo_url": "/photos/pexels-6786666.jpg",
+    "banner_url": "/photos/pexels-6786666.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "S",
+        "total": 4,
+        "stock": 4
+      },
+      {
+        "size": "M",
+        "total": 6,
+        "stock": 6
+      },
+      {
+        "size": "L",
+        "total": 6,
+        "stock": 6
+      },
+      {
+        "size": "XL",
+        "total": 4,
+        "stock": 4
+      },
+      {
+        "size": "XXL",
+        "total": 2,
+        "stock": 2
+      }
+    ],
+    "auction": {
+      "pieces": 24,
+      "min_bid_cents": 5500,
+      "bid_count": 91,
+      "bids_cents": [
+        14800,
+        14400,
+        14400,
+        13800,
+        13800,
+        13000,
+        13000,
+        12900,
+        12900,
+        12800,
+        12600,
+        12600,
+        12600,
+        12100,
+        11800,
+        11800,
+        11300,
+        11200,
+        11000,
+        11000,
+        10600,
+        10600,
+        10300,
+        10300,
+        10300,
+        9900,
+        9600,
+        9600,
+        9300,
+        9300,
+        9200,
+        9200,
+        9100,
+        9000,
+        9000,
+        8700,
+        8700,
+        8500,
+        8500,
+        8500,
+        8200,
+        8100,
+        8000,
+        7700,
+        7700,
+        7700,
+        7500,
+        7500,
+        7500,
+        7300,
+        7300,
+        7100,
+        6900,
+        6900,
+        6800,
+        6800,
+        6800,
+        6600,
+        6500,
+        6500,
+        6500,
+        6300,
+        6300,
+        6200,
+        6100,
+        6100,
+        6100,
+        6000,
+        6000,
+        6000,
+        5900,
+        5900,
+        5800,
+        5800,
+        5700,
+        5700,
+        5700,
+        5700,
+        5600,
+        5600,
+        5600,
+        5600,
+        5500,
+        5500,
+        5500,
+        5500,
+        5500,
+        5500,
+        5500,
+        5500,
+        5500
+      ]
+    },
+    "raised_cents": 5983
+  },
+  {
+    "id": "utexas-philanthropy-week",
+    "slug": "philanthropy-week",
+    "kind": "preorder",
+    "closet_id": "closet-utexas-liquiddeath",
+    "campus_id": "utexas",
+    "chapter_id": "utexas-phimu",
+    "name": "Liquid Death × Philanthropy week",
+    "description": "Liquid Death brand co-drop for Philanthropy week: a co-branded tee, pre-order now. Made by the chapter's licensed vendor, never by Bidd, and 10% of the chapter's profit goes to its philanthropy.",
+    "starts_at": "2026-10-17T19:57:21.105Z",
+    "ends_at": "2026-10-20T20:57:21.105Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": "Liquid Death",
+    "university_licensed": false,
+    "company": {
+      "name": "Liquid Death",
+      "role": "brand"
+    },
+    "price_cents": 3000,
+    "photo_url": "/merch/liquid-death.jpg",
+    "banner_url": "/merch/liquid-death.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 4,
+        "stock": 0
+      },
+      {
+        "size": "S",
+        "total": 10,
+        "stock": 0
+      },
+      {
+        "size": "M",
+        "total": 14,
+        "stock": 0
+      },
+      {
+        "size": "L",
+        "total": 12,
+        "stock": 0
+      },
+      {
+        "size": "XL",
+        "total": 6,
+        "stock": 0
+      },
+      {
+        "size": "XXL",
+        "total": 2,
+        "stock": 0
+      }
+    ],
+    "auction": null,
+    "raised_cents": 124000
+  },
+  {
+    "id": "tamu-bid-day",
+    "slug": "bid-day",
+    "kind": "preorder",
+    "closet_id": "closet-tamu-kd",
+    "campus_id": "tamu",
+    "chapter_id": "tamu-kd",
+    "name": "Bid Day drop",
+    "description": "Bid Day hoodie, sage. Printed by the chapter's licensed vendor; ships to your MSC or hands off at the Exchange Spot.",
+    "starts_at": "2026-10-17T17:00:00.000Z",
+    "ends_at": "2026-10-17T23:00:00.000Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": null,
+    "university_licensed": false,
+    "company": {
+      "name": "Campus Ink Co.",
+      "role": "vendor"
+    },
+    "price_cents": 5800,
+    "photo_url": "/photos/pexels-9594669.jpg",
+    "banner_url": "/photos/unsplash-RYHvzYdeoCI.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 4,
+        "stock": 1
+      },
+      {
+        "size": "S",
+        "total": 10,
+        "stock": 4
+      },
+      {
+        "size": "M",
+        "total": 12,
+        "stock": 7
+      },
+      {
+        "size": "L",
+        "total": 10,
+        "stock": 6
+      },
+      {
+        "size": "XL",
+        "total": 8,
+        "stock": 3
+      },
+      {
+        "size": "XXL",
+        "total": 4,
+        "stock": 1
+      }
+    ],
+    "auction": null,
+    "raised_cents": 34151
+  },
+  {
+    "id": "tamu-one-of-one",
+    "slug": "one-of-one",
+    "kind": "auction",
+    "closet_id": "closet-tamu-kd",
+    "campus_id": "tamu",
+    "chapter_id": "tamu-kd",
+    "name": "1 of 1 Big/Little sets",
+    "description": "Twelve one-off Big/Little crewneck sets, each hand-finished and numbered. Sealed bids: nobody sees anyone else's bid, and the top 12 win.",
+    "starts_at": "2026-10-17T16:00:00.000Z",
+    "ends_at": "2026-10-18T00:30:00.000Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": null,
+    "university_licensed": false,
+    "company": {
+      "name": "Campus Ink Co.",
+      "role": "vendor"
+    },
+    "price_cents": 6000,
+    "photo_url": "/photos/pexels-9594422.jpg",
+    "banner_url": "/photos/pexels-9594422.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "S",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "M",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "L",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "XL",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "XXL",
+        "total": 2,
+        "stock": 2
+      }
+    ],
+    "auction": {
+      "pieces": 12,
+      "min_bid_cents": 6000,
+      "bid_count": 89,
+      "bids_cents": [
+        13800,
+        13300,
+        13300,
+        13200,
+        13200,
+        12800,
+        12700,
+        12700,
+        12200,
+        12100,
+        12000,
+        11900,
+        11800,
+        11500,
+        11300,
+        11200,
+        11200,
+        11200,
+        10900,
+        10800,
+        10700,
+        10700,
+        10400,
+        10300,
+        10300,
+        10200,
+        9900,
+        9900,
+        9900,
+        9800,
+        9700,
+        9500,
+        9500,
+        9400,
+        9300,
+        9200,
+        9000,
+        8900,
+        8900,
+        8800,
+        8800,
+        8800,
+        8700,
+        8500,
+        8400,
+        8300,
+        8200,
+        8200,
+        8200,
+        8100,
+        8000,
+        8000,
+        7900,
+        7900,
+        7800,
+        7700,
+        7500,
+        7200,
+        7100,
+        7000,
+        6800,
+        6800,
+        6800,
+        6600,
+        6600,
+        6500,
+        6500,
+        6500,
+        6500,
+        6500,
+        6400,
+        6400,
+        6400,
+        6400,
+        6400,
+        6400,
+        6300,
+        6300,
+        6200,
+        6100,
+        6100,
+        6100,
+        6000,
+        6000,
+        6000,
+        6000,
+        6000,
+        6000,
+        6000
+      ]
+    },
+    "raised_cents": 27025
+  },
+  {
+    "id": "tamu-gameday-tee",
+    "slug": "gameday-tee",
+    "kind": "preorder",
+    "closet_id": "closet-tamu-chio",
+    "campus_id": "tamu",
+    "chapter_id": "tamu-chio",
+    "name": "Gameday tee",
+    "description": "Chapter tee, heather gray / tangerine / olive. Printed by the chapter's licensed vendor; ships to your MSC or hands off at the Exchange Spot.",
+    "starts_at": "2026-10-19T00:00:00.000Z",
+    "ends_at": "2026-10-21T00:00:00.000Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": null,
+    "university_licensed": true,
+    "company": {
+      "name": "Campus Ink Co.",
+      "role": "vendor"
+    },
+    "price_cents": 3200,
+    "photo_url": "/photos/pexels-39277919.jpg",
+    "banner_url": "/photos/pexels-39277919.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 6,
+        "stock": 6
+      },
+      {
+        "size": "S",
+        "total": 12,
+        "stock": 12
+      },
+      {
+        "size": "M",
+        "total": 14,
+        "stock": 14
+      },
+      {
+        "size": "L",
+        "total": 12,
+        "stock": 12
+      },
+      {
+        "size": "XL",
+        "total": 8,
+        "stock": 8
+      },
+      {
+        "size": "XXL",
+        "total": 4,
+        "stock": 4
+      }
+    ],
+    "auction": null,
+    "raised_cents": 28607
+  },
+  {
+    "id": "tamu-white-fox",
+    "slug": "white-fox",
+    "kind": "auction",
+    "closet_id": "closet-tamu-whitefox",
+    "campus_id": "tamu",
+    "chapter_id": "tamu-kd",
+    "name": "White Fox × Kappa Delta",
+    "description": "White Fox brand drop for one chapter: a mocha chapter hoodie in 24 numbered pieces. Sealed bids: nobody sees anyone else's bid, and the top 24 win. Made by the chapter's licensed vendor, never by Bidd.",
+    "starts_at": "2026-10-17T20:13:13.581Z",
+    "ends_at": "2026-10-20T00:13:13.581Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": "White Fox",
+    "university_licensed": true,
+    "company": {
+      "name": "White Fox",
+      "role": "brand"
+    },
+    "price_cents": 5500,
+    "photo_url": "/photos/pexels-6786666.jpg",
+    "banner_url": "/photos/pexels-6786666.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "S",
+        "total": 4,
+        "stock": 4
+      },
+      {
+        "size": "M",
+        "total": 6,
+        "stock": 6
+      },
+      {
+        "size": "L",
+        "total": 6,
+        "stock": 6
+      },
+      {
+        "size": "XL",
+        "total": 4,
+        "stock": 4
+      },
+      {
+        "size": "XXL",
+        "total": 2,
+        "stock": 2
+      }
+    ],
+    "auction": {
+      "pieces": 24,
+      "min_bid_cents": 5500,
+      "bid_count": 90,
+      "bids_cents": [
+        14800,
+        14700,
+        14300,
+        14300,
+        14200,
+        13400,
+        13400,
+        13300,
+        12900,
+        12800,
+        12500,
+        12500,
+        12500,
+        12100,
+        12000,
+        11600,
+        11600,
+        11200,
+        11000,
+        11000,
+        10800,
+        10600,
+        10500,
+        10300,
+        10200,
+        10200,
+        9800,
+        9600,
+        9600,
+        9500,
+        9200,
+        9000,
+        9000,
+        8700,
+        8600,
+        8400,
+        8400,
+        8400,
+        7900,
+        7900,
+        7900,
+        7900,
+        7700,
+        7500,
+        7500,
+        7300,
+        7200,
+        7000,
+        7000,
+        6900,
+        6900,
+        6700,
+        6700,
+        6700,
+        6700,
+        6600,
+        6400,
+        6400,
+        6400,
+        6300,
+        6200,
+        6200,
+        6100,
+        6000,
+        6000,
+        6000,
+        6000,
+        6000,
+        5900,
+        5800,
+        5800,
+        5800,
+        5700,
+        5700,
+        5700,
+        5600,
+        5600,
+        5600,
+        5600,
+        5600,
+        5600,
+        5500,
+        5500,
+        5500,
+        5500,
+        5500,
+        5500,
+        5500,
+        5500,
+        5500
+      ]
+    },
+    "raised_cents": 11545
+  },
+  {
+    "id": "tamu-philanthropy-week",
+    "slug": "philanthropy-week",
+    "kind": "preorder",
+    "closet_id": "closet-tamu-liquiddeath",
+    "campus_id": "tamu",
+    "chapter_id": "tamu-phimu",
+    "name": "Liquid Death × Philanthropy week",
+    "description": "Liquid Death brand co-drop for Philanthropy week: a co-branded tee, pre-order now. Made by the chapter's licensed vendor, never by Bidd, and 10% of the chapter's profit goes to its philanthropy.",
+    "starts_at": "2026-10-17T19:57:21.105Z",
+    "ends_at": "2026-10-20T20:57:21.105Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": "Liquid Death",
+    "university_licensed": false,
+    "company": {
+      "name": "Liquid Death",
+      "role": "brand"
+    },
+    "price_cents": 3000,
+    "photo_url": "/merch/liquid-death.jpg",
+    "banner_url": "/merch/liquid-death.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 4,
+        "stock": 0
+      },
+      {
+        "size": "S",
+        "total": 10,
+        "stock": 0
+      },
+      {
+        "size": "M",
+        "total": 14,
+        "stock": 0
+      },
+      {
+        "size": "L",
+        "total": 12,
+        "stock": 0
+      },
+      {
+        "size": "XL",
+        "total": 6,
+        "stock": 0
+      },
+      {
+        "size": "XXL",
+        "total": 2,
+        "stock": 0
+      }
+    ],
+    "auction": null,
+    "raised_cents": 124000
+  },
+  {
+    "id": "vanderbilt-bid-day",
+    "slug": "bid-day",
+    "kind": "preorder",
+    "closet_id": "closet-vanderbilt-kd",
+    "campus_id": "vanderbilt",
+    "chapter_id": "vanderbilt-kd",
+    "name": "Bid Day drop",
+    "description": "Bid Day hoodie, sage. Printed by the chapter's licensed vendor; ships to your MSC or hands off at the Exchange Spot.",
+    "starts_at": "2026-10-17T17:00:00.000Z",
+    "ends_at": "2026-10-17T23:00:00.000Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": null,
+    "university_licensed": false,
+    "company": {
+      "name": "Campus Ink Co.",
+      "role": "vendor"
+    },
+    "price_cents": 5800,
+    "photo_url": "/photos/pexels-9594669.jpg",
+    "banner_url": "/photos/unsplash-RYHvzYdeoCI.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 4,
+        "stock": 1
+      },
+      {
+        "size": "S",
+        "total": 10,
+        "stock": 4
+      },
+      {
+        "size": "M",
+        "total": 12,
+        "stock": 7
+      },
+      {
+        "size": "L",
+        "total": 10,
+        "stock": 6
+      },
+      {
+        "size": "XL",
+        "total": 8,
+        "stock": 3
+      },
+      {
+        "size": "XXL",
+        "total": 4,
+        "stock": 1
+      }
+    ],
+    "auction": null,
+    "raised_cents": 6571
+  },
+  {
+    "id": "vanderbilt-one-of-one",
+    "slug": "one-of-one",
+    "kind": "auction",
+    "closet_id": "closet-vanderbilt-kd",
+    "campus_id": "vanderbilt",
+    "chapter_id": "vanderbilt-kd",
+    "name": "1 of 1 Big/Little sets",
+    "description": "Twelve one-off Big/Little crewneck sets, each hand-finished and numbered. Sealed bids: nobody sees anyone else's bid, and the top 12 win.",
+    "starts_at": "2026-10-17T16:00:00.000Z",
+    "ends_at": "2026-10-18T00:30:00.000Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": null,
+    "university_licensed": false,
+    "company": {
+      "name": "Campus Ink Co.",
+      "role": "vendor"
+    },
+    "price_cents": 6000,
+    "photo_url": "/photos/pexels-9594422.jpg",
+    "banner_url": "/photos/pexels-9594422.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "S",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "M",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "L",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "XL",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "XXL",
+        "total": 2,
+        "stock": 2
+      }
+    ],
+    "auction": {
+      "pieces": 12,
+      "min_bid_cents": 6000,
+      "bid_count": 96,
+      "bids_cents": [
+        14200,
+        14200,
+        14200,
+        14000,
+        13900,
+        13800,
+        13800,
+        13700,
+        13400,
+        13200,
+        12900,
+        12500,
+        12500,
+        12300,
+        12300,
+        12200,
+        12200,
+        12200,
+        12100,
+        11800,
+        11800,
+        11700,
+        11700,
+        11600,
+        11600,
+        11500,
+        11400,
+        10900,
+        10800,
+        10600,
+        10600,
+        10400,
+        10300,
+        10200,
+        10100,
+        9900,
+        9800,
+        9800,
+        9700,
+        9600,
+        9600,
+        9600,
+        9500,
+        9200,
+        9200,
+        9200,
+        9100,
+        9100,
+        8900,
+        8900,
+        8800,
+        8600,
+        8600,
+        8400,
+        8300,
+        8300,
+        8200,
+        7900,
+        7700,
+        7700,
+        7600,
+        7500,
+        7500,
+        7400,
+        7400,
+        7300,
+        7200,
+        7200,
+        7100,
+        7100,
+        7100,
+        6800,
+        6800,
+        6700,
+        6600,
+        6600,
+        6400,
+        6300,
+        6300,
+        6300,
+        6200,
+        6200,
+        6200,
+        6100,
+        6100,
+        6100,
+        6100,
+        6100,
+        6000,
+        6000,
+        6000,
+        6000,
+        6000,
+        6000,
+        6000,
+        6000
+      ]
+    },
+    "raised_cents": 20798
+  },
+  {
+    "id": "vanderbilt-gameday-tee",
+    "slug": "gameday-tee",
+    "kind": "preorder",
+    "closet_id": "closet-vanderbilt-chio",
+    "campus_id": "vanderbilt",
+    "chapter_id": "vanderbilt-chio",
+    "name": "Gameday tee",
+    "description": "Chapter tee, heather gray / tangerine / olive. Printed by the chapter's licensed vendor; ships to your MSC or hands off at the Exchange Spot.",
+    "starts_at": "2026-10-19T00:00:00.000Z",
+    "ends_at": "2026-10-21T00:00:00.000Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": null,
+    "university_licensed": true,
+    "company": {
+      "name": "Campus Ink Co.",
+      "role": "vendor"
+    },
+    "price_cents": 3200,
+    "photo_url": "/photos/pexels-39277919.jpg",
+    "banner_url": "/photos/pexels-39277919.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 6,
+        "stock": 6
+      },
+      {
+        "size": "S",
+        "total": 12,
+        "stock": 12
+      },
+      {
+        "size": "M",
+        "total": 14,
+        "stock": 14
+      },
+      {
+        "size": "L",
+        "total": 12,
+        "stock": 12
+      },
+      {
+        "size": "XL",
+        "total": 8,
+        "stock": 8
+      },
+      {
+        "size": "XXL",
+        "total": 4,
+        "stock": 4
+      }
+    ],
+    "auction": null,
+    "raised_cents": 2660
+  },
+  {
+    "id": "vanderbilt-white-fox",
+    "slug": "white-fox",
+    "kind": "auction",
+    "closet_id": "closet-vanderbilt-whitefox",
+    "campus_id": "vanderbilt",
+    "chapter_id": "vanderbilt-kd",
+    "name": "White Fox × Kappa Delta",
+    "description": "White Fox brand drop for one chapter: a mocha chapter hoodie in 24 numbered pieces. Sealed bids: nobody sees anyone else's bid, and the top 24 win. Made by the chapter's licensed vendor, never by Bidd.",
+    "starts_at": "2026-10-17T20:13:13.581Z",
+    "ends_at": "2026-10-20T00:13:13.581Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": "White Fox",
+    "university_licensed": true,
+    "company": {
+      "name": "White Fox",
+      "role": "brand"
+    },
+    "price_cents": 5500,
+    "photo_url": "/photos/pexels-6786666.jpg",
+    "banner_url": "/photos/pexels-6786666.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 2,
+        "stock": 2
+      },
+      {
+        "size": "S",
+        "total": 4,
+        "stock": 4
+      },
+      {
+        "size": "M",
+        "total": 6,
+        "stock": 6
+      },
+      {
+        "size": "L",
+        "total": 6,
+        "stock": 6
+      },
+      {
+        "size": "XL",
+        "total": 4,
+        "stock": 4
+      },
+      {
+        "size": "XXL",
+        "total": 2,
+        "stock": 2
+      }
+    ],
+    "auction": {
+      "pieces": 24,
+      "min_bid_cents": 5500,
+      "bid_count": 82,
+      "bids_cents": [
+        14600,
+        14600,
+        14500,
+        14200,
+        14000,
+        13700,
+        13700,
+        13700,
+        13600,
+        13200,
+        12800,
+        12800,
+        12700,
+        12000,
+        11900,
+        11900,
+        11600,
+        11200,
+        11100,
+        10500,
+        10500,
+        10400,
+        10400,
+        9800,
+        9800,
+        9700,
+        9700,
+        9700,
+        9500,
+        9200,
+        9100,
+        8600,
+        8600,
+        8500,
+        8100,
+        8100,
+        8100,
+        8000,
+        7900,
+        7600,
+        7600,
+        7600,
+        7600,
+        7200,
+        7200,
+        7200,
+        7000,
+        6800,
+        6800,
+        6500,
+        6500,
+        6500,
+        6500,
+        6400,
+        6400,
+        6300,
+        6200,
+        6200,
+        6200,
+        6100,
+        6000,
+        6000,
+        5800,
+        5800,
+        5800,
+        5700,
+        5700,
+        5700,
+        5600,
+        5600,
+        5600,
+        5600,
+        5600,
+        5600,
+        5600,
+        5500,
+        5500,
+        5500,
+        5500,
+        5500,
+        5500,
+        5500
+      ]
+    },
+    "raised_cents": 9942
+  },
+  {
+    "id": "vanderbilt-philanthropy-week",
+    "slug": "philanthropy-week",
+    "kind": "preorder",
+    "closet_id": "closet-vanderbilt-liquiddeath",
+    "campus_id": "vanderbilt",
+    "chapter_id": "vanderbilt-phimu",
+    "name": "Liquid Death × Philanthropy week",
+    "description": "Liquid Death brand co-drop for Philanthropy week: a co-branded tee, pre-order now. Made by the chapter's licensed vendor, never by Bidd, and 10% of the chapter's profit goes to its philanthropy.",
+    "starts_at": "2026-10-17T19:57:21.105Z",
+    "ends_at": "2026-10-20T20:57:21.105Z",
+    "licensed_vendor": "Campus Ink Co. (demo vendor)",
+    "philanthropy_pct": 10,
+    "brand_partner": "Liquid Death",
+    "university_licensed": false,
+    "company": {
+      "name": "Liquid Death",
+      "role": "brand"
+    },
+    "price_cents": 3000,
+    "photo_url": "/merch/liquid-death.jpg",
+    "banner_url": "/merch/liquid-death.jpg",
+    "sizes": [
+      {
+        "size": "XS",
+        "total": 4,
+        "stock": 0
+      },
+      {
+        "size": "S",
+        "total": 10,
+        "stock": 0
+      },
+      {
+        "size": "M",
+        "total": 14,
+        "stock": 0
+      },
+      {
+        "size": "L",
+        "total": 12,
+        "stock": 0
+      },
+      {
+        "size": "XL",
+        "total": 6,
+        "stock": 0
+      },
+      {
+        "size": "XXL",
+        "total": 2,
+        "stock": 0
+      }
+    ],
+    "auction": null,
+    "raised_cents": 124000
+  }
+]

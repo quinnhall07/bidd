@@ -1,0 +1,114 @@
+/*
+  Bidd theme for Tailwind v4 + shadcn/ui.
+  In app/globals.css, after `@import "tailwindcss";` and shadcn's own blocks:
+    @import "../brand/theme/bidd.css";
+  Bidd is black and white. The campus arrives as a fill through the --campus-*
+  variables that campusTheme() (brand/theme/campus.ts) sets on <body>.
+  Before sign-in those variables fall back to pure black and white.
+*/
+
+:root {
+  --ink: #0b0b0b;
+  --paper: #ffffff;
+  --gray-50: #f5f5f5;
+  --gray-100: #ebebeb;
+  --gray-200: #d9d9d9;
+  --gray-400: #9e9e9e;
+  --gray-600: #6b6b6b;
+  --gray-800: #262626;
+  --dim: #a3a3a3; /* muted text on ink grounds */
+
+  /* Campus fills, overridden per tenant by campusTheme() */
+  --campus: var(--ink);
+  --campus-ink: var(--paper);
+  --campus-line: var(--ink);
+  --campus-on-dark: var(--paper);
+  --campus-2: var(--gray-600);
+  --campus-tape-ground: var(--paper); /* duo=tape: the neutral the secondary stands out from more */
+  --campus-jersey: var(--paper); /* duo=jersey: secondary type on a campus field where it clears 3:1 */
+
+  /* shadcn/ui tokens: black frames, campus fills */
+  --radius: 0.25rem; /* 4px content corners; actions and chips use rounded-full */
+  --background: var(--paper);
+  --foreground: var(--ink);
+  --card: var(--paper);
+  --card-foreground: var(--ink);
+  --popover: var(--paper);
+  --popover-foreground: var(--ink);
+  --primary: var(--ink);
+  --primary-foreground: var(--paper);
+  --secondary: var(--gray-50);
+  --secondary-foreground: var(--ink);
+  --muted: var(--gray-50);
+  --muted-foreground: var(--gray-600);
+  --accent: var(--gray-100);
+  --accent-foreground: var(--ink);
+  --destructive: var(--ink); /* errors are ink + icon + a sentence: every hue belongs to some campus */
+  --border: var(--gray-100);
+  --input: var(--gray-200);
+  --ring: var(--campus-line);
+  --chart-1: var(--campus);
+  --chart-2: var(--campus-2);
+  --chart-3: var(--ink);
+  --chart-4: var(--gray-400);
+  --chart-5: var(--gray-200);
+}
+
+@theme inline {
+  --color-ink: var(--ink);
+  --color-paper: var(--paper);
+  --color-dim: var(--dim);
+  --color-campus: var(--campus);
+  --color-campus-ink: var(--campus-ink);
+  --color-campus-line: var(--campus-line);
+  --color-campus-on-dark: var(--campus-on-dark);
+  --color-campus-2: var(--campus-2);
+  --font-sans: var(--font-hanken), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-archivo), "Arial Narrow", ui-sans-serif, sans-serif;
+}
+
+/* The headline voice: Archivo Extra Condensed Black Italic, caps. `className="display text-6xl"` */
+@utility display {
+  font-family: var(--font-display);
+  font-stretch: 62%;
+  font-variation-settings: "wdth" 62;
+  font-weight: 900;
+  font-style: italic;
+  text-transform: uppercase;
+  line-height: 0.86;
+  letter-spacing: -0.01em;
+  word-spacing: 0.14em;
+  text-wrap: balance;
+}
+
+/* Small caps labels: chips, tags, table heads. */
+@utility label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+/* Browser surfaces carry the campus too. */
+@layer base {
+  ::selection {
+    background: var(--campus);
+    color: var(--campus-ink);
+  }
+  :focus-visible {
+    outline: 2px solid var(--campus-line);
+    outline-offset: 3px;
+  }
+  /* On black grounds (mark the container data-ground="dark"), the ring takes the lifted campus. */
+  [data-ground="dark"] :focus-visible {
+    outline-color: var(--campus-on-dark);
+  }
+  input,
+  textarea {
+    caret-color: var(--campus-line);
+  }
+  html {
+    accent-color: var(--ink);
+    scrollbar-color: var(--gray-400) transparent;
+  }
+}

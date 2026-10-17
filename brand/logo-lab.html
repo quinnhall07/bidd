@@ -1,0 +1,744 @@
+<title>Bidd Logo Lab</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,100..900;1,62..125,100..900&family=Sofia+Sans+Extra+Condensed:ital,wght@0,1..1000;1,1..1000&family=Barlow+Condensed:ital,wght@0,500;0,700;0,900;1,500;1,700;1,900&family=Big+Shoulders+Display:wght@100..900&family=Anton&family=Kanit:ital,wght@0,700;0,900;1,700;1,900&family=Anybody:ital,wdth,wght@0,50..150,100..900;1,50..150,100..900&family=Dela+Gothic+One&family=Rubik+Mono+One&family=Bowlby+One&family=Big+Shoulders+Stencil+Display:wght@100..900&family=Saira+Stencil+One&family=Bungee&family=Alfa+Slab+One&family=Staatliches&family=Unbounded:wght@200..900&family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,200..800&family=Six+Caps&family=Teko:wght@300..700&family=Jost:ital,wght@0,100..900;1,100..900&family=League+Spartan:wght@100..900&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;600&family=Schibsted+Grotesk:wght@400;600&family=Figtree:wght@400;600&family=Work+Sans:wght@400;600&family=Rubik:wght@400;600&family=Barlow:wght@400;600&family=Onest:wght@400;600&family=Familjen+Grotesk:wght@400;600&display=swap">
+<style>
+/* Layout: a neutral workbench (system UI, grays) so only the logos carry character.
+   Ideas row, font grid, then a sticky tuning stage with controls, then context mockups and saved picks. */
+:root {
+  --ink: #0b0b0b;
+  --paper: #ffffff;
+  --g50: #f5f5f5;
+  --g100: #ebebeb;
+  --g200: #d9d9d9;
+  --g400: #9e9e9e;
+  --g600: #6b6b6b;
+  --g800: #262626;
+  --ui: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --gutter: clamp(16px, 3vw, 40px);
+  color-scheme: light;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--g50); color: var(--ink); font: 15px/1.45 var(--ui); -webkit-font-smoothing: antialiased; }
+::selection { background: var(--ink); color: var(--paper); }
+:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+h1, h2, h3, p { margin: 0; }
+button, input, select { font: inherit; color: inherit; }
+.wrap { max-width: 1360px; margin-inline: auto; padding-left: max(var(--gutter), env(safe-area-inset-left, 0px)); padding-right: max(var(--gutter), env(safe-area-inset-right, 0px)); }
+
+/* header */
+.top { background: var(--ink); color: var(--paper); padding-block: 22px; }
+.top .wrap { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px 32px; }
+.top h1 { font-size: 1.125rem; font-weight: 700; letter-spacing: 0.01em; }
+.top p { color: #a3a3a3; font-size: 0.875rem; max-width: 60ch; margin-top: 4px; }
+.top .actions { display: flex; gap: 8px; flex-wrap: wrap; }
+.btn { border: 1.5px solid currentColor; background: transparent; border-radius: 999px; padding: 9px 16px; font-weight: 600; font-size: 0.875rem; cursor: pointer; transition: background-color 0.15s, color 0.15s; }
+.btn:hover { background: rgba(255, 255, 255, 0.12); }
+.btn.solid { background: var(--paper); color: var(--ink); border-color: var(--paper); }
+.btn.solid:hover { background: var(--g100); }
+.light .btn:hover { background: var(--g100); }
+.light .btn.solid { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+.light .btn.solid:hover { background: var(--g800); }
+.btn:disabled { opacity: 0.45; cursor: not-allowed; }
+
+section { padding-block: 28px 8px; }
+.sec-head { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; flex-wrap: wrap; margin-bottom: 14px; }
+.sec-head h2 { font-size: 1rem; font-weight: 700; }
+.sec-head p { color: var(--g600); font-size: 0.875rem; }
+
+/* tiles */
+.tiles { display: grid; gap: 10px; }
+.ideas { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+.fonts { grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); }
+.tile { background: var(--paper); border: 1.5px solid var(--g100); border-radius: 10px; padding: 0; cursor: pointer; text-align: left; display: grid; grid-template-rows: auto auto; overflow: hidden;
+  transition: border-color 0.15s, box-shadow 0.15s, transform 0.15s; }
+.tile:hover { border-color: var(--g400); transform: translateY(-1px); }
+.tile[aria-pressed="true"] { border-color: var(--ink); box-shadow: 0 0 0 1.5px var(--ink); }
+.tile:disabled { opacity: 0.4; cursor: not-allowed; transform: none; }
+.tile .face { height: 112px; display: grid; place-items: center; overflow: hidden; padding: 10px; }
+.fonts .tile .face { height: 96px; }
+.tile .cap { display: flex; justify-content: space-between; gap: 8px; padding: 8px 12px 10px; border-top: 1px solid var(--g100); font-size: 0.8125rem; }
+.tile .cap b { font-weight: 600; }
+.tile .cap span { color: var(--g600); text-align: right; }
+
+/* tuning */
+.tune { display: grid; grid-template-columns: minmax(0, 1fr) 340px; gap: 16px; align-items: start; }
+.stage { position: sticky; top: max(12px, env(safe-area-inset-top, 0px)); border-radius: 12px; min-height: 420px; display: grid; place-items: center; overflow: hidden; padding: 48px 24px;
+  border: 1.5px solid var(--g100); transition: background-color 0.3s; }
+.stage-logo { font-size: clamp(64px, 11vw, 176px); max-width: 100%; }
+.stage-note { position: absolute; left: 16px; bottom: 12px; font-size: 0.75rem; opacity: 0.6; }
+.panel { background: var(--paper); border: 1.5px solid var(--g100); border-radius: 12px; padding: 18px; display: grid; gap: 18px; }
+.ctl { display: grid; gap: 8px; }
+.ctl > label, .ctl > .lbl { display: flex; justify-content: space-between; font-size: 0.8125rem; font-weight: 600; }
+.ctl output { color: var(--g600); font-weight: 500; font-variant-numeric: tabular-nums; }
+.ctl[hidden] { display: none !important; }
+input[type="range"] { width: 100%; accent-color: var(--ink); }
+.seg { display: flex; flex-wrap: wrap; gap: 6px; }
+.seg button { border: 1.5px solid var(--g200); background: var(--paper); border-radius: 999px; padding: 7px 12px; font-size: 0.8125rem; font-weight: 600; cursor: pointer; display: inline-flex; gap: 6px; align-items: center; }
+.seg button[aria-pressed="true"] { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+.seg .sw { width: 12px; height: 12px; border-radius: 50%; background: var(--sw); box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2); }
+.seg label.color { position: relative; border: 1.5px solid var(--g200); border-radius: 999px; padding: 7px 12px; font-size: 0.8125rem; font-weight: 600; display: inline-flex; gap: 6px; align-items: center; cursor: pointer; }
+.seg label.color.on { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+.seg label.color input { position: absolute; inset: 0; opacity: 0; cursor: pointer; }
+.seg label.color:focus-within { outline: 2px solid var(--ink); outline-offset: 2px; }
+.switch { display: flex; align-items: center; justify-content: space-between; gap: 12px; font-size: 0.8125rem; font-weight: 600; cursor: pointer; }
+.switch input { appearance: none; width: 40px; height: 24px; border-radius: 999px; background: var(--g200); position: relative; cursor: pointer; transition: background-color 0.15s; flex: none; margin: 0; }
+.switch input::after { content: ""; position: absolute; top: 3px; left: 3px; width: 18px; height: 18px; border-radius: 50%; background: var(--paper); transition: transform 0.15s; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25); }
+.switch input:checked { background: var(--ink); }
+.switch input:checked::after { transform: translateX(16px); }
+.switch input:disabled { opacity: 0.4; }
+select { width: 100%; border: 1.5px solid var(--g200); border-radius: 8px; padding: 8px 10px; background: var(--paper); }
+.hint { font-size: 0.75rem; color: var(--g600); }
+
+/* contexts */
+.ctx { display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 12px; }
+.card { background: var(--paper); border: 1.5px solid var(--g100); border-radius: 12px; padding: 16px; display: grid; gap: 12px; align-content: start; min-width: 0; }
+.card > .lbl { font-size: 0.75rem; font-weight: 600; color: var(--g600); }
+.app { border: 1px solid var(--g100); border-radius: 18px; overflow: hidden; }
+.app-bar { display: flex; align-items: center; justify-content: space-between; padding: 14px 16px; border-bottom: 1px solid var(--g100); background: var(--paper); }
+.app-bar .lg { font-size: 26px; }
+.app-bar .sell { background: var(--ink); color: var(--paper); border-radius: 999px; padding: 7px 14px; font-weight: 600; font-size: 0.8125rem; }
+.app-body { padding: 14px 16px 18px; display: grid; gap: 12px; background: var(--paper); }
+.drop { border-radius: 6px; padding: 16px; display: grid; gap: 8px; }
+.drop .head { font-size: 40px; line-height: 0.9; text-transform: uppercase; word-spacing: 0.14em; }
+.drop .row { display: flex; justify-content: space-between; font-size: 0.8125rem; font-weight: 600; }
+.listing { display: grid; grid-template-columns: 64px 1fr; gap: 12px; align-items: center; }
+.listing .ph { aspect-ratio: 1; background: var(--g50); box-shadow: inset 0 0 0 1px var(--g200); }
+.listing .t { font-size: 1rem; font-weight: 600; line-height: 1.25; }
+.listing .m { font-size: 0.8125rem; color: var(--g600); }
+.icons { display: flex; align-items: flex-end; gap: 14px; flex-wrap: wrap; }
+.icon { display: grid; place-items: center; background: var(--ink); color: var(--paper); overflow: hidden; }
+.icon .lg { font-size: var(--is); }
+.icons small { display: block; text-align: center; font-size: 0.6875rem; color: var(--g600); margin-top: 4px; }
+.pair { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+.marks { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.marks .tile .face { height: 132px; }
+.markface { display: flex; align-items: center; gap: 20px; }
+.markface .bare { font-size: 58px; display: inline-flex; }
+.lg .si { display: inline-block; height: 1.25em; width: auto; }
+.lg .si svg { height: 100%; width: auto; display: block; }
+.lg .htag { position: relative; display: inline-block; width: 1.18em; height: 1.5em; }
+.lg .htag svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+.lg .htag .ht { position: absolute; left: 0; right: 0; top: 47%; text-align: center; font-size: 0.5em; line-height: 1; letter-spacing: 0; }
+.lg .sm { display: inline-grid; place-items: center; align-content: center; width: 1.9em; height: 1.9em; border-radius: 50%; border: 0.1em solid var(--fg); text-align: center; line-height: 0.9; transform: rotate(-10deg); }
+.lg .sm > span { font-size: 0.62em; }
+.lg .sm small { display: block; font-size: 0.3em; letter-spacing: 0.14em; margin-top: 0.15em; }
+.pair .lg { font-size: 44px; }
+.sticker-row { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+.sticker { border-radius: 999px; padding: 14px 22px; display: inline-grid; place-items: center; }
+.sticker .lg { font-size: 34px; }
+.avatar { width: 96px; height: 96px; border-radius: 50%; display: grid; place-items: center; overflow: hidden; }
+.avatar .lg { font-size: 26px; }
+.post { aspect-ratio: 4 / 5; border-radius: 6px; display: grid; align-content: space-between; padding: 18px; overflow: hidden; }
+.post .lg { font-size: 30px; }
+.post .big { font-size: clamp(44px, 5vw, 64px); line-height: 0.88; text-transform: uppercase; word-spacing: 0.14em; }
+
+/* picks */
+.save { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }
+.save input { flex: 1 1 260px; border: 1.5px solid var(--g200); border-radius: 999px; padding: 9px 16px; background: var(--paper); }
+.save-msg { font-size: 0.8125rem; color: var(--g600); min-height: 1.2em; }
+.picks { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 10px; padding-bottom: 48px; }
+.pick { background: var(--paper); border: 1.5px solid var(--g100); border-radius: 10px; overflow: hidden; display: grid; }
+.pick .face { height: 110px; display: grid; place-items: center; overflow: hidden; padding: 10px; }
+.pick .meta { padding: 10px 12px 12px; border-top: 1px solid var(--g100); display: grid; gap: 6px; }
+.pick .who { font-size: 0.75rem; color: var(--g600); }
+.pick .note { font-size: 0.875rem; }
+.pick .row { display: flex; gap: 6px; }
+.pick .btn { padding: 6px 12px; font-size: 0.75rem; }
+.empty { background: var(--paper); border: 1.5px dashed var(--g200); border-radius: 10px; padding: 24px; color: var(--g600); font-size: 0.875rem; }
+
+/* ---------- the logo renderer ---------- */
+.lg { display: inline-flex; align-items: baseline; white-space: nowrap; line-height: 1; color: var(--fg); position: relative; }
+.lg .fl { display: inline-block; transform-origin: 50% 78%; }
+.lg .cb { display: inline-flex; align-items: baseline; letter-spacing: 0; }
+.lg .stem { display: inline-block; background: var(--fg); position: relative; transform-origin: 0 100%; }
+.lg .stem.flag::before { content: ""; position: absolute; top: 0; right: calc(100% - 0.5px); width: calc(var(--S) * 1.5em); height: calc(var(--S) * 0.95em); background: inherit; transform-origin: 100% 0; transform: skewY(-34deg); }
+.lg .ii { display: inline-block; position: relative; }
+.lg .dot { position: absolute; left: 50%; top: 0; line-height: 1; color: var(--dotc); transform: translate(calc(-50% + var(--dx, 0em)), var(--dy, -0.62em)); }
+.lg .acc { color: var(--acc); }
+.lg .sl { display: inline-block; width: var(--sw, 0.16em); height: calc(var(--cap) * 1.34em); background: var(--acc); margin: 0 0.06em;
+  transform: translateY(calc(var(--cap) * 0.17em)) skewX(-20deg); }
+.lg .fr { display: inline-block; position: relative; width: calc(var(--cap) * 0.98em); height: calc(var(--cap) * 1em); margin: 0 0.03em; }
+.lg .fr i { position: absolute; font-style: inherit; font-size: 0.5em; line-height: 1; }
+.lg .fr i:first-child { left: 0; top: calc(var(--cap) * -0.36em); }
+.lg .fr i:last-child { right: 0; bottom: 0; }
+.lg .fr b { position: absolute; left: 50%; top: -6%; width: calc(var(--sw, 0.16em) * 0.62); height: 112%; background: var(--acc); transform: translateX(-50%) skewX(-26deg); }
+.lg .tag { font-size: var(--ts, 0.3em); color: var(--acc); letter-spacing: 0.02em; margin-left: 0.12em; transform: translateY(calc(var(--cap) * (1 / var(--tsn, 0.3) - 1) * -1em)); }
+.lg .box { display: inline-block; background: var(--boxbg); color: var(--boxfg); padding: calc(var(--cap) * 0.2em) 0.16em; line-height: calc(var(--cap) * 1em); }
+.lg .box > span { display: inline-block; transform: translateY(calc((1 - var(--cap)) * 0.5em - var(--desc, 0.22) * 0.5em)); }
+.lg .boxtab { position: absolute; right: 0; top: 0; transform: translate(35%, -55%); font-size: var(--ts, 0.3em); background: var(--acc); color: var(--accfg); padding: 0.18em 0.32em; letter-spacing: 0.02em; }
+.lg .stamp { position: absolute; right: -3.1em; top: calc(var(--cap) * -2.1em); font-size: var(--ts, 0.3em); width: 3.3em; height: 3.3em; border-radius: 50%; border: 0.14em solid var(--acc); color: var(--acc);
+  display: grid; place-items: center; text-align: center; line-height: 0.95; transform: rotate(-14deg); background: var(--bg); letter-spacing: 0.02em; }
+.lg .stamp small { display: block; font-size: 0.45em; letter-spacing: 0.12em; }
+.lg.col { flex-direction: column; align-items: stretch; }
+.lg .strip { display: flex; align-items: center; gap: 0.4em; font-size: var(--ts, 0.3em); color: var(--acc); letter-spacing: 0.22em; margin-top: 0.35em; }
+.lg .strip i { flex: 1; height: 0.16em; background: var(--acc); }
+
+@media (max-width: 1100px) {
+  .ideas { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .marks { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .tune { grid-template-columns: minmax(0, 1fr); }
+  .stage { position: static; min-height: 300px; }
+  .ctx { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+  .ctx .card:first-child { grid-column: 1 / -1; }
+}
+@media (max-width: 640px) {
+  .ideas { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .fonts { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .marks { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .markface { gap: 12px; }
+  .markface .bare { font-size: 44px; }
+  .ctx { grid-template-columns: minmax(0, 1fr); }
+  .tile .face { height: 92px; }
+  .fonts .tile .face { height: 80px; }
+}
+@media (prefers-reduced-motion: reduce) { .tile, .stage, .btn { transition: none; } .tile:hover { transform: none; } }
+</style>
+
+<header class="top">
+  <div class="wrap">
+    <div>
+      <h1>Bidd logo lab</h1>
+      <p>Pick uppercase or lowercase, pick how 1/1 lives in the name, pick a font, then tune it. Save the ones you like with a note. Quinn, Rowan and Claude all see saved picks.</p>
+    </div>
+    <div class="actions">
+      <button class="btn" type="button" id="shuffle">Shuffle</button>
+      <button class="btn" type="button" id="copy">Copy settings</button>
+      <a class="btn solid" href="#picks" style="text-decoration:none">Save a pick</a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="wrap" aria-labelledby="h-ideas">
+    <div class="sec-head"><h2 id="h-ideas">1. How 1/1 lives in the name</h2><div class="seg" id="case" role="group" aria-label="Letter case"></div></div>
+    <div class="tiles ideas" id="ideas" role="group" aria-label="Wordmark ideas"></div>
+  </section>
+
+  <section class="wrap" aria-labelledby="h-fonts">
+    <div class="sec-head"><h2 id="h-fonts">2. Font</h2><p>Twenty-one heavy faces from Google Fonts. The first is the one in the BE 1 OF 1. stripe; Jost and League Spartan have true mirrored b and d.</p></div>
+    <div class="tiles fonts" id="fonts" role="group" aria-label="Fonts"></div>
+  </section>
+
+  <section class="wrap" aria-labelledby="h-tune">
+    <div class="sec-head"><h2 id="h-tune">3. Tune it</h2><p>Every control updates the stage, the tiles above and the mockups below.</p></div>
+    <div class="tune">
+      <div class="stage" id="stage"><div class="stage-logo" id="stageLogo"></div><span class="stage-note" id="stageNote"></span></div>
+      <div class="panel" id="panel">
+        <div class="ctl" id="c-wght"><label for="wght">Weight <output id="o-wght"></output></label><input type="range" id="wght"></div>
+        <div class="ctl" id="c-wdth"><label for="wdth">Width <output id="o-wdth"></output></label><input type="range" id="wdth"></div>
+        <label class="switch" for="italic">Italic <input type="checkbox" id="italic" role="switch"></label>
+        <div class="ctl"><label for="skew">Extra slant <output id="o-skew"></output></label><input type="range" id="skew" min="-16" max="16" step="1"></div>
+        <div class="ctl"><label for="track">Letter spacing <output id="o-track"></output></label><input type="range" id="track" min="-0.1" max="0.3" step="0.005"></div>
+        <label class="switch" for="mirror" id="c-mirror">Mirror: each d is the b flipped <input type="checkbox" id="mirror" role="switch"></label>
+        <label class="switch" for="accent">Campus color on the 1/1 part <input type="checkbox" id="accent" role="switch"></label>
+        <label class="switch" for="flag" id="c-flag">Flag the stems like a 1 <input type="checkbox" id="flag" role="switch"></label>
+        <div class="ctl" id="c-stemH"><label for="stemH">Stem height <output id="o-stemH"></output></label><input type="range" id="stemH" min="0.9" max="1.45" step="0.01"></div>
+        <div class="ctl" id="c-sw"><label for="sw">Slash weight <output id="o-sw"></output></label><input type="range" id="sw" min="0.06" max="0.32" step="0.01"></div>
+        <div class="ctl" id="c-ts"><label for="ts">1/1 size <output id="o-ts"></output></label><input type="range" id="ts" min="0.16" max="0.5" step="0.01"></div>
+        <div class="ctl"><span class="lbl">Background</span><div class="seg" id="ground" role="group" aria-label="Background"></div></div>
+        <div class="ctl"><span class="lbl">Campus</span><div class="seg" id="campus" role="group" aria-label="Campus"></div></div>
+        <div class="ctl"><span class="lbl">Standalone logo</span><div class="seg" id="iconMode" role="group" aria-label="Standalone logo"></div></div>
+        <div class="ctl"><label for="textFont">Text font (body copy in the mockups)</label><select id="textFont"></select><span class="hint">You said you didn't like the old font. This swaps the reading font so you can judge the pair.</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap" aria-labelledby="h-marks">
+    <div class="sec-head"><h2 id="h-marks">4. Standalone logo</h2><p>The mark that works without the name: app icon, favicon, stickers, merch tags. Each shows as an app icon and on its own.</p></div>
+    <div class="tiles marks" id="marks" role="group" aria-label="Standalone logos"></div>
+  </section>
+
+  <section class="wrap" aria-labelledby="h-ctx">
+    <div class="sec-head"><h2 id="h-ctx">5. How it holds up</h2><p>Same settings, real sizes. Sample content.</p></div>
+    <div class="ctx" id="ctx">
+      <div class="card"><span class="lbl">App, signed in</span>
+        <div class="app" id="ctxApp"></div>
+      </div>
+      <div class="card"><span class="lbl">Standalone logo as app icon and favicon</span>
+        <div class="icons" id="ctxIcons"></div>
+        <span class="lbl">Logo and wordmark together</span>
+        <div class="pair" id="ctxPair"></div>
+        <span class="lbl">Sticker and profile photo</span>
+        <div class="sticker-row" id="ctxSticker"></div>
+      </div>
+      <div class="card"><span class="lbl">Drop post</span>
+        <div class="post" id="ctxPost"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap light" id="picks" aria-labelledby="h-picks">
+    <div class="sec-head"><h2 id="h-picks">6. Saved picks</h2><p id="picksSub">Save what's on the stage with a note about why.</p></div>
+    <form class="save" id="saveForm">
+      <input id="note" maxlength="140" placeholder="Note (e.g. love the slash, maybe less slant)" aria-label="Note for this pick">
+      <button class="btn solid" type="submit" id="saveBtn">Save this one</button>
+    </form>
+    <p class="save-msg" id="saveMsg" aria-live="polite"></p>
+    <div class="picks" id="pickList"></div>
+  </section>
+</main>
+
+<script>
+(() => {
+  // ---------- data ----------
+  const FONTS = [
+    { id: "archivo", name: "Archivo X-Condensed", fam: "Archivo", wght: [100, 900], wdth: [62, 125], ital: true, def: { wght: 900, wdth: 62, italic: true }, note: "The stripe font" },
+    { id: "sofia", name: "Sofia Sans X-Cond.", fam: "Sofia Sans Extra Condensed", wght: [100, 1000], ital: true, def: { wght: 900, italic: true }, note: "Sharper, sportier" },
+    { id: "barlow", name: "Barlow Condensed", fam: "Barlow Condensed", steps: [500, 700, 900], ital: true, def: { wght: 900, italic: true }, note: "Highway-sign sport" },
+    { id: "kanit", name: "Kanit", fam: "Kanit", steps: [700, 900], ital: true, def: { wght: 900, italic: true }, note: "Soft-cornered sport" },
+    { id: "anybody", name: "Anybody", fam: "Anybody", wght: [100, 900], wdth: [50, 150], ital: true, def: { wght: 900, wdth: 56, italic: true }, note: "Stretch it any width" },
+    { id: "bigshoulders", name: "Big Shoulders", fam: "Big Shoulders Display", wght: [100, 900], ital: false, def: { wght: 900, italic: false }, note: "Chicago industrial" },
+    { id: "anton", name: "Anton", fam: "Anton", ital: false, def: { wght: 400, italic: false }, note: "Poster heavy" },
+    { id: "teko", name: "Teko", fam: "Teko", wght: [300, 700], ital: false, def: { wght: 700, italic: false }, note: "Square sport" },
+    { id: "staat", name: "Staatliches", fam: "Staatliches", caps: true, ital: false, def: { wght: 400, italic: false }, note: "Narrow and stamped" },
+    { id: "sixcaps", name: "Six Caps", fam: "Six Caps", caps: true, ital: false, def: { wght: 400, italic: false }, note: "Ultra tall" },
+    { id: "stencil", name: "Big Shoulders Stencil", fam: "Big Shoulders Stencil Display", wght: [100, 900], ital: false, def: { wght: 900, italic: false }, note: "Shipping-crate stencil" },
+    { id: "saira", name: "Saira Stencil", fam: "Saira Stencil One", ital: false, def: { wght: 400, italic: false }, note: "Techy stencil" },
+    { id: "dela", name: "Dela Gothic One", fam: "Dela Gothic One", ital: false, def: { wght: 400, italic: false }, note: "Heavy, a bit strange" },
+    { id: "rubikmono", name: "Rubik Mono One", fam: "Rubik Mono One", caps: true, ital: false, def: { wght: 400, italic: false }, note: "Wide monospaced caps" },
+    { id: "bowlby", name: "Bowlby One", fam: "Bowlby One", ital: false, def: { wght: 400, italic: false }, note: "Fat and friendly" },
+    { id: "unbounded", name: "Unbounded", fam: "Unbounded", wght: [200, 900], ital: false, def: { wght: 900, italic: false }, note: "Wide and round" },
+    { id: "bricolage", name: "Bricolage Grotesque", fam: "Bricolage Grotesque", wght: [200, 800], wdth: [75, 100], ital: false, def: { wght: 800, wdth: 75, italic: false }, note: "Quirky grotesk" },
+    { id: "bungee", name: "Bungee", fam: "Bungee", caps: true, ital: false, def: { wght: 400, italic: false }, note: "Sign-shop caps" },
+    { id: "jost", name: "Jost", fam: "Jost", wght: [100, 900], ital: true, def: { wght: 900, italic: false }, note: "Geometric, true mirror b/d" },
+    { id: "spartan", name: "League Spartan", fam: "League Spartan", wght: [100, 900], ital: false, def: { wght: 900, italic: false }, note: "Heavy geometric" },
+    { id: "alfa", name: "Alfa Slab One", fam: "Alfa Slab One", ital: false, def: { wght: 400, italic: false }, note: "Varsity slab (careful: can read official)" },
+  ];
+  const IDEAS = [
+    { id: "plain", name: "Plain", note: "Nothing added" },
+    { id: "b1dd", name: "B1DD", note: "The i is a 1" },
+    { id: "campusI", name: "Campus I", note: "The i takes the campus" },
+    { id: "dot", name: "Campus dot", note: "The i's dot takes the campus", only: "lower" },
+    { id: "slashI", name: "Slash I", note: "The i becomes the slash" },
+    { id: "oneStem", name: "1-stem b/d", note: "The font's own 1s are the stems", only: "lower" },
+    { id: "tallStem", name: "Tall 1s", note: "Stems rise to the slash, flagged", only: "lower" },
+    { id: "stackI", name: "Stacked 1/1", note: "A tiny 1/1 is the i" },
+    { id: "bidSlash", name: "BID/D", note: "The slash splits Bid / Day" },
+    { id: "serial", name: "Serial", note: "1/1 rides top-right" },
+    { id: "box", name: "Box tag", note: "Knocked out, 1/1 tab" },
+    { id: "stamp", name: "Stamp", note: "A 1/1 stamp on the corner" },
+    { id: "strip", name: "Strip", note: "A 1 of 1 strip underneath" },
+  ];
+  const TEXT_FONTS = ["Archivo", "Hanken Grotesk", "Schibsted Grotesk", "Figtree", "Work Sans", "Rubik", "Barlow", "Onest", "Familjen Grotesk"];
+  const CAMPUSES = { none: { name: "None", p: "#0B0B0B", s: null }, ua: { name: "Alabama", p: "#9E1B32", s: "#828A8F" }, olemiss: { name: "Ole Miss", p: "#14213D", s: "#CE1126" } };
+  const GROUNDS = [["paper", "White"], ["ink", "Black"], ["campus", "Campus"]];
+  const ICONS = [["bd", "B/D"], ["oneone", "1/1"], ["islash", "Slash i"], ["tag", "Hang tag"], ["stamp", "Stamp"], ["b1", "B1"], ["bslash", "B/"], ["b", "B"]];
+  const MARK_NOTES = { bd: "The wordmark's own b/d", oneone: "The serial number", islash: "The slash i on its own", tag: "A hang tag numbered 1/1", stamp: "An edition stamp", b1: "b and a 1", bslash: "b and the slash", b: "Just the b" };
+  const MARK_EM = { bd: 0.5, oneone: 0.6, islash: 0.62, tag: 0.52, stamp: 0.42, b1: 0.56, bslash: 0.56, b: 0.78 };
+  const CASES = [["upper", "BIDD"], ["lower", "bidd"]];
+  const IDEA_TAGGED = new Set(["serial", "box", "stamp", "strip"]);
+  const IDEA_SLASH = new Set(["slashI", "stackI", "bidSlash", "oneStem", "tallStem"]);
+  const IDEA_STEM = new Set(["oneStem", "tallStem"]);
+
+  const DEFAULT = { case: "upper", mirror: true, flag: true, stemH: 1.17, font: "archivo", idea: "slashI", wght: 900, wdth: 62, italic: true, skew: 0, track: 0.01, accent: true, sw: 0.16, ts: 0.3, ground: "paper", campus: "ua", custom: "#F1B82D", iconMode: "oneone", textFont: "Hanken Grotesk" };
+  // Every config that arrives from storage or from another viewer's saved pick passes through here:
+  // known ids only, hex-only colors, clamped numbers. Nothing else reaches the markup.
+  const pick = (v, list, d) => (list.includes(v) ? v : d);
+  const numIn = (v, lo, hi, d) => { const n = Number(v); return Number.isFinite(n) ? Math.min(hi, Math.max(lo, n)) : d; };
+  function clean(raw) {
+    const r = raw && typeof raw === "object" ? raw : {};
+    return {
+      case: pick(r.case, ["upper", "lower"], DEFAULT.case),
+      mirror: r.mirror === undefined ? DEFAULT.mirror : !!r.mirror,
+      flag: r.flag === undefined ? DEFAULT.flag : !!r.flag,
+      stemH: numIn(r.stemH, 0.9, 1.45, DEFAULT.stemH),
+      font: pick(r.font, FONTS.map((x) => x.id), DEFAULT.font),
+      idea: pick(r.idea, IDEAS.map((x) => x.id), DEFAULT.idea),
+      wght: numIn(r.wght, 1, 1000, DEFAULT.wght),
+      wdth: numIn(r.wdth, 50, 150, DEFAULT.wdth),
+      italic: r.italic === undefined ? DEFAULT.italic : !!r.italic,
+      skew: numIn(r.skew, -16, 16, DEFAULT.skew),
+      track: numIn(r.track, -0.1, 0.3, DEFAULT.track),
+      accent: r.accent === undefined ? DEFAULT.accent : !!r.accent,
+      sw: numIn(r.sw, 0.06, 0.32, DEFAULT.sw),
+      ts: numIn(r.ts, 0.16, 0.5, DEFAULT.ts),
+      ground: pick(r.ground, GROUNDS.map((x) => x[0]), DEFAULT.ground),
+      campus: pick(r.campus, [...Object.keys(CAMPUSES), "custom"], DEFAULT.campus),
+      custom: /^#[0-9a-fA-F]{6}$/.test(r.custom || "") ? r.custom.toUpperCase() : DEFAULT.custom,
+      iconMode: pick(r.iconMode, ICONS.map((x) => x[0]), DEFAULT.iconMode),
+      textFont: pick(r.textFont, TEXT_FONTS, DEFAULT.textFont),
+    };
+  }
+  let cfg = { ...DEFAULT };
+  try { const s = JSON.parse(localStorage.getItem("bidd-lab") || "null"); if (s) cfg = clean(s); } catch (e) {}
+
+  // ---------- color math (same rules as brand/theme/campus.ts) ----------
+  const INK = "#0B0B0B", PAPER = "#FFFFFF";
+  const toRgb = (h) => { h = h.replace("#", ""); if (h.length === 3) h = [...h].map((c) => c + c).join(""); const n = parseInt(h, 16); return [(n >> 16) & 255, (n >> 8) & 255, n & 255]; };
+  const toHex = (a) => "#" + a.map((v) => Math.round(v).toString(16).padStart(2, "0")).join("").toUpperCase();
+  const ch = (v) => { const s = v / 255; return s <= 0.04045 ? s / 12.92 : ((s + 0.055) / 1.055) ** 2.4; };
+  const lum = (h) => { const [r, g, b] = toRgb(h).map(ch); return 0.2126 * r + 0.7152 * g + 0.0722 * b; };
+  const contrast = (a, b) => { const [x, y] = [lum(a), lum(b)].sort((p, q) => q - p); return (x + 0.05) / (y + 0.05); };
+  const toOklch = (hex) => { const [r, g, b] = toRgb(hex).map(ch);
+    const l = Math.cbrt(0.4122214708 * r + 0.5363325363 * g + 0.0514459929 * b), m = Math.cbrt(0.2119034982 * r + 0.6806995451 * g + 0.1073969566 * b), s = Math.cbrt(0.0883024619 * r + 0.2817188376 * g + 0.6299787005 * b);
+    const L = 0.2104542553 * l + 0.793617785 * m - 0.0040720468 * s, A = 1.9779984951 * l - 2.428592205 * m + 0.4505937099 * s, B = 0.0259040371 * l + 0.7827717662 * m - 0.808675766 * s;
+    return [L, Math.hypot(A, B), Math.atan2(B, A)]; };
+  const fromOklch = ([L, C, H]) => { const A = C * Math.cos(H), B = C * Math.sin(H);
+    const l = (L + 0.3963377774 * A + 0.2158037573 * B) ** 3, m = (L - 0.1055613458 * A - 0.0638541728 * B) ** 3, s = (L - 0.0894841775 * A - 1.291485548 * B) ** 3;
+    const lin = [4.0767416621 * l - 3.3077115913 * m + 0.2309699292 * s, -1.2684380046 * l + 2.6097574011 * m - 0.3413193965 * s, -0.0041960863 * l - 0.7034186147 * m + 1.707614701 * s];
+    if (lin.some((v) => v < -0.0005 || v > 1.0005)) return null;
+    const enc = (v) => 255 * (v <= 0.0031308 ? 12.92 * v : 1.055 * Math.max(v, 0) ** (1 / 2.4) - 0.055);
+    return lin.map((v) => Math.min(255, Math.max(0, enc(v)))); };
+  const shift = (hex, dL) => { const [L, C, H] = toOklch(hex); const nl = Math.min(1, Math.max(0, L + dL));
+    for (let c = C; c >= 0; c -= 0.005) { const rgb = fromOklch([nl, c, H]); if (rgb) return toHex(rgb); } return nl > 0.5 ? PAPER : INK; };
+  const reach = (hex, ground) => { const dir = lum(ground) < 0.5 ? 1 : -1;
+    for (let i = 0; i <= 50; i++) { const c = shift(hex, dir * i * 0.02); if (contrast(c, ground) >= 3) return c; } return dir > 0 ? PAPER : INK; };
+
+  function palette(c) {
+    const primary = c.campus === "custom" ? c.custom : CAMPUSES[c.campus].p;
+    const none = c.campus === "none";
+    const field = primary.toUpperCase();
+    const fieldInk = contrast(field, PAPER) >= contrast(field, INK) ? PAPER : INK;
+    const line = none ? INK : reach(primary, PAPER);
+    const dark = none ? PAPER : reach(primary, INK);
+    return { field, fieldInk, line, dark };
+  }
+  function colorsFor(c, ground) {
+    const p = palette(c);
+    if (ground === "ink") return { bg: INK, fg: PAPER, acc: c.accent ? p.dark : PAPER, p };
+    if (ground === "campus") { const other = p.fieldInk === PAPER ? INK : PAPER; return { bg: p.field, fg: p.fieldInk, acc: c.accent ? other : p.fieldInk, p }; }
+    return { bg: PAPER, fg: INK, acc: c.accent ? p.line : INK, p };
+  }
+
+  // ---------- font metrics ----------
+  const MET = {};
+  const met = (f) => MET[f.id] || { cap: 0.72, asc: 0.76, xh: 0.54, ia: 0.2 };
+  const capOf = (f) => met(f).cap;
+  async function measureCaps() {
+    try { await Promise.all(FONTS.flatMap((f) => [document.fonts.load(`${f.def.wght} 100px "${f.fam}"`, "bdHxl"), f.ital ? document.fonts.load(`italic ${f.def.wght} 100px "${f.fam}"`, "bdHxl") : null].filter(Boolean))); } catch (e) {}
+    const cv = document.createElement("canvas").getContext("2d");
+    FONTS.forEach((f) => {
+      cv.font = `${f.def.wght} 100px "${f.fam}"`;
+      const H = cv.measureText("H"), b = cv.measureText("b"), x = cv.measureText("x"), l = cv.measureText("l");
+      if (H.actualBoundingBoxAscent < 20) return;
+      const m = { cap: H.actualBoundingBoxAscent / 100, asc: b.actualBoundingBoxAscent / 100, xh: x.actualBoundingBoxAscent / 100, ia: 0 };
+      if (f.ital) {
+        cv.font = `italic ${f.def.wght} 100px "${f.fam}"`;
+        const li = cv.measureText("l");
+        const wU = l.actualBoundingBoxLeft + l.actualBoundingBoxRight, wI = li.actualBoundingBoxLeft + li.actualBoundingBoxRight;
+        m.ia = Math.max(0, (wI - wU) / Math.max(1, li.actualBoundingBoxAscent));
+      }
+      MET[f.id] = m;
+    });
+  }
+  const fontById = (id) => FONTS.find((f) => f.id === id) || FONTS[0];
+  const GCACHE = {};
+  let gcv = null;
+  const STRETCH = [[56, "ultra-condensed"], [69, "extra-condensed"], [81, "condensed"], [94, "semi-condensed"], [106, "normal"], [119, "semi-expanded"], [137, "expanded"], [999, "extra-expanded"]];
+  function glyphs(f, c) {
+    const w = weightOf(c, f), wd = f.wdth ? Math.min(f.wdth[1], Math.max(f.wdth[0], c.wdth)) : 100, it = !!(c.italic && f.ital);
+    const key = [f.id, w, wd, it, !!MET[f.id]].join("|");
+    if (GCACHE[key]) return GCACHE[key];
+    gcv = gcv || document.createElement("canvas").getContext("2d");
+    const kw = STRETCH.find(([lim]) => wd <= lim)[1];
+    gcv.font = `${it ? "italic " : ""}${w} ${kw} 100px "${f.fam}"`;
+    const one = gcv.measureText("1"), o = gcv.measureText("o");
+    gcv.font = `${w} ${kw} 100px "${f.fam}"`;
+    const l = gcv.measureText("l");
+    const g = {
+      S: Math.max(0.05, (l.actualBoundingBoxLeft + l.actualBoundingBoxRight) / 100),
+      Lo: -o.actualBoundingBoxLeft / 100, Ro: o.actualBoundingBoxRight / 100, Ao: o.width / 100,
+      R1: one.actualBoundingBoxRight / 100, A1: one.width / 100, cap1: one.actualBoundingBoxAscent / 100,
+    };
+    if (MET[f.id]) GCACHE[key] = g;
+    return g;
+  }
+
+  // ---------- renderer ----------
+  function weightOf(c, f) { return f.wght ? Math.min(f.wght[1], Math.max(f.wght[0], c.wght)) : f.steps ? f.steps.reduce((a, b) => Math.abs(b - c.wght) < Math.abs(a - c.wght) ? b : a) : f.def.wght; }
+  function fontStyle(c, f) {
+    const w = weightOf(c, f);
+    const vs = f.wdth ? `font-variation-settings:"wdth" ${Math.min(f.wdth[1], Math.max(f.wdth[0], c.wdth))};` : "";
+    const realItalic = c.italic && f.ital;
+    const synth = c.italic && !f.ital ? -10 : 0;
+    const sk = synth - c.skew;
+    return { css: `font-family:"${f.fam}",Impact,sans-serif;font-weight:${w};${vs}font-style:${realItalic ? "italic" : "normal"};letter-spacing:${c.track}em;`, skew: sk };
+  }
+  function logoHTML(c, opts = {}) {
+    const f = fontById(opts.font || c.font);
+    const idea = opts.idea || c.idea;
+    const ground = opts.ground || c.ground;
+    const col = colorsFor(c, ground);
+    const fs = fontStyle(c, f);
+    const accFg = contrast(col.acc, PAPER) >= contrast(col.acc, INK) ? PAPER : INK;
+    const boxbg = col.fg, boxfg = col.bg;
+    const lower = c.case === "lower" && !f.caps;
+    const M = met(f);
+    const hh = lower ? M.asc : M.cap;
+    const realItalic = c.italic && f.ital;
+    const vars = `--fg:${col.fg};--bg:${col.bg};--acc:${col.acc};--accfg:${accFg};--boxbg:${boxbg};--boxfg:${boxfg};--cap:${hh.toFixed(3)};--sw:${c.sw}em;--ts:${c.ts}em;--tsn:${c.ts};`;
+    const tf = fs.skew ? `transform:skewX(${fs.skew}deg);` : "";
+    const A = (t) => c.accent ? `<span class="acc">${t}</span>` : t;
+    const flip = `transform:${realItalic && M.ia ? `skewX(${(-Math.atan(2 * M.ia) * 180 / Math.PI).toFixed(2)}deg) ` : ""}scaleX(-1)`;
+    const W = (str) => [...(lower ? str.toLowerCase() : str.toUpperCase())].map((ch) => lower && c.mirror && ch === "d" ? `<span class="fl" style="${flip}">b</span>` : ch).join("");
+    const gap = Math.max(0.08, (M.asc - M.xh) * 0.24);
+    const dy = -(M.xh + gap), dx = realItalic ? M.ia * (M.xh + gap) : 0;
+    const dotI = `<span class="ii">${lower ? "\u0131" : "I"}<span class="dot" style="--dotc:${c.accent ? col.acc : col.fg};--dx:${dx.toFixed(3)}em;--dy:${dy.toFixed(3)}em">.</span></span>`;
+    // b and d that read as the 1s of 1/1. b = stem + the font's o; d = that b mirrored (or o + stem).
+    const G = glyphs(f, c), K = 0.55, yo = M.xh * 0.45, slant = realItalic ? M.ia : 0;
+    const stemTf = slant ? `transform:skewX(${(-Math.atan(slant) * 180 / Math.PI).toFixed(2)}deg);` : "";
+    const stem = () => `<span class="stem${c.flag ? " flag" : ""}" style="--S:${G.S.toFixed(3)};width:${G.S.toFixed(3)}em;height:${(hh * c.stemH).toFixed(3)}em;${stemTf}"></span>`;
+    const bowl = (ml) => `<span style="margin-left:${ml.toFixed(3)}em">${lower ? "o" : "O"}</span>`;
+    const bTall = () => `<span class="cb">${stem()}${bowl(slant * yo - K * G.S - G.Lo)}</span>`;
+    const bOne = () => `<span class="cb"><span>1</span>${bowl(G.R1 - slant * (G.cap1 - yo) - K * G.S - G.A1 - G.Lo)}</span>`;
+    const dTall = () => c.mirror ? `<span class="fl" style="${flip}">${bTall()}</span>`
+      : `<span class="cb"><span>${lower ? "o" : "O"}</span><span style="margin-left:${(G.Ro - K * G.S - slant * yo - G.Ao).toFixed(3)}em;display:inline-flex">${stem()}</span></span>`;
+    const dOne = () => `<span class="fl" style="${flip}">${bOne()}</span>`;
+    const gapR = `<span style="display:inline-block;width:${c.track}em"></span>`;
+    const stemWord = (bF, dF) => `${bF()}${gapR}<span class="sl"></span>${dF()}${gapR}${dF()}`;
+    let inner, cls = "lg";
+    switch (idea) {
+      case "oneStem": inner = lower ? stemWord(bOne, dOne) : `${W("b")}<span class="sl"></span>${W("dd")}`; break;
+      case "tallStem": inner = lower ? stemWord(bTall, dTall) : `${W("b")}<span class="sl"></span>${W("dd")}`; break;
+      case "b1dd": inner = `${W("b")}${A("1")}${W("dd")}`; break;
+      case "campusI": inner = `${W("b")}<span class="acc">${W("i")}</span>${W("dd")}`; break;
+      case "dot": inner = lower ? `${W("b")}${dotI}${W("dd")}` : `${W("b")}<span class="acc">I</span>${W("dd")}`; break;
+      case "slashI": inner = `${W("b")}<span class="sl"></span>${W("dd")}`; break;
+      case "stackI": inner = `${W("b")}<span class="fr"><i>1</i><b></b><i>1</i></span>${W("dd")}`; break;
+      case "bidSlash": inner = `${W("bid")}<span class="sl"></span>${W("d")}`; break;
+      case "serial": inner = `${W("bidd")}<span class="tag">1/1</span>`; break;
+      case "box": inner = `<span class="box"><span>${W("bidd")}</span></span><span class="boxtab">1/1</span>`; break;
+      case "stamp": inner = `${W("bidd")}<span class="stamp"><span>1/1<small>${lower ? "no." : "NO."}</small></span></span>`; break;
+      case "strip": cls = "lg col"; inner = `<span>${W("bidd")}</span><span class="strip"><i></i>${lower ? "1 of 1" : "1 OF 1"}<i></i></span>`; break;
+      default: inner = W("bidd");
+    }
+    if (opts.core) {
+      const lowStem = lower && IDEA_STEM.has(idea);
+      inner = lowStem ? (idea === "oneStem" ? `${bOne()}${gapR}<span class="sl"></span>${dOne()}` : `${bTall()}${gapR}<span class="sl"></span>${dTall()}`) : `${W("b")}<span class="sl"></span>${W("d")}`;
+      cls = "lg";
+    }
+    return `<span class="${cls}" style='${fs.css}${vars}${tf}' aria-label="Bidd">${inner}</span>`;
+  }
+  // One mark on one ground, as a .lg span. Used bare and inside the app-icon tile.
+  function markInner(c, mode, ground) {
+    if (mode === "bd") return logoHTML({ ...c, ground }, { ground, core: true });
+    const f = fontById(c.font), col = colorsFor(c, ground), fs = fontStyle(c, f), M = met(f), p = palette(c);
+    const lower = c.case === "lower" && !f.caps;
+    const B = lower ? "b" : "B";
+    const vars = `--fg:${col.fg};--bg:${col.bg};--acc:${col.acc};--cap:${(lower ? M.asc : M.cap).toFixed(3)};--sw:${c.sw}em;`;
+    const tf = fs.skew ? `transform:skewX(${fs.skew}deg);` : "";
+    const A = (t) => `<span class="acc">${t}</span>`;
+    let inner;
+    switch (mode) {
+      case "islash": inner = `<span class="si"><svg viewBox="0 0 62 100" aria-hidden="true"><polygon points="8,100 27,100 53,30 34,30" fill="${col.acc}"/><polygon points="37,22 56,22 61,7 42,7" fill="${col.fg}"/></svg></span>`; break;
+      case "tag": {
+        const lightFill = contrast(col.fg, PAPER) < 1.5;
+        const tagAcc = c.accent ? (lightFill ? p.line : p.dark) : col.bg;
+        inner = `<span class="htag"><svg viewBox="0 0 100 128" aria-hidden="true"><path d="M28 0 H72 L100 26 V128 H0 V26 Z" fill="${col.fg}"/><circle cx="50" cy="20" r="7.5" fill="${col.bg}"/></svg><span class="ht" style="color:${col.bg}">1<span style="color:${tagAcc}">/</span>1</span></span>`;
+        break;
+      }
+      case "stamp": inner = `<span class="sm"><span>1${A("/")}1</span><small>${lower ? "no." : "NO."}</small></span>`; break;
+      case "b1": inner = `${B}${c.accent ? A("1") : "1"}`; break;
+      case "bslash": inner = `${B}<span class="sl"></span>`; break;
+      case "b": inner = B; break;
+      default: inner = `1${A("/")}1`;
+    }
+    return `<span class="lg" style='${fs.css}${vars}${tf}letter-spacing:0' aria-label="Bidd">${inner}</span>`;
+  }
+  function iconHTML(c, size, mode = c.iconMode) {
+    const em = MARK_EM[mode] || 0.56;
+    return `<div class="icon" style="width:${size}px;height:${size}px;border-radius:${Math.round(size * 0.225)}px;--is:${Math.round(size * em)}px">${markInner(c, mode, "ink")}</div>`;
+  }
+
+  // ---------- UI ----------
+  const $ = (id) => document.getElementById(id);
+  function tile(kind, id, title, sub, face, pressed, ground, disabled) {
+    const col = colorsFor(cfg, ground);
+    return `<button type="button" class="tile" data-kind="${kind}" data-id="${id}" aria-pressed="${pressed}"${disabled ? " disabled" : ""}><span class="face" style="background:${col.bg}">${face}</span><span class="cap"><b>${title}</b><span>${sub}</span></span></button>`;
+  }
+  function renderTiles() {
+    $("ideas").innerHTML = IDEAS.filter((i) => !i.only || i.only === cfg.case).map((i) => tile("idea", i.id, i.name, i.note, `<span style="font-size:${i.id === "strip" ? 40 : 46}px">${logoHTML(cfg, { idea: i.id })}</span>`, cfg.idea === i.id, cfg.ground)).join("");
+    $("marks").innerHTML = ICONS.map(([k, l]) => tile("mark", k, cfg.case === "lower" ? l.toLowerCase() : l, MARK_NOTES[k],
+      `<span class="markface">${iconHTML(cfg, 92, k)}<span class="bare">${markInner(cfg, k, cfg.ground)}</span></span>`, cfg.iconMode === k, cfg.ground)).join("");
+    $("fonts").innerHTML = FONTS.map((f) => {
+      const fc = { ...cfg, font: f.id, wght: f.id === cfg.font ? cfg.wght : f.def.wght, wdth: f.id === cfg.font ? cfg.wdth : (f.def.wdth || 100), italic: f.id === cfg.font ? cfg.italic : (cfg.italic && f.ital) };
+      const off = cfg.case === "lower" && f.caps;
+      return tile("font", f.id, f.name, off ? "Caps only" : f.note, `<span style="font-size:40px">${logoHTML(fc)}</span>`, cfg.font === f.id, cfg.ground, off);
+    }).join("");
+  }
+  function renderStage() {
+    const col = colorsFor(cfg, cfg.ground);
+    $("stage").style.background = col.bg;
+    $("stage").style.color = col.fg;
+    $("stageLogo").innerHTML = logoHTML(cfg);
+    const f = fontById(cfg.font), i = IDEAS.find((x) => x.id === cfg.idea);
+    $("stageNote").textContent = `${i.name} · ${f.name}${cfg.italic ? " italic" : ""} · ${cfg.case === "lower" && !f.caps ? "lowercase" + (cfg.mirror ? ", mirrored" : "") : "uppercase"}`;
+  }
+  function renderCtx() {
+    const p = palette(cfg);
+    const f = fontById(cfg.font), fs = fontStyle(cfg, f);
+    const disp = `font-family:"${f.fam}",Impact,sans-serif;font-weight:${fs.css.match(/font-weight:(\d+)/)[1]};${f.wdth ? `font-variation-settings:"wdth" ${cfg.wdth};` : ""}font-style:${cfg.italic && f.ital ? "italic" : "normal"};${fs.skew ? `transform:skewX(${fs.skew}deg);transform-origin:left;` : ""}`;
+    const tfam = `font-family:'${cfg.textFont}',system-ui,sans-serif`;
+    $("ctxApp").innerHTML = `<div class="app-bar"><span>${logoHTML(cfg, { ground: "paper" })}</span><span class="sell" style="${tfam}">Sell</span></div>
+      <div class="app-body" style="${tfam}">
+        <div class="drop" style="background:${p.field};color:${p.fieldInk}"><div class="head" style='${disp}'>Bid Day drop</div><div class="row"><span>Chapter closet</span><span style="font-variant-numeric:tabular-nums">02:14:09</span></div></div>
+        <div class="listing"><div class="ph" aria-hidden="true"></div><div><p class="t">Sequin mini, worn once</p><p class="m">Size S · Like new · $38</p></div></div>
+      </div>`;
+    $("ctxIcons").innerHTML = [[96, "App icon"], [48, "48"], [32, "32"], [16, "16"]].map(([s, l]) => `<div>${iconHTML(cfg, s)}<small>${l}</small></div>`).join("");
+    $("ctxPair").innerHTML = `${iconHTML(cfg, 64)}<span>${logoHTML(cfg, { ground: "paper" })}</span>`;
+    const stickerFg = p.fieldInk, other = stickerFg === PAPER ? INK : PAPER;
+    const stickCfg = { ...cfg };
+    $("ctxSticker").innerHTML = `<div class="sticker" style="background:${p.field}">${logoHTML(stickCfg, { ground: "campus" })}</div><div class="avatar" style="background:${INK}">${logoHTML(cfg, { ground: "ink" })}</div>`;
+    $("ctxPost").style.background = INK;
+    $("ctxPost").style.color = PAPER;
+    $("ctxPost").innerHTML = `<div>${logoHTML(cfg, { ground: "ink" })}</div><div class="big" style='${disp}'>Be 1<br>of 1.</div>`;
+  }
+  function renderControls() {
+    const f = fontById(cfg.font);
+    const wr = f.wght || (f.steps ? [f.steps[0], f.steps[f.steps.length - 1]] : null);
+    $("c-wght").hidden = !wr;
+    if (wr) { Object.assign($("wght"), { min: wr[0], max: wr[1], step: f.steps ? 100 : 10 }); $("wght").value = cfg.wght; $("o-wght").textContent = fontStyle(cfg, f).css.match(/font-weight:(\d+)/)[1]; }
+    $("c-wdth").hidden = !f.wdth;
+    if (f.wdth) { Object.assign($("wdth"), { min: f.wdth[0], max: f.wdth[1], step: 1 }); $("wdth").value = cfg.wdth; $("o-wdth").textContent = cfg.wdth; }
+    $("italic").checked = cfg.italic;
+    $("italic").parentElement.title = f.ital ? "" : "This font has no italic; it is slanted instead";
+    $("skew").value = cfg.skew; $("o-skew").textContent = `${cfg.skew}°`;
+    $("track").value = cfg.track; $("o-track").textContent = `${cfg.track.toFixed(3)}em`;
+    $("accent").checked = cfg.accent;
+    $("c-sw").hidden = !IDEA_SLASH.has(cfg.idea); $("sw").value = cfg.sw; $("o-sw").textContent = cfg.sw.toFixed(2);
+    $("c-ts").hidden = !IDEA_TAGGED.has(cfg.idea); $("ts").value = cfg.ts; $("o-ts").textContent = cfg.ts.toFixed(2);
+    $("ground").innerHTML = GROUNDS.map(([k, l]) => `<button type="button" data-v="${k}" aria-pressed="${cfg.ground === k}">${l}</button>`).join("");
+    $("campus").innerHTML = Object.entries(CAMPUSES).map(([k, v]) => `<button type="button" data-v="${k}" aria-pressed="${cfg.campus === k}"><i class="sw" style="--sw:${v.p}"></i>${v.name}</button>`).join("")
+      + `<label class="color ${cfg.campus === "custom" ? "on" : ""}"><i class="sw" style="--sw:${cfg.custom}"></i>Any<input type="color" id="customColor" value="${cfg.custom.toLowerCase()}" aria-label="Any campus color"></label>`;
+    $("iconMode").innerHTML = ICONS.map(([k, l]) => `<button type="button" data-v="${k}" aria-pressed="${cfg.iconMode === k}">${cfg.case === "lower" ? l.toLowerCase() : l}</button>`).join("");
+    $("case").innerHTML = CASES.map(([k, l]) => `<button type="button" data-v="${k}" aria-pressed="${cfg.case === k}">${l}</button>`).join("");
+    $("c-mirror").hidden = cfg.case !== "lower";
+    $("c-flag").hidden = !(cfg.case === "lower" && cfg.idea === "tallStem");
+    $("flag").checked = cfg.flag;
+    $("c-stemH").hidden = !(cfg.case === "lower" && cfg.idea === "tallStem");
+    $("stemH").value = cfg.stemH; $("o-stemH").textContent = `${cfg.stemH.toFixed(2)}×`;
+    $("mirror").checked = cfg.mirror;
+    $("customColor").addEventListener("input", (e) => { if (!/^#[0-9a-fA-F]{6}$/.test(e.target.value)) return; cfg.campus = "custom"; cfg.custom = e.target.value.toUpperCase(); update(false); });
+    $("customColor").addEventListener("change", () => renderControls());
+  }
+  function persist() { try { localStorage.setItem("bidd-lab", JSON.stringify(cfg)); } catch (e) {} }
+  function update(controls = true) { renderTiles(); renderStage(); renderCtx(); if (controls) renderControls(); persist(); }
+
+  // ---------- events ----------
+  document.addEventListener("click", (e) => {
+    const t = e.target.closest(".tile");
+    if (t) {
+      if (t.dataset.kind === "mark") { cfg.iconMode = t.dataset.id; update(); return; }
+      if (t.dataset.kind === "idea") { cfg.idea = t.dataset.id; if (IDEA_STEM.has(cfg.idea) && cfg.iconMode === "oneone") cfg.iconMode = "bd"; }
+      else { const f = fontById(t.dataset.id); cfg.font = f.id; cfg.wght = f.def.wght; cfg.wdth = f.def.wdth || 100; cfg.italic = f.ital ? cfg.italic : false; }
+      update(); return;
+    }
+    const seg = e.target.closest(".seg button");
+    if (seg) {
+      const k = seg.parentElement.id; cfg[k] = seg.dataset.v;
+      if (k === "case") {
+        if (cfg.case === "upper" && cfg.idea === "dot") cfg.idea = "campusI";
+        if (cfg.case === "upper" && IDEA_STEM.has(cfg.idea)) cfg.idea = "slashI";
+        if (cfg.case === "lower" && fontById(cfg.font).caps) { const a = fontById("archivo"); cfg.font = a.id; cfg.wght = a.def.wght; cfg.wdth = a.def.wdth; }
+      }
+      update();
+    }
+  });
+  const num = (id, key) => $(id).addEventListener("input", (e) => { cfg[key] = parseFloat(e.target.value); update(false); renderControlsOutputs(); });
+  function renderControlsOutputs() {
+    const f = fontById(cfg.font);
+    $("o-wght").textContent = fontStyle(cfg, f).css.match(/font-weight:(\d+)/)[1];
+    $("o-wdth").textContent = cfg.wdth; $("o-skew").textContent = `${cfg.skew}°`; $("o-track").textContent = `${cfg.track.toFixed(3)}em`;
+    $("o-sw").textContent = cfg.sw.toFixed(2); $("o-ts").textContent = cfg.ts.toFixed(2);
+    $("o-stemH").textContent = `${cfg.stemH.toFixed(2)}×`;
+  }
+  num("stemH", "stemH");
+  num("wght", "wght"); num("wdth", "wdth"); num("skew", "skew"); num("track", "track"); num("sw", "sw"); num("ts", "ts");
+  $("italic").addEventListener("change", (e) => { cfg.italic = e.target.checked; update(false); });
+  $("accent").addEventListener("change", (e) => { cfg.accent = e.target.checked; update(false); });
+  $("mirror").addEventListener("change", (e) => { cfg.mirror = e.target.checked; update(false); });
+  $("flag").addEventListener("change", (e) => { cfg.flag = e.target.checked; update(false); });
+  $("textFont").innerHTML = TEXT_FONTS.map((t) => `<option ${t === cfg.textFont ? "selected" : ""}>${t}</option>`).join("");
+  $("textFont").addEventListener("change", (e) => { cfg.textFont = e.target.value; update(false); });
+  $("shuffle").addEventListener("click", () => {
+    const f = FONTS[Math.floor(Math.random() * FONTS.length)], i = IDEAS[Math.floor(Math.random() * IDEAS.length)];
+    cfg.case = Math.random() > 0.5 ? "lower" : "upper";
+    cfg.font = f.id; cfg.idea = i.only && i.only !== cfg.case ? "plain" : i.id; cfg.wght = f.def.wght; cfg.wdth = f.def.wdth || 100; cfg.italic = f.ital ? Math.random() > 0.3 : Math.random() > 0.7; cfg.skew = 0;
+    update();
+  });
+  $("copy").addEventListener("click", async (e) => {
+    const b = e.currentTarget, txt = JSON.stringify(cfg);
+    try { await navigator.clipboard.writeText(txt); b.textContent = "Copied"; } catch (err) { b.textContent = "Copy failed"; }
+    setTimeout(() => (b.textContent = "Copy settings"), 1500);
+  });
+
+  // ---------- saved picks (shared through db; local fallback) ----------
+  let db = null, user = null, uid = null, shared = [], localPicks = [];
+  try { localPicks = JSON.parse(localStorage.getItem("bidd-lab-picks") || "[]"); } catch (e) {}
+  const msg = (t) => ($("saveMsg").textContent = t);
+  async function renderPicks() {
+    const groups = db ? shared : [{ uid: "local", items: localPicks }];
+    const all = [];
+    groups.forEach((g) => (Array.isArray(g.items) ? g.items : []).forEach((it, idx) => { if (it && typeof it === "object") all.push({ cfg: it.cfg, note: typeof it.note === "string" ? it.note : "", savedAt: Number(it.savedAt) || 0, owner: g.uid, idx }); }));
+    all.sort((a, b) => (b.savedAt || 0) - (a.savedAt || 0));
+    if (!all.length) { $("pickList").innerHTML = `<div class="empty">No picks yet. Tune something on the stage, add a note, and press Save this one.</div>`; return; }
+    let names = {};
+    if (user && db) { try { names = await user.profiles([...new Set(all.map((a) => a.owner))]); } catch (e) {} }
+    $("pickList").innerHTML = "";
+    all.forEach((it) => {
+      const c = clean(it.cfg);
+      const el = document.createElement("div");
+      el.className = "pick";
+      const col = colorsFor(c, c.ground);
+      el.innerHTML = `<div class="face" style="background:${col.bg}"><span style="font-size:44px">${logoHTML(c)}</span></div><div class="meta"><span class="who"></span><p class="note"></p><div class="row"><button type="button" class="btn" data-load>Load</button></div></div>`;
+      const who = it.owner === "local" ? "Saved on this device" : ((names[it.owner] && names[it.owner].name) || "Someone");
+      el.querySelector(".who").textContent = `${who} · ${new Date(it.savedAt || Date.now()).toLocaleString([], { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" })}`;
+      el.querySelector(".note").textContent = it.note || "No note";
+      el.querySelector("[data-load]").addEventListener("click", () => { cfg = clean(it.cfg); update(); document.getElementById("stage").scrollIntoView({ behavior: "smooth", block: "center" }); });
+      if (it.owner === uid || it.owner === "local") {
+        const del = document.createElement("button");
+        del.type = "button"; del.className = "btn"; del.textContent = "Remove";
+        del.addEventListener("click", () => removePick(it));
+        el.querySelector(".row").appendChild(del);
+      }
+      $("pickList").appendChild(el);
+    });
+  }
+  async function writeMine(items) {
+    await db.doc("picks/" + uid).set({ items, updatedAt: Date.now() });
+  }
+  async function removePick(it) {
+    if (it.owner === "local") { localPicks = localPicks.filter((p) => p.savedAt !== it.savedAt); try { localStorage.setItem("bidd-lab-picks", JSON.stringify(localPicks)); } catch (e) {} renderPicks(); return; }
+    const mine = (shared.find((g) => g.uid === uid) || { items: [] }).items.filter((p) => p.savedAt !== it.savedAt);
+    try { await writeMine(mine); msg("Removed."); } catch (e) { msg("Couldn't remove that pick. Try again in a moment."); }
+  }
+  $("saveForm").addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const item = { cfg: clean(cfg), note: $("note").value.trim().slice(0, 140), savedAt: Date.now() };
+    if (db && uid) {
+      const mine = [...((shared.find((g) => g.uid === uid) || { items: [] }).items || [])];
+      if (mine.length >= 40) { msg("You have 40 saved picks. Remove one to save another."); return; }
+      mine.push(item);
+      $("saveBtn").disabled = true;
+      try { await writeMine(mine); $("note").value = ""; msg("Saved. Everyone with the link sees it below."); }
+      catch (err) { msg(err && err.code === "invalid_argument" ? "Your access to this page is view-only, so picks save on this device instead." : "Couldn't save just now. Try again in a moment."); if (err && err.code === "invalid_argument") { db = null; saveLocal(item); } }
+      finally { $("saveBtn").disabled = false; }
+    } else saveLocal(item);
+  });
+  function saveLocal(item) {
+    localPicks.push(item);
+    try { localStorage.setItem("bidd-lab-picks", JSON.stringify(localPicks)); } catch (e) {}
+    $("note").value = "";
+    msg("Saved on this device. Use Copy settings to share it.");
+    renderPicks();
+  }
+  (async () => {
+    if (!window.claude || !window.claude.use) { renderPicks(); return; }
+    try { [db, user] = await Promise.all([window.claude.use("db"), window.claude.use("user")]); } catch (e) { db = null; }
+    if (user) { try { uid = await user.id(); } catch (e) { uid = null; } }
+    if (!db || !uid) { db = null; renderPicks(); return; }
+    $("picksSub").textContent = "Save what's on the stage with a note. Quinn, Rowan and Claude all see these.";
+    db.collection("picks").onSnapshot((snap) => { shared = snap.docs.filter((d) => d.exists).map((d) => ({ uid: d.id, ...d.data() })); renderPicks(); },
+      () => { db = null; renderPicks(); });
+  })();
+
+  // ---------- boot ----------
+  update();
+  renderPicks();
+  document.fonts.ready.then(async () => { await measureCaps(); update(); });
+  setTimeout(async () => { await measureCaps(); update(false); }, 2500);
+})();
+</script>

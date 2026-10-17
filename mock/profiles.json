@@ -1,0 +1,2018 @@
+[
+  {
+    "id": "ua-u0",
+    "campus_id": "ua",
+    "chapter_id": "ua-kd",
+    "name": "Lily L.",
+    "email": "lilyl@crimson.ua.edu",
+    "msc_code": "8877",
+    "points": 216
+  },
+  {
+    "id": "ua-u1",
+    "campus_id": "ua",
+    "chapter_id": "ua-chio",
+    "name": "Ellie F.",
+    "email": "ellief@crimson.ua.edu",
+    "msc_code": "8383",
+    "points": 99
+  },
+  {
+    "id": "ua-u2",
+    "campus_id": "ua",
+    "chapter_id": "ua-dg",
+    "name": "Hollis P.",
+    "email": "hollisp@crimson.ua.edu",
+    "msc_code": "3065",
+    "points": 194
+  },
+  {
+    "id": "ua-u3",
+    "campus_id": "ua",
+    "chapter_id": "ua-zta",
+    "name": "Mary Kate B.",
+    "email": "marykateb@crimson.ua.edu",
+    "msc_code": "2908",
+    "points": 126
+  },
+  {
+    "id": "ua-u4",
+    "campus_id": "ua",
+    "chapter_id": "ua-phimu",
+    "name": "Sarah Beth R.",
+    "email": "sarahbethr@crimson.ua.edu",
+    "msc_code": "5132",
+    "points": 8
+  },
+  {
+    "id": "ua-u5",
+    "campus_id": "ua",
+    "chapter_id": "ua-adpi",
+    "name": "Anna Claire T.",
+    "email": "annaclairet@crimson.ua.edu",
+    "msc_code": "6934",
+    "points": 27
+  },
+  {
+    "id": "ua-u6",
+    "campus_id": "ua",
+    "chapter_id": "ua-kd",
+    "name": "Reagan F.",
+    "email": "reaganf@crimson.ua.edu",
+    "msc_code": "8771",
+    "points": 272
+  },
+  {
+    "id": "ua-u7",
+    "campus_id": "ua",
+    "chapter_id": "ua-chio",
+    "name": "Emma P.",
+    "email": "emmap@crimson.ua.edu",
+    "msc_code": "3341",
+    "points": 246
+  },
+  {
+    "id": "ua-u8",
+    "campus_id": "ua",
+    "chapter_id": "ua-dg",
+    "name": "Madison J.",
+    "email": "madisonj@crimson.ua.edu",
+    "msc_code": "1632",
+    "points": 221
+  },
+  {
+    "id": "ua-u9",
+    "campus_id": "ua",
+    "chapter_id": "ua-zta",
+    "name": "Caroline D.",
+    "email": "carolined@crimson.ua.edu",
+    "msc_code": "9126",
+    "points": 129
+  },
+  {
+    "id": "ua-u10",
+    "campus_id": "ua",
+    "chapter_id": "ua-sigmachi",
+    "name": "Jack D.",
+    "email": "jackd@crimson.ua.edu",
+    "msc_code": "9577",
+    "points": 322
+  },
+  {
+    "id": "ua-u11",
+    "campus_id": "ua",
+    "chapter_id": "ua-sigmachi",
+    "name": "Will F.",
+    "email": "willf@crimson.ua.edu",
+    "msc_code": "3542",
+    "points": 333
+  },
+  {
+    "id": "ua-u12",
+    "campus_id": "ua",
+    "chapter_id": "ua-sigmachi",
+    "name": "Thomas L.",
+    "email": "thomasl@crimson.ua.edu",
+    "msc_code": "2876",
+    "points": 66
+  },
+  {
+    "id": "ua-me",
+    "campus_id": "ua",
+    "chapter_id": "ua-kd",
+    "name": "Taylor M.",
+    "email": "taylorm@crimson.ua.edu",
+    "msc_code": "2417",
+    "points": 120
+  },
+  {
+    "id": "uark-u0",
+    "campus_id": "uark",
+    "chapter_id": "uark-kd",
+    "name": "Anna Claire D.",
+    "email": "annaclaired@uark.edu",
+    "msc_code": "8049",
+    "points": 335
+  },
+  {
+    "id": "uark-u1",
+    "campus_id": "uark",
+    "chapter_id": "uark-chio",
+    "name": "Lily R.",
+    "email": "lilyr@uark.edu",
+    "msc_code": "2057",
+    "points": 194
+  },
+  {
+    "id": "uark-u2",
+    "campus_id": "uark",
+    "chapter_id": "uark-dg",
+    "name": "Madison L.",
+    "email": "madisonl@uark.edu",
+    "msc_code": "4034",
+    "points": 29
+  },
+  {
+    "id": "uark-u3",
+    "campus_id": "uark",
+    "chapter_id": "uark-zta",
+    "name": "Emma D.",
+    "email": "emmad@uark.edu",
+    "msc_code": "2848",
+    "points": 70
+  },
+  {
+    "id": "uark-u4",
+    "campus_id": "uark",
+    "chapter_id": "uark-phimu",
+    "name": "Sarah Beth J.",
+    "email": "sarahbethj@uark.edu",
+    "msc_code": "3368",
+    "points": 62
+  },
+  {
+    "id": "uark-u5",
+    "campus_id": "uark",
+    "chapter_id": "uark-adpi",
+    "name": "Reagan M.",
+    "email": "reaganm@uark.edu",
+    "msc_code": "5908",
+    "points": 215
+  },
+  {
+    "id": "uark-u6",
+    "campus_id": "uark",
+    "chapter_id": "uark-kd",
+    "name": "Ellie D.",
+    "email": "ellied@uark.edu",
+    "msc_code": "7798",
+    "points": 124
+  },
+  {
+    "id": "uark-u7",
+    "campus_id": "uark",
+    "chapter_id": "uark-chio",
+    "name": "Hollis L.",
+    "email": "hollisl@uark.edu",
+    "msc_code": "1911",
+    "points": 336
+  },
+  {
+    "id": "uark-u8",
+    "campus_id": "uark",
+    "chapter_id": "uark-dg",
+    "name": "Caroline M.",
+    "email": "carolinem@uark.edu",
+    "msc_code": "6889",
+    "points": 133
+  },
+  {
+    "id": "uark-u9",
+    "campus_id": "uark",
+    "chapter_id": "uark-zta",
+    "name": "Mary Kate D.",
+    "email": "marykated@uark.edu",
+    "msc_code": "7122",
+    "points": 137
+  },
+  {
+    "id": "uark-u10",
+    "campus_id": "uark",
+    "chapter_id": "uark-sigmachi",
+    "name": "Jack H.",
+    "email": "jackh@uark.edu",
+    "msc_code": "4204",
+    "points": 298
+  },
+  {
+    "id": "uark-u11",
+    "campus_id": "uark",
+    "chapter_id": "uark-sigmachi",
+    "name": "Will F.",
+    "email": "willf@uark.edu",
+    "msc_code": "9166",
+    "points": 239
+  },
+  {
+    "id": "uark-u12",
+    "campus_id": "uark",
+    "chapter_id": "uark-sigmachi",
+    "name": "Thomas F.",
+    "email": "thomasf@uark.edu",
+    "msc_code": "2862",
+    "points": 155
+  },
+  {
+    "id": "uark-me",
+    "campus_id": "uark",
+    "chapter_id": "uark-kd",
+    "name": "Taylor M.",
+    "email": "taylorm@uark.edu",
+    "msc_code": "2417",
+    "points": 120
+  },
+  {
+    "id": "auburn-u0",
+    "campus_id": "auburn",
+    "chapter_id": "auburn-kd",
+    "name": "Sarah Beth S.",
+    "email": "sarahbeths@auburn.edu",
+    "msc_code": "7628",
+    "points": 356
+  },
+  {
+    "id": "auburn-u1",
+    "campus_id": "auburn",
+    "chapter_id": "auburn-chio",
+    "name": "Hollis R.",
+    "email": "hollisr@auburn.edu",
+    "msc_code": "4823",
+    "points": 279
+  },
+  {
+    "id": "auburn-u2",
+    "campus_id": "auburn",
+    "chapter_id": "auburn-dg",
+    "name": "Anna Claire P.",
+    "email": "annaclairep@auburn.edu",
+    "msc_code": "9943",
+    "points": 220
+  },
+  {
+    "id": "auburn-u3",
+    "campus_id": "auburn",
+    "chapter_id": "auburn-zta",
+    "name": "Caroline C.",
+    "email": "carolinec@auburn.edu",
+    "msc_code": "8472",
+    "points": 233
+  },
+  {
+    "id": "auburn-u4",
+    "campus_id": "auburn",
+    "chapter_id": "auburn-phimu",
+    "name": "Reagan M.",
+    "email": "reaganm@auburn.edu",
+    "msc_code": "1939",
+    "points": 165
+  },
+  {
+    "id": "auburn-u5",
+    "campus_id": "auburn",
+    "chapter_id": "auburn-adpi",
+    "name": "Madison L.",
+    "email": "madisonl@auburn.edu",
+    "msc_code": "4681",
+    "points": 26
+  },
+  {
+    "id": "auburn-u6",
+    "campus_id": "auburn",
+    "chapter_id": "auburn-kd",
+    "name": "Mary Kate D.",
+    "email": "marykated@auburn.edu",
+    "msc_code": "7065",
+    "points": 350
+  },
+  {
+    "id": "auburn-u7",
+    "campus_id": "auburn",
+    "chapter_id": "auburn-chio",
+    "name": "Lily D.",
+    "email": "lilyd@auburn.edu",
+    "msc_code": "3472",
+    "points": 380
+  },
+  {
+    "id": "auburn-u8",
+    "campus_id": "auburn",
+    "chapter_id": "auburn-dg",
+    "name": "Ellie H.",
+    "email": "ellieh@auburn.edu",
+    "msc_code": "4116",
+    "points": 292
+  },
+  {
+    "id": "auburn-u9",
+    "campus_id": "auburn",
+    "chapter_id": "auburn-zta",
+    "name": "Emma D.",
+    "email": "emmad@auburn.edu",
+    "msc_code": "1018",
+    "points": 45
+  },
+  {
+    "id": "auburn-u10",
+    "campus_id": "auburn",
+    "chapter_id": "auburn-sigmachi",
+    "name": "Jack H.",
+    "email": "jackh@auburn.edu",
+    "msc_code": "1956",
+    "points": 136
+  },
+  {
+    "id": "auburn-u11",
+    "campus_id": "auburn",
+    "chapter_id": "auburn-sigmachi",
+    "name": "Will S.",
+    "email": "wills@auburn.edu",
+    "msc_code": "3448",
+    "points": 197
+  },
+  {
+    "id": "auburn-u12",
+    "campus_id": "auburn",
+    "chapter_id": "auburn-sigmachi",
+    "name": "Thomas J.",
+    "email": "thomasj@auburn.edu",
+    "msc_code": "5894",
+    "points": 168
+  },
+  {
+    "id": "auburn-me",
+    "campus_id": "auburn",
+    "chapter_id": "auburn-kd",
+    "name": "Taylor M.",
+    "email": "taylorm@auburn.edu",
+    "msc_code": "2417",
+    "points": 120
+  },
+  {
+    "id": "uf-u0",
+    "campus_id": "uf",
+    "chapter_id": "uf-kd",
+    "name": "Ellie T.",
+    "email": "elliet@ufl.edu",
+    "msc_code": "1255",
+    "points": 34
+  },
+  {
+    "id": "uf-u1",
+    "campus_id": "uf",
+    "chapter_id": "uf-chio",
+    "name": "Sarah Beth J.",
+    "email": "sarahbethj@ufl.edu",
+    "msc_code": "7229",
+    "points": 333
+  },
+  {
+    "id": "uf-u2",
+    "campus_id": "uf",
+    "chapter_id": "uf-dg",
+    "name": "Caroline F.",
+    "email": "carolinef@ufl.edu",
+    "msc_code": "3323",
+    "points": 363
+  },
+  {
+    "id": "uf-u3",
+    "campus_id": "uf",
+    "chapter_id": "uf-zta",
+    "name": "Emma J.",
+    "email": "emmaj@ufl.edu",
+    "msc_code": "7172",
+    "points": 152
+  },
+  {
+    "id": "uf-u4",
+    "campus_id": "uf",
+    "chapter_id": "uf-phimu",
+    "name": "Anna Claire S.",
+    "email": "annaclaires@ufl.edu",
+    "msc_code": "4921",
+    "points": 270
+  },
+  {
+    "id": "uf-u5",
+    "campus_id": "uf",
+    "chapter_id": "uf-adpi",
+    "name": "Reagan C.",
+    "email": "reaganc@ufl.edu",
+    "msc_code": "5358",
+    "points": 274
+  },
+  {
+    "id": "uf-u6",
+    "campus_id": "uf",
+    "chapter_id": "uf-kd",
+    "name": "Madison H.",
+    "email": "madisonh@ufl.edu",
+    "msc_code": "1588",
+    "points": 305
+  },
+  {
+    "id": "uf-u7",
+    "campus_id": "uf",
+    "chapter_id": "uf-chio",
+    "name": "Lily D.",
+    "email": "lilyd@ufl.edu",
+    "msc_code": "7790",
+    "points": 216
+  },
+  {
+    "id": "uf-u8",
+    "campus_id": "uf",
+    "chapter_id": "uf-dg",
+    "name": "Hollis B.",
+    "email": "hollisb@ufl.edu",
+    "msc_code": "2017",
+    "points": 76
+  },
+  {
+    "id": "uf-u9",
+    "campus_id": "uf",
+    "chapter_id": "uf-zta",
+    "name": "Mary Kate P.",
+    "email": "marykatep@ufl.edu",
+    "msc_code": "6135",
+    "points": 395
+  },
+  {
+    "id": "uf-u10",
+    "campus_id": "uf",
+    "chapter_id": "uf-sigmachi",
+    "name": "Jack M.",
+    "email": "jackm@ufl.edu",
+    "msc_code": "5503",
+    "points": 252
+  },
+  {
+    "id": "uf-u11",
+    "campus_id": "uf",
+    "chapter_id": "uf-sigmachi",
+    "name": "Will B.",
+    "email": "willb@ufl.edu",
+    "msc_code": "8497",
+    "points": 25
+  },
+  {
+    "id": "uf-u12",
+    "campus_id": "uf",
+    "chapter_id": "uf-sigmachi",
+    "name": "Thomas B.",
+    "email": "thomasb@ufl.edu",
+    "msc_code": "7500",
+    "points": 166
+  },
+  {
+    "id": "uf-me",
+    "campus_id": "uf",
+    "chapter_id": "uf-kd",
+    "name": "Taylor M.",
+    "email": "taylorm@ufl.edu",
+    "msc_code": "2417",
+    "points": 120
+  },
+  {
+    "id": "uga-u0",
+    "campus_id": "uga",
+    "chapter_id": "uga-kd",
+    "name": "Mary Kate H.",
+    "email": "marykateh@uga.edu",
+    "msc_code": "6197",
+    "points": 352
+  },
+  {
+    "id": "uga-u1",
+    "campus_id": "uga",
+    "chapter_id": "uga-chio",
+    "name": "Madison H.",
+    "email": "madisonh@uga.edu",
+    "msc_code": "1374",
+    "points": 367
+  },
+  {
+    "id": "uga-u2",
+    "campus_id": "uga",
+    "chapter_id": "uga-dg",
+    "name": "Hollis D.",
+    "email": "hollisd@uga.edu",
+    "msc_code": "8439",
+    "points": 156
+  },
+  {
+    "id": "uga-u3",
+    "campus_id": "uga",
+    "chapter_id": "uga-zta",
+    "name": "Anna Claire L.",
+    "email": "annaclairel@uga.edu",
+    "msc_code": "4945",
+    "points": 283
+  },
+  {
+    "id": "uga-u4",
+    "campus_id": "uga",
+    "chapter_id": "uga-phimu",
+    "name": "Sarah Beth C.",
+    "email": "sarahbethc@uga.edu",
+    "msc_code": "9953",
+    "points": 244
+  },
+  {
+    "id": "uga-u5",
+    "campus_id": "uga",
+    "chapter_id": "uga-adpi",
+    "name": "Caroline J.",
+    "email": "carolinej@uga.edu",
+    "msc_code": "8830",
+    "points": 309
+  },
+  {
+    "id": "uga-u6",
+    "campus_id": "uga",
+    "chapter_id": "uga-kd",
+    "name": "Emma B.",
+    "email": "emmab@uga.edu",
+    "msc_code": "8519",
+    "points": 44
+  },
+  {
+    "id": "uga-u7",
+    "campus_id": "uga",
+    "chapter_id": "uga-chio",
+    "name": "Lily L.",
+    "email": "lilyl@uga.edu",
+    "msc_code": "9630",
+    "points": 14
+  },
+  {
+    "id": "uga-u8",
+    "campus_id": "uga",
+    "chapter_id": "uga-dg",
+    "name": "Ellie D.",
+    "email": "ellied@uga.edu",
+    "msc_code": "1682",
+    "points": 70
+  },
+  {
+    "id": "uga-u9",
+    "campus_id": "uga",
+    "chapter_id": "uga-zta",
+    "name": "Reagan J.",
+    "email": "reaganj@uga.edu",
+    "msc_code": "6676",
+    "points": 269
+  },
+  {
+    "id": "uga-u10",
+    "campus_id": "uga",
+    "chapter_id": "uga-sigmachi",
+    "name": "Jack J.",
+    "email": "jackj@uga.edu",
+    "msc_code": "7135",
+    "points": 350
+  },
+  {
+    "id": "uga-u11",
+    "campus_id": "uga",
+    "chapter_id": "uga-sigmachi",
+    "name": "Will S.",
+    "email": "wills@uga.edu",
+    "msc_code": "5986",
+    "points": 291
+  },
+  {
+    "id": "uga-u12",
+    "campus_id": "uga",
+    "chapter_id": "uga-sigmachi",
+    "name": "Thomas M.",
+    "email": "thomasm@uga.edu",
+    "msc_code": "4858",
+    "points": 282
+  },
+  {
+    "id": "uga-me",
+    "campus_id": "uga",
+    "chapter_id": "uga-kd",
+    "name": "Taylor M.",
+    "email": "taylorm@uga.edu",
+    "msc_code": "2417",
+    "points": 120
+  },
+  {
+    "id": "uky-u0",
+    "campus_id": "uky",
+    "chapter_id": "uky-kd",
+    "name": "Anna Claire S.",
+    "email": "annaclaires@uky.edu",
+    "msc_code": "9630",
+    "points": 261
+  },
+  {
+    "id": "uky-u1",
+    "campus_id": "uky",
+    "chapter_id": "uky-chio",
+    "name": "Caroline B.",
+    "email": "carolineb@uky.edu",
+    "msc_code": "1838",
+    "points": 301
+  },
+  {
+    "id": "uky-u2",
+    "campus_id": "uky",
+    "chapter_id": "uky-dg",
+    "name": "Madison H.",
+    "email": "madisonh@uky.edu",
+    "msc_code": "6332",
+    "points": 126
+  },
+  {
+    "id": "uky-u3",
+    "campus_id": "uky",
+    "chapter_id": "uky-zta",
+    "name": "Ellie D.",
+    "email": "ellied@uky.edu",
+    "msc_code": "1567",
+    "points": 309
+  },
+  {
+    "id": "uky-u4",
+    "campus_id": "uky",
+    "chapter_id": "uky-phimu",
+    "name": "Hollis P.",
+    "email": "hollisp@uky.edu",
+    "msc_code": "6812",
+    "points": 99
+  },
+  {
+    "id": "uky-u5",
+    "campus_id": "uky",
+    "chapter_id": "uky-adpi",
+    "name": "Mary Kate C.",
+    "email": "marykatec@uky.edu",
+    "msc_code": "7345",
+    "points": 81
+  },
+  {
+    "id": "uky-u6",
+    "campus_id": "uky",
+    "chapter_id": "uky-kd",
+    "name": "Sarah Beth M.",
+    "email": "sarahbethm@uky.edu",
+    "msc_code": "2831",
+    "points": 44
+  },
+  {
+    "id": "uky-u7",
+    "campus_id": "uky",
+    "chapter_id": "uky-chio",
+    "name": "Lily W.",
+    "email": "lilyw@uky.edu",
+    "msc_code": "1029",
+    "points": 104
+  },
+  {
+    "id": "uky-u8",
+    "campus_id": "uky",
+    "chapter_id": "uky-dg",
+    "name": "Reagan D.",
+    "email": "reagand@uky.edu",
+    "msc_code": "3079",
+    "points": 79
+  },
+  {
+    "id": "uky-u9",
+    "campus_id": "uky",
+    "chapter_id": "uky-zta",
+    "name": "Emma M.",
+    "email": "emmam@uky.edu",
+    "msc_code": "3600",
+    "points": 132
+  },
+  {
+    "id": "uky-u10",
+    "campus_id": "uky",
+    "chapter_id": "uky-sigmachi",
+    "name": "Jack P.",
+    "email": "jackp@uky.edu",
+    "msc_code": "1370",
+    "points": 252
+  },
+  {
+    "id": "uky-u11",
+    "campus_id": "uky",
+    "chapter_id": "uky-sigmachi",
+    "name": "Will H.",
+    "email": "willh@uky.edu",
+    "msc_code": "2078",
+    "points": 35
+  },
+  {
+    "id": "uky-u12",
+    "campus_id": "uky",
+    "chapter_id": "uky-sigmachi",
+    "name": "Thomas W.",
+    "email": "thomasw@uky.edu",
+    "msc_code": "9292",
+    "points": 50
+  },
+  {
+    "id": "uky-me",
+    "campus_id": "uky",
+    "chapter_id": "uky-kd",
+    "name": "Taylor M.",
+    "email": "taylorm@uky.edu",
+    "msc_code": "2417",
+    "points": 120
+  },
+  {
+    "id": "lsu-u0",
+    "campus_id": "lsu",
+    "chapter_id": "lsu-kd",
+    "name": "Caroline T.",
+    "email": "carolinet@lsu.edu",
+    "msc_code": "3530",
+    "points": 81
+  },
+  {
+    "id": "lsu-u1",
+    "campus_id": "lsu",
+    "chapter_id": "lsu-chio",
+    "name": "Reagan L.",
+    "email": "reaganl@lsu.edu",
+    "msc_code": "8220",
+    "points": 48
+  },
+  {
+    "id": "lsu-u2",
+    "campus_id": "lsu",
+    "chapter_id": "lsu-dg",
+    "name": "Emma T.",
+    "email": "emmat@lsu.edu",
+    "msc_code": "6702",
+    "points": 251
+  },
+  {
+    "id": "lsu-u3",
+    "campus_id": "lsu",
+    "chapter_id": "lsu-zta",
+    "name": "Hollis S.",
+    "email": "holliss@lsu.edu",
+    "msc_code": "2255",
+    "points": 384
+  },
+  {
+    "id": "lsu-u4",
+    "campus_id": "lsu",
+    "chapter_id": "lsu-phimu",
+    "name": "Lily B.",
+    "email": "lilyb@lsu.edu",
+    "msc_code": "4691",
+    "points": 154
+  },
+  {
+    "id": "lsu-u5",
+    "campus_id": "lsu",
+    "chapter_id": "lsu-adpi",
+    "name": "Ellie W.",
+    "email": "elliew@lsu.edu",
+    "msc_code": "4074",
+    "points": 280
+  },
+  {
+    "id": "lsu-u6",
+    "campus_id": "lsu",
+    "chapter_id": "lsu-kd",
+    "name": "Madison B.",
+    "email": "madisonb@lsu.edu",
+    "msc_code": "2024",
+    "points": 219
+  },
+  {
+    "id": "lsu-u7",
+    "campus_id": "lsu",
+    "chapter_id": "lsu-chio",
+    "name": "Anna Claire F.",
+    "email": "annaclairef@lsu.edu",
+    "msc_code": "6877",
+    "points": 104
+  },
+  {
+    "id": "lsu-u8",
+    "campus_id": "lsu",
+    "chapter_id": "lsu-dg",
+    "name": "Sarah Beth W.",
+    "email": "sarahbethw@lsu.edu",
+    "msc_code": "7284",
+    "points": 4
+  },
+  {
+    "id": "lsu-u9",
+    "campus_id": "lsu",
+    "chapter_id": "lsu-zta",
+    "name": "Mary Kate L.",
+    "email": "marykatel@lsu.edu",
+    "msc_code": "2323",
+    "points": 170
+  },
+  {
+    "id": "lsu-u10",
+    "campus_id": "lsu",
+    "chapter_id": "lsu-sigmachi",
+    "name": "Jack J.",
+    "email": "jackj@lsu.edu",
+    "msc_code": "9902",
+    "points": 303
+  },
+  {
+    "id": "lsu-u11",
+    "campus_id": "lsu",
+    "chapter_id": "lsu-sigmachi",
+    "name": "Will J.",
+    "email": "willj@lsu.edu",
+    "msc_code": "9805",
+    "points": 190
+  },
+  {
+    "id": "lsu-u12",
+    "campus_id": "lsu",
+    "chapter_id": "lsu-sigmachi",
+    "name": "Thomas D.",
+    "email": "thomasd@lsu.edu",
+    "msc_code": "5155",
+    "points": 390
+  },
+  {
+    "id": "lsu-me",
+    "campus_id": "lsu",
+    "chapter_id": "lsu-kd",
+    "name": "Taylor M.",
+    "email": "taylorm@lsu.edu",
+    "msc_code": "2417",
+    "points": 120
+  },
+  {
+    "id": "olemiss-u0",
+    "campus_id": "olemiss",
+    "chapter_id": "olemiss-kd",
+    "name": "Caroline C.",
+    "email": "carolinec@go.olemiss.edu",
+    "msc_code": "8195",
+    "points": 300
+  },
+  {
+    "id": "olemiss-u1",
+    "campus_id": "olemiss",
+    "chapter_id": "olemiss-chio",
+    "name": "Mary Kate F.",
+    "email": "marykatef@go.olemiss.edu",
+    "msc_code": "4499",
+    "points": 310
+  },
+  {
+    "id": "olemiss-u2",
+    "campus_id": "olemiss",
+    "chapter_id": "olemiss-dg",
+    "name": "Reagan J.",
+    "email": "reaganj@go.olemiss.edu",
+    "msc_code": "5523",
+    "points": 87
+  },
+  {
+    "id": "olemiss-u3",
+    "campus_id": "olemiss",
+    "chapter_id": "olemiss-zta",
+    "name": "Hollis H.",
+    "email": "hollish@go.olemiss.edu",
+    "msc_code": "3853",
+    "points": 333
+  },
+  {
+    "id": "olemiss-u4",
+    "campus_id": "olemiss",
+    "chapter_id": "olemiss-phimu",
+    "name": "Anna Claire F.",
+    "email": "annaclairef@go.olemiss.edu",
+    "msc_code": "9574",
+    "points": 328
+  },
+  {
+    "id": "olemiss-u5",
+    "campus_id": "olemiss",
+    "chapter_id": "olemiss-adpi",
+    "name": "Lily R.",
+    "email": "lilyr@go.olemiss.edu",
+    "msc_code": "9793",
+    "points": 177
+  },
+  {
+    "id": "olemiss-u6",
+    "campus_id": "olemiss",
+    "chapter_id": "olemiss-kd",
+    "name": "Sarah Beth T.",
+    "email": "sarahbetht@go.olemiss.edu",
+    "msc_code": "3859",
+    "points": 18
+  },
+  {
+    "id": "olemiss-u7",
+    "campus_id": "olemiss",
+    "chapter_id": "olemiss-chio",
+    "name": "Emma J.",
+    "email": "emmaj@go.olemiss.edu",
+    "msc_code": "9897",
+    "points": 302
+  },
+  {
+    "id": "olemiss-u8",
+    "campus_id": "olemiss",
+    "chapter_id": "olemiss-dg",
+    "name": "Ellie S.",
+    "email": "ellies@go.olemiss.edu",
+    "msc_code": "2926",
+    "points": 86
+  },
+  {
+    "id": "olemiss-u9",
+    "campus_id": "olemiss",
+    "chapter_id": "olemiss-zta",
+    "name": "Madison J.",
+    "email": "madisonj@go.olemiss.edu",
+    "msc_code": "7699",
+    "points": 101
+  },
+  {
+    "id": "olemiss-u10",
+    "campus_id": "olemiss",
+    "chapter_id": "olemiss-sigmachi",
+    "name": "Jack P.",
+    "email": "jackp@go.olemiss.edu",
+    "msc_code": "4221",
+    "points": 19
+  },
+  {
+    "id": "olemiss-u11",
+    "campus_id": "olemiss",
+    "chapter_id": "olemiss-sigmachi",
+    "name": "Will C.",
+    "email": "willc@go.olemiss.edu",
+    "msc_code": "8365",
+    "points": 359
+  },
+  {
+    "id": "olemiss-u12",
+    "campus_id": "olemiss",
+    "chapter_id": "olemiss-sigmachi",
+    "name": "Thomas L.",
+    "email": "thomasl@go.olemiss.edu",
+    "msc_code": "3792",
+    "points": 377
+  },
+  {
+    "id": "olemiss-me",
+    "campus_id": "olemiss",
+    "chapter_id": "olemiss-kd",
+    "name": "Taylor M.",
+    "email": "taylorm@go.olemiss.edu",
+    "msc_code": "2417",
+    "points": 120
+  },
+  {
+    "id": "msstate-u0",
+    "campus_id": "msstate",
+    "chapter_id": "msstate-kd",
+    "name": "Caroline H.",
+    "email": "carolineh@msstate.edu",
+    "msc_code": "4514",
+    "points": 159
+  },
+  {
+    "id": "msstate-u1",
+    "campus_id": "msstate",
+    "chapter_id": "msstate-chio",
+    "name": "Lily T.",
+    "email": "lilyt@msstate.edu",
+    "msc_code": "7917",
+    "points": 83
+  },
+  {
+    "id": "msstate-u2",
+    "campus_id": "msstate",
+    "chapter_id": "msstate-dg",
+    "name": "Anna Claire H.",
+    "email": "annaclaireh@msstate.edu",
+    "msc_code": "1519",
+    "points": 214
+  },
+  {
+    "id": "msstate-u3",
+    "campus_id": "msstate",
+    "chapter_id": "msstate-zta",
+    "name": "Hollis M.",
+    "email": "hollism@msstate.edu",
+    "msc_code": "3939",
+    "points": 89
+  },
+  {
+    "id": "msstate-u4",
+    "campus_id": "msstate",
+    "chapter_id": "msstate-phimu",
+    "name": "Emma B.",
+    "email": "emmab@msstate.edu",
+    "msc_code": "7460",
+    "points": 41
+  },
+  {
+    "id": "msstate-u5",
+    "campus_id": "msstate",
+    "chapter_id": "msstate-adpi",
+    "name": "Reagan P.",
+    "email": "reaganp@msstate.edu",
+    "msc_code": "4823",
+    "points": 65
+  },
+  {
+    "id": "msstate-u6",
+    "campus_id": "msstate",
+    "chapter_id": "msstate-kd",
+    "name": "Mary Kate M.",
+    "email": "marykatem@msstate.edu",
+    "msc_code": "6682",
+    "points": 388
+  },
+  {
+    "id": "msstate-u7",
+    "campus_id": "msstate",
+    "chapter_id": "msstate-chio",
+    "name": "Madison F.",
+    "email": "madisonf@msstate.edu",
+    "msc_code": "9197",
+    "points": 370
+  },
+  {
+    "id": "msstate-u8",
+    "campus_id": "msstate",
+    "chapter_id": "msstate-dg",
+    "name": "Sarah Beth S.",
+    "email": "sarahbeths@msstate.edu",
+    "msc_code": "8299",
+    "points": 275
+  },
+  {
+    "id": "msstate-u9",
+    "campus_id": "msstate",
+    "chapter_id": "msstate-zta",
+    "name": "Ellie C.",
+    "email": "elliec@msstate.edu",
+    "msc_code": "4806",
+    "points": 110
+  },
+  {
+    "id": "msstate-u10",
+    "campus_id": "msstate",
+    "chapter_id": "msstate-sigmachi",
+    "name": "Jack D.",
+    "email": "jackd@msstate.edu",
+    "msc_code": "8267",
+    "points": 149
+  },
+  {
+    "id": "msstate-u11",
+    "campus_id": "msstate",
+    "chapter_id": "msstate-sigmachi",
+    "name": "Will J.",
+    "email": "willj@msstate.edu",
+    "msc_code": "1978",
+    "points": 198
+  },
+  {
+    "id": "msstate-u12",
+    "campus_id": "msstate",
+    "chapter_id": "msstate-sigmachi",
+    "name": "Thomas J.",
+    "email": "thomasj@msstate.edu",
+    "msc_code": "4380",
+    "points": 233
+  },
+  {
+    "id": "msstate-me",
+    "campus_id": "msstate",
+    "chapter_id": "msstate-kd",
+    "name": "Taylor M.",
+    "email": "taylorm@msstate.edu",
+    "msc_code": "2417",
+    "points": 120
+  },
+  {
+    "id": "mizzou-u0",
+    "campus_id": "mizzou",
+    "chapter_id": "mizzou-kd",
+    "name": "Emma S.",
+    "email": "emmas@umsystem.edu",
+    "msc_code": "7785",
+    "points": 86
+  },
+  {
+    "id": "mizzou-u1",
+    "campus_id": "mizzou",
+    "chapter_id": "mizzou-chio",
+    "name": "Sarah Beth W.",
+    "email": "sarahbethw@umsystem.edu",
+    "msc_code": "8311",
+    "points": 195
+  },
+  {
+    "id": "mizzou-u2",
+    "campus_id": "mizzou",
+    "chapter_id": "mizzou-dg",
+    "name": "Anna Claire W.",
+    "email": "annaclairew@umsystem.edu",
+    "msc_code": "2214",
+    "points": 225
+  },
+  {
+    "id": "mizzou-u3",
+    "campus_id": "mizzou",
+    "chapter_id": "mizzou-zta",
+    "name": "Ellie D.",
+    "email": "ellied@umsystem.edu",
+    "msc_code": "1176",
+    "points": 125
+  },
+  {
+    "id": "mizzou-u4",
+    "campus_id": "mizzou",
+    "chapter_id": "mizzou-phimu",
+    "name": "Madison F.",
+    "email": "madisonf@umsystem.edu",
+    "msc_code": "6941",
+    "points": 204
+  },
+  {
+    "id": "mizzou-u5",
+    "campus_id": "mizzou",
+    "chapter_id": "mizzou-adpi",
+    "name": "Hollis T.",
+    "email": "hollist@umsystem.edu",
+    "msc_code": "1907",
+    "points": 385
+  },
+  {
+    "id": "mizzou-u6",
+    "campus_id": "mizzou",
+    "chapter_id": "mizzou-kd",
+    "name": "Caroline F.",
+    "email": "carolinef@umsystem.edu",
+    "msc_code": "1961",
+    "points": 81
+  },
+  {
+    "id": "mizzou-u7",
+    "campus_id": "mizzou",
+    "chapter_id": "mizzou-chio",
+    "name": "Lily C.",
+    "email": "lilyc@umsystem.edu",
+    "msc_code": "8983",
+    "points": 296
+  },
+  {
+    "id": "mizzou-u8",
+    "campus_id": "mizzou",
+    "chapter_id": "mizzou-dg",
+    "name": "Reagan H.",
+    "email": "reaganh@umsystem.edu",
+    "msc_code": "6536",
+    "points": 344
+  },
+  {
+    "id": "mizzou-u9",
+    "campus_id": "mizzou",
+    "chapter_id": "mizzou-zta",
+    "name": "Mary Kate C.",
+    "email": "marykatec@umsystem.edu",
+    "msc_code": "8734",
+    "points": 23
+  },
+  {
+    "id": "mizzou-u10",
+    "campus_id": "mizzou",
+    "chapter_id": "mizzou-sigmachi",
+    "name": "Jack T.",
+    "email": "jackt@umsystem.edu",
+    "msc_code": "3801",
+    "points": 190
+  },
+  {
+    "id": "mizzou-u11",
+    "campus_id": "mizzou",
+    "chapter_id": "mizzou-sigmachi",
+    "name": "Will L.",
+    "email": "willl@umsystem.edu",
+    "msc_code": "7478",
+    "points": 134
+  },
+  {
+    "id": "mizzou-u12",
+    "campus_id": "mizzou",
+    "chapter_id": "mizzou-sigmachi",
+    "name": "Thomas T.",
+    "email": "thomast@umsystem.edu",
+    "msc_code": "1236",
+    "points": 11
+  },
+  {
+    "id": "mizzou-me",
+    "campus_id": "mizzou",
+    "chapter_id": "mizzou-kd",
+    "name": "Taylor M.",
+    "email": "taylorm@umsystem.edu",
+    "msc_code": "2417",
+    "points": 120
+  },
+  {
+    "id": "ou-u0",
+    "campus_id": "ou",
+    "chapter_id": "ou-kd",
+    "name": "Caroline R.",
+    "email": "caroliner@ou.edu",
+    "msc_code": "4629",
+    "points": 149
+  },
+  {
+    "id": "ou-u1",
+    "campus_id": "ou",
+    "chapter_id": "ou-chio",
+    "name": "Lily P.",
+    "email": "lilyp@ou.edu",
+    "msc_code": "5430",
+    "points": 295
+  },
+  {
+    "id": "ou-u2",
+    "campus_id": "ou",
+    "chapter_id": "ou-dg",
+    "name": "Reagan J.",
+    "email": "reaganj@ou.edu",
+    "msc_code": "5855",
+    "points": 108
+  },
+  {
+    "id": "ou-u3",
+    "campus_id": "ou",
+    "chapter_id": "ou-zta",
+    "name": "Madison J.",
+    "email": "madisonj@ou.edu",
+    "msc_code": "4705",
+    "points": 353
+  },
+  {
+    "id": "ou-u4",
+    "campus_id": "ou",
+    "chapter_id": "ou-phimu",
+    "name": "Anna Claire D.",
+    "email": "annaclaired@ou.edu",
+    "msc_code": "9573",
+    "points": 354
+  },
+  {
+    "id": "ou-u5",
+    "campus_id": "ou",
+    "chapter_id": "ou-adpi",
+    "name": "Ellie D.",
+    "email": "ellied@ou.edu",
+    "msc_code": "9319",
+    "points": 116
+  },
+  {
+    "id": "ou-u6",
+    "campus_id": "ou",
+    "chapter_id": "ou-kd",
+    "name": "Emma H.",
+    "email": "emmah@ou.edu",
+    "msc_code": "3942",
+    "points": 339
+  },
+  {
+    "id": "ou-u7",
+    "campus_id": "ou",
+    "chapter_id": "ou-chio",
+    "name": "Sarah Beth W.",
+    "email": "sarahbethw@ou.edu",
+    "msc_code": "8258",
+    "points": 185
+  },
+  {
+    "id": "ou-u8",
+    "campus_id": "ou",
+    "chapter_id": "ou-dg",
+    "name": "Hollis R.",
+    "email": "hollisr@ou.edu",
+    "msc_code": "5718",
+    "points": 381
+  },
+  {
+    "id": "ou-u9",
+    "campus_id": "ou",
+    "chapter_id": "ou-zta",
+    "name": "Mary Kate B.",
+    "email": "marykateb@ou.edu",
+    "msc_code": "4294",
+    "points": 143
+  },
+  {
+    "id": "ou-u10",
+    "campus_id": "ou",
+    "chapter_id": "ou-sigmachi",
+    "name": "Jack S.",
+    "email": "jacks@ou.edu",
+    "msc_code": "6793",
+    "points": 386
+  },
+  {
+    "id": "ou-u11",
+    "campus_id": "ou",
+    "chapter_id": "ou-sigmachi",
+    "name": "Will R.",
+    "email": "willr@ou.edu",
+    "msc_code": "5548",
+    "points": 126
+  },
+  {
+    "id": "ou-u12",
+    "campus_id": "ou",
+    "chapter_id": "ou-sigmachi",
+    "name": "Thomas J.",
+    "email": "thomasj@ou.edu",
+    "msc_code": "5567",
+    "points": 86
+  },
+  {
+    "id": "ou-me",
+    "campus_id": "ou",
+    "chapter_id": "ou-kd",
+    "name": "Taylor M.",
+    "email": "taylorm@ou.edu",
+    "msc_code": "2417",
+    "points": 120
+  },
+  {
+    "id": "sc-u0",
+    "campus_id": "sc",
+    "chapter_id": "sc-kd",
+    "name": "Emma T.",
+    "email": "emmat@email.sc.edu",
+    "msc_code": "6783",
+    "points": 238
+  },
+  {
+    "id": "sc-u1",
+    "campus_id": "sc",
+    "chapter_id": "sc-chio",
+    "name": "Hollis R.",
+    "email": "hollisr@email.sc.edu",
+    "msc_code": "7513",
+    "points": 157
+  },
+  {
+    "id": "sc-u2",
+    "campus_id": "sc",
+    "chapter_id": "sc-dg",
+    "name": "Madison D.",
+    "email": "madisond@email.sc.edu",
+    "msc_code": "4055",
+    "points": 322
+  },
+  {
+    "id": "sc-u3",
+    "campus_id": "sc",
+    "chapter_id": "sc-zta",
+    "name": "Mary Kate F.",
+    "email": "marykatef@email.sc.edu",
+    "msc_code": "6446",
+    "points": 373
+  },
+  {
+    "id": "sc-u4",
+    "campus_id": "sc",
+    "chapter_id": "sc-phimu",
+    "name": "Caroline P.",
+    "email": "carolinep@email.sc.edu",
+    "msc_code": "7583",
+    "points": 28
+  },
+  {
+    "id": "sc-u5",
+    "campus_id": "sc",
+    "chapter_id": "sc-adpi",
+    "name": "Reagan P.",
+    "email": "reaganp@email.sc.edu",
+    "msc_code": "1484",
+    "points": 140
+  },
+  {
+    "id": "sc-u6",
+    "campus_id": "sc",
+    "chapter_id": "sc-kd",
+    "name": "Anna Claire M.",
+    "email": "annaclairem@email.sc.edu",
+    "msc_code": "1550",
+    "points": 82
+  },
+  {
+    "id": "sc-u7",
+    "campus_id": "sc",
+    "chapter_id": "sc-chio",
+    "name": "Ellie T.",
+    "email": "elliet@email.sc.edu",
+    "msc_code": "7394",
+    "points": 139
+  },
+  {
+    "id": "sc-u8",
+    "campus_id": "sc",
+    "chapter_id": "sc-dg",
+    "name": "Sarah Beth T.",
+    "email": "sarahbetht@email.sc.edu",
+    "msc_code": "3471",
+    "points": 345
+  },
+  {
+    "id": "sc-u9",
+    "campus_id": "sc",
+    "chapter_id": "sc-zta",
+    "name": "Lily F.",
+    "email": "lilyf@email.sc.edu",
+    "msc_code": "4817",
+    "points": 93
+  },
+  {
+    "id": "sc-u10",
+    "campus_id": "sc",
+    "chapter_id": "sc-sigmachi",
+    "name": "Jack R.",
+    "email": "jackr@email.sc.edu",
+    "msc_code": "5914",
+    "points": 210
+  },
+  {
+    "id": "sc-u11",
+    "campus_id": "sc",
+    "chapter_id": "sc-sigmachi",
+    "name": "Will J.",
+    "email": "willj@email.sc.edu",
+    "msc_code": "7597",
+    "points": 1
+  },
+  {
+    "id": "sc-u12",
+    "campus_id": "sc",
+    "chapter_id": "sc-sigmachi",
+    "name": "Thomas M.",
+    "email": "thomasm@email.sc.edu",
+    "msc_code": "1969",
+    "points": 78
+  },
+  {
+    "id": "sc-me",
+    "campus_id": "sc",
+    "chapter_id": "sc-kd",
+    "name": "Taylor M.",
+    "email": "taylorm@email.sc.edu",
+    "msc_code": "2417",
+    "points": 120
+  },
+  {
+    "id": "utk-u0",
+    "campus_id": "utk",
+    "chapter_id": "utk-kd",
+    "name": "Lily M.",
+    "email": "lilym@vols.utk.edu",
+    "msc_code": "2488",
+    "points": 60
+  },
+  {
+    "id": "utk-u1",
+    "campus_id": "utk",
+    "chapter_id": "utk-chio",
+    "name": "Reagan J.",
+    "email": "reaganj@vols.utk.edu",
+    "msc_code": "4196",
+    "points": 73
+  },
+  {
+    "id": "utk-u2",
+    "campus_id": "utk",
+    "chapter_id": "utk-dg",
+    "name": "Madison W.",
+    "email": "madisonw@vols.utk.edu",
+    "msc_code": "6462",
+    "points": 226
+  },
+  {
+    "id": "utk-u3",
+    "campus_id": "utk",
+    "chapter_id": "utk-zta",
+    "name": "Caroline C.",
+    "email": "carolinec@vols.utk.edu",
+    "msc_code": "1147",
+    "points": 11
+  },
+  {
+    "id": "utk-u4",
+    "campus_id": "utk",
+    "chapter_id": "utk-phimu",
+    "name": "Hollis L.",
+    "email": "hollisl@vols.utk.edu",
+    "msc_code": "2797",
+    "points": 275
+  },
+  {
+    "id": "utk-u5",
+    "campus_id": "utk",
+    "chapter_id": "utk-adpi",
+    "name": "Ellie P.",
+    "email": "elliep@vols.utk.edu",
+    "msc_code": "6194",
+    "points": 170
+  },
+  {
+    "id": "utk-u6",
+    "campus_id": "utk",
+    "chapter_id": "utk-kd",
+    "name": "Anna Claire S.",
+    "email": "annaclaires@vols.utk.edu",
+    "msc_code": "6686",
+    "points": 48
+  },
+  {
+    "id": "utk-u7",
+    "campus_id": "utk",
+    "chapter_id": "utk-chio",
+    "name": "Emma F.",
+    "email": "emmaf@vols.utk.edu",
+    "msc_code": "5613",
+    "points": 334
+  },
+  {
+    "id": "utk-u8",
+    "campus_id": "utk",
+    "chapter_id": "utk-dg",
+    "name": "Sarah Beth T.",
+    "email": "sarahbetht@vols.utk.edu",
+    "msc_code": "9151",
+    "points": 224
+  },
+  {
+    "id": "utk-u9",
+    "campus_id": "utk",
+    "chapter_id": "utk-zta",
+    "name": "Mary Kate L.",
+    "email": "marykatel@vols.utk.edu",
+    "msc_code": "3723",
+    "points": 188
+  },
+  {
+    "id": "utk-u10",
+    "campus_id": "utk",
+    "chapter_id": "utk-sigmachi",
+    "name": "Jack H.",
+    "email": "jackh@vols.utk.edu",
+    "msc_code": "1195",
+    "points": 286
+  },
+  {
+    "id": "utk-u11",
+    "campus_id": "utk",
+    "chapter_id": "utk-sigmachi",
+    "name": "Will M.",
+    "email": "willm@vols.utk.edu",
+    "msc_code": "8381",
+    "points": 167
+  },
+  {
+    "id": "utk-u12",
+    "campus_id": "utk",
+    "chapter_id": "utk-sigmachi",
+    "name": "Thomas P.",
+    "email": "thomasp@vols.utk.edu",
+    "msc_code": "6277",
+    "points": 349
+  },
+  {
+    "id": "utk-me",
+    "campus_id": "utk",
+    "chapter_id": "utk-kd",
+    "name": "Taylor M.",
+    "email": "taylorm@vols.utk.edu",
+    "msc_code": "2417",
+    "points": 120
+  },
+  {
+    "id": "utexas-u0",
+    "campus_id": "utexas",
+    "chapter_id": "utexas-kd",
+    "name": "Emma S.",
+    "email": "emmas@my.utexas.edu",
+    "msc_code": "1748",
+    "points": 196
+  },
+  {
+    "id": "utexas-u1",
+    "campus_id": "utexas",
+    "chapter_id": "utexas-chio",
+    "name": "Reagan J.",
+    "email": "reaganj@my.utexas.edu",
+    "msc_code": "2387",
+    "points": 136
+  },
+  {
+    "id": "utexas-u2",
+    "campus_id": "utexas",
+    "chapter_id": "utexas-dg",
+    "name": "Hollis S.",
+    "email": "holliss@my.utexas.edu",
+    "msc_code": "6259",
+    "points": 135
+  },
+  {
+    "id": "utexas-u3",
+    "campus_id": "utexas",
+    "chapter_id": "utexas-zta",
+    "name": "Sarah Beth R.",
+    "email": "sarahbethr@my.utexas.edu",
+    "msc_code": "6713",
+    "points": 202
+  },
+  {
+    "id": "utexas-u4",
+    "campus_id": "utexas",
+    "chapter_id": "utexas-phimu",
+    "name": "Ellie W.",
+    "email": "elliew@my.utexas.edu",
+    "msc_code": "3191",
+    "points": 48
+  },
+  {
+    "id": "utexas-u5",
+    "campus_id": "utexas",
+    "chapter_id": "utexas-adpi",
+    "name": "Caroline P.",
+    "email": "carolinep@my.utexas.edu",
+    "msc_code": "4732",
+    "points": 328
+  },
+  {
+    "id": "utexas-u6",
+    "campus_id": "utexas",
+    "chapter_id": "utexas-kd",
+    "name": "Anna Claire M.",
+    "email": "annaclairem@my.utexas.edu",
+    "msc_code": "8221",
+    "points": 145
+  },
+  {
+    "id": "utexas-u7",
+    "campus_id": "utexas",
+    "chapter_id": "utexas-chio",
+    "name": "Mary Kate T.",
+    "email": "marykatet@my.utexas.edu",
+    "msc_code": "2291",
+    "points": 278
+  },
+  {
+    "id": "utexas-u8",
+    "campus_id": "utexas",
+    "chapter_id": "utexas-dg",
+    "name": "Lily M.",
+    "email": "lilym@my.utexas.edu",
+    "msc_code": "1585",
+    "points": 43
+  },
+  {
+    "id": "utexas-u9",
+    "campus_id": "utexas",
+    "chapter_id": "utexas-zta",
+    "name": "Madison F.",
+    "email": "madisonf@my.utexas.edu",
+    "msc_code": "3270",
+    "points": 188
+  },
+  {
+    "id": "utexas-u10",
+    "campus_id": "utexas",
+    "chapter_id": "utexas-sigmachi",
+    "name": "Jack B.",
+    "email": "jackb@my.utexas.edu",
+    "msc_code": "2576",
+    "points": 345
+  },
+  {
+    "id": "utexas-u11",
+    "campus_id": "utexas",
+    "chapter_id": "utexas-sigmachi",
+    "name": "Will J.",
+    "email": "willj@my.utexas.edu",
+    "msc_code": "2557",
+    "points": 180
+  },
+  {
+    "id": "utexas-u12",
+    "campus_id": "utexas",
+    "chapter_id": "utexas-sigmachi",
+    "name": "Thomas W.",
+    "email": "thomasw@my.utexas.edu",
+    "msc_code": "4366",
+    "points": 86
+  },
+  {
+    "id": "utexas-me",
+    "campus_id": "utexas",
+    "chapter_id": "utexas-kd",
+    "name": "Taylor M.",
+    "email": "taylorm@my.utexas.edu",
+    "msc_code": "2417",
+    "points": 120
+  },
+  {
+    "id": "tamu-u0",
+    "campus_id": "tamu",
+    "chapter_id": "tamu-kd",
+    "name": "Lily M.",
+    "email": "lilym@tamu.edu",
+    "msc_code": "8658",
+    "points": 49
+  },
+  {
+    "id": "tamu-u1",
+    "campus_id": "tamu",
+    "chapter_id": "tamu-chio",
+    "name": "Anna Claire M.",
+    "email": "annaclairem@tamu.edu",
+    "msc_code": "3856",
+    "points": 55
+  },
+  {
+    "id": "tamu-u2",
+    "campus_id": "tamu",
+    "chapter_id": "tamu-dg",
+    "name": "Caroline P.",
+    "email": "carolinep@tamu.edu",
+    "msc_code": "9349",
+    "points": 99
+  },
+  {
+    "id": "tamu-u3",
+    "campus_id": "tamu",
+    "chapter_id": "tamu-zta",
+    "name": "Mary Kate J.",
+    "email": "marykatej@tamu.edu",
+    "msc_code": "5717",
+    "points": 25
+  },
+  {
+    "id": "tamu-u4",
+    "campus_id": "tamu",
+    "chapter_id": "tamu-phimu",
+    "name": "Sarah Beth F.",
+    "email": "sarahbethf@tamu.edu",
+    "msc_code": "9068",
+    "points": 164
+  },
+  {
+    "id": "tamu-u5",
+    "campus_id": "tamu",
+    "chapter_id": "tamu-adpi",
+    "name": "Ellie T.",
+    "email": "elliet@tamu.edu",
+    "msc_code": "1363",
+    "points": 211
+  },
+  {
+    "id": "tamu-u6",
+    "campus_id": "tamu",
+    "chapter_id": "tamu-kd",
+    "name": "Hollis M.",
+    "email": "hollism@tamu.edu",
+    "msc_code": "1293",
+    "points": 39
+  },
+  {
+    "id": "tamu-u7",
+    "campus_id": "tamu",
+    "chapter_id": "tamu-chio",
+    "name": "Emma S.",
+    "email": "emmas@tamu.edu",
+    "msc_code": "8294",
+    "points": 168
+  },
+  {
+    "id": "tamu-u8",
+    "campus_id": "tamu",
+    "chapter_id": "tamu-dg",
+    "name": "Reagan F.",
+    "email": "reaganf@tamu.edu",
+    "msc_code": "8857",
+    "points": 33
+  },
+  {
+    "id": "tamu-u9",
+    "campus_id": "tamu",
+    "chapter_id": "tamu-zta",
+    "name": "Madison H.",
+    "email": "madisonh@tamu.edu",
+    "msc_code": "6798",
+    "points": 100
+  },
+  {
+    "id": "tamu-u10",
+    "campus_id": "tamu",
+    "chapter_id": "tamu-sigmachi",
+    "name": "Jack P.",
+    "email": "jackp@tamu.edu",
+    "msc_code": "7485",
+    "points": 141
+  },
+  {
+    "id": "tamu-u11",
+    "campus_id": "tamu",
+    "chapter_id": "tamu-sigmachi",
+    "name": "Will L.",
+    "email": "willl@tamu.edu",
+    "msc_code": "4615",
+    "points": 310
+  },
+  {
+    "id": "tamu-u12",
+    "campus_id": "tamu",
+    "chapter_id": "tamu-sigmachi",
+    "name": "Thomas T.",
+    "email": "thomast@tamu.edu",
+    "msc_code": "1387",
+    "points": 55
+  },
+  {
+    "id": "tamu-me",
+    "campus_id": "tamu",
+    "chapter_id": "tamu-kd",
+    "name": "Taylor M.",
+    "email": "taylorm@tamu.edu",
+    "msc_code": "2417",
+    "points": 120
+  },
+  {
+    "id": "vanderbilt-u0",
+    "campus_id": "vanderbilt",
+    "chapter_id": "vanderbilt-kd",
+    "name": "Mary Kate H.",
+    "email": "marykateh@vanderbilt.edu",
+    "msc_code": "3993",
+    "points": 44
+  },
+  {
+    "id": "vanderbilt-u1",
+    "campus_id": "vanderbilt",
+    "chapter_id": "vanderbilt-chio",
+    "name": "Emma T.",
+    "email": "emmat@vanderbilt.edu",
+    "msc_code": "8765",
+    "points": 56
+  },
+  {
+    "id": "vanderbilt-u2",
+    "campus_id": "vanderbilt",
+    "chapter_id": "vanderbilt-dg",
+    "name": "Lily C.",
+    "email": "lilyc@vanderbilt.edu",
+    "msc_code": "9987",
+    "points": 305
+  },
+  {
+    "id": "vanderbilt-u3",
+    "campus_id": "vanderbilt",
+    "chapter_id": "vanderbilt-zta",
+    "name": "Sarah Beth S.",
+    "email": "sarahbeths@vanderbilt.edu",
+    "msc_code": "7617",
+    "points": 368
+  },
+  {
+    "id": "vanderbilt-u4",
+    "campus_id": "vanderbilt",
+    "chapter_id": "vanderbilt-phimu",
+    "name": "Anna Claire L.",
+    "email": "annaclairel@vanderbilt.edu",
+    "msc_code": "2647",
+    "points": 368
+  },
+  {
+    "id": "vanderbilt-u5",
+    "campus_id": "vanderbilt",
+    "chapter_id": "vanderbilt-adpi",
+    "name": "Ellie B.",
+    "email": "ellieb@vanderbilt.edu",
+    "msc_code": "7902",
+    "points": 235
+  },
+  {
+    "id": "vanderbilt-u6",
+    "campus_id": "vanderbilt",
+    "chapter_id": "vanderbilt-kd",
+    "name": "Caroline S.",
+    "email": "carolines@vanderbilt.edu",
+    "msc_code": "3019",
+    "points": 181
+  },
+  {
+    "id": "vanderbilt-u7",
+    "campus_id": "vanderbilt",
+    "chapter_id": "vanderbilt-chio",
+    "name": "Hollis D.",
+    "email": "hollisd@vanderbilt.edu",
+    "msc_code": "2744",
+    "points": 113
+  },
+  {
+    "id": "vanderbilt-u8",
+    "campus_id": "vanderbilt",
+    "chapter_id": "vanderbilt-dg",
+    "name": "Reagan L.",
+    "email": "reaganl@vanderbilt.edu",
+    "msc_code": "2934",
+    "points": 366
+  },
+  {
+    "id": "vanderbilt-u9",
+    "campus_id": "vanderbilt",
+    "chapter_id": "vanderbilt-zta",
+    "name": "Madison D.",
+    "email": "madisond@vanderbilt.edu",
+    "msc_code": "4410",
+    "points": 128
+  },
+  {
+    "id": "vanderbilt-u10",
+    "campus_id": "vanderbilt",
+    "chapter_id": "vanderbilt-sigmachi",
+    "name": "Jack J.",
+    "email": "jackj@vanderbilt.edu",
+    "msc_code": "2098",
+    "points": 264
+  },
+  {
+    "id": "vanderbilt-u11",
+    "campus_id": "vanderbilt",
+    "chapter_id": "vanderbilt-sigmachi",
+    "name": "Will L.",
+    "email": "willl@vanderbilt.edu",
+    "msc_code": "6557",
+    "points": 106
+  },
+  {
+    "id": "vanderbilt-u12",
+    "campus_id": "vanderbilt",
+    "chapter_id": "vanderbilt-sigmachi",
+    "name": "Thomas S.",
+    "email": "thomass@vanderbilt.edu",
+    "msc_code": "4498",
+    "points": 83
+  },
+  {
+    "id": "vanderbilt-me",
+    "campus_id": "vanderbilt",
+    "chapter_id": "vanderbilt-kd",
+    "name": "Taylor M.",
+    "email": "taylorm@vanderbilt.edu",
+    "msc_code": "2417",
+    "points": 120
+  }
+]
