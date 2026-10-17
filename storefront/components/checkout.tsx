@@ -1,7 +1,8 @@
 "use client";
 // Buy → checkout sheet: price, buyer fee (5% + $0.50, display only), an Exchange Spot, and the pilot's
 // payment notice. Confirm reserves the piece (live: POST /api/checkout; otherwise a mock order) and
-// opens the one-time QR at /orders/[id].
+// opens the one-time QR at /orders/[id]. `liveOnly` (a real listing from the API, /l/[id]) never falls back to a mock
+// order: a failed live checkout says why instead.
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
@@ -12,7 +13,19 @@ import { LiveError, PAYMENT_NOTICE, exchangeSpots, isLive, livePost, mockOrderId
 
 type Item = { id: string; title: string; size: string; condition: string; photo: string; color: string; priceCents: number; feeCents: number };
 
-export function CheckoutButton({ item, lab, campusSlug, campusName }: { item: Item; lab: Lab; campusSlug: string | null; campusName: string | null }) {
+export function CheckoutButton({
+  item,
+  lab,
+  campusSlug,
+  campusName,
+  liveOnly = false,
+}: {
+  item: Item;
+  lab: Lab;
+  campusSlug: string | null;
+  campusName: string | null;
+  liveOnly?: boolean;
+}) {
   const router = useRouter();
   const spots = exchangeSpots(campusSlug, campusName);
   const [open, setOpen] = useState(false);
@@ -50,7 +63,18 @@ export function CheckoutButton({ item, lab, campusSlug, campusName }: { item: It
           setBusy(false);
           return;
         }
+        // A real listing has no mock stand-in: show the API's sentence (or a network one) and let them retry.
+        if (liveOnly) {
+          setError(e instanceof LiveError && e.status > 0 ? e.message : "Couldn't reach Bidd. Check your connection and try again.");
+          setBusy(false);
+          return;
+        }
       }
+    }
+    if (liveOnly && !live) {
+      setError("Couldn't reserve it. Try again.");
+      setBusy(false);
+      return;
     }
     router.push(withLab(`/orders/${orderId}`, lab, { listing: item.id, spot, live: live ? "1" : null }));
   }
@@ -83,7 +107,8 @@ export function CheckoutButton({ item, lab, campusSlug, campusName }: { item: It
 
               <div className="mt-5 flex items-center gap-4">
                 <div className="photo relative size-16 shrink-0 overflow-hidden rounded-[4px]" style={{ backgroundColor: item.color }}>
-                  <Image src={item.photo} alt="" fill sizes="64px" className="object-cover" />
+                  {/* Live photos are short-lived signed URLs from another host: served as-is, not through the optimizer. */}
+                  {item.photo && <Image src={item.photo} alt="" fill sizes="64px" unoptimized={/^https?:\/\//.test(item.photo)} className="object-cover" />}
                 </div>
                 <div className="min-w-0">
                   <p className="truncate text-[16px] font-semibold">{item.title}</p>

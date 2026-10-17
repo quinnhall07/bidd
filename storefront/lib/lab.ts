@@ -30,7 +30,8 @@ export type Lab = { on: boolean; school: string } & { [K in keyof Options]: Opti
 
 export const LAB_DEFAULTS: Lab = {
   on: false,
-  school: "ua",
+  // Signed out by default: a visitor picks a campus by signing in, or by exploring the demo (?school=ua).
+  school: "none",
   state: "full",
   v: "a",
   card: "square",
@@ -39,7 +40,7 @@ export const LAB_DEFAULTS: Lab = {
   drop: "auto",
   gate: "locked",
   viewer: "member",
-  names: "plain",
+  names: "letters",
   bid: "none",
   rule: "uniform",
   fx: "flat",

@@ -2,13 +2,17 @@
 // Sign-in: school email → 6-digit code → campus confirmation. The campus comes from the email
 // domain, and the page repaints in its colors the moment it's verified.
 // Mock mode (no NEXT_PUBLIC_BIDD_API_URL): no email is sent and any 6 digits work.
-// Live mode: real codes through the Bidd API, with Cloudflare Turnstile when NEXT_PUBLIC_TURNSTILE_SITE_KEY is set.
+// Live mode (the default when the API URL is set): real codes through the Bidd API. The same flow signs in and creates
+// accounts (the API makes the account on the first verified code). Cloudflare Turnstile renders only when
+// NEXT_PUBLIC_TURNSTILE_SITE_KEY is set. After a real code, the campus and the redirect come from GET /api/me, never from
+// the email domain. "Just exploring? Use a demo account" runs the mock flow for visitors without a school email.
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useEffect, useRef, useState, type CSSProperties } from "react";
 import { campusTheme } from "@/lib/brand/campus";
 import { BiddWordmark } from "@/lib/brand/bidd-logo";
 import { errorMessage, getMe, isLive, isUnreachable, requestCode, verifyCode, type MeResponse, type RequestCodeResponse } from "@/lib/api";
+import { primeSessionUser } from "@/lib/session-user";
 import { Alert, Arrow, Check } from "./icons";
 
 export type LoginCampus = {
@@ -34,7 +38,8 @@ const match = (email: string, campuses: LoginCampus[]) => {
   return campuses.find((c) => c.email_domains.some((d) => domain === d || domain.endsWith(`.${d}`))) ?? null;
 };
 
-const TURNSTILE_KEY = process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY ?? "";
+// Unset or blank: no widget, no script, and "Send code" is enabled.
+const TURNSTILE_KEY = (process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY ?? "").trim();
 const TURNSTILE_SRC = "https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit";
 
 type Turnstile = {
@@ -59,10 +64,10 @@ const loadTurnstile = () =>
     document.head.appendChild(el);
   }));
 
-/** The API's campus, matched to our campus palette by slug, or built from the API's theme colors. */
+/** The API's campus: our palette and logos when the slug is one we know, else the API's own theme colors. The slug is
+ * always the API's, so a real student is routed to their real campus. */
 const fromMe = (me: MeResponse, email: string, campuses: LoginCampus[]): LoginCampus =>
-  campuses.find((c) => c.slug === me.campus.slug) ??
-  match(email, campuses) ?? {
+  campuses.find((c) => c.slug === me.campus.slug) ?? {
     slug: me.campus.slug,
     name: me.campus.shortName,
     full_name: me.campus.name,
@@ -73,21 +78,34 @@ const fromMe = (me: MeResponse, email: string, campuses: LoginCampus[]): LoginCa
     logo_url_dark: null,
   };
 
-/** When /api/me can't answer: our palette by email domain, else a black-and-white card named by request-code. */
-const fallbackCampus = (email: string, campuses: LoginCampus[], sent: RequestCodeResponse["campus"] | null): LoginCampus | null =>
-  match(email, campuses) ??
-  (sent
-    ? {
-        slug: "",
-        name: sent.shortName,
-        full_name: sent.name,
-        email_domains: [email.split("@")[1] ?? ""],
-        primary_color: "#111111",
-        secondary_color: "#777777",
-        logo_url: null,
-        logo_url_dark: null,
-      }
-    : null);
+/** When /api/me can't answer after a real code: request-code's campus name for the card, the email's palette only as
+ * decoration, and no slug, so the redirect never picks a campus from the email domain. */
+const fallbackCampus = (email: string, campuses: LoginCampus[], sent: RequestCodeResponse["campus"] | null): LoginCampus | null => {
+  const palette = match(email, campuses);
+  if (!palette && !sent) return null;
+  return {
+    slug: "",
+    name: sent?.shortName ?? palette!.name,
+    full_name: sent?.name ?? palette!.full_name,
+    email_domains: [email.split("@")[1] ?? ""],
+    primary_color: palette?.primary_color ?? "#111111",
+    secondary_color: palette?.secondary_color ?? "#777777",
+    logo_url: palette?.logo_url ?? null,
+    logo_url_dark: palette?.logo_url_dark ?? null,
+  };
+};
+
+function DemoChips({ onPick }: { onPick: (email: string) => void }) {
+  return (
+    <div className="mt-3 flex flex-wrap gap-2">
+      {DEMO.map((d) => (
+        <button key={d.email} type="button" className="chip chip-quiet" onClick={() => onPick(d.email)}>
+          {d.label}
+        </button>
+      ))}
+    </div>
+  );
+}
 
 export function LoginFlow({ campuses, labQuery, initialEmail, logos }: { campuses: LoginCampus[]; labQuery: string; initialEmail: string; logos: string }) {
   const router = useRouter();
@@ -106,6 +124,8 @@ export function LoginFlow({ campuses, labQuery, initialEmail, logos }: { campuse
   const [needsOnboarding, setNeedsOnboarding] = useState(true);
   const [captcha, setCaptcha] = useState<string | null>(null);
   const [captchaError, setCaptchaError] = useState(false);
+  // Live mode: the demo accounts sit behind "Just exploring?".
+  const [demoOpen, setDemoOpen] = useState(false);
   const widgetBox = useRef<HTMLDivElement | null>(null);
   const widgetId = useRef<string | null>(null);
   const useCaptcha = live && TURNSTILE_KEY.length > 0;
@@ -153,6 +173,13 @@ export function LoginFlow({ campuses, labQuery, initialEmail, logos }: { campuse
     setTimeout(() => boxes.current[0]?.focus(), 50);
   };
 
+  // Visitors without an allowed school email: the mock sign-in on sample data, for this visit only.
+  const startDemo = (e: string) => {
+    setOffline(true);
+    setEmail(e);
+    sendMock(e);
+  };
+
   const sendLive = async (e: string) => {
     // If the check itself can't load (no internet), let the API answer instead of locking the button.
     if (useCaptcha && !captcha && !captchaError) return setError("Finish the quick check below first.");
@@ -165,10 +192,14 @@ export function LoginFlow({ campuses, labQuery, initialEmail, logos }: { campuse
       setStep("code");
       setTimeout(() => boxes.current[0]?.focus(), 50);
     } catch (err) {
-      // A Turnstile hostname that isn't allowed yet fails as captcha_failed: fall back to the demo sign-in too.
-      if (isUnreachable(err) || (err as { code?: string })?.code === "captcha_failed") {
+      if (isUnreachable(err)) {
         setOffline(true);
         sendMock(e);
+      } else if ((err as { code?: string })?.code === "captcha_failed") {
+        // The bot check is on in Supabase but this build has no site key (or the hostname isn't allowed). Say so instead
+        // of quietly signing a real student into the demo, and put the demo accounts within reach.
+        setError("Sign-in codes are paused for a moment. Try again later, or use a demo account below to look around.");
+        setDemoOpen(true);
       } else setError(errorMessage(err));
     } finally {
       // Turnstile tokens are single use.
@@ -184,7 +215,11 @@ export function LoginFlow({ campuses, labQuery, initialEmail, logos }: { campuse
     try {
       const res = await verifyCode(email, digits);
       setNeedsOnboarding(res.needsOnboarding);
-      const me = await getMe().catch(() => null);
+      // The campus (and so the redirect) comes from the account, with one retry for a cold start.
+      const me = await getMe()
+        .catch(() => getMe())
+        .catch(() => null);
+      if (me) primeSessionUser(me);
       setLiveCampus(me ? fromMe(me, email, campuses) : fallbackCampus(email, campuses, sentCampus));
       setStep("campus");
     } catch (err) {
@@ -261,8 +296,12 @@ export function LoginFlow({ campuses, labQuery, initialEmail, logos }: { campuse
                 send();
               }}
             >
-              <h1 className="display text-[clamp(3rem,5vw,4.5rem)]">Sign in.</h1>
-              <p className="muted mt-4 text-[17px] leading-relaxed">Bidd is campus-verified. Use your school email and your campus comes with it.</p>
+              <h1 className="display text-[clamp(3rem,5vw,4.5rem)]">{live ? "Sign in or join." : "Sign in."}</h1>
+              <p className="muted mt-4 text-[17px] leading-relaxed">
+                {live
+                  ? "New to Bidd? The same code creates your account. Use your school email and your campus comes with it."
+                  : "Bidd is campus-verified. Use your school email and your campus comes with it."}
+              </p>
               <label htmlFor="email" className="mt-8 block text-[14px] font-semibold">
                 School email
               </label>
@@ -296,25 +335,35 @@ export function LoginFlow({ campuses, labQuery, initialEmail, logos }: { campuse
                   </>
                 )}
               </p>
-              {!live && (
-              <div className="mt-8 border-t border-[var(--gray-100)] pt-6">
-                <p className="text-[14px] font-semibold">Demo accounts</p>
-                <div className="mt-3 flex flex-wrap gap-2">
-                  {DEMO.map((d) => (
+              {live ? (
+                <div className="mt-8 border-t border-[var(--gray-100)] pt-6">
+                  {demoOpen ? (
+                    <>
+                      <p className="text-[14px] font-semibold">Demo accounts</p>
+                      <p className="muted mt-1 text-[14px]">Sample data. No email is sent, and any 6-digit code works.</p>
+                      <DemoChips onPick={startDemo} />
+                    </>
+                  ) : (
                     <button
-                      key={d.email}
                       type="button"
-                      className="chip chip-quiet"
-                      onClick={() => {
-                        setEmail(d.email);
-                        send(d.email);
-                      }}
+                      aria-expanded={false}
+                      className="muted text-[14px] font-semibold underline-offset-4 hover:text-ink hover:underline"
+                      onClick={() => setDemoOpen(true)}
                     >
-                      {d.label}
+                      Just exploring? Use a demo account
                     </button>
-                  ))}
+                  )}
                 </div>
-              </div>
+              ) : (
+                <div className="mt-8 border-t border-[var(--gray-100)] pt-6">
+                  <p className="text-[14px] font-semibold">Demo accounts</p>
+                  <DemoChips
+                    onPick={(e) => {
+                      setEmail(e);
+                      send(e);
+                    }}
+                  />
+                </div>
               )}
             </form>
           )}

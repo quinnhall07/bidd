@@ -13,6 +13,7 @@ import { EmptyState } from "@/components/empty-state";
 import { CupBars } from "@/components/cup";
 import { Arrow, Plus } from "@/components/icons";
 import { SmartSearchBadge } from "@/components/smart-search-badge";
+import { LiveFeed } from "@/components/live-feed";
 import { applySmartFilters, smartSearch } from "@/lib/smart-search";
 
 const SIZES = ["XS", "S", "M", "L", "XL"];
@@ -66,6 +67,8 @@ export default async function Home({ searchParams }: PageProps<"/">) {
 
       <div className="column pt-6 md:pt-8">
         {lab.v === "a" && showDrops && <DropBanner drop={featured} chapter={featuredChapter} campus={home} lab={lab} now={now} />}
+        {/* Real listings from the API for a signed-in student (client-only; renders nothing otherwise). */}
+        <LiveFeed lab={lab} />
         {showDrops && (
           <DropRail
             drops={lab.v === "b" ? drops : drops.filter((d) => d.id !== featured.id)}
@@ -331,15 +334,17 @@ function SignInBand() {
           </p>
         </div>
         <form className="md:col-span-5" action="/login">
-          <input type="hidden" name="lab" value="1" />
           <label htmlFor="email" className="text-[14px] font-semibold">
-            Sign in with your school email
+            Create your account or sign in with your school email
           </label>
           <div className="mt-2 flex gap-2 rounded-full bg-paper p-1.5">
             <input id="email" name="email" type="email" placeholder="you@crimson.ua.edu" className="min-w-0 flex-1 bg-transparent px-4 text-[16px] text-ink outline-none placeholder:text-[var(--gray-600)]" />
-            <button className="pill pill-ink pill-sm">Send code</button>
+            <button className="pill pill-ink pill-sm">Get my code</button>
           </div>
-          <p className="muted mt-3 text-[13px]">Your campus comes from your email: crimson.ua.edu means Alabama.</p>
+          <p className="muted mt-3 text-[13px]">We email a 6-digit code. Your campus comes from your email: crimson.ua.edu means Alabama.</p>
+          <Link href="/?school=ua" className="mt-5 inline-flex items-center gap-2 text-[15px] font-semibold underline-offset-4 hover:underline">
+            Just looking? Explore the demo <Arrow width={16} height={16} />
+          </Link>
         </form>
       </div>
     </section>

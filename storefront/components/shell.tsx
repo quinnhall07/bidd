@@ -13,6 +13,7 @@ import { RepaintSweep } from "./repaint";
 import type { Campus } from "@/lib/types";
 import { Compass, Hanger, Home, Plus, Search, Trophy } from "./icons";
 import { LabPanel } from "./lab-panel";
+import { AccountChip } from "./account-chip";
 
 type Nav = "home" | "discover" | "cup" | "closet" | "drop" | "item" | "sell" | "gameday" | "brands" | "store" | "ambassadors";
 
@@ -105,13 +106,14 @@ export async function Shell({ lab, campus, campuses, nav, children }: { lab: Lab
               </Link>
             ))}
           </nav>
-          {campus ? (
-            <Link href={href("/sell")} aria-current={nav === "sell" ? "page" : undefined} className="pill pill-ink pill-sm hidden md:inline-flex">
-              <Plus width={16} height={16} /> Sell
-            </Link>
-          ) : (
+          <AccountChip demoCampus={Boolean(campus)}>
             <Link href={href("/login")} className="pill pill-ink pill-sm hidden md:inline-flex">
               Sign in
+            </Link>
+          </AccountChip>
+          {campus && (
+            <Link href={href("/sell")} aria-current={nav === "sell" ? "page" : undefined} className="pill pill-ink pill-sm hidden md:inline-flex">
+              <Plus width={16} height={16} /> Sell
             </Link>
           )}
         </div>

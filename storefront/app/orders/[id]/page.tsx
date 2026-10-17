@@ -8,6 +8,7 @@ import { buyerFee, money } from "@/lib/format";
 import { chapterName, one, setup } from "@/lib/page";
 import { Shell } from "@/components/shell";
 import { HandoffPanel } from "@/components/handoff";
+import { LiveOrderSummary } from "@/components/live-order";
 import { PAYMENT_NOTICE, exchangeSpots, findSpot } from "@/components/checkout-live";
 import { Alert, Pin } from "@/components/icons";
 
@@ -51,6 +52,9 @@ export default async function OrderPage({ params, searchParams }: Props) {
             </p>
             <p className="muted mt-1 text-[15px]">{spot.note}. Agree on a time with the seller, then show the QR.</p>
           </div>
+
+          {/* A live order's listing isn't in the mock data: the piece and the amounts come from the API in the browser. */}
+          {!l && one(q.live) === "1" && <LiveOrderSummary orderId={id} lab={lab} />}
 
           {l && (
             <Link href={withLab(`/item/${l.id}`, lab)} className="mt-8 flex items-center gap-4 rounded-[4px] border border-[var(--gray-100)] p-4 transition-colors hover:bg-[var(--gray-50)]">

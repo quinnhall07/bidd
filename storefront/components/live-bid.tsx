@@ -3,6 +3,7 @@
 // Drops use sealed bids instead (components/sealed-bid.tsx): one hidden bid each, no high bid to watch.
 // Live mode: NEXT_PUBLIC_BIDD_API_URL is set and a session exists -> GET/POST /api/listings/:id/bids (shared bid contract).
 // Any error on the first GET falls back to a deterministic mock auction with simulated rival bidders.
+// `initial` (the live listing page, /l/[id], which has already fetched the bids) starts live and never falls back to mock.
 // Server pages choose bid vs buy with isAuctionListing() from lib/auction (a client file's functions can't run on the server).
 import { useCallback, useEffect, useRef, useState } from "react";
 import { accessToken, hasSession } from "@/lib/api";
@@ -120,10 +121,25 @@ const ago = (iso: string, now: number) => {
   return s < 45 ? "just now" : s < 3600 ? `${Math.round(s / 60)}m ago` : `${Math.round(s / 3600)}h ago`;
 };
 
-export function LiveBid({ listingId, priceCents, title, campusSlug }: { listingId: string; priceCents: number; title: string; campusSlug?: string }) {
+export function LiveBid({
+  listingId,
+  priceCents,
+  title,
+  campusSlug,
+  initial,
+}: {
+  listingId: string;
+  priceCents: number;
+  title: string;
+  campusSlug?: string;
+  /** A GET /api/listings/:id/bids answer the caller already has: start in live mode with it (no mock fallback). */
+  initial?: { auction: Auction; bids: Bid[] } | null;
+}) {
   const seedKey = `${campusSlug ?? "ua"}:${listingId}`;
-  const [mode, setMode] = useState<"loading" | "live" | "mock">("loading");
-  const [view, setView] = useState<{ auction: Auction; bids: Bid[] } | null>(null);
+  const [mode, setMode] = useState<"loading" | "live" | "mock">(initial ? "live" : "loading");
+  const [view, setView] = useState<{ auction: Auction; bids: Bid[] } | null>(initial ?? null);
+  // Read once, on mount: later polls keep the view current.
+  const seed = useRef(initial ?? null);
   const [now, setNow] = useState(0);
   const [value, setValue] = useState("");
   const [error, setError] = useState<string | null>(null);
@@ -166,7 +182,10 @@ export function LiveBid({ listingId, priceCents, title, campusSlug }: { listingI
       setMode("mock");
       apply(mockView(listingId, mock.current, t0));
     };
-    if (API && hasSession())
+    if (seed.current && seed.current.auction.listingId === listingId) {
+      setMode("live");
+      apply(seed.current);
+    } else if (API && hasSession())
       bidApi(`/api/listings/${encodeURIComponent(listingId)}/bids`)
         .then((v) => {
           if (!alive) return;

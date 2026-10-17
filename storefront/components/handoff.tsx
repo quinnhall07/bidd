@@ -22,6 +22,7 @@ export function HandoffPanel({ orderId, live, spot, chapter, cupHref, shopHref }
   const [now, setNow] = useState(0);
   const [busy, setBusy] = useState(false);
   const [confirmed, setConfirmed] = useState(false);
+  const [scanError, setScanError] = useState<string | null>(null);
   // Each request gets a number; only the newest one may set the code (a new code revokes older ones,
   // and React's dev double-mount fires two requests that can land out of order).
   const latest = useRef(0);
@@ -63,7 +64,11 @@ export function HandoffPanel({ orderId, live, spot, chapter, cupHref, shopHref }
       try {
         await livePost("/api/handoffs/confirm", { token: code.qrPayload });
       } catch {
-        // Demo: the buyer's device stands in for the seller's camera, so a live refusal still completes here.
+        // Live: only the seller's account can confirm, so never show a sale that didn't happen.
+        if (!alive.current) return;
+        setBusy(false);
+        setScanError("Only the seller can confirm. Have them scan this code from their own Bidd account.");
+        return;
       }
     } else {
       await new Promise((r) => setTimeout(r, 650));
@@ -143,7 +148,13 @@ export function HandoffPanel({ orderId, live, spot, chapter, cupHref, shopHref }
         <button type="button" className="pill pill-ink w-full" disabled={!code || expired || busy} onClick={sellerScan}>
           {busy ? "Confirming…" : "Seller: scan to confirm"}
         </button>
-        <p className="muted mt-2 text-center text-[13px]">Demo: stands in for the seller&apos;s camera.</p>
+        {scanError ? (
+          <p className="mt-2 text-center text-[13px] font-semibold" role="alert">
+            {scanError}
+          </p>
+        ) : (
+          <p className="muted mt-2 text-center text-[13px]">Demo: stands in for the seller&apos;s camera.</p>
+        )}
       </div>
     </div>
   );

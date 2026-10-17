@@ -9,7 +9,7 @@ export async function setup(searchParams: Promise<Params>) {
   const params = await searchParams;
   const lab = parseLab(params);
   const campuses = await getCampuses();
-  // school=none is before sign-in: black and white, with Alabama's feed standing in for "across the SEC".
+  // school=none is before sign-in: black and white, with Alabama's feed standing in for "across every campus".
   const campus = lab.school === "none" ? null : ((await getCampus(lab.school)) ?? (await getCampus("ua")));
   const cid = campus?.slug ?? "ua";
   return { params, lab, campuses, campus, cid, now: Date.now() };

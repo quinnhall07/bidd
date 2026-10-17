@@ -3,9 +3,11 @@
 // Live mode (NEXT_PUBLIC_BIDD_API_URL set and signed in): chapters come from GET /api/organizations, the student adds a
 // display name, and Continue sends POST /api/onboarding. A chapter pick is a request until an officer approves it.
 // No session or a failed load falls back to the mock flow silently.
+// A real student finishes on their real campus: the feed and sell links carry ?school=<GET /api/me campus slug>.
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { errorMessage, getMe, getOrganizations, hasSession, isLive, isUnreachable, onboarding } from "@/lib/api";
+import { primeSessionUser, refreshSessionUser } from "@/lib/session-user";
 import { Alert, Arrow, Check } from "./icons";
 
 type ChapterOption = { id: string; slug: string; name: string; sub: string; letters: boolean };
@@ -24,7 +26,7 @@ export function OnboardingFlow({ campus: mockCampus, chapters: mockChapters, fee
   const [code, setCode] = useState("");
   const [sizes, setSizes] = useState<string[]>([]);
   // Live mode: on only once the API answered for a signed-in student.
-  const [live, setLive] = useState<{ campus: string; chapters: ChapterOption[]; badge: string } | null>(null);
+  const [live, setLive] = useState<{ campus: string; slug: string; chapters: ChapterOption[]; badge: string } | null>(null);
   const [displayName, setDisplayName] = useState("");
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -32,6 +34,14 @@ export function OnboardingFlow({ campus: mockCampus, chapters: mockChapters, fee
   const chapters = live?.chapters ?? mockChapters;
   const campus = live?.campus ?? mockCampus;
   const picked = chapters.find((c) => c.id === chapter);
+  // Live: same lab params, but the campus is the account's (never one picked from the URL or the email domain).
+  const onCampus = (href: string, path?: string) => {
+    if (!live?.slug) return href;
+    const [p, q] = href.split("?");
+    const params = new URLSearchParams(q);
+    params.set("school", live.slug);
+    return `${path ?? p}?${params}`;
+  };
 
   useEffect(() => {
     if (!isLive() || !hasSession()) return;
@@ -39,11 +49,13 @@ export function OnboardingFlow({ campus: mockCampus, chapters: mockChapters, fee
     Promise.all([getMe(), getOrganizations()])
       .then(([me, orgs]) => {
         if (cancelled) return;
+        primeSessionUser(me);
         setDisplayName((n) => n || me.user.displayName || "");
         // A mock chapter picked before the API answered isn't a real organization id.
         setChapter((c) => (c === "none" || orgs.some((o) => o.id === c) ? c : null));
         setLive({
           campus: me.campus.shortName,
+          slug: me.campus.slug,
           badge: me.badges[0]?.label ?? "School email verified",
           chapters: orgs.map((o) => ({
             id: o.id,
@@ -72,6 +84,8 @@ export function OnboardingFlow({ campus: mockCampus, chapters: mockChapters, fee
     try {
       const res = await onboarding({ displayName: name, ...(chapter && chapter !== "none" ? { organizationId: chapter } : {}) });
       setPending(res.chapterRequest?.status === "pending");
+      // The display name just changed: refresh the header's copy of /api/me.
+      void refreshSessionUser();
       setStep(2);
     } catch (e) {
       // API gone mid-flow: keep the demo moving instead of stranding the student on step 1.
@@ -220,10 +234,10 @@ export function OnboardingFlow({ campus: mockCampus, chapters: mockChapters, fee
             </li>
           </ul>
           <div className="mt-10 flex flex-wrap gap-3">
-            <Link href={feedHref} className="pill pill-ink">
+            <Link href={onCampus(feedHref)} className="pill pill-ink">
               Go to the feed <Arrow width={18} height={18} />
             </Link>
-            <Link href={closetHref} className="pill pill-line">
+            <Link href={live ? onCampus(closetHref, "/sell") : closetHref} className="pill pill-line">
               Post your first piece
             </Link>
           </div>

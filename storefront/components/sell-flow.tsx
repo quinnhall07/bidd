@@ -77,6 +77,8 @@ export function SellFlow({
   const [drag, setDrag] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [live, setLive] = useState(false);
+  // The published listing's id (live only), for "View your listing" → /l/[id].
+  const [liveId, setLiveId] = useState<string | null>(null);
   const [sale, setSale] = useState<Sale>({ mode: "auction", hours: 24 });
   const input = useRef<HTMLInputElement>(null);
   const timers = useRef<number[]>([]);
@@ -160,6 +162,7 @@ export function SellFlow({
     setAi(null);
     setError(null);
     setLive(false);
+    setLiveId(null);
     setPhase("pick");
   }
 
@@ -180,6 +183,7 @@ export function SellFlow({
     const capped = Promise.race([attempt,new Promise<null>((r) => setTimeout(() => r(null), 12000))]);
     const [ok] = await Promise.all([capped, new Promise((r) => setTimeout(r, 900))]);
     setLive(Boolean(ok));
+    setLiveId(ok || null);
     setPhase("done");
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
@@ -193,6 +197,7 @@ export function SellFlow({
         sale={sale}
         allIn={allIn}
         live={live}
+        listingHref={live && liveId ? closetHref.replace("/c/me", `/l/${encodeURIComponent(liveId)}`) : null}
         campus={campus}
         chapter={chapter}
         closetHref={closetHref}
@@ -614,6 +619,7 @@ function Done({
   sale,
   allIn,
   live,
+  listingHref,
   campus,
   chapter,
   closetHref,
@@ -627,6 +633,8 @@ function Done({
   sale: Sale;
   allIn: boolean;
   live: boolean;
+  /** Live publish only: the new listing's page (closetHref's lab params, path /l/[id]). Null keeps the mock screen. */
+  listingHref: string | null;
   campus: string | null;
   chapter: string | null;
   closetHref: string;
@@ -670,8 +678,13 @@ function Done({
             </p>
           </div>
           <div className="mt-10 flex flex-wrap gap-3">
-            <Link href={closetHref} className="pill pill-ink">
-              See your closet <Arrow width={18} height={18} />
+            {listingHref && (
+              <Link href={listingHref} className="pill pill-ink">
+                View your listing <Arrow width={18} height={18} />
+              </Link>
+            )}
+            <Link href={closetHref} className={listingHref ? "pill pill-line" : "pill pill-ink"}>
+              See your closet {!listingHref && <Arrow width={18} height={18} />}
             </Link>
             <button type="button" className="pill pill-line" onClick={onAnother}>
               <Plus width={18} height={18} /> Sell another
